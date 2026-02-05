@@ -8,54 +8,52 @@
 
 @layer base {
   :root {
-    --background: 200 20% 98%;
-    --foreground: 210 40% 15%;
+    --background: 210 20% 98%;
+    --foreground: 215 50% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 40% 15%;
+    --card-foreground: 215 50% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 40% 15%;
+    --popover-foreground: 215 50% 15%;
 
-    --primary: 195 80% 40%;
+    --primary: 210 100% 40%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 40% 92%;
-    --secondary-foreground: 35 30% 25%;
+    --secondary: 210 30% 94%;
+    --secondary-foreground: 215 50% 20%;
 
-    --muted: 200 15% 95%;
-    --muted-foreground: 210 15% 45%;
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 20% 45%;
 
-    --accent: 35 60% 55%;
-    --accent-foreground: 35 80% 15%;
+    --accent: 45 90% 55%;
+    --accent-foreground: 45 90% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 200 20% 88%;
-    --input: 200 20% 88%;
-    --ring: 195 80% 40%;
+    --border: 210 25% 88%;
+    --input: 210 25% 88%;
+    --ring: 210 100% 40%;
 
     --radius: 0.75rem;
 
-    /* Custom tokens */
-    --ocean: 195 80% 40%;
-    --ocean-light: 195 70% 55%;
-    --ocean-dark: 195 85% 30%;
-    --sand: 35 40% 92%;
-    --sand-dark: 35 30% 75%;
-    --coral: 15 80% 60%;
-    --foam: 200 20% 98%;
+    /* OpenBlue brand colors */
+    --openblue: 210 100% 40%;
+    --openblue-dark: 215 80% 25%;
+    --openblue-light: 205 85% 55%;
+    --openblue-accent: 210 90% 30%;
+    --cream: 45 30% 96%;
+    --gold: 45 90% 55%;
 
     /* Gradients */
-    --gradient-ocean: linear-gradient(135deg, hsl(195 80% 40%), hsl(195 70% 55%));
-    --gradient-sand: linear-gradient(135deg, hsl(35 40% 92%), hsl(35 30% 85%));
-    --gradient-hero: linear-gradient(180deg, hsl(200 20% 98%) 0%, hsl(195 50% 95%) 100%);
+    --gradient-openblue: linear-gradient(135deg, hsl(215 80% 25%), hsl(210 100% 40%));
+    --gradient-hero: linear-gradient(180deg, hsl(210 20% 98%) 0%, hsl(210 40% 95%) 100%);
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(195 80% 40% / 0.15);
-    --shadow-card: 0 8px 30px -8px hsl(210 40% 15% / 0.1);
-    --shadow-elevated: 0 20px 50px -12px hsl(210 40% 15% / 0.15);
+    --shadow-soft: 0 4px 20px -4px hsl(210 100% 40% / 0.2);
+    --shadow-card: 0 8px 30px -8px hsl(215 50% 15% / 0.1);
+    --shadow-elevated: 0 20px 50px -12px hsl(215 50% 15% / 0.2);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -113,13 +111,13 @@
 }
 
 @layer utilities {
-  .text-gradient-ocean {
+  .text-gradient-openblue {
     @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-ocean);
+    background-image: var(--gradient-openblue);
   }
 
-  .bg-gradient-ocean {
-    background-image: var(--gradient-ocean);
+  .bg-gradient-openblue {
+    background-image: var(--gradient-openblue);
   }
 
   .bg-gradient-hero {

@@ -8,8 +8,7 @@ const services = [
     title: "Lavandería Autoservicio",
     description:
       "Máquinas de última generación disponibles las 24 horas. Lava y seca tu ropa cuando lo necesites con nuestras instalaciones modernas y eficientes.",
-    features: ["Lavadoras industriales", "Secadoras de alta capacidad", "Productos ecológicos", "Zona de espera cómoda"],
-    color: "primary",
+    features: ["Lavadoras industriales", "Secadoras de alta capacidad", "Productos incluidos", "Abierto 24h / 365 días"],
   },
   {
     icon: Home,
@@ -17,7 +16,6 @@ const services = [
     description:
       "Servicio especializado para propietarios y gestores de alojamientos turísticos. Ropa de cama, toallas y textiles siempre impecables.",
     features: ["Recogida y entrega", "Planchado profesional", "Desinfección completa", "Tarifas para empresas"],
-    color: "accent",
   },
   {
     icon: Building2,
@@ -25,7 +23,6 @@ const services = [
     description:
       "Gestionamos tu propiedad de principio a fin. Check-in/out, limpieza, mantenimiento y atención al huésped para maximizar tu rentabilidad.",
     features: ["Check-in/out 24h", "Limpieza profesional", "Gestión de reservas", "Mantenimiento preventivo"],
-    color: "ocean",
   },
 ];
 
@@ -65,7 +62,7 @@ const Services = () => {
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
             Soluciones completas para tu{" "}
-            <span className="text-gradient-ocean">comodidad</span>
+            <span className="text-gradient-openblue">comodidad</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Desde lavandería de autoservicio hasta la gestión integral de tu propiedad,
@@ -88,7 +85,7 @@ const Services = () => {
               className="group relative bg-card rounded-2xl p-8 shadow-card hover:shadow-elevated transition-all duration-500 border border-border/50 hover:border-primary/30"
             >
               {/* Icon */}
-              <div className="w-16 h-16 rounded-xl bg-gradient-ocean flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 rounded-xl bg-gradient-openblue flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <service.icon className="w-8 h-8 text-primary-foreground" />
               </div>
 

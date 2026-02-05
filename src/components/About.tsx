@@ -9,8 +9,8 @@ const features = [
   },
   {
     icon: Clock,
-    title: "Servicio Rápido",
-    description: "Tiempos de entrega competitivos sin comprometer la calidad del servicio.",
+    title: "Abierto 24/7",
+    description: "Nuestras instalaciones están disponibles todos los días del año, las 24 horas.",
   },
   {
     icon: Users,
@@ -35,23 +35,22 @@ const About = () => {
               Sobre Nosotros
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-              Tu socio de confianza en la{" "}
-              <span className="text-gradient-ocean">costa</span>
+              Tu lavandería de confianza en{" "}
+              <span className="text-gradient-openblue">Fuengirola</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Con años de experiencia en el sector, CleanWave nació de la necesidad de 
-              ofrecer servicios de lavandería y gestión de propiedades de alta calidad 
-              en zonas turísticas costeras. Entendemos las exigencias del sector vacacional 
-              y nos adaptamos a ellas.
+              En OpenBlue nos dedicamos a ofrecer servicios de lavandería y gestión de propiedades 
+              de alta calidad. Entendemos las exigencias del sector vacacional y nos adaptamos 
+              a las necesidades de cada cliente, ya sea particular o profesional.
             </p>
 
             {/* Checklist */}
             <ul className="space-y-4">
               {[
-                "Más de 10 años de experiencia",
-                "Equipos de última generación",
-                "Compromiso con el medio ambiente",
-                "Atención personalizada 24/7",
+                "Lavadoras y secadoras de última generación",
+                "Productos ecológicos y de alta calidad",
+                "Servicio integral para pisos turísticos",
+                "Atención personalizada y profesional",
               ].map((item, index) => (
                 <motion.li
                   key={index}
@@ -86,7 +85,7 @@ const About = () => {
                 className="bg-card rounded-2xl p-6 shadow-card border border-border/50 hover:border-primary/30 transition-colors duration-300"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-ocean flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-openblue flex items-center justify-center flex-shrink-0">
                     <feature.icon className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
