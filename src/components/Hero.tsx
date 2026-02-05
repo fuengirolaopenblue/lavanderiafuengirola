@@ -1,39 +1,36 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import lavanderiaFachada from "@/assets/lavanderia-fachada.jpg";
 
 const Hero = () => {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden pt-20"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
     >
-      {/* Decorative Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <motion.div
-          className="absolute top-20 right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl"
-          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
-          transition={{ duration: 8, repeat: Infinity }}
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src={lavanderiaFachada}
+          alt="OpenBlue Lavandería"
+          className="w-full h-full object-cover"
         />
-        <motion.div
-          className="absolute bottom-20 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl"
-          animate={{ scale: [1.2, 1, 1.2], opacity: [0.5, 0.3, 0.5] }}
-          transition={{ duration: 10, repeat: Infinity }}
-        />
+        <div className="absolute inset-0 bg-gradient-to-r from-openblue-dark/90 via-openblue-dark/70 to-transparent" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-2xl">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary border border-sand-dark/30 mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm border border-primary-foreground/20 mb-8"
           >
-            <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium text-secondary-foreground">
-              Servicio profesional en la costa
+            <Clock className="w-4 h-4 text-primary-foreground" />
+            <span className="text-sm font-medium text-primary-foreground">
+              Abierto 24 horas · Fuengirola
             </span>
           </motion.div>
 
@@ -42,10 +39,13 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-display text-4xl md:text-5xl lg:text-7xl font-bold text-foreground leading-tight mb-6"
+            className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6"
           >
-            Lavandería y Gestión de{" "}
-            <span className="text-gradient-ocean">Pisos Vacacionales</span>
+            OPEN<span className="text-gold">BLUE</span>
+            <br />
+            <span className="text-3xl md:text-4xl lg:text-5xl font-normal">
+              Lavandería y Tienda Autoservicio
+            </span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -53,49 +53,47 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
+            className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mb-10"
           >
-            Ofrecemos servicios integrales de lavandería autoservicio, 
-            lavado para alojamientos turísticos y gestión completa de tu propiedad vacacional.
+            Tu lavandería de confianza en Fuengirola. Lavado desde 6€, secado desde 3€. 
+            También ofrecemos servicio de lavandería para pisos vacacionales y gestión integral de propiedades.
           </motion.p>
+
+          {/* Prices */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.25 }}
+            className="flex flex-wrap gap-4 mb-10"
+          >
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
+              <div className="text-3xl font-bold text-gold">6,00€</div>
+              <div className="text-sm text-primary-foreground/70">Lavado desde</div>
+            </div>
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
+              <div className="text-3xl font-bold text-gold">3,00€</div>
+              <div className="text-sm text-primary-foreground/70">Secado desde</div>
+            </div>
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
+              <div className="text-3xl font-bold text-gold">20'</div>
+              <div className="text-sm text-primary-foreground/70">Productos incluidos</div>
+            </div>
+          </motion.div>
 
           {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex flex-col sm:flex-row gap-4"
           >
             <Button variant="hero" size="xl" className="group">
               Ver Nuestros Servicios
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="heroOutline" size="xl">
+            <Button variant="heroOutline" size="xl" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-openblue-dark">
               Contactar Ahora
             </Button>
-          </motion.div>
-
-          {/* Stats */}
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.5 }}
-            className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-border/50 max-w-2xl mx-auto"
-          >
-            {[
-              { number: "500+", label: "Clientes Satisfechos" },
-              { number: "50+", label: "Pisos Gestionados" },
-              { number: "24/7", label: "Atención Disponible" },
-            ].map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="font-display text-2xl md:text-3xl font-bold text-primary">
-                  {stat.number}
-                </div>
-                <div className="text-sm text-muted-foreground mt-1">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </motion.div>
         </div>
       </div>

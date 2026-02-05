@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Menu, X, Waves } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoOpenblue from "@/assets/logo-openblue.jpg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,17 +21,24 @@ const Header = () => {
           {/* Logo */}
           <motion.a
             href="#inicio"
-            className="flex items-center gap-2"
+            className="flex items-center gap-3"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="w-10 h-10 rounded-full bg-gradient-ocean flex items-center justify-center">
-              <Waves className="w-5 h-5 text-primary-foreground" />
+            <img 
+              src={logoOpenblue} 
+              alt="OpenBlue Logo" 
+              className="w-12 h-12 rounded-full object-cover"
+            />
+            <div className="flex flex-col">
+              <span className="font-display text-xl font-bold text-primary">
+                OPEN<span className="text-foreground">BLUE</span>
+              </span>
+              <span className="text-xs text-muted-foreground hidden sm:block">
+                Lavandería Autoservicio
+              </span>
             </div>
-            <span className="font-display text-xl font-semibold text-foreground">
-              CleanWave
-            </span>
           </motion.a>
 
           {/* Desktop Navigation */}
@@ -57,7 +65,7 @@ const Header = () => {
             className="hidden md:block"
           >
             <Button variant="hero" size="lg">
-              Solicitar Presupuesto
+              Contactar
             </Button>
           </motion.div>
 
@@ -89,7 +97,7 @@ const Header = () => {
             </a>
           ))}
           <Button variant="hero" size="lg" className="mt-2">
-            Solicitar Presupuesto
+            Contactar
           </Button>
         </nav>
       </motion.div>

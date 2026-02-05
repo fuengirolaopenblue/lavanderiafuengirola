@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Ubicación",
-    content: "Calle Principal 123, Costa del Sol",
+    content: "Fuengirola, Costa del Sol",
   },
   {
     icon: Phone,
@@ -18,12 +18,12 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "info@cleanwave.es",
+    content: "info@openblue.es",
   },
   {
     icon: Clock,
-    title: "Horario",
-    content: "Lun - Dom: 8:00 - 22:00",
+    title: "Horario Lavandería",
+    content: "24 horas / 365 días",
   },
 ];
 
@@ -44,7 +44,7 @@ const Contact = () => {
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
             ¿Tienes alguna{" "}
-            <span className="text-gradient-ocean">pregunta</span>?
+            <span className="text-gradient-openblue">pregunta</span>?
           </h2>
           <p className="text-muted-foreground text-lg">
             Estamos aquí para ayudarte. Contáctanos y te responderemos lo antes posible.
@@ -127,7 +127,7 @@ const Contact = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex items-center gap-4 p-4 rounded-xl bg-secondary/50 border border-border/50 hover:border-primary/30 transition-colors duration-300"
               >
-                <div className="w-12 h-12 rounded-xl bg-gradient-ocean flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-xl bg-gradient-openblue flex items-center justify-center flex-shrink-0">
                   <info.icon className="w-5 h-5 text-primary-foreground" />
                 </div>
                 <div>
@@ -138,11 +138,11 @@ const Contact = () => {
             ))}
 
             {/* Map Placeholder */}
-            <div className="mt-8 rounded-2xl overflow-hidden h-48 bg-gradient-ocean/10 border border-border/50 flex items-center justify-center">
+            <div className="mt-8 rounded-2xl overflow-hidden h-48 bg-gradient-openblue/10 border border-border/50 flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-2" />
                 <span className="text-muted-foreground text-sm">
-                  Mapa de ubicación
+                  Fuengirola, Costa del Sol
                 </span>
               </div>
             </div>
