@@ -119,7 +119,7 @@ const AutoservicioModal = ({ open, onOpenChange }: AutoservicioModalProps) => {
                 <div>
                   <h4 className="font-semibold text-foreground">Máquina de Café</h4>
                   <p className="text-sm text-muted-foreground">
-                    Café con leche, cortado, cappuccino, chocolate caliente y muchas más opciones
+                    Exquisito café de avellanas, café con leche, cortado, cappuccino, chocolate caliente y muchas más opciones
                   </p>
                 </div>
               </div>
