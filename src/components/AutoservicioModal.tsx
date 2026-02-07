@@ -36,18 +36,18 @@ const AutoservicioModal = ({ open, onOpenChange }: AutoservicioModalProps) => {
           <div className="grid sm:grid-cols-3 gap-4">
             <div className="bg-secondary/50 rounded-xl p-4 text-center">
               <Coffee className="w-8 h-8 text-primary mx-auto mb-2" />
-              <h4 className="font-semibold text-foreground">Zona de Descanso</h4>
-              <p className="text-sm text-muted-foreground">Café, refrescos y snacks</p>
+              <h4 className="font-semibold text-foreground">Máquina de Café</h4>
+              <p className="text-sm text-muted-foreground">Amplia variedad de opciones calientes</p>
+            </div>
+            <div className="bg-secondary/50 rounded-xl p-4 text-center">
+              <Sparkles className="w-8 h-8 text-primary mx-auto mb-2" />
+              <h4 className="font-semibold text-foreground">Vending 24h</h4>
+              <p className="text-sm text-muted-foreground">Refrescos, snacks y golosinas</p>
             </div>
             <div className="bg-secondary/50 rounded-xl p-4 text-center">
               <Wifi className="w-8 h-8 text-primary mx-auto mb-2" />
               <h4 className="font-semibold text-foreground">WiFi Gratis</h4>
               <p className="text-sm text-muted-foreground">Navega o trabaja mientras esperas</p>
-            </div>
-            <div className="bg-secondary/50 rounded-xl p-4 text-center">
-              <Sparkles className="w-8 h-8 text-primary mx-auto mb-2" />
-              <h4 className="font-semibold text-foreground">Espacio Moderno</h4>
-              <p className="text-sm text-muted-foreground">Limpio y de fácil acceso</p>
             </div>
           </div>
 
