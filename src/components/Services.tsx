@@ -1,7 +1,8 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { WashingMachine, Home, Building2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import AutoservicioModal from "./AutoservicioModal";
 const services = [
   {
     icon: WashingMachine,
@@ -33,6 +34,8 @@ const services = [
 ];
 
 const Services = () => {
+  const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -120,6 +123,11 @@ const Services = () => {
               <Button
                 variant="outline"
                 className="w-full group/btn"
+                onClick={() => {
+                  if (index === 0) {
+                    setAutoservicioModalOpen(true);
+                  }
+                }}
               >
                 Más información
                 <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
@@ -128,6 +136,12 @@ const Services = () => {
           ))}
         </motion.div>
       </div>
+
+      {/* Modal for Autoservicio */}
+      <AutoservicioModal 
+        open={autoservicioModalOpen} 
+        onOpenChange={setAutoservicioModalOpen} 
+      />
     </section>
   );
 };
