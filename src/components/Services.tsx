@@ -7,8 +7,14 @@ const services = [
     icon: WashingMachine,
     title: "Lavandería Autoservicio",
     description:
-      "Máquinas de última generación disponibles las 24 horas. Lava y seca tu ropa cuando lo necesites con nuestras instalaciones modernas y eficientes.",
-    features: ["Lavadoras industriales", "Secadoras de alta capacidad", "Productos incluidos", "Abierto 24h / 365 días"],
+      "Máquinas de última generación disponibles las 24 horas. Paga cómodamente con monedas, billetes o tarjetas de débito/crédito.",
+    features: [
+      "Lavadora 19kg → 8€ | 15kg → 6€",
+      "Secadora 19kg → 3€/20min",
+      "+5 min por 0,50€ (ampliable)",
+      "Productos incluidos",
+      "Abierto 24h / 365 días",
+    ],
   },
   {
     icon: Home,
