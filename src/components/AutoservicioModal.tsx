@@ -5,7 +5,10 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
-import { WashingMachine, Wifi, Coffee, Sparkles, Shield, Factory } from "lucide-react";
+import { Wifi, Coffee, Sparkles, Factory } from "lucide-react";
+import lavadora19kg from "@/assets/lavadora-19kg.jpg";
+import lavadora15kg from "@/assets/lavadora-15kg.jpg";
+import maquinasVending from "@/assets/maquinas-vending.jpg";
 
 interface AutoservicioModalProps {
   open: boolean;
@@ -15,7 +18,7 @@ interface AutoservicioModalProps {
 const AutoservicioModal = ({ open, onOpenChange }: AutoservicioModalProps) => {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="font-display text-2xl md:text-3xl text-gradient-openblue">
             Lavandería Autoservicio en Fuengirola
@@ -32,26 +35,7 @@ const AutoservicioModal = ({ open, onOpenChange }: AutoservicioModalProps) => {
             también te ofrecemos un espacio cómodo para que aproveches tu tiempo al máximo.
           </p>
 
-          {/* Amenities */}
-          <div className="grid sm:grid-cols-3 gap-4">
-            <div className="bg-secondary/50 rounded-xl p-4 text-center">
-              <Coffee className="w-8 h-8 text-primary mx-auto mb-2" />
-              <h4 className="font-semibold text-foreground">Máquina de Café</h4>
-              <p className="text-sm text-muted-foreground">Amplia variedad de opciones calientes</p>
-            </div>
-            <div className="bg-secondary/50 rounded-xl p-4 text-center">
-              <Sparkles className="w-8 h-8 text-primary mx-auto mb-2" />
-              <h4 className="font-semibold text-foreground">Vending 24h</h4>
-              <p className="text-sm text-muted-foreground">Refrescos, snacks y golosinas</p>
-            </div>
-            <div className="bg-secondary/50 rounded-xl p-4 text-center">
-              <Wifi className="w-8 h-8 text-primary mx-auto mb-2" />
-              <h4 className="font-semibold text-foreground">WiFi Gratis</h4>
-              <p className="text-sm text-muted-foreground">Navega o trabaja mientras esperas</p>
-            </div>
-          </div>
-
-          {/* Machines Section */}
+          {/* Machines Section with Photos */}
           <div className="bg-gradient-openblue rounded-2xl p-6 text-primary-foreground">
             <div className="flex items-center gap-3 mb-4">
               <Factory className="w-8 h-8" />
@@ -59,28 +43,94 @@ const AutoservicioModal = ({ open, onOpenChange }: AutoservicioModalProps) => {
                 Maquinaria de Primera Línea Mundial
               </h3>
             </div>
-            <p className="mb-4 opacity-90">
-              Contamos con lavadoras y secadoras industriales <strong>fabricadas en España</strong>, 
+            <p className="mb-6 opacity-90">
+              Contamos con lavadoras y secadoras industriales <strong>GIRBAU, fabricadas en España</strong>, 
               reconocidas internacionalmente por su eficiencia, durabilidad y resultados excepcionales.
             </p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-4">
-                <WashingMachine className="w-6 h-6 mb-2" />
-                <h4 className="font-bold">Lavadoras Industriales</h4>
-                <ul className="text-sm opacity-90 mt-2 space-y-1">
-                  <li>• <strong>19 kg de capacidad</strong> → 8€</li>
-                  <li>• <strong>15 kg de capacidad</strong> → 6€</li>
-                  <li>• Ideales para mantas, edredones y grandes volúmenes</li>
-                </ul>
+            
+            {/* Washing Machines Grid */}
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* 19kg Washer */}
+              <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl overflow-hidden">
+                <img 
+                  src={lavadora19kg} 
+                  alt="Lavadora industrial GIRBAU de 19kg" 
+                  className="w-full h-48 object-cover object-center"
+                />
+                <div className="p-4">
+                  <h4 className="font-bold text-lg mb-2">Lavadora 19 kg</h4>
+                  <p className="text-2xl font-bold mb-2">8€</p>
+                  <p className="text-sm opacity-90">
+                    Ideal para mantas, edredones y grandes volúmenes de ropa
+                  </p>
+                </div>
               </div>
-              <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-4">
-                <Shield className="w-6 h-6 mb-2" />
-                <h4 className="font-bold">Secadoras de Alta Capacidad</h4>
-                <ul className="text-sm opacity-90 mt-2 space-y-1">
-                  <li>• <strong>19 kg de capacidad</strong> → 3€/20min</li>
-                  <li>• +5 minutos adicionales por solo 0,50€</li>
-                  <li>• Ampliable las veces que necesites</li>
-                </ul>
+              
+              {/* 15kg Washer */}
+              <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl overflow-hidden">
+                <img 
+                  src={lavadora15kg} 
+                  alt="Lavadora industrial GIRBAU de 15kg" 
+                  className="w-full h-48 object-cover object-center"
+                />
+                <div className="p-4">
+                  <h4 className="font-bold text-lg mb-2">Lavadora 15 kg</h4>
+                  <p className="text-2xl font-bold mb-2">6€</p>
+                  <p className="text-sm opacity-90">
+                    Perfecta para coladas medianas y ropa del día a día
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Dryers Info */}
+            <div className="mt-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-4">
+              <h4 className="font-bold text-lg mb-2">Secadoras de Alta Capacidad</h4>
+              <ul className="text-sm opacity-90 space-y-1">
+                <li>• <strong>19 kg de capacidad</strong> → 3€/20min</li>
+                <li>• +5 minutos adicionales por solo 0,50€</li>
+                <li>• Ampliable las veces que necesites antes de finalizar</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Amenities Section with Vending Photo */}
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Vending Machines */}
+            <div className="rounded-2xl overflow-hidden border border-border">
+              <img 
+                src={maquinasVending} 
+                alt="Máquinas de vending y café OpenBlue" 
+                className="w-full h-56 object-cover object-center"
+              />
+              <div className="p-4 bg-secondary/50">
+                <h4 className="font-semibold text-foreground text-lg mb-2">Zona de Vending 24h</h4>
+                <p className="text-sm text-muted-foreground">
+                  Máquina de café con amplia variedad de opciones calientes, 
+                  refrescos, snacks y golosinas para hacer tu espera más agradable.
+                </p>
+              </div>
+            </div>
+
+            {/* Other Amenities */}
+            <div className="space-y-4">
+              <div className="bg-secondary/50 rounded-xl p-4 flex items-start gap-4">
+                <Coffee className="w-8 h-8 text-primary flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-foreground">Máquina de Café</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Café con leche, cortado, cappuccino, chocolate caliente y muchas más opciones
+                  </p>
+                </div>
+              </div>
+              <div className="bg-secondary/50 rounded-xl p-4 flex items-start gap-4">
+                <Wifi className="w-8 h-8 text-primary flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-foreground">WiFi Gratis</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Navega, trabaja o entretenete mientras esperas tu colada
+                  </p>
+                </div>
               </div>
             </div>
           </div>
