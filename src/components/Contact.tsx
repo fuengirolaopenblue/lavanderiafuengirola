@@ -76,10 +76,16 @@ const Contact = () => {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    Email
+                    Teléfono
                   </label>
-                  <Input type="email" placeholder="tu@email.com" />
+                  <Input type="tel" placeholder="+34 600 000 000" />
                 </div>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-foreground mb-2">
+                  Email
+                </label>
+                <Input type="email" placeholder="tu@email.com" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
