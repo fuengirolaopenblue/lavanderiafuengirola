@@ -8,6 +8,7 @@ import {
 import { Wifi, Coffee, Sparkles, Factory } from "lucide-react";
 import lavadora19kg from "@/assets/lavadora-19kg.jpg";
 import lavadora15kg from "@/assets/lavadora-15kg.jpg";
+import secadora19kg from "@/assets/secadora-19kg.jpg";
 import maquinasVending from "@/assets/maquinas-vending.jpg";
 
 interface AutoservicioModalProps {
@@ -84,13 +85,22 @@ const AutoservicioModal = ({ open, onOpenChange }: AutoservicioModalProps) => {
             </div>
 
             {/* Dryers Info */}
-            <div className="mt-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Secadoras de Alta Capacidad</h4>
-              <ul className="text-sm opacity-90 space-y-1">
-                <li>• <strong>19 kg de capacidad</strong> → 3€/20min</li>
-                <li>• +5 minutos adicionales por solo 0,50€</li>
-                <li>• Ampliable las veces que necesites antes de finalizar</li>
-              </ul>
+            <div className="mt-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl overflow-hidden">
+              <div className="grid md:grid-cols-2 gap-0">
+                <img 
+                  src={secadora19kg} 
+                  alt="Secadora industrial GIRBAU de 19kg" 
+                  className="w-full h-48 object-cover object-center"
+                />
+                <div className="p-4 flex flex-col justify-center">
+                  <h4 className="font-bold text-lg mb-2">Secadora 19 kg</h4>
+                  <p className="text-2xl font-bold mb-2">3€/20min</p>
+                  <ul className="text-sm opacity-90 space-y-1">
+                    <li>• +5 minutos adicionales por solo 0,50€</li>
+                    <li>• Ampliable las veces que necesites</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 
