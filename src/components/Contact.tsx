@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send, Loader2, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useState, FormEvent } from "react";
+import { toast } from "sonner";
 
 const contactInfo = [
   {
@@ -31,6 +33,40 @@ const contactInfo = [
 ];
 
 const Contact = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xnjbndyz", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        toast.success("¡Mensaje enviado correctamente! Te responderemos pronto.");
+        form.reset();
+        setTimeout(() => setIsSubmitted(false), 5000);
+      } else {
+        toast.error("Hubo un error al enviar el mensaje. Inténtalo de nuevo.");
+      }
+    } catch {
+      toast.error("Error de conexión. Por favor, inténtalo más tarde.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4">
@@ -66,45 +102,67 @@ const Contact = () => {
             <h3 className="font-display text-2xl font-bold text-foreground mb-6">
               Envíanos un mensaje
             </h3>
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Nombre
                   </label>
-                  <Input placeholder="Tu nombre" />
+                  <Input name="nombre" placeholder="Tu nombre" required />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Teléfono
                   </label>
-                  <Input type="tel" placeholder="+34 600 000 000" />
+                  <Input name="telefono" type="tel" placeholder="+34 600 000 000" required />
                 </div>
               </div>
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
                   Email
                 </label>
-                <Input type="email" placeholder="tu@email.com" />
+                <Input name="email" type="email" placeholder="tu@email.com" required />
               </div>
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
                   Servicio de interés
                 </label>
-                <Input placeholder="Ej: Lavandería para pisos vacacionales" />
+                <Input name="servicio" placeholder="Ej: Lavandería para pisos vacacionales" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
                   Mensaje
                 </label>
                 <Textarea
+                  name="mensaje"
                   placeholder="Cuéntanos en qué podemos ayudarte..."
                   rows={5}
+                  required
                 />
               </div>
-              <Button variant="hero" size="lg" className="w-full group">
-                Enviar Mensaje
-                <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <Button 
+                type="submit" 
+                variant="hero" 
+                size="lg" 
+                className="w-full group"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    Enviando...
+                  </>
+                ) : isSubmitted ? (
+                  <>
+                    <CheckCircle className="w-4 h-4" />
+                    ¡Enviado!
+                  </>
+                ) : (
+                  <>
+                    Enviar Mensaje
+                    <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </>
+                )}
               </Button>
             </form>
           </motion.div>
