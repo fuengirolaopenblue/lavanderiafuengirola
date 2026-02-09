@@ -8,17 +8,20 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Ubicación",
-    content: "Fuengirola, Costa del Sol",
+    content: "Av. de Mijas nº5, Local 2, 29640 Fuengirola",
+    link: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
   },
   {
     icon: Phone,
     title: "Teléfono",
-    content: "+34 600 123 456",
+    content: "+34 641 819 577",
+    link: "tel:+34641819577",
   },
   {
     icon: Mail,
     title: "Email",
-    content: "info@openblue.es",
+    content: "fuengirolaopenblue@gmail.com",
+    link: "mailto:fuengirolaopenblue@gmail.com",
   },
   {
     icon: Clock,
@@ -119,13 +122,16 @@ const Contact = () => {
             </div>
 
             {contactInfo.map((info, index) => (
-              <motion.div
+              <motion.a
                 key={index}
+                href={info.link}
+                target={info.link?.startsWith('http') ? '_blank' : undefined}
+                rel={info.link?.startsWith('http') ? 'noopener noreferrer' : undefined}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="flex items-center gap-4 p-4 rounded-xl bg-secondary/50 border border-border/50 hover:border-primary/30 transition-colors duration-300"
+                className={`flex items-center gap-4 p-4 rounded-xl bg-secondary/50 border border-border/50 hover:border-primary/30 transition-colors duration-300 ${info.link ? 'cursor-pointer hover:bg-secondary/80' : ''}`}
               >
                 <div className="w-12 h-12 rounded-xl bg-gradient-openblue flex items-center justify-center flex-shrink-0">
                   <info.icon className="w-5 h-5 text-primary-foreground" />
@@ -134,18 +140,27 @@ const Contact = () => {
                   <div className="text-sm text-muted-foreground">{info.title}</div>
                   <div className="font-medium text-foreground">{info.content}</div>
                 </div>
-              </motion.div>
+              </motion.a>
             ))}
 
-            {/* Map Placeholder */}
-            <div className="mt-8 rounded-2xl overflow-hidden h-48 bg-gradient-openblue/10 border border-border/50 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-8 h-8 text-primary mx-auto mb-2" />
-                <span className="text-muted-foreground text-sm">
-                  Fuengirola, Costa del Sol
-                </span>
-              </div>
-            </div>
+            {/* Google Maps Embed */}
+            <a 
+              href="https://maps.app.goo.gl/bu8z2BPR11gnGxpe6" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block mt-8 rounded-2xl overflow-hidden h-48 border border-border/50 hover:border-primary/30 transition-colors"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.8!2d-4.625!3d36.54!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f77a7a7a7a7a%3A0x0!2sAv.%20de%20Mijas%2C%205%2C%20Fuengirola!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación OpenBlue Lavandería"
+              />
+            </a>
           </motion.div>
         </div>
       </div>
