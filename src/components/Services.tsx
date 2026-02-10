@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, Building2, ArrowRight } from "lucide-react";
+import { WashingMachine, Home, Building2, ArrowRight, Shirt, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
 import GestionVacacionalModal from "./GestionVacacionalModal";
+
 const services = [
   {
     icon: WashingMachine,
@@ -24,7 +25,7 @@ const services = [
     title: "Lavandería para Pisos Vacacionales",
     description:
       "Servicio especializado para propietarios y gestores de alojamientos turísticos. Ropa de cama, toallas y textiles siempre impecables.",
-    features: ["Recogida y entrega", "Planchado profesional", "Desinfección completa", "Tarifas para empresas"],
+    features: ["Recogida y entrega", "Tratamiento profesional", "Desinfección completa", "Tarifas para empresas"],
   },
   {
     icon: Building2,
@@ -59,6 +60,12 @@ const Services = () => {
     },
   };
 
+  const openModals = [
+    () => setAutoservicioModalOpen(true),
+    () => setPisosModalOpen(true),
+    () => setGestionModalOpen(true),
+  ];
+
   return (
     <section id="servicios" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4">
@@ -83,7 +90,7 @@ const Services = () => {
           </p>
         </motion.div>
 
-        {/* Services Grid */}
+        {/* Services Grid - 3 main areas */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -127,15 +134,7 @@ const Services = () => {
               <Button
                 variant="outline"
                 className="w-full group/btn"
-                onClick={() => {
-                  if (index === 0) {
-                    setAutoservicioModalOpen(true);
-                  } else if (index === 1) {
-                    setPisosModalOpen(true);
-                  } else if (index === 2) {
-                    setGestionModalOpen(true);
-                  }
-                }}
+                onClick={openModals[index]}
               >
                 Más información
                 <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
@@ -143,21 +142,60 @@ const Services = () => {
             </motion.div>
           ))}
         </motion.div>
+
+        {/* Particulares Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          className="mt-12 relative overflow-hidden rounded-2xl bg-gradient-openblue p-8 md:p-10 shadow-elevated"
+        >
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="flex items-center gap-4 flex-shrink-0">
+              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
+                <Shirt className="w-7 h-7 text-primary-foreground" />
+              </div>
+              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
+                <Truck className="w-7 h-7 text-primary-foreground" />
+              </div>
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
+                Lavandería para Particulares
+              </h3>
+              <p className="text-primary-foreground/80 leading-relaxed">
+                ¿No tienes tiempo para lavar? Nosotros lo hacemos por ti. Servicio de lavandería completo para particulares con <strong className="text-primary-foreground">recogida y entrega a domicilio</strong>. Cuéntanos qué necesitas y nos encargamos de todo.
+              </p>
+            </div>
+            <Button
+              variant="heroOutline"
+              size="lg"
+              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              asChild
+            >
+              <a
+                href="https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20lavander%C3%ADa%20para%20particulares."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contactar
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
+        </motion.div>
       </div>
 
-      {/* Modal for Autoservicio */}
+      {/* Modals */}
       <AutoservicioModal 
         open={autoservicioModalOpen} 
         onOpenChange={setAutoservicioModalOpen} 
       />
-
-      {/* Modal for Pisos Vacacionales */}
       <PisosVacacionalModal
         open={pisosModalOpen}
         onOpenChange={setPisosModalOpen}
       />
-
-      {/* Modal for Gestión Vacacional */}
       <GestionVacacionalModal
         open={gestionModalOpen}
         onOpenChange={setGestionModalOpen}
