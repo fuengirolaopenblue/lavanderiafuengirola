@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { WashingMachine, Home, Building2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AutoservicioModal from "./AutoservicioModal";
+import PisosVacacionalModal from "./PisosVacacionalModal";
 const services = [
   {
     icon: WashingMachine,
@@ -35,6 +36,7 @@ const services = [
 
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
+  const [pisosModalOpen, setPisosModalOpen] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -126,6 +128,8 @@ const Services = () => {
                 onClick={() => {
                   if (index === 0) {
                     setAutoservicioModalOpen(true);
+                  } else if (index === 1) {
+                    setPisosModalOpen(true);
                   }
                 }}
               >
@@ -141,6 +145,12 @@ const Services = () => {
       <AutoservicioModal 
         open={autoservicioModalOpen} 
         onOpenChange={setAutoservicioModalOpen} 
+      />
+
+      {/* Modal for Pisos Vacacionales */}
+      <PisosVacacionalModal
+        open={pisosModalOpen}
+        onOpenChange={setPisosModalOpen}
       />
     </section>
   );
