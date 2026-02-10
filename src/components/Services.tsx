@@ -4,6 +4,7 @@ import { WashingMachine, Home, Building2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
+import GestionVacacionalModal from "./GestionVacacionalModal";
 const services = [
   {
     icon: WashingMachine,
@@ -37,6 +38,7 @@ const services = [
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
+  const [gestionModalOpen, setGestionModalOpen] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -130,6 +132,8 @@ const Services = () => {
                     setAutoservicioModalOpen(true);
                   } else if (index === 1) {
                     setPisosModalOpen(true);
+                  } else if (index === 2) {
+                    setGestionModalOpen(true);
                   }
                 }}
               >
@@ -151,6 +155,12 @@ const Services = () => {
       <PisosVacacionalModal
         open={pisosModalOpen}
         onOpenChange={setPisosModalOpen}
+      />
+
+      {/* Modal for Gestión Vacacional */}
+      <GestionVacacionalModal
+        open={gestionModalOpen}
+        onOpenChange={setGestionModalOpen}
       />
     </section>
   );
