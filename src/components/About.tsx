@@ -35,36 +35,26 @@ const About = () => {
               Sobre Nosotros
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-              Tu lavandería de confianza en{" "}
-              <span className="text-gradient-openblue">Fuengirola</span>
+              Pasión por el detalle, compromiso con tu{" "}
+              <span className="text-gradient-openblue">tranquilidad</span>
             </h2>
-            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              En OpenBlue nos dedicamos a ofrecer servicios de lavandería y gestión de propiedades 
-              de alta calidad. Entendemos las exigencias del sector vacacional y nos adaptamos 
-              a las necesidades de cada cliente, ya sea particular o profesional.
-            </p>
-
-            {/* Checklist */}
-            <ul className="space-y-4">
-              {[
-                "Lavadoras y secadoras de última generación",
-                "Productos ecológicos y de alta calidad",
-                "Servicio integral para pisos turísticos",
-                "Atención personalizada y profesional",
-              ].map((item, index) => (
-                <motion.li
-                  key={index}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex items-center gap-3"
-                >
-                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground">{item}</span>
-                </motion.li>
-              ))}
-            </ul>
+            <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
+              <p>
+                En OpenBlue Fuengirola comenzamos hace 4 años con una misión clara: ofrecer un servicio de lavandería profesional que marcara la diferencia. Nos especializamos en el cuidado de ropa blanca para pisos vacacionales y particulares, porque sabemos que la frescura y la presentación impecable son fundamentales.
+              </p>
+              <p>
+                Nos mueve la pasión por el trabajo bien hecho, por esos pequeños detalles que transforman una simple ropa de cama en una experiencia acogedora para tus huéspedes. Cada prenda que tratamos, cada mancha que eliminamos y cada entrega puntual que cumplimos nos impulsa a ser mejores.
+              </p>
+              <p>
+                Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano. Ya sea que gestiones varios pisos vacacionales o simplemente necesites un servicio de lavandería confiable para tu hogar, estamos aquí para facilitarte la vida.
+              </p>
+              <p>
+                Estamos en constante crecimiento, ampliando nuestra capacidad y mejorando nuestros procesos porque creemos que siempre podemos ofrecerte más. Tu confianza es nuestro mayor impulso.
+              </p>
+              <p className="font-semibold text-foreground italic">
+                Bienvenido a OpenBlue Fuengirola. Donde cada prenda recibe el cuidado que merece.
+              </p>
+            </div>
           </motion.div>
 
           {/* Right Content - Features */}
