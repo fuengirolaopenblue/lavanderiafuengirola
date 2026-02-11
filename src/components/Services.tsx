@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, Building2, ArrowRight, Shirt, Truck } from "lucide-react";
+import { WashingMachine, Home, ArrowRight, Shirt, Truck, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
-import GestionVacacionalModal from "./GestionVacacionalModal";
 
 const services = [
   {
@@ -27,19 +27,11 @@ const services = [
       "Servicio especializado para propietarios y gestores de alojamientos turísticos. Ropa de cama, toallas y textiles siempre impecables.",
     features: ["Recogida y entrega", "Tratamiento profesional", "Desinfección completa", "Tarifas para empresas"],
   },
-  {
-    icon: Building2,
-    title: "Gestión de Pisos Vacacionales",
-    description:
-      "Gestionamos tu propiedad de principio a fin. Check-in/out, limpieza, mantenimiento y atención al huésped para maximizar tu rentabilidad.",
-    features: ["Check-in/out 24h", "Limpieza profesional", "Gestión de reservas", "Mantenimiento preventivo"],
-  },
 ];
 
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
-  const [gestionModalOpen, setGestionModalOpen] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -63,7 +55,6 @@ const Services = () => {
   const openModals = [
     () => setAutoservicioModalOpen(true),
     () => setPisosModalOpen(true),
-    () => setGestionModalOpen(true),
   ];
 
   return (
@@ -96,7 +87,7 @@ const Services = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-8"
+          className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"
         >
           {services.map((service, index) => (
             <motion.div
@@ -185,6 +176,40 @@ const Services = () => {
             </Button>
           </div>
         </motion.div>
+
+        {/* Gestión Vacacional Link */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.4 }}
+          className="mt-8 relative overflow-hidden rounded-2xl bg-card p-8 md:p-10 shadow-card border border-border/50"
+        >
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-14 h-14 rounded-xl bg-gradient-openblue flex items-center justify-center flex-shrink-0">
+              <Building2 className="w-7 h-7 text-primary-foreground" />
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="font-display text-xl md:text-2xl font-bold text-foreground mb-2">
+                Gestión de Pisos Vacacionales
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Gestionamos tu propiedad de principio a fin. Check-in/out, limpieza, mantenimiento y atención al huésped para maximizar tu rentabilidad.
+              </p>
+            </div>
+            <Button
+              variant="outline"
+              size="lg"
+              className="flex-shrink-0"
+              asChild
+            >
+              <Link to="/gestion-vacacional">
+                Más información
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </Button>
+          </div>
+        </motion.div>
       </div>
 
       {/* Modals */}
@@ -195,10 +220,6 @@ const Services = () => {
       <PisosVacacionalModal
         open={pisosModalOpen}
         onOpenChange={setPisosModalOpen}
-      />
-      <GestionVacacionalModal
-        open={gestionModalOpen}
-        onOpenChange={setGestionModalOpen}
       />
     </section>
   );
