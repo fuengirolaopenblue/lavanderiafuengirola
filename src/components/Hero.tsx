@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 import lavanderiaFachada from "@/assets/lavanderia-fachada.jpg";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="inicio"
@@ -30,7 +33,7 @@ const Hero = () => {
           >
             <Clock className="w-4 h-4 text-primary-foreground" />
             <span className="text-sm font-medium text-primary-foreground">
-              Abierto 24 horas · Fuengirola
+              {t("hero.badge")}
             </span>
           </motion.div>
 
@@ -44,7 +47,7 @@ const Hero = () => {
             OPEN<span className="text-gold">BLUE</span>
             <br />
             <span className="text-3xl md:text-4xl lg:text-5xl font-normal">
-              Lavandería y Tienda Autoservicio
+              {t("hero.subtitle")}
             </span>
           </motion.h1>
 
@@ -55,8 +58,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mb-10"
           >
-            Tu lavandería de confianza en Fuengirola. Lavado desde 6€, secado desde 3€. 
-            También ofrecemos servicio de lavandería para pisos vacacionales y gestión integral de propiedades.
+            {t("hero.description")}
           </motion.p>
 
           {/* Prices */}
@@ -68,15 +70,15 @@ const Hero = () => {
           >
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
               <div className="text-3xl font-bold text-gold">6,00€</div>
-              <div className="text-sm text-primary-foreground/70">Lavado desde</div>
+              <div className="text-sm text-primary-foreground/70">{t("hero.washFrom")}</div>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
               <div className="text-3xl font-bold text-gold">3,00€</div>
-              <div className="text-sm text-primary-foreground/70">Secado desde</div>
+              <div className="text-sm text-primary-foreground/70">{t("hero.dryFrom")}</div>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
               <div className="text-3xl font-bold text-gold">20'</div>
-              <div className="text-sm text-primary-foreground/70">Productos incluidos</div>
+              <div className="text-sm text-primary-foreground/70">{t("hero.productsIncluded")}</div>
             </div>
           </motion.div>
 
@@ -93,7 +95,7 @@ const Hero = () => {
               className="group"
               onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Ver Nuestros Servicios
+              {t("hero.viewServices")}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -102,7 +104,7 @@ const Hero = () => {
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-openblue-dark"
               onClick={() => document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Contactar Ahora
+              {t("hero.contactNow")}
             </Button>
           </motion.div>
         </div>
