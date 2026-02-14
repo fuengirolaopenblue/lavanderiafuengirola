@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "contactBtn": "Contact",
+    "subtitle": "Self-Service Laundry"
+  },
+  "hero": {
+    "badge": "Open 24 hours · Fuengirola",
+    "subtitle": "Self-Service Laundry & Shop",
+    "description": "Your trusted laundry in Fuengirola. Washing from €6, drying from €3. We also offer laundry services for vacation rentals and full property management.",
+    "washFrom": "Washing from",
+    "dryFrom": "Drying from",
+    "productsIncluded": "Products included",
+    "viewServices": "View Our Services",
+    "contactNow": "Contact Now"
+  },
+  "services": {
+    "sectionLabel": "Our Services",
+    "title": "Complete solutions for your",
+    "titleHighlight": "comfort",
+    "subtitle": "From self-service laundry to full property management, we offer professional services tailored to your needs.",
+    "moreInfo": "More information",
+    "selfService": {
+      "title": "Self-Service Laundry",
+      "description": "State-of-the-art machines available 24 hours. Pay conveniently with coins, bills or debit/credit cards.",
+      "features": [
+        "Washer 19kg → €8 | 15kg → €6",
+        "Dryer 19kg → €3/20min",
+        "+5 min for €0.50 (extendable)",
+        "Products included",
+        "Open 24h / 365 days"
+      ]
+    },
+    "vacation": {
+      "title": "Vacation Rental Laundry",
+      "description": "Specialized service for owners and managers of tourist accommodations. Bed linen, towels and textiles always impeccable.",
+      "features": ["Pick-up and delivery", "Professional treatment", "Full disinfection", "Business rates"]
+    },
+    "individuals": {
+      "title": "Individual Laundry Service",
+      "description": "No time to do laundry? We do it for you. Complete laundry service for individuals with",
+      "descriptionBold": "home pick-up and delivery",
+      "descriptionEnd": ". Tell us what you need and we'll take care of everything.",
+      "contact": "Contact"
+    },
+    "management": {
+      "title": "Vacation Property Management",
+      "description": "We manage your property from start to finish. Check-in/out, cleaning, maintenance and guest care to maximize your profitability."
+    }
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "title": "Passion for detail, commitment to your",
+    "titleHighlight": "peace of mind",
+    "p1": "At OpenBlue Fuengirola we started 4 years ago with a clear mission: to offer a professional laundry service that makes a difference. We specialize in caring for white linen for vacation rentals and individuals, because we know that freshness and impeccable presentation are essential.",
+    "p2": "We are driven by our passion for a job well done, for those small details that transform simple bed linen into a cozy experience for your guests. Every garment we treat, every stain we remove and every punctual delivery we make drives us to be better.",
+    "p3": "We work with top-of-the-line, environmentally friendly products, because caring for your clothes and our planet go hand in hand. Whether you manage several vacation rentals or simply need a reliable laundry service for your home, we're here to make your life easier.",
+    "p4": "We are constantly growing, expanding our capacity and improving our processes because we believe we can always offer you more. Your trust is our greatest motivation.",
+    "p5": "Welcome to OpenBlue Fuengirola. Where every garment receives the care it deserves.",
+    "features": {
+      "quality": "Guaranteed Quality",
+      "qualityDesc": "We use premium products and professional techniques for impeccable results.",
+      "open": "Open 24/7",
+      "openDesc": "Our facilities are available every day of the year, 24 hours a day.",
+      "team": "Professional Team",
+      "teamDesc": "Qualified staff committed to excellence in every detail."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Do you have a",
+    "titleHighlight": "question",
+    "subtitle": "We're here to help. Contact us and we'll get back to you as soon as possible.",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "phone": "Phone",
+    "phonePlaceholder": "+34 600 000 000",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "serviceLabel": "Service of interest",
+    "servicePlaceholder": "E.g.: Laundry for vacation rentals",
+    "message": "Message",
+    "messagePlaceholder": "Tell us how we can help you...",
+    "sending": "Sending...",
+    "sent": "Sent!",
+    "sendMessage": "Send Message",
+    "successToast": "Message sent successfully! We'll get back to you soon.",
+    "errorToast": "There was an error sending the message. Please try again.",
+    "connectionError": "Connection error. Please try again later.",
+    "infoTitle": "Contact information",
+    "infoSubtitle": "Visit us at our facilities or get in touch through any of the following means.",
+    "location": "Location",
+    "whatsapp": "WhatsApp",
+    "laundryHours": "Laundry Hours",
+    "laundryHoursValue": "24 hours / 365 days"
+  },
+  "footer": {
+    "description": "Your trusted laundry in Fuengirola. Self-service laundry and vacation property management services.",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Services",
+    "selfService": "Self-Service Laundry",
+    "vacationLaundry": "Vacation Laundry",
+    "propertyMgmt": "Property Management",
+    "profCleaning": "Professional Cleaning",
+    "rights": "All rights reserved."
+  },
+  "gestion": {
+    "heroTitle": "Full Management of Your Vacation Rental",
+    "heroSubtitle": "Relax completely. We take care of everything.",
+    "intro": "At OpenBlue Fuengirola we turn your property into a constant source of income, without you having to worry about anything. We offer a 360° management service designed for owners looking to maximize their profitability without complications, stress or wasted time.",
+    "whatIncluded": "What does our full management include?",
+    "steps": {
+      "visibility": { "title": "Listing and visibility", "description": "We create and manage professional listings on the main vacation rental platforms (Airbnb, Booking, Vrbo and more). We optimize descriptions, photos and prices to attract more bookings and increase your occupancy." },
+      "guests": { "title": "Guest support", "description": "We handle all communications, inquiries and reservations. From first contact to farewell, your guests receive personalized and professional attention that translates into excellent reviews." },
+      "checkin": { "title": "Check-in and check-out", "description": "We handle key handover and collection at agreed times, welcoming your guests and ensuring everything is perfect on arrival and departure." },
+      "cleaning": { "title": "Professional cleaning", "description": "After each stay, we carry out a thorough deep clean. Your property will always be immaculate, ready to receive the next guests with the highest standards of hygiene and presentation." },
+      "laundry": { "title": "Laundry service", "description": "We collect, stain-treat, wash, dry and bag all bed linen and towels. We return them ready to use, with top-of-the-line, environmentally friendly products." },
+      "maintenance": { "title": "Maintenance and supervision", "description": "We carry out periodic inspections and coordinate any necessary repairs or maintenance. We detect problems before they become major inconveniences, protecting your investment." },
+      "financial": { "title": "Transparent financial management", "description": "You will receive detailed reports on income, expenses and occupancy. Total transparency so you always know how your property is performing." }
+    },
+    "trustTitle": "Your property in the best hands",
+    "trustDesc": "We know that your vacation rental is an important investment. That's why we work every day to generate the maximum possible income, maintaining its value and guaranteeing exceptional experiences for your guests. You just have to enjoy the benefits.",
+    "experienceDesc": "With <strong>OpenBlue Fuengirola</strong>, renting your property is truly profitable and hassle-free. Over 4 years of experience managing vacation properties in Fuengirola back us up.",
+    "ctaText": "Want to know how much you can earn with your property? Contact us for a personalized, no-obligation study.",
+    "ctaWhatsApp": "Contact via WhatsApp",
+    "backHome": "Back to home"
+  },
+  "autoservicioModal": {
+    "title": "Self-Service Laundry in Fuengirola",
+    "subtitle": "A complete experience designed for your comfort",
+    "intro": "At our self-service laundry, we don't just help you keep your clothes impeccable — we also offer a comfortable space to make the most of your time.",
+    "machinesTitle": "World-Class Machinery",
+    "machinesDesc": "We have industrial washers and dryers by <strong>GIRBAU, made in Spain</strong>, internationally recognized for their efficiency, durability and exceptional results.",
+    "washer19": "19 kg Washer",
+    "washer19Desc": "Ideal for blankets, duvets and large loads",
+    "washer15": "15 kg Washer",
+    "washer15Desc": "Perfect for medium loads and everyday laundry",
+    "dryer19": "19 kg Dryer",
+    "dryer19Extra": "+5 extra minutes for just €0.50",
+    "dryer19Extra2": "Extendable as many times as you need",
+    "vendingTitle": "24h Vending Area",
+    "vendingDesc": "Coffee machine with a wide variety of hot options, soft drinks, snacks and sweets to make your wait more pleasant.",
+    "coffeeTitle": "Coffee Machine",
+    "coffeeDesc": "Delicious hazelnut coffee, latte, espresso, cappuccino, hot chocolate and many more options",
+    "wifiTitle": "Free WiFi",
+    "wifiDesc": "Browse, work or entertain yourself while you wait for your laundry",
+    "oxygenTitle": "Active Oxygen Technology",
+    "oxygenDesc": "We use <strong>active oxygen</strong> in every wash, a powerful agent that removes tough stains, whitens and deeply disinfects without damaging fabrics. Perfect for caring for your clothes and protecting your family's health.",
+    "tip": "Doing a seasonal wardrobe change? Come visit us. Store your clean and disinfected clothes with our large-capacity washers, ideal for blankets, duvets and all your winter clothing.",
+    "tipLabel": "💡 Tip:",
+    "closing": "We look forward to welcoming you in a clean, modern and easily accessible space, with all the services you need."
+  },
+  "pisosModal": {
+    "title": "Professional Laundry Service for Your",
+    "titleHighlight": "Vacation Rental",
+    "introTitle": "Forget the worries. We take care of every detail of your white linen.",
+    "introDesc": "At OpenBlue Fuengirola we understand that bed linen and towels are at the heart of your guests' experience. That's why we've designed a comprehensive laundry service that completely frees you from this task, always guaranteeing the highest quality and impeccable presentation.",
+    "howTitle": "How does our service work?",
+    "steps": {
+      "pickup": { "title": "Home pick-up", "description": "We come to your property and collect all bed and bath linen after each check-out. You don't have to lift a finger." },
+      "treatment": { "title": "Professional treatment", "description": "We apply specific stain-removal treatments when necessary, ensuring each piece recovers its original whiteness and freshness. We wash with top-quality, environmentally friendly products that protect fibers and extend the life of your textiles." },
+      "drying": { "title": "Drying and preparation", "description": "We dry and individually bag each set, ready to use for the next check-in. Everything perfectly organized and protected." },
+      "delivery": { "title": "On-time delivery", "description": "We return clean, ready linen within agreed timeframes, so your property is always prepared to receive the next guests without delays." }
+    },
+    "trustTitle": "Your peace of mind, our priority",
+    "trustDesc": "We know that managing a vacation rental involves paying attention to a thousand details. With our laundry service, you eliminate one of the most repetitive and critical tasks. Your guests will always enjoy impeccable, fresh and cozy linen, and you'll gain time to focus on what really matters: maximizing your profitability and offering memorable experiences.",
+    "experienceDesc": "Trust <strong>OpenBlue Fuengirola</strong>. Over 4 years of experience back us up as the perfect partner for owners seeking professionalism, punctuality and impeccable results.",
+    "ctaText": "Want to know more? Contact us and we'll prepare a tailored plan for your property.",
+    "ctaWhatsApp": "Contact via WhatsApp"
+  }
+}

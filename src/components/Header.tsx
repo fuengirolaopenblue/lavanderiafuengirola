@@ -2,16 +2,19 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 import logoOpenblue from "@/assets/logo-openblue.jpg";
+import LanguageSelector from "./LanguageSelector";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   const navItems = [
-    { name: "Inicio", href: "#inicio" },
-    { name: "Servicios", href: "#servicios" },
-    { name: "Sobre Nosotros", href: "#nosotros" },
-    { name: "Contacto", href: "#contacto" },
+    { name: t("nav.home"), href: "#inicio" },
+    { name: t("nav.services"), href: "#servicios" },
+    { name: t("nav.about"), href: "#nosotros" },
+    { name: t("nav.contact"), href: "#contacto" },
   ];
 
   return (
@@ -36,7 +39,7 @@ const Header = () => {
                 OPEN<span className="text-foreground">BLUE</span>
               </span>
               <span className="text-xs text-muted-foreground hidden sm:block">
-                Lavandería Autoservicio
+                {t("nav.subtitle")}
               </span>
             </div>
           </motion.a>
@@ -57,25 +60,29 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
+          {/* Right side: Language + CTA */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="hidden md:block"
+            className="hidden md:flex items-center gap-3"
           >
+            <LanguageSelector />
             <Button variant="hero" size="lg">
-              Contactar
+              {t("nav.contactBtn")}
             </Button>
           </motion.div>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2 text-foreground"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSelector />
+            <button
+              className="p-2 text-foreground"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -97,7 +104,7 @@ const Header = () => {
             </a>
           ))}
           <Button variant="hero" size="lg" className="mt-2">
-            Contactar
+            {t("nav.contactBtn")}
           </Button>
         </nav>
       </motion.div>

@@ -1,30 +1,32 @@
 import { motion } from "framer-motion";
-import { CheckCircle, Award, Clock, Users } from "lucide-react";
-
-const features = [
-  {
-    icon: Award,
-    title: "Calidad Garantizada",
-    description: "Utilizamos productos premium y técnicas profesionales para resultados impecables.",
-  },
-  {
-    icon: Clock,
-    title: "Abierto 24/7",
-    description: "Nuestras instalaciones están disponibles todos los días del año, las 24 horas.",
-  },
-  {
-    icon: Users,
-    title: "Equipo Profesional",
-    description: "Personal cualificado y comprometido con la excelencia en cada detalle.",
-  },
-];
+import { Award, Clock, Users } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      icon: Award,
+      title: t("about.features.quality"),
+      description: t("about.features.qualityDesc"),
+    },
+    {
+      icon: Clock,
+      title: t("about.features.open"),
+      description: t("about.features.openDesc"),
+    },
+    {
+      icon: Users,
+      title: t("about.features.team"),
+      description: t("about.features.teamDesc"),
+    },
+  ];
+
   return (
     <section id="nosotros" className="py-20 md:py-32 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -32,32 +34,21 @@ const About = () => {
             transition={{ duration: 0.7 }}
           >
             <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-              Sobre Nosotros
+              {t("about.sectionLabel")}
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-              Pasión por el detalle, compromiso con tu{" "}
-              <span className="text-gradient-openblue">tranquilidad</span>
+              {t("about.title")}{" "}
+              <span className="text-gradient-openblue">{t("about.titleHighlight")}</span>
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
-              <p>
-                En OpenBlue Fuengirola comenzamos hace 4 años con una misión clara: ofrecer un servicio de lavandería profesional que marcara la diferencia. Nos especializamos en el cuidado de ropa blanca para pisos vacacionales y particulares, porque sabemos que la frescura y la presentación impecable son fundamentales.
-              </p>
-              <p>
-                Nos mueve la pasión por el trabajo bien hecho, por esos pequeños detalles que transforman una simple ropa de cama en una experiencia acogedora para tus huéspedes. Cada prenda que tratamos, cada mancha que eliminamos y cada entrega puntual que cumplimos nos impulsa a ser mejores.
-              </p>
-              <p>
-                Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano. Ya sea que gestiones varios pisos vacacionales o simplemente necesites un servicio de lavandería confiable para tu hogar, estamos aquí para facilitarte la vida.
-              </p>
-              <p>
-                Estamos en constante crecimiento, ampliando nuestra capacidad y mejorando nuestros procesos porque creemos que siempre podemos ofrecerte más. Tu confianza es nuestro mayor impulso.
-              </p>
-              <p className="font-semibold text-foreground italic">
-                Bienvenido a OpenBlue Fuengirola. Donde cada prenda recibe el cuidado que merece.
-              </p>
+              <p>{t("about.p1")}</p>
+              <p>{t("about.p2")}</p>
+              <p>{t("about.p3")}</p>
+              <p>{t("about.p4")}</p>
+              <p className="font-semibold text-foreground italic">{t("about.p5")}</p>
             </div>
           </motion.div>
 
-          {/* Right Content - Features */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -82,9 +73,7 @@ const About = () => {
                     <h3 className="font-display text-lg font-bold text-foreground mb-2">
                       {feature.title}
                     </h3>
-                    <p className="text-muted-foreground">
-                      {feature.description}
-                    </p>
+                    <p className="text-muted-foreground">{feature.description}</p>
                   </div>
                 </div>
               </motion.div>

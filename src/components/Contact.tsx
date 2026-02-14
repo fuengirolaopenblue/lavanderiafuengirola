@@ -5,36 +5,38 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState, FormEvent } from "react";
 import { toast } from "sonner";
-
-const contactInfo = [
-  {
-    icon: MapPin,
-    title: "Ubicación",
-    content: "Av. de Mijas nº5, Local 2, 29640 Fuengirola",
-    link: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
-  },
-  {
-    icon: Phone,
-    title: "WhatsApp",
-    content: "+34 641 819 577",
-    link: "https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20vuestros%20servicios.",
-  },
-  {
-    icon: Mail,
-    title: "Email",
-    content: "fuengirolaopenblue@gmail.com",
-    link: "mailto:fuengirolaopenblue@gmail.com",
-  },
-  {
-    icon: Clock,
-    title: "Horario Lavandería",
-    content: "24 horas / 365 días",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const { t } = useTranslation();
+
+  const contactInfo = [
+    {
+      icon: MapPin,
+      title: t("contact.location"),
+      content: "Av. de Mijas nº5, Local 2, 29640 Fuengirola",
+      link: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
+    },
+    {
+      icon: Phone,
+      title: t("contact.whatsapp"),
+      content: "+34 641 819 577",
+      link: "https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20vuestros%20servicios.",
+    },
+    {
+      icon: Mail,
+      title: t("contact.email"),
+      content: "fuengirolaopenblue@gmail.com",
+      link: "mailto:fuengirolaopenblue@gmail.com",
+    },
+    {
+      icon: Clock,
+      title: t("contact.laundryHours"),
+      content: t("contact.laundryHoursValue"),
+    },
+  ];
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -47,21 +49,19 @@ const Contact = () => {
       const response = await fetch("https://formspree.io/f/xnjbndyz", {
         method: "POST",
         body: formData,
-        headers: {
-          Accept: "application/json",
-        },
+        headers: { Accept: "application/json" },
       });
 
       if (response.ok) {
         setIsSubmitted(true);
-        toast.success("¡Mensaje enviado correctamente! Te responderemos pronto.");
+        toast.success(t("contact.successToast"));
         form.reset();
         setTimeout(() => setIsSubmitted(false), 5000);
       } else {
-        toast.error("Hubo un error al enviar el mensaje. Inténtalo de nuevo.");
+        toast.error(t("contact.errorToast"));
       }
     } catch {
-      toast.error("Error de conexión. Por favor, inténtalo más tarde.");
+      toast.error(t("contact.connectionError"));
     } finally {
       setIsSubmitting(false);
     }
@@ -70,7 +70,6 @@ const Contact = () => {
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -79,19 +78,16 @@ const Contact = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-            Contacto
+            {t("contact.sectionLabel")}
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-            ¿Tienes alguna{" "}
-            <span className="text-gradient-openblue">pregunta</span>?
+            {t("contact.title")}{" "}
+            <span className="text-gradient-openblue">{t("contact.titleHighlight")}</span>?
           </h2>
-          <p className="text-muted-foreground text-lg">
-            Estamos aquí para ayudarte. Contáctanos y te responderemos lo antes posible.
-          </p>
+          <p className="text-muted-foreground text-lg">{t("contact.subtitle")}</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -100,74 +96,43 @@ const Contact = () => {
             className="bg-card rounded-2xl p-8 shadow-card border border-border/50"
           >
             <h3 className="font-display text-2xl font-bold text-foreground mb-6">
-              Envíanos un mensaje
+              {t("contact.formTitle")}
             </h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
-                    Nombre
-                  </label>
-                  <Input name="nombre" placeholder="Tu nombre" required />
+                  <label className="block text-sm font-medium text-foreground mb-2">{t("contact.name")}</label>
+                  <Input name="nombre" placeholder={t("contact.namePlaceholder")} required />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
-                    Teléfono
-                  </label>
-                  <Input name="telefono" type="tel" placeholder="+34 600 000 000" required />
+                  <label className="block text-sm font-medium text-foreground mb-2">{t("contact.phone")}</label>
+                  <Input name="telefono" type="tel" placeholder={t("contact.phonePlaceholder")} required />
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  Email
-                </label>
-                <Input name="email" type="email" placeholder="tu@email.com" required />
+                <label className="block text-sm font-medium text-foreground mb-2">{t("contact.email")}</label>
+                <Input name="email" type="email" placeholder={t("contact.emailPlaceholder")} required />
               </div>
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  Servicio de interés
-                </label>
-                <Input name="servicio" placeholder="Ej: Lavandería para pisos vacacionales" />
+                <label className="block text-sm font-medium text-foreground mb-2">{t("contact.serviceLabel")}</label>
+                <Input name="servicio" placeholder={t("contact.servicePlaceholder")} />
               </div>
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  Mensaje
-                </label>
-                <Textarea
-                  name="mensaje"
-                  placeholder="Cuéntanos en qué podemos ayudarte..."
-                  rows={5}
-                  required
-                />
+                <label className="block text-sm font-medium text-foreground mb-2">{t("contact.message")}</label>
+                <Textarea name="mensaje" placeholder={t("contact.messagePlaceholder")} rows={5} required />
               </div>
-              <Button 
-                type="submit" 
-                variant="hero" 
-                size="lg" 
-                className="w-full group"
-                disabled={isSubmitting}
-              >
+              <Button type="submit" variant="hero" size="lg" className="w-full group" disabled={isSubmitting}>
                 {isSubmitting ? (
-                  <>
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                    Enviando...
-                  </>
+                  <><Loader2 className="w-4 h-4 animate-spin" />{t("contact.sending")}</>
                 ) : isSubmitted ? (
-                  <>
-                    <CheckCircle className="w-4 h-4" />
-                    ¡Enviado!
-                  </>
+                  <><CheckCircle className="w-4 h-4" />{t("contact.sent")}</>
                 ) : (
-                  <>
-                    Enviar Mensaje
-                    <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </>
+                  <>{t("contact.sendMessage")}<Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" /></>
                 )}
               </Button>
             </form>
           </motion.div>
 
-          {/* Contact Info */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -176,13 +141,8 @@ const Contact = () => {
             className="space-y-6"
           >
             <div className="mb-8">
-              <h3 className="font-display text-2xl font-bold text-foreground mb-4">
-                Información de contacto
-              </h3>
-              <p className="text-muted-foreground">
-                Visítanos en nuestras instalaciones o ponte en contacto a través 
-                de cualquiera de los siguientes medios.
-              </p>
+              <h3 className="font-display text-2xl font-bold text-foreground mb-4">{t("contact.infoTitle")}</h3>
+              <p className="text-muted-foreground">{t("contact.infoSubtitle")}</p>
             </div>
 
             {contactInfo.map((info, index) => (
@@ -207,7 +167,6 @@ const Contact = () => {
               </motion.a>
             ))}
 
-            {/* Google Maps Embed */}
             <a 
               href="https://maps.app.goo.gl/bu8z2BPR11gnGxpe6" 
               target="_blank" 

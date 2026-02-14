@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "services": "Palvelut",
+    "about": "Tietoa meistä",
+    "contact": "Yhteystiedot",
+    "contactBtn": "Ota yhteyttä",
+    "subtitle": "Itsepalvelupesula"
+  },
+  "hero": {
+    "badge": "Avoinna 24 tuntia · Fuengirola",
+    "subtitle": "Itsepalvelupesula ja myymälä",
+    "description": "Luotettava pesulasi Fuengirolassa. Pesu alkaen 6€, kuivaus alkaen 3€. Tarjoamme myös pesulapalveluita loma-asunnoille ja kokonaisvaltaista kiinteistönhallintaa.",
+    "washFrom": "Pesu alkaen",
+    "dryFrom": "Kuivaus alkaen",
+    "productsIncluded": "Tuotteet sisältyvät",
+    "viewServices": "Katso palvelumme",
+    "contactNow": "Ota yhteyttä nyt"
+  },
+  "services": {
+    "sectionLabel": "Palvelumme",
+    "title": "Kokonaisvaltaiset ratkaisut",
+    "titleHighlight": "mukavuuteesi",
+    "subtitle": "Itsepalvelupesulasta kokonaisvaltaiseen kiinteistönhallintaan, tarjoamme ammattimaisia palveluita tarpeisiisi räätälöitynä.",
+    "moreInfo": "Lisätietoja",
+    "selfService": {
+      "title": "Itsepalvelupesula",
+      "description": "Uusimman teknologian koneet käytettävissä 24 tuntia. Maksa kätevästi kolikoilla, seteleillä tai pankki-/luottokortilla.",
+      "features": [
+        "Pesukone 19kg → 8€ | 15kg → 6€",
+        "Kuivausrumpu 19kg → 3€/20min",
+        "+5 min 0,50€ (laajennettavissa)",
+        "Tuotteet sisältyvät",
+        "Avoinna 24h / 365 päivää"
+      ]
+    },
+    "vacation": {
+      "title": "Loma-asuntojen pesulapalvelu",
+      "description": "Erikoispalvelu matkailumajoitusten omistajille ja hallinnoijille. Liinavaatteet, pyyhkeet ja tekstiilit aina moitteettomina.",
+      "features": ["Nouto ja toimitus", "Ammattimainen käsittely", "Täydellinen desinfiointi", "Yrityshinnat"]
+    },
+    "individuals": {
+      "title": "Yksityishenkilöiden pesulapalvelu",
+      "description": "Ei aikaa pestä? Me teemme sen puolestasi. Täydellinen pesulapalvelu yksityishenkilöille",
+      "descriptionBold": "kotiinnouto ja -toimitus",
+      "descriptionEnd": ". Kerro mitä tarvitset ja me hoidamme kaiken.",
+      "contact": "Ota yhteyttä"
+    },
+    "management": {
+      "title": "Loma-asuntojen hallinta",
+      "description": "Hallinnoimme kiinteistöäsi alusta loppuun. Sisään-/uloskirjautuminen, siivous, huolto ja vieraspalvelu kannattavuutesi maksimoimiseksi."
+    }
+  },
+  "about": {
+    "sectionLabel": "Tietoa meistä",
+    "title": "Intohimoa yksityiskohtiin, sitoutumista",
+    "titleHighlight": "mielenrauhaasi",
+    "p1": "OpenBlue Fuengirolassa aloitimme 4 vuotta sitten selkeällä missiolla: tarjota ammattimainen pesulapalvelu, joka tekee eron. Olemme erikoistuneet valkoisten liinavaatteiden hoitoon loma-asunnoille ja yksityishenkilöille, koska tiedämme, että tuoreus ja moitteeton esitys ovat olennaisia.",
+    "p2": "Meitä ajaa intohimo hyvin tehtyyn työhön, niihin pieniin yksityiskohtiin, jotka muuttavat yksinkertaiset vuodevaatteet kodikkaaksi kokemukseksi vieraillesi. Jokainen vaate, jonka käsittelemme, jokainen tahra, jonka poistamme, ja jokainen täsmällinen toimitus kannustaa meitä olemaan parempia.",
+    "p3": "Työskentelemme ensiluokkaisilla, ympäristöystävällisillä tuotteilla, koska vaatteidesi ja planeettamme hoitaminen kulkevat käsi kädessä. Hallinnoit sitten useita loma-asuntoja tai tarvitset yksinkertaisesti luotettavaa pesulapalvelua kotiisi, olemme täällä helpottamassa elämääsi.",
+    "p4": "Kasvamme jatkuvasti, laajennamme kapasiteettiamme ja parannamme prosessejamme, koska uskomme, että voimme aina tarjota sinulle enemmän. Luottamuksesi on suurin motivaatiomme.",
+    "p5": "Tervetuloa OpenBlue Fuengirolaan. Missä jokainen vaate saa ansaitsemansa hoidon.",
+    "features": {
+      "quality": "Taattu laatu",
+      "qualityDesc": "Käytämme premium-tuotteita ja ammattimaisia tekniikoita moitteettomiin tuloksiin.",
+      "open": "Avoinna 24/7",
+      "openDesc": "Tilojamme on käytettävissä joka päivä vuoden ympäri, 24 tuntia vuorokaudessa.",
+      "team": "Ammattimainen tiimi",
+      "teamDesc": "Pätevä henkilökunta, joka on sitoutunut huippuosaamiseen jokaisessa yksityiskohdassa."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Yhteystiedot",
+    "title": "Onko sinulla",
+    "titleHighlight": "kysyttävää",
+    "subtitle": "Olemme täällä auttamassa. Ota meihin yhteyttä ja vastaamme mahdollisimman pian.",
+    "formTitle": "Lähetä meille viesti",
+    "name": "Nimi",
+    "namePlaceholder": "Nimesi",
+    "phone": "Puhelin",
+    "phonePlaceholder": "+34 600 000 000",
+    "email": "Sähköposti",
+    "emailPlaceholder": "sinun@email.com",
+    "serviceLabel": "Kiinnostava palvelu",
+    "servicePlaceholder": "Esim.: Pesula loma-asunnoille",
+    "message": "Viesti",
+    "messagePlaceholder": "Kerro miten voimme auttaa sinua...",
+    "sending": "Lähetetään...",
+    "sent": "Lähetetty!",
+    "sendMessage": "Lähetä viesti",
+    "successToast": "Viesti lähetetty onnistuneesti! Vastaamme pian.",
+    "errorToast": "Viestin lähettämisessä tapahtui virhe. Yritä uudelleen.",
+    "connectionError": "Yhteysvirhe. Yritä myöhemmin uudelleen.",
+    "infoTitle": "Yhteystiedot",
+    "infoSubtitle": "Vieraile tiloissamme tai ota yhteyttä minkä tahansa seuraavan kanavan kautta.",
+    "location": "Sijainti",
+    "whatsapp": "WhatsApp",
+    "laundryHours": "Pesulan aukioloajat",
+    "laundryHoursValue": "24 tuntia / 365 päivää"
+  },
+  "footer": {
+    "description": "Luotettava pesulasi Fuengirolassa. Itsepalvelupesula ja loma-asuntojen hallintapalvelut.",
+    "quickLinks": "Pikalinkit",
+    "servicesTitle": "Palvelut",
+    "selfService": "Itsepalvelupesula",
+    "vacationLaundry": "Lomapesula",
+    "propertyMgmt": "Kiinteistönhallinta",
+    "profCleaning": "Ammattimainen siivous",
+    "rights": "Kaikki oikeudet pidätetään."
+  },
+  "gestion": {
+    "heroTitle": "Loma-asuntosi kokonaisvaltainen hallinta",
+    "heroSubtitle": "Rentoudu täysin. Me hoidamme kaiken.",
+    "intro": "OpenBlue Fuengirolassa muutamme kiinteistösi jatkuvaksi tulonlähteeksi ilman, että sinun tarvitsee huolehtia mistään. Tarjoamme 360° hallintapalvelun, joka on suunniteltu omistajille, jotka haluavat maksimoida kannattavuutensa ilman hankaluuksia, stressiä tai ajanhukkaa.",
+    "whatIncluded": "Mitä kokonaisvaltainen hallintamme sisältää?",
+    "steps": {
+      "visibility": { "title": "Julkaisu ja näkyvyys", "description": "Luomme ja hallinnoimme ammattimaisia ilmoituksia tärkeimmillä loma-asuntojen vuokraalustoilla (Airbnb, Booking, Vrbo ja muut). Optimoimme kuvaukset, valokuvat ja hinnat houkutellaksemme enemmän varauksia ja lisätäksemme käyttöastettasi." },
+      "guests": { "title": "Vieraspalvelu", "description": "Hallinnoimme kaiken viestinnän, tiedustelut ja varaukset. Ensimmäisestä yhteydenotosta hyvästeihin vieraasi saavat henkilökohtaista ja ammattimaista palvelua, joka näkyy erinomaisina arvioina." },
+      "checkin": { "title": "Sisään- ja uloskirjautuminen", "description": "Hoidamme avainten luovutuksen ja keräämisen sovittuina aikoina, toivottaen vieraasi tervetulleiksi ja varmistaen, että kaikki on täydellistä heidän saapuessaan ja lähtiessään." },
+      "cleaning": { "title": "Ammattimainen siivous", "description": "Jokaisen oleskelun jälkeen suoritamme perusteellisen syvä siivouksen. Kiinteistösi on aina moitteettomassa kunnossa, valmiina vastaanottamaan seuraavat vieraat korkeimmilla hygienia- ja esitysstandardeilla." },
+      "laundry": { "title": "Pesulapalvelu", "description": "Keräämme, tahranpoistamme, pesemme, kuivaamme ja pakkaamme kaikki vuodevaatteet ja pyyhkeet. Palautamme ne käyttövalmiina ensiluokkaisilla, ympäristöystävällisillä tuotteilla." },
+      "maintenance": { "title": "Huolto ja valvonta", "description": "Suoritamme säännöllisiä tarkastuksia ja koordinoimme tarvittavat korjaukset tai huollot. Havaitsemme ongelmat ennen kuin niistä tulee suurempia haittoja, suojellen sijoitustasi." },
+      "financial": { "title": "Läpinäkyvä taloushallinto", "description": "Saat yksityiskohtaiset raportit tuloista, menoista ja käyttöasteesta. Täydellinen läpinäkyvyys, jotta tiedät aina, miten kiinteistösi menestyy." }
+    },
+    "trustTitle": "Kiinteistösi parhaissa käsissä",
+    "trustDesc": "Tiedämme, että loma-asuntosi on tärkeä sijoitus. Siksi työskentelemme joka päivä tuottaaksemme mahdollisimman suuret tulot, ylläpitäen sen arvoa ja taaten poikkeuksellisia kokemuksia vieraillesi. Sinun tarvitsee vain nauttia eduista.",
+    "experienceDesc": "Kun valitset <strong>OpenBlue Fuengirolan</strong>, kiinteistösi vuokraaminen on todella kannattavaa ja vaivatonta. Yli 4 vuoden kokemus loma-asuntojen hallinnasta Fuengirolassa tukee meitä.",
+    "ctaText": "Haluatko tietää, kuinka paljon voit ansaita kiinteistölläsi? Ota meihin yhteyttä henkilökohtaista ja sitoumuksetonta arviota varten.",
+    "ctaWhatsApp": "Ota yhteyttä WhatsAppilla",
+    "backHome": "Takaisin etusivulle"
+  },
+  "autoservicioModal": {
+    "title": "Itsepalvelupesula Fuengirolassa",
+    "subtitle": "Täydellinen kokemus mukavuuttasi varten",
+    "intro": "Itsepalvelupesulassamme emme ainoastaan auta sinua pitämään vaatteet moitteettomina, vaan tarjoamme myös mukavan tilan, jossa voit hyödyntää aikasi parhaalla mahdollisella tavalla.",
+    "machinesTitle": "Maailmanluokan koneet",
+    "machinesDesc": "Meillä on teollisuuspesukoneita ja kuivausrumpuja, valmistaja <strong>GIRBAU, valmistettu Espanjassa</strong>, kansainvälisesti tunnustettuja tehokkuudestaan, kestävyydestään ja poikkeuksellisista tuloksistaan.",
+    "washer19": "19 kg pesukone",
+    "washer19Desc": "Ihanteellinen peitoille, peitoille ja suurille pyykkimäärille",
+    "washer15": "15 kg pesukone",
+    "washer15Desc": "Täydellinen keskikokoisille pyykeille ja arkivaatteille",
+    "dryer19": "19 kg kuivausrumpu",
+    "dryer19Extra": "+5 lisäminuuttia vain 0,50€",
+    "dryer19Extra2": "Laajennettavissa niin monta kertaa kuin tarvitset",
+    "vendingTitle": "24h automaattialue",
+    "vendingDesc": "Kahviautomaatti laajalla valikoimalla kuumia juomia, virvoitusjuomia, välipaloja ja makeisia, jotta odottaminen olisi miellyttävämpää.",
+    "coffeeTitle": "Kahviautomaatti",
+    "coffeeDesc": "Herkullinen hasselpähkinäkahvi, maitokahvi, espresso, cappuccino, kuuma suklaa ja monia muita vaihtoehtoja",
+    "wifiTitle": "Ilmainen WiFi",
+    "wifiDesc": "Selaa, työskentele tai viihdytä itseäsi odottaessasi pyykkiäsi",
+    "oxygenTitle": "Aktiivinen happiteknologia",
+    "oxygenDesc": "Käytämme <strong>aktiivista happea</strong> jokaisessa pesussa, voimakasta ainetta, joka poistaa vaikeat tahrat, valkaisee ja desinfioi syvästi vahingoittamatta kankaita. Täydellinen vaatteidesi hoitamiseen ja perheesi terveyden suojelemiseen.",
+    "tip": "Teetkö kausivaihtoa? Tule tutustumaan meihin. Säilytä puhtaat ja desinfioidut vaatteesi suurikapasiteettisissa pesukoneissamme, jotka ovat ihanteellisia peitoille ja kaikille talvivaatteillesi.",
+    "tipLabel": "💡 Vinkki:",
+    "closing": "Odotamme sinua puhtaassa, modernissa ja helposti saavutettavassa tilassa, kaikilla tarvitsemillasi palveluilla."
+  },
+  "pisosModal": {
+    "title": "Ammattimainen pesulapalvelu",
+    "titleHighlight": "loma-asunnollesi",
+    "introTitle": "Unohda huolet. Me huolehdimme jokaisesta valkoisten liinavaatteidesi yksityiskohdasta.",
+    "introDesc": "OpenBlue Fuengirolassa ymmärrämme, että vuodevaatteet ja pyyhkeet ovat vieraidesi kokemuksen ytimessä. Siksi olemme suunnitelleet kokonaisvaltaisen pesulapalvelun, joka vapauttaa sinut täysin tästä tehtävästä, taaten aina korkeimman laadun ja moitteettoman esityksen.",
+    "howTitle": "Miten palvelumme toimii?",
+    "steps": {
+      "pickup": { "title": "Kotinouto", "description": "Tulemme kiinteistöllesi ja keräämme kaikki vuode- ja kylpyliinavaatteet jokaisen uloskirjautumisen jälkeen. Sinun ei tarvitse nostaa sormeakaan." },
+      "treatment": { "title": "Ammattimainen käsittely", "description": "Sovellamme erityisiä tahranpoistokäsittelyjä tarvittaessa varmistaen, että jokainen kappale saa takaisin alkuperäisen valkoisuutensa ja tuoreudensa. Pesemme ensiluokkaisilla, ympäristöystävällisillä tuotteilla, jotka suojaavat kuituja ja pidentävät tekstiileidesi käyttöikää." },
+      "drying": { "title": "Kuivaus ja valmistelu", "description": "Kuivaamme ja pakkaamme jokaisen setin erikseen, valmiina käyttöön seuraavassa sisäänkirjautumisessa. Kaikki täydellisesti järjestetty ja suojattu." },
+      "delivery": { "title": "Täsmällinen toimitus", "description": "Palautamme puhtaat, valmiit liinavaatteet sovituissa aikatauluissa, jotta kiinteistösi on aina valmis vastaanottamaan seuraavat vieraat ilman viivästyksiä." }
+    },
+    "trustTitle": "Mielenrauhasi, meidän prioriteettimme",
+    "trustDesc": "Tiedämme, että loma-asunnon hallinta vaatii huomiota tuhanteen yksityiskohtaan. Pesulapalvelumme avulla eliminoit yhden toistuvimmista ja kriittisimmistä tehtävistä. Vieraasi nauttivat aina moitteettomista, raikkaista ja kodikkaista liinavaatteista, ja sinä saat aikaa keskittyä siihen, mikä todella merkitsee: kannattavuutesi maksimointiin ja unohtumattomien kokemusten tarjoamiseen.",
+    "experienceDesc": "Luota <strong>OpenBlue Fuengirolaan</strong>. Yli 4 vuoden kokemus tukee meitä täydellisenä kumppanina omistajille, jotka etsivät ammattimaisuutta, täsmällisyyttä ja moitteettomia tuloksia.",
+    "ctaText": "Haluatko tietää lisää? Ota meihin yhteyttä ja laadimme räätälöidyn suunnitelman kiinteistöllesi.",
+    "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
+  }
+}
