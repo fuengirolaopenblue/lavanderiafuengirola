@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "contact": "Contact",
+    "contactBtn": "Contacter",
+    "subtitle": "Laverie Libre-Service"
+  },
+  "hero": {
+    "badge": "Ouvert 24h · Fuengirola",
+    "subtitle": "Laverie et Boutique Libre-Service",
+    "description": "Votre laverie de confiance à Fuengirola. Lavage à partir de 6€, séchage à partir de 3€. Nous proposons également un service de blanchisserie pour locations de vacances et gestion intégrale de propriétés.",
+    "washFrom": "Lavage dès",
+    "dryFrom": "Séchage dès",
+    "productsIncluded": "Produits inclus",
+    "viewServices": "Voir Nos Services",
+    "contactNow": "Contacter Maintenant"
+  },
+  "services": {
+    "sectionLabel": "Nos Services",
+    "title": "Solutions complètes pour votre",
+    "titleHighlight": "confort",
+    "subtitle": "De la laverie libre-service à la gestion intégrale de votre propriété, nous proposons des services professionnels adaptés à vos besoins.",
+    "moreInfo": "Plus d'informations",
+    "selfService": {
+      "title": "Laverie Libre-Service",
+      "description": "Machines dernière génération disponibles 24h/24. Payez facilement en espèces, billets ou cartes bancaires.",
+      "features": [
+        "Lave-linge 19kg → 8€ | 15kg → 6€",
+        "Sèche-linge 19kg → 3€/20min",
+        "+5 min pour 0,50€ (extensible)",
+        "Produits inclus",
+        "Ouvert 24h / 365 jours"
+      ]
+    },
+    "vacation": {
+      "title": "Blanchisserie pour Locations de Vacances",
+      "description": "Service spécialisé pour propriétaires et gestionnaires d'hébergements touristiques. Linge de lit, serviettes et textiles toujours impeccables.",
+      "features": ["Collecte et livraison", "Traitement professionnel", "Désinfection complète", "Tarifs entreprises"]
+    },
+    "individuals": {
+      "title": "Blanchisserie pour Particuliers",
+      "description": "Pas le temps de faire la lessive ? Nous le faisons pour vous. Service complet de blanchisserie avec",
+      "descriptionBold": "collecte et livraison à domicile",
+      "descriptionEnd": ". Dites-nous ce dont vous avez besoin et nous nous occupons de tout.",
+      "contact": "Contacter"
+    },
+    "management": {
+      "title": "Gestion de Locations de Vacances",
+      "description": "Nous gérons votre propriété de A à Z. Check-in/out, ménage, maintenance et service aux clients pour maximiser votre rentabilité."
+    }
+  },
+  "about": {
+    "sectionLabel": "À Propos",
+    "title": "Passion du détail, engagement pour votre",
+    "titleHighlight": "tranquillité",
+    "p1": "Chez OpenBlue Fuengirola, nous avons commencé il y a 4 ans avec une mission claire : offrir un service de blanchisserie professionnel qui fait la différence. Nous sommes spécialisés dans l'entretien du linge blanc pour locations de vacances et particuliers, car nous savons que la fraîcheur et une présentation impeccable sont essentielles.",
+    "p2": "Nous sommes animés par la passion du travail bien fait, par ces petits détails qui transforment un simple linge de lit en une expérience accueillante pour vos hôtes. Chaque vêtement que nous traitons, chaque tache que nous éliminons et chaque livraison ponctuelle nous pousse à être meilleurs.",
+    "p3": "Nous travaillons avec des produits haut de gamme et respectueux de l'environnement, car prendre soin de votre linge et de notre planète vont de pair. Que vous gériez plusieurs locations ou que vous ayez simplement besoin d'un service de blanchisserie fiable pour votre foyer, nous sommes là pour vous faciliter la vie.",
+    "p4": "Nous sommes en croissance constante, augmentant notre capacité et améliorant nos processus car nous croyons pouvoir toujours vous offrir plus. Votre confiance est notre plus grande motivation.",
+    "p5": "Bienvenue chez OpenBlue Fuengirola. Où chaque vêtement reçoit le soin qu'il mérite.",
+    "features": {
+      "quality": "Qualité Garantie",
+      "qualityDesc": "Nous utilisons des produits premium et des techniques professionnelles pour des résultats impeccables.",
+      "open": "Ouvert 24/7",
+      "openDesc": "Nos installations sont disponibles tous les jours de l'année, 24 heures sur 24.",
+      "team": "Équipe Professionnelle",
+      "teamDesc": "Personnel qualifié et engagé pour l'excellence dans chaque détail."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Vous avez une",
+    "titleHighlight": "question",
+    "subtitle": "Nous sommes là pour vous aider. Contactez-nous et nous vous répondrons dès que possible.",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+34 600 000 000",
+    "email": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "serviceLabel": "Service souhaité",
+    "servicePlaceholder": "Ex : Blanchisserie pour locations de vacances",
+    "message": "Message",
+    "messagePlaceholder": "Dites-nous comment nous pouvons vous aider...",
+    "sending": "Envoi en cours...",
+    "sent": "Envoyé !",
+    "sendMessage": "Envoyer le Message",
+    "successToast": "Message envoyé avec succès ! Nous vous répondrons bientôt.",
+    "errorToast": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+    "connectionError": "Erreur de connexion. Veuillez réessayer plus tard.",
+    "infoTitle": "Informations de contact",
+    "infoSubtitle": "Rendez-nous visite dans nos locaux ou contactez-nous par l'un des moyens suivants.",
+    "location": "Emplacement",
+    "whatsapp": "WhatsApp",
+    "laundryHours": "Horaires Laverie",
+    "laundryHoursValue": "24 heures / 365 jours"
+  },
+  "footer": {
+    "description": "Votre laverie de confiance à Fuengirola. Services de laverie libre-service et gestion de locations de vacances.",
+    "quickLinks": "Liens Rapides",
+    "servicesTitle": "Services",
+    "selfService": "Laverie Libre-Service",
+    "vacationLaundry": "Blanchisserie Vacances",
+    "propertyMgmt": "Gestion de Propriétés",
+    "profCleaning": "Nettoyage Professionnel",
+    "rights": "Tous droits réservés."
+  },
+  "gestion": {
+    "heroTitle": "Gestion Intégrale de Votre Location de Vacances",
+    "heroSubtitle": "Détendez-vous complètement. Nous nous occupons de tout.",
+    "intro": "Chez OpenBlue Fuengirola, nous transformons votre propriété en une source de revenus constante, sans que vous ayez à vous soucier de quoi que ce soit. Nous proposons un service de gestion 360° conçu pour les propriétaires souhaitant maximiser leur rentabilité sans complications.",
+    "whatIncluded": "Que comprend notre gestion intégrale ?",
+    "steps": {
+      "visibility": { "title": "Publication et visibilité", "description": "Nous créons et gérons des annonces professionnelles sur les principales plateformes de location de vacances (Airbnb, Booking, Vrbo et plus). Nous optimisons descriptions, photos et prix pour attirer plus de réservations." },
+      "guests": { "title": "Service aux clients", "description": "Nous gérons toutes les communications, demandes et réservations. Du premier contact aux adieux, vos hôtes reçoivent une attention personnalisée et professionnelle." },
+      "checkin": { "title": "Check-in et check-out", "description": "Nous nous occupons de la remise et récupération des clés aux horaires convenus, en accueillant vos hôtes et en nous assurant que tout est parfait." },
+      "cleaning": { "title": "Nettoyage professionnel", "description": "Après chaque séjour, nous effectuons un nettoyage en profondeur. Votre propriété sera toujours impeccable, prête à accueillir les prochains hôtes." },
+      "laundry": { "title": "Service de blanchisserie", "description": "Nous collectons, détachons, lavons, séchons et emballons tout le linge de lit et les serviettes. Nous les rendons prêts à l'emploi, avec des produits écologiques." },
+      "maintenance": { "title": "Maintenance et supervision", "description": "Nous effectuons des inspections régulières et coordonnons les réparations nécessaires. Nous détectons les problèmes avant qu'ils ne deviennent majeurs." },
+      "financial": { "title": "Gestion financière transparente", "description": "Vous recevrez des rapports détaillés sur les revenus, dépenses et taux d'occupation. Transparence totale pour que vous sachiez toujours comment fonctionne votre propriété." }
+    },
+    "trustTitle": "Votre propriété entre les meilleures mains",
+    "trustDesc": "Nous savons que votre location de vacances est un investissement important. C'est pourquoi nous travaillons chaque jour pour générer les revenus maximaux, en maintenant sa valeur et en garantissant des expériences exceptionnelles à vos hôtes.",
+    "experienceDesc": "Avec <strong>OpenBlue Fuengirola</strong>, louer votre propriété est vraiment rentable et sans tracas. Plus de 4 ans d'expérience dans la gestion de propriétés de vacances à Fuengirola nous soutiennent.",
+    "ctaText": "Vous voulez savoir combien vous pouvez gagner avec votre propriété ? Contactez-nous pour une étude personnalisée et sans engagement.",
+    "ctaWhatsApp": "Contacter par WhatsApp",
+    "backHome": "Retour à l'accueil"
+  },
+  "autoservicioModal": {
+    "title": "Laverie Libre-Service à Fuengirola",
+    "subtitle": "Une expérience complète pensée pour votre confort",
+    "intro": "Dans notre laverie libre-service, nous ne vous aidons pas seulement à garder vos vêtements impeccables, nous vous offrons aussi un espace confortable pour profiter de votre temps.",
+    "machinesTitle": "Machines de Classe Mondiale",
+    "machinesDesc": "Nous disposons de lave-linge et sèche-linge industriels <strong>GIRBAU, fabriqués en Espagne</strong>, reconnus internationalement pour leur efficacité, durabilité et résultats exceptionnels.",
+    "washer19": "Lave-linge 19 kg",
+    "washer19Desc": "Idéal pour couvertures, couettes et gros volumes",
+    "washer15": "Lave-linge 15 kg",
+    "washer15Desc": "Parfait pour charges moyennes et linge quotidien",
+    "dryer19": "Sèche-linge 19 kg",
+    "dryer19Extra": "+5 minutes supplémentaires pour seulement 0,50€",
+    "dryer19Extra2": "Extensible autant de fois que nécessaire",
+    "vendingTitle": "Zone Distributeurs 24h",
+    "vendingDesc": "Machine à café avec variété d'options chaudes, boissons fraîches, snacks et confiseries pour rendre votre attente agréable.",
+    "coffeeTitle": "Machine à Café",
+    "coffeeDesc": "Délicieux café noisette, latte, espresso, cappuccino, chocolat chaud et bien plus",
+    "wifiTitle": "WiFi Gratuit",
+    "wifiDesc": "Naviguez, travaillez ou divertissez-vous en attendant votre lessive",
+    "oxygenTitle": "Technologie à l'Oxygène Actif",
+    "oxygenDesc": "Nous utilisons de l'<strong>oxygène actif</strong> à chaque lavage, un agent puissant qui élimine les taches tenaces, blanchit et désinfecte en profondeur sans abîmer les tissus.",
+    "tip": "Changement de saison ? Venez nous rendre visite. Rangez vos vêtements propres et désinfectés avec nos lave-linge grande capacité, idéaux pour couvertures et couettes.",
+    "tipLabel": "💡 Conseil :",
+    "closing": "Nous vous attendons dans un espace propre, moderne et facilement accessible, avec tous les services dont vous avez besoin."
+  },
+  "pisosModal": {
+    "title": "Service de Blanchisserie Professionnel pour Votre",
+    "titleHighlight": "Location de Vacances",
+    "introTitle": "Oubliez les soucis. Nous prenons soin de chaque détail de votre linge.",
+    "introDesc": "Chez OpenBlue Fuengirola, nous comprenons que le linge de lit et les serviettes sont au cœur de l'expérience de vos hôtes. C'est pourquoi nous avons conçu un service de blanchisserie intégral qui vous libère complètement de cette tâche.",
+    "howTitle": "Comment fonctionne notre service ?",
+    "steps": {
+      "pickup": { "title": "Collecte à domicile", "description": "Nous passons chez vous et récupérons tout le linge de lit et de bain après chaque check-out." },
+      "treatment": { "title": "Traitement professionnel", "description": "Nous appliquons des traitements spécifiques de détachage, assurant que chaque pièce retrouve sa blancheur et fraîcheur originales. Nous lavons avec des produits écologiques de première qualité." },
+      "drying": { "title": "Séchage et préparation", "description": "Nous séchons et emballons chaque jeu individuellement, prêt à l'emploi pour le prochain check-in." },
+      "delivery": { "title": "Livraison ponctuelle", "description": "Nous rendons le linge propre et prêt dans les délais convenus, pour que votre propriété soit toujours préparée." }
+    },
+    "trustTitle": "Votre tranquillité, notre priorité",
+    "trustDesc": "Nous savons que la gestion d'une location de vacances implique mille détails. Avec notre service de blanchisserie, vous éliminez l'une des tâches les plus répétitives et critiques.",
+    "experienceDesc": "Faites confiance à <strong>OpenBlue Fuengirola</strong>. Plus de 4 ans d'expérience nous soutiennent comme l'allié parfait pour les propriétaires.",
+    "ctaText": "Vous voulez en savoir plus ? Contactez-nous et nous préparerons un plan sur mesure pour votre propriété.",
+    "ctaWhatsApp": "Contacter par WhatsApp"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre Nós",
+    "contact": "Contacto",
+    "contactBtn": "Contactar",
+    "subtitle": "Lavandaria Self-Service"
+  },
+  "hero": {
+    "badge": "Aberto 24 horas · Fuengirola",
+    "subtitle": "Lavandaria e Loja Self-Service",
+    "description": "A sua lavandaria de confiança em Fuengirola. Lavagem a partir de 6€, secagem a partir de 3€. Também oferecemos serviço de lavandaria para alojamentos de férias e gestão integral de propriedades.",
+    "washFrom": "Lavagem desde",
+    "dryFrom": "Secagem desde",
+    "productsIncluded": "Produtos incluídos",
+    "viewServices": "Ver Os Nossos Serviços",
+    "contactNow": "Contactar Agora"
+  },
+  "services": {
+    "sectionLabel": "Os Nossos Serviços",
+    "title": "Soluções completas para o seu",
+    "titleHighlight": "conforto",
+    "subtitle": "Desde lavandaria self-service até à gestão integral da sua propriedade, oferecemos serviços profissionais adaptados às suas necessidades.",
+    "moreInfo": "Mais informações",
+    "selfService": {
+      "title": "Lavandaria Self-Service",
+      "description": "Máquinas de última geração disponíveis 24 horas. Pague facilmente com moedas, notas ou cartões bancários.",
+      "features": [
+        "Máquina de lavar 19kg → 8€ | 15kg → 6€",
+        "Secadora 19kg → 3€/20min",
+        "+5 min por 0,50€ (extensível)",
+        "Produtos incluídos",
+        "Aberto 24h / 365 dias"
+      ]
+    },
+    "vacation": {
+      "title": "Lavandaria para Alojamentos de Férias",
+      "description": "Serviço especializado para proprietários e gestores de alojamentos turísticos. Roupa de cama, toalhas e têxteis sempre impecáveis.",
+      "features": ["Recolha e entrega", "Tratamento profissional", "Desinfeção completa", "Tarifas empresariais"]
+    },
+    "individuals": {
+      "title": "Lavandaria para Particulares",
+      "description": "Não tem tempo para lavar roupa? Nós fazemos por si. Serviço completo de lavandaria com",
+      "descriptionBold": "recolha e entrega ao domicílio",
+      "descriptionEnd": ". Diga-nos o que precisa e nós tratamos de tudo.",
+      "contact": "Contactar"
+    },
+    "management": {
+      "title": "Gestão de Alojamentos de Férias",
+      "description": "Gerimos a sua propriedade do início ao fim. Check-in/out, limpeza, manutenção e atendimento ao hóspede para maximizar a sua rentabilidade."
+    }
+  },
+  "about": {
+    "sectionLabel": "Sobre Nós",
+    "title": "Paixão pelo detalhe, compromisso com a sua",
+    "titleHighlight": "tranquilidade",
+    "p1": "Na OpenBlue Fuengirola começámos há 4 anos com uma missão clara: oferecer um serviço de lavandaria profissional que fizesse a diferença. Somos especializados no cuidado de roupa branca para alojamentos de férias e particulares, porque sabemos que a frescura e a apresentação impecável são fundamentais.",
+    "p2": "Move-nos a paixão pelo trabalho bem feito, pelos pequenos detalhes que transformam uma simples roupa de cama numa experiência acolhedora para os seus hóspedes. Cada peça que tratamos, cada mancha que removemos e cada entrega pontual nos impulsiona a ser melhores.",
+    "p3": "Trabalhamos com produtos de primeira linha e amigos do ambiente, porque cuidar da sua roupa e do nosso planeta andam de mãos dadas. Quer gerencie vários alojamentos de férias ou simplesmente precise de um serviço de lavandaria fiável para a sua casa, estamos aqui para facilitar a sua vida.",
+    "p4": "Estamos em constante crescimento, ampliando a nossa capacidade e melhorando os nossos processos porque acreditamos que podemos sempre oferecer-lhe mais. A sua confiança é o nosso maior impulso.",
+    "p5": "Bem-vindo à OpenBlue Fuengirola. Onde cada peça recebe o cuidado que merece.",
+    "features": {
+      "quality": "Qualidade Garantida",
+      "qualityDesc": "Utilizamos produtos premium e técnicas profissionais para resultados impecáveis.",
+      "open": "Aberto 24/7",
+      "openDesc": "As nossas instalações estão disponíveis todos os dias do ano, 24 horas por dia.",
+      "team": "Equipa Profissional",
+      "teamDesc": "Pessoal qualificado e comprometido com a excelência em cada detalhe."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contacto",
+    "title": "Tem alguma",
+    "titleHighlight": "pergunta",
+    "subtitle": "Estamos aqui para ajudar. Contacte-nos e responderemos o mais rapidamente possível.",
+    "formTitle": "Envie-nos uma mensagem",
+    "name": "Nome",
+    "namePlaceholder": "O seu nome",
+    "phone": "Telefone",
+    "phonePlaceholder": "+34 600 000 000",
+    "email": "Email",
+    "emailPlaceholder": "seu@email.com",
+    "serviceLabel": "Serviço de interesse",
+    "servicePlaceholder": "Ex: Lavandaria para alojamentos de férias",
+    "message": "Mensagem",
+    "messagePlaceholder": "Diga-nos como podemos ajudá-lo...",
+    "sending": "A enviar...",
+    "sent": "Enviado!",
+    "sendMessage": "Enviar Mensagem",
+    "successToast": "Mensagem enviada com sucesso! Responderemos em breve.",
+    "errorToast": "Ocorreu um erro ao enviar a mensagem. Tente novamente.",
+    "connectionError": "Erro de ligação. Por favor, tente mais tarde.",
+    "infoTitle": "Informações de contacto",
+    "infoSubtitle": "Visite-nos nas nossas instalações ou entre em contacto através de qualquer um dos seguintes meios.",
+    "location": "Localização",
+    "whatsapp": "WhatsApp",
+    "laundryHours": "Horário Lavandaria",
+    "laundryHoursValue": "24 horas / 365 dias"
+  },
+  "footer": {
+    "description": "A sua lavandaria de confiança em Fuengirola. Serviços de lavandaria self-service e gestão de alojamentos de férias.",
+    "quickLinks": "Links Rápidos",
+    "servicesTitle": "Serviços",
+    "selfService": "Lavandaria Self-Service",
+    "vacationLaundry": "Lavandaria de Férias",
+    "propertyMgmt": "Gestão de Propriedades",
+    "profCleaning": "Limpeza Profissional",
+    "rights": "Todos os direitos reservados."
+  },
+  "gestion": {
+    "heroTitle": "Gestão Integral do Seu Alojamento de Férias",
+    "heroSubtitle": "Despreocupe-se completamente. Nós tratamos de tudo.",
+    "intro": "Na OpenBlue Fuengirola transformamos a sua propriedade numa fonte de rendimento constante, sem que tenha de se preocupar com nada. Oferecemos um serviço de gestão 360° desenhado para proprietários que procuram maximizar a sua rentabilidade sem complicações.",
+    "whatIncluded": "O que inclui a nossa gestão integral?",
+    "steps": {
+      "visibility": { "title": "Publicação e visibilidade", "description": "Criamos e gerimos anúncios profissionais nas principais plataformas de aluguer de férias (Airbnb, Booking, Vrbo e mais). Otimizamos descrições, fotos e preços para atrair mais reservas." },
+      "guests": { "title": "Atendimento aos hóspedes", "description": "Gerimos todas as comunicações, consultas e reservas. Do primeiro contacto à despedida, os seus hóspedes recebem atenção personalizada e profissional." },
+      "checkin": { "title": "Check-in e check-out", "description": "Tratamos da entrega e recolha das chaves nos horários combinados, dando as boas-vindas aos seus hóspedes e garantindo que tudo está perfeito." },
+      "cleaning": { "title": "Limpeza profissional", "description": "Após cada estadia, realizamos uma limpeza profunda e exaustiva. A sua propriedade estará sempre impecável, pronta para receber os próximos hóspedes." },
+      "laundry": { "title": "Serviço de lavandaria", "description": "Recolhemos, removemos manchas, lavamos, secamos e embalamos toda a roupa de cama e toalhas. Devolvemos tudo pronto a usar, com produtos ecológicos." },
+      "maintenance": { "title": "Manutenção e supervisão", "description": "Realizamos inspeções periódicas e coordenamos qualquer reparação necessária. Detetamos problemas antes que se tornem inconvenientes maiores." },
+      "financial": { "title": "Gestão financeira transparente", "description": "Receberá relatórios detalhados de receitas, despesas e ocupação. Total transparência para que saiba sempre como está a funcionar a sua propriedade." }
+    },
+    "trustTitle": "A sua propriedade nas melhores mãos",
+    "trustDesc": "Sabemos que o seu alojamento de férias é um investimento importante. Por isso trabalhamos todos os dias para gerar o máximo de receitas, mantendo o seu valor e garantindo experiências excecionais aos seus hóspedes.",
+    "experienceDesc": "Com a <strong>OpenBlue Fuengirola</strong>, alugar a sua propriedade é realmente rentável e sem complicações. Mais de 4 anos de experiência na gestão de propriedades de férias em Fuengirola sustentam-nos.",
+    "ctaText": "Quer saber quanto pode ganhar com a sua propriedade? Contacte-nos para um estudo personalizado e sem compromisso.",
+    "ctaWhatsApp": "Contactar por WhatsApp",
+    "backHome": "Voltar ao início"
+  },
+  "autoservicioModal": {
+    "title": "Lavandaria Self-Service em Fuengirola",
+    "subtitle": "Uma experiência completa pensada para o seu conforto",
+    "intro": "Na nossa lavandaria self-service não só ajudamos a manter a sua roupa impecável, como também oferecemos um espaço confortável para aproveitar o seu tempo.",
+    "machinesTitle": "Maquinaria de Classe Mundial",
+    "machinesDesc": "Dispomos de máquinas de lavar e secar industriais <strong>GIRBAU, fabricadas em Espanha</strong>, reconhecidas internacionalmente pela sua eficiência, durabilidade e resultados excecionais.",
+    "washer19": "Máquina de Lavar 19 kg",
+    "washer19Desc": "Ideal para cobertores, edredões e grandes volumes de roupa",
+    "washer15": "Máquina de Lavar 15 kg",
+    "washer15Desc": "Perfeita para cargas médias e roupa do dia a dia",
+    "dryer19": "Secadora 19 kg",
+    "dryer19Extra": "+5 minutos adicionais por apenas 0,50€",
+    "dryer19Extra2": "Extensível quantas vezes precisar",
+    "vendingTitle": "Zona de Vending 24h",
+    "vendingDesc": "Máquina de café com ampla variedade de opções quentes, refrigerantes, snacks e doces para tornar a sua espera mais agradável.",
+    "coffeeTitle": "Máquina de Café",
+    "coffeeDesc": "Delicioso café de avelã, café com leite, expresso, cappuccino, chocolate quente e muito mais",
+    "wifiTitle": "WiFi Grátis",
+    "wifiDesc": "Navegue, trabalhe ou divirta-se enquanto espera pela sua roupa",
+    "oxygenTitle": "Tecnologia de Oxigénio Ativo",
+    "oxygenDesc": "Utilizamos <strong>oxigénio ativo</strong> em cada lavagem, um agente poderoso que remove manchas difíceis, branqueia e desinfeta em profundidade sem danificar os tecidos.",
+    "tip": "Mudança de estação? Venha visitar-nos. Guarde a sua roupa limpa e desinfetada com as nossas máquinas de grande capacidade, ideais para cobertores, edredões e toda a roupa de inverno.",
+    "tipLabel": "💡 Dica:",
+    "closing": "Esperamos por si num espaço limpo, moderno e de fácil acesso, com todos os serviços de que precisa."
+  },
+  "pisosModal": {
+    "title": "Serviço de Lavandaria Profissional para o Seu",
+    "titleHighlight": "Alojamento de Férias",
+    "introTitle": "Esqueça as preocupações. Nós cuidamos de cada detalhe da sua roupa branca.",
+    "introDesc": "Na OpenBlue Fuengirola entendemos que a roupa de cama e as toalhas são o coração da experiência dos seus hóspedes. Por isso concebemos um serviço de lavandaria integral que o liberta completamente desta tarefa.",
+    "howTitle": "Como funciona o nosso serviço?",
+    "steps": {
+      "pickup": { "title": "Recolha ao domicílio", "description": "Passamos pela sua propriedade e recolhemos toda a roupa de cama e banho após cada check-out." },
+      "treatment": { "title": "Tratamento profissional", "description": "Aplicamos tratamentos específicos de remoção de manchas, garantindo que cada peça recupere a sua brancura e frescura originais." },
+      "drying": { "title": "Secagem e preparação", "description": "Secamos e embalamos cada conjunto individualmente, pronto para usar no próximo check-in." },
+      "delivery": { "title": "Entrega pontual", "description": "Devolvemos a roupa limpa e pronta nos prazos acordados, para que a sua propriedade esteja sempre preparada." }
+    },
+    "trustTitle": "A sua tranquilidade, a nossa prioridade",
+    "trustDesc": "Sabemos que a gestão de um alojamento de férias implica atenção a mil detalhes. Com o nosso serviço de lavandaria, elimina uma das tarefas mais repetitivas e críticas.",
+    "experienceDesc": "Confie na <strong>OpenBlue Fuengirola</strong>. Mais de 4 anos de experiência sustentam-nos como o aliado perfeito para proprietários.",
+    "ctaText": "Quer saber mais? Contacte-nos e preparamos um plano à medida para a sua propriedade.",
+    "ctaWhatsApp": "Contactar por WhatsApp"
+  }
+}
