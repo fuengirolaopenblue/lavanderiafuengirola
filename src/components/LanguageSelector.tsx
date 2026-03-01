@@ -22,7 +22,7 @@ const LanguageSelector = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="flex items-center gap-1.5 px-2 py-1.5 rounded-md text-muted-foreground hover:text-primary transition-colors duration-300 focus:outline-none">
-        <Globe className="w-4 h-4" />
+        <span className="text-base">{languages.find(l => l.code === i18n.language)?.flag ?? "🌐"}</span>
         <span className="text-sm font-medium uppercase">{i18n.language}</span>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-popover min-w-[140px]">
