@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Award, Clock, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import interiorLocal from "@/assets/interior-local.jpg";
 
 const About = () => {
   const { t } = useTranslation();
