@@ -7,6 +7,7 @@ import { useState, FormEvent } from "react";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
+const FORMSPREE_URL = "https://formspree.io/f/xnjbndyz";
 const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/formResponse";
 
