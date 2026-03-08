@@ -126,6 +126,9 @@ const Contact = () => {
 
       if (!response.ok) throw new Error("Formspree submission failed");
 
+      // Also send to Google Forms for statistics (background, won't affect UX)
+      sendToGoogleForms(formData);
+
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
       try { form.reset(); } catch { /* form may be unmounted */ }
