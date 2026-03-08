@@ -8,6 +8,42 @@ import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
 const FORMSPREE_URL = "https://formspree.io/f/xnjbndyz";
+const GOOGLE_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/formResponse";
+
+// Send to Google Forms in background via hidden iframe (no blank page)
+const sendToGoogleForms = (formData: FormData) => {
+  try {
+    const iframe = document.createElement("iframe");
+    iframe.name = "google-form-iframe-" + Date.now();
+    iframe.style.display = "none";
+    document.body.appendChild(iframe);
+
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = GOOGLE_FORM_URL;
+    form.target = iframe.name;
+
+    formData.forEach((value, key) => {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = key;
+      input.value = value.toString();
+      form.appendChild(input);
+    });
+
+    document.body.appendChild(form);
+    form.submit();
+
+    // Cleanup after a few seconds
+    setTimeout(() => {
+      document.body.removeChild(form);
+      document.body.removeChild(iframe);
+    }, 5000);
+  } catch {
+    // Silent fail - Formspree is the primary
+  }
+};
 
 const SERVICE_OPTIONS = [
   "Gestión de Pisos Vacacionales",
