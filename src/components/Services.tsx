@@ -6,10 +6,12 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
+import DeliveryModal from "./DeliveryModal";
 
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
+  const [deliveryModalOpen, setDeliveryModalOpen] = useState(false);
   const { t } = useTranslation();
 
   const services = [
