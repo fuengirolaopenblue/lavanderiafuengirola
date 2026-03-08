@@ -69,16 +69,23 @@ const Contact = () => {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
+    
+    // Convert to URLSearchParams for Google Forms compatibility
+    const params = new URLSearchParams();
+    formData.forEach((value, key) => {
+      params.append(key, value.toString());
+    });
 
     try {
-      // Google Forms requires submitting via no-cors fetch
       await fetch(GOOGLE_FORM_URL, {
         method: "POST",
-        body: formData,
+        body: params,
         mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
       });
 
-      // no-cors always returns opaque response, so we assume success
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
       form.reset();
