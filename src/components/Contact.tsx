@@ -64,17 +64,35 @@ const Contact = () => {
   ];
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     setIsSubmitting(true);
 
     const form = e.currentTarget;
+    const formData = new FormData(form);
 
-    // Native form post is more reliable for Google Forms than fetch(no-cors)
-    window.setTimeout(() => {
+    // Build URL with query params - most reliable cross-origin method
+    const params = new URLSearchParams();
+    formData.forEach((value, key) => {
+      params.append(key, value.toString());
+    });
+
+    // Use Image beacon to submit (bypasses CORS and sandbox restrictions)
+    const img = new Image();
+    img.src = `${GOOGLE_FORM_URL}?${params.toString()}`;
+
+    // Also try fetch as backup
+    fetch(GOOGLE_FORM_URL, {
+      method: "POST",
+      body: params,
+      mode: "no-cors",
+    }).catch(() => {});
+
+    setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
       form.reset();
-      window.setTimeout(() => setIsSubmitted(false), 5000);
+      setTimeout(() => setIsSubmitted(false), 5000);
     }, 800);
   };
 
@@ -109,14 +127,7 @@ const Contact = () => {
             <h3 className="font-display text-2xl font-bold text-foreground mb-6">
               {t("contact.formTitle")}
             </h3>
-            <iframe name="google-form-target" className="hidden" title="Google Forms submit target" />
-            <form
-              onSubmit={handleSubmit}
-              action={GOOGLE_FORM_URL}
-              method="POST"
-              target="google-form-target"
-              className="space-y-6"
-            >
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
