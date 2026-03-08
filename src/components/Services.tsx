@@ -218,6 +218,7 @@ const Services = () => {
 
       <AutoservicioModal open={autoservicioModalOpen} onOpenChange={setAutoservicioModalOpen} />
       <PisosVacacionalModal open={pisosModalOpen} onOpenChange={setPisosModalOpen} />
+      <DeliveryModal open={deliveryModalOpen} onOpenChange={setDeliveryModalOpen} />
     </section>
   );
 };
