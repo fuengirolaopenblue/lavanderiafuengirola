@@ -76,8 +76,11 @@ const Footer = () => {
               <Star className="w-4 h-4 fill-current" />
               {t("footer.leaveReview")}
             </a>
-            {[Facebook, Instagram].map((Icon, index) => (
-              <a key={index} href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-gold transition-colors duration-300">
+            {[
+              { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=61575797150377" },
+              { Icon: Instagram, href: "#" },
+            ].map(({ Icon, href }, index) => (
+              <a key={index} href={href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-gold transition-colors duration-300">
                 <Icon className="w-5 h-5" />
               </a>
             ))}
