@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Globe, MessageSquare, KeyRound, SprayCan, WashingMachine, Wrench, BarChart3, ShieldCheck, Star, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,8 +14,14 @@ const stepKeys = ["visibility", "guests", "checkin", "cleaning", "laundry", "mai
 const GestionVacacional = () => {
   const { t } = useTranslation();
 
+  useEffect(() => {
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen bg-background">
+    <div id="inicio" className="min-h-screen bg-background">
       <Header />
       <main className="pt-20 md:pt-24">
         <section className="py-16 md:py-24 bg-gradient-openblue">
