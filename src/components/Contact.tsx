@@ -8,30 +8,6 @@ import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
 const FORMSPREE_URL = "https://formspree.io/f/xnjbndyz";
-const GOOGLE_FORM_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/formResponse";
-
-// Send to Google Forms in background (multiple methods for reliability)
-const sendToGoogleForms = (formData: FormData) => {
-  const params = new URLSearchParams();
-  formData.forEach((value, key) => params.append(key, value.toString()));
-  const url = `${GOOGLE_FORM_URL}?${params.toString()}`;
-
-  // Method 1: sendBeacon (most reliable for background sends)
-  if (navigator.sendBeacon) {
-    navigator.sendBeacon(
-      GOOGLE_FORM_URL,
-      new URLSearchParams(params)
-    );
-  }
-
-  // Method 2: Pixel/image GET request (bypasses CORS)
-  const img = document.createElement("img");
-  img.style.display = "none";
-  img.src = url;
-  document.body.appendChild(img);
-  setTimeout(() => img.remove(), 5000);
-};
 
 const SERVICE_OPTIONS = [
   "Gestión de Pisos Vacacionales",
