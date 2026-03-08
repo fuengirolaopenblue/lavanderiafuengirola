@@ -82,25 +82,22 @@ const Contact = () => {
     };
 
     try {
-      // Primary: Formspree (reliable, with CORS support)
-      await fetch(FORMSPREE_URL, {
+      const response = await fetch(FORMSPREE_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(formspreeData),
       });
 
-      // Secondary: Google Forms backup (no-cors, fire & forget)
-      const params = new URLSearchParams();
-      formData.forEach((value, key) => params.append(key, value.toString()));
-      fetch(GOOGLE_FORM_URL, { method: "POST", body: params, mode: "no-cors" }).catch(() => {});
-    } catch {
-      // Even if Formspree fails, show success (Google Forms backup may work)
-    }
+      if (!response.ok) throw new Error("Formspree submission failed");
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    toast.success(t("contact.successToast"));
-    try { form.reset(); } catch { /* form may be unmounted */ }
+      setIsSubmitted(true);
+      toast.success(t("contact.successToast"));
+      try { form.reset(); } catch { /* form may be unmounted */ }
+    } catch {
+      toast.error(t("contact.errorToast", "No se pudo enviar el mensaje. Inténtalo de nuevo."));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
