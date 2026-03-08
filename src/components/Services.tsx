@@ -72,43 +72,68 @@ const Services = () => {
           </p>
         </motion.div>
 
-        {/* Services Grid */}
+        {/* Autoservicio Banner */}
         <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-accent to-primary p-8 md:p-10 shadow-elevated"
         >
-          {services.map((service, index) => (
-            <motion.div
-              key={index}
-              variants={itemVariants}
-              className="group relative bg-card rounded-2xl p-8 shadow-card hover:shadow-elevated transition-all duration-500 border border-border/50 hover:border-primary/30"
-            >
-              <div className="w-16 h-16 rounded-xl bg-gradient-openblue flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <service.icon className="w-8 h-8 text-primary-foreground" />
-              </div>
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">
-                {service.title}
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center flex-shrink-0">
+              <WashingMachine className="w-7 h-7 text-primary-foreground" />
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
+                {t("services.selfService.title")}
               </h3>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                {service.description}
+              <p className="text-primary-foreground/80 leading-relaxed">
+                {t("services.selfService.description")}
               </p>
-              <ul className="space-y-2 mb-8">
-                {service.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-              <Button variant="outline" className="w-full group/btn" onClick={openModals[index]}>
-                {t("services.moreInfo")}
-                <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-              </Button>
-            </motion.div>
-          ))}
+            </div>
+            <Button
+              variant="heroOutline"
+              size="lg"
+              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              onClick={() => setAutoservicioModalOpen(true)}
+            >
+              {t("services.moreInfo")}
+              <ArrowRight className="w-4 h-4" />
+            </Button>
+          </div>
+        </motion.div>
+
+        {/* Pisos Vacacionales Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.15 }}
+          className="mt-8 relative overflow-hidden rounded-2xl bg-gradient-openblue p-8 md:p-10 shadow-elevated"
+        >
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center flex-shrink-0">
+              <Home className="w-7 h-7 text-primary-foreground" />
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
+                {t("services.vacation.title")}
+              </h3>
+              <p className="text-primary-foreground/80 leading-relaxed">
+                {t("services.vacation.description")}
+              </p>
+            </div>
+            <Button
+              variant="heroOutline"
+              size="lg"
+              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              onClick={() => setPisosModalOpen(true)}
+            >
+              {t("services.moreInfo")}
+              <ArrowRight className="w-4 h-4" />
+            </Button>
+          </div>
         </motion.div>
 
         {/* Delivery / Puerta a Puerta Banner */}
