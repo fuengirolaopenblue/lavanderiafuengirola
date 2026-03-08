@@ -195,5 +195,26 @@
     "comfortDesc": "Unohda matkat, odottelu ja hankaluudet. Toimituspalvelumme avulla ammattimainen pesula tulee ovellesi. Täydellinen yksityishenkilöille ja loma-asuntojen omistajille.",
     "ctaText": "Haluatko tietää alueesi hinnat? Ota yhteyttä ja laadimme sinulle räätälöidyn tarjouksen.",
     "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
+  },
+  "particularesModal": {
+    "title": "Pesulapalvelu yksityishenkilöille",
+    "subtitle": "Vaatteesi parhaissa käsissä, ilman vaivaa.",
+    "intro": "OpenBlue Fuengirolassa ymmärrämme, että nykypäivän elämänrytmi jättää vähän aikaa kotitöille. Siksi tarjoamme ammattimaisen pesulapalvelun, joka on suunniteltu mukavuutta, laatua ja moitteettomia tuloksia etsiville yksityishenkilöille.",
+    "whatTitle": "Mitä palvelumme sisältää?",
+    "washTitle": "Ammattimainen pesu",
+    "washDesc": "Käsittelemme jokaisen vaatekappaleen ansaitsemallaan huolella, ensiluokkaisilla ja ympäristöystävällisillä tuotteilla.",
+    "stainTitle": "Tahranpoisto",
+    "stainDesc": "Sovellamme erikoistuneita tahranpoistotekniikoita palauttaaksemme vaatteidesi alkuperäisen ulkonäön.",
+    "dryTitle": "Optimaalinen kuivaus",
+    "dryDesc": "Kuivaamme ammattilaitteilla, jotka hoitavat kuituja ja takaavat täydelliset tulokset.",
+    "bagTitle": "Pakkaus ja suojaus",
+    "bagDesc": "Toimitamme pyykkisi puhtaana, järjestettynä ja suojattuna, valmiina säilytettäväksi tai käytettäväksi.",
+    "pickupTitle": "Kotinouto ja -toimitus",
+    "pickupDesc": "Tulemme kotiisi sinulle parhaiten sopivana aikana. Sinun tarvitsee vain varata pyykki valmiiksi, me hoidamme loput. Palvelu saatavilla Fuengirolassa ja lähialueilla.",
+    "flexTitle": "Joustavuus ja henkilökohtainen palvelu",
+    "flexDesc": "Jokaisella asiakkaalla on erilaiset tarpeet. Olipa kyseessä kertaluontoinen tai toistuva palvelu, mukaudumme sinuun.",
+    "experience": "Yli 4 vuotta asiakkaidemme pyykin hoitoa ammattimaisesti, täsmällisesti ja intohimolla yksityiskohtiin.",
+    "ctaText": "Haluatko yksinkertaistaa elämääsi? Ota yhteyttä ja huomaa, miten helppoa on pitää pyykkisi aina täydellisessä kunnossa.",
+    "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
   }
 }

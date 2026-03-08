@@ -195,5 +195,26 @@
     "comfortDesc": "Oubliez les déplacements, les attentes et les complications. Avec notre service de livraison, la blanchisserie professionnelle arrive à votre porte. Parfait pour les particuliers et les propriétaires de locations de vacances.",
     "ctaText": "Vous souhaitez connaître les tarifs pour votre zone ? Contactez-nous et nous vous préparerons un devis personnalisé.",
     "ctaWhatsApp": "Contacter par WhatsApp"
+  },
+  "particularesModal": {
+    "title": "Blanchisserie pour Particuliers",
+    "subtitle": "Vos vêtements entre les meilleures mains, sans complications.",
+    "intro": "Chez OpenBlue Fuengirola, nous comprenons que le rythme de vie actuel laisse peu de temps pour les tâches ménagères. C'est pourquoi nous proposons un service de blanchisserie professionnel conçu pour les particuliers recherchant confort, qualité et résultats impeccables.",
+    "whatTitle": "Que comprend notre service ?",
+    "washTitle": "Lavage professionnel",
+    "washDesc": "Nous traitons chaque vêtement avec le soin qu'il mérite, en utilisant des produits de première qualité et respectueux de l'environnement.",
+    "stainTitle": "Traitement des taches",
+    "stainDesc": "Nous appliquons des techniques spécialisées de détachage pour redonner à vos vêtements leur aspect d'origine.",
+    "dryTitle": "Séchage optimal",
+    "dryDesc": "Nous séchons avec des équipements professionnels qui prennent soin des fibres et garantissent des résultats parfaits.",
+    "bagTitle": "Emballage et protection",
+    "bagDesc": "Nous livrons votre linge propre, ordonné et protégé, prêt à ranger ou à porter.",
+    "pickupTitle": "Collecte et livraison à domicile",
+    "pickupDesc": "Nous passons chez vous à l'horaire qui vous convient le mieux. Vous n'avez qu'à préparer votre linge, nous faisons le reste. Service disponible à Fuengirola et environs.",
+    "flexTitle": "Flexibilité et attention personnalisée",
+    "flexDesc": "Chaque client a des besoins différents. Qu'il s'agisse d'un service ponctuel ou récurrent, nous nous adaptons à vous.",
+    "experience": "Plus de 4 ans à prendre soin du linge de nos clients avec professionnalisme, ponctualité et passion du détail.",
+    "ctaText": "Vous voulez simplifier votre vie ? Contactez-nous et découvrez comme c'est facile d'avoir un linge toujours parfait.",
+    "ctaWhatsApp": "Contacter par WhatsApp"
   }
 }
