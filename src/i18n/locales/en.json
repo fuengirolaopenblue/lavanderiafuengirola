@@ -180,5 +180,20 @@
     "experienceDesc": "Trust <strong>OpenBlue Fuengirola</strong>. Over 4 years of experience back us up as the perfect partner for owners seeking professionalism, punctuality and impeccable results.",
     "ctaText": "Want to know more? Contact us and we'll prepare a tailored plan for your property.",
     "ctaWhatsApp": "Contact via WhatsApp"
+  },
+  "deliveryModal": {
+    "title": "Home Pick-up & Delivery Service",
+    "subtitle": "Your professional laundry, now closer than ever.",
+    "intro": "At OpenBlue Fuengirola we know your time is valuable. That's why we've created our home pick-up and delivery service, so you can enjoy impeccable laundry without leaving home.",
+    "howTitle": "How does it work?",
+    "howDesc": "It's very simple: you request the service, we come to pick up your laundry at the agreed time, treat it with our top-quality, eco-friendly products, and return it clean, fresh and ready to use.",
+    "coverageTitle": "Coverage area",
+    "coverageDesc": "We provide pick-up and delivery service in Fuengirola and surrounding areas.",
+    "costTitle": "Service cost",
+    "costDesc": "Depending on your location, the door-to-door service may carry a small additional cost. Ask us with no obligation and we'll inform you based on your area.",
+    "comfortTitle": "Convenience and quality in one service",
+    "comfortDesc": "Forget about trips, waiting and complications. With our delivery service, professional laundry comes to your door. Perfect for individuals seeking practicality and vacation rental owners who need a reliable partner.",
+    "ctaText": "Want to know the rates for your area? Contact us and we'll prepare a personalized quote.",
+    "ctaWhatsApp": "Contact via WhatsApp"
   }
 }
