@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import logoOpenblue from "@/assets/logo-openblue.jpg";
+import logoOpenblue from "@/assets/logo-ob.png";
 
 const Footer = () => {
   const { t } = useTranslation();

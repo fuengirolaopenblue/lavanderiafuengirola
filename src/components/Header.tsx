@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import logoOpenblue from "@/assets/logo-openblue.jpg";
+import logoOpenblue from "@/assets/logo-ob.png";
 import LanguageSelector from "./LanguageSelector";
 
 const Header = () => {
