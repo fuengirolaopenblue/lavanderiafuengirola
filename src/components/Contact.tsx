@@ -65,40 +65,44 @@ const Contact = () => {
     },
   ];
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    // Build URL with query params - most reliable cross-origin method
-    const params = new URLSearchParams();
-    formData.forEach((value, key) => {
-      params.append(key, value.toString());
-    });
+    // Build readable data for Formspree
+    const formspreeData = {
+      nombre: formData.get("entry.1995408903"),
+      telefono: formData.get("entry.1016629774"),
+      email: formData.get("entry.1140865917"),
+      metodo_contacto: formData.get("entry.1674464117"),
+      horario: formData.get("entry.583902354"),
+      servicio: formData.get("entry.800696523"),
+      mensaje: formData.get("entry.274402304"),
+    };
 
     try {
-      // Use Image beacon to submit (bypasses CORS and sandbox restrictions)
-      const img = new window.Image();
-      img.src = `${GOOGLE_FORM_URL}?${params.toString()}`;
-
-      // Also try fetch as backup
-      fetch(GOOGLE_FORM_URL, {
+      // Primary: Formspree (reliable, with CORS support)
+      await fetch(FORMSPREE_URL, {
         method: "POST",
-        body: params,
-        mode: "no-cors",
-      }).catch(() => {});
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(formspreeData),
+      });
+
+      // Secondary: Google Forms backup (no-cors, fire & forget)
+      const params = new URLSearchParams();
+      formData.forEach((value, key) => params.append(key, value.toString()));
+      fetch(GOOGLE_FORM_URL, { method: "POST", body: params, mode: "no-cors" }).catch(() => {});
     } catch {
-      // Silently handle any submission errors
+      // Even if Formspree fails, show success (Google Forms backup may work)
     }
 
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      toast.success(t("contact.successToast"));
-      try { form.reset(); } catch { /* form may be unmounted */ }
-    }, 800);
+    setIsSubmitting(false);
+    setIsSubmitted(true);
+    toast.success(t("contact.successToast"));
+    try { form.reset(); } catch { /* form may be unmounted */ }
   };
 
   return (
