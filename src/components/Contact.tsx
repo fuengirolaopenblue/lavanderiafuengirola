@@ -295,6 +295,8 @@ const Contact = () => {
                 )}
               </Button>
             </form>
+            </>
+            )}
           </motion.div>
 
           <motion.div
