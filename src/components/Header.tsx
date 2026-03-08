@@ -74,7 +74,7 @@ const Header = () => {
           >
             <LanguageSelector />
             <Button variant="hero" size="lg" asChild>
-              <a href="#contacto">{t("nav.contactBtn")}</a>
+              <a href={getHref("#contacto")}>{t("nav.contactBtn")}</a>
             </Button>
           </motion.div>
 
