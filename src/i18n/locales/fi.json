@@ -107,7 +107,8 @@
     "vacationLaundry": "Lomapesula",
     "propertyMgmt": "Kiinteistönhallinta",
     "profCleaning": "Ammattimainen siivous",
-    "rights": "Kaikki oikeudet pidätetään."
+    "rights": "Kaikki oikeudet pidätetään.",
+    "leaveReview": "Jätä arvostelu"
   },
   "gestion": {
     "heroTitle": "Loma-asuntosi kokonaisvaltainen hallinta",

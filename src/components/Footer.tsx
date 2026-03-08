@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import logoOpenblue from "@/assets/logo-openblue.jpg";
 
@@ -67,6 +67,15 @@ const Footer = () => {
             © {new Date().getFullYear()} OpenBlue Fuengirola. {t("footer.rights")}
           </p>
           <div className="flex items-center gap-4">
+            <a
+              href="https://maps.app.goo.gl/hAr6kkbGsWDwadLE9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-gold/20 text-gold hover:bg-gold hover:text-primary-foreground transition-colors duration-300 text-sm font-medium"
+            >
+              <Star className="w-4 h-4 fill-current" />
+              {t("footer.leaveReview")}
+            </a>
             {[Facebook, Instagram].map((Icon, index) => (
               <a key={index} href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-gold transition-colors duration-300">
                 <Icon className="w-5 h-5" />
