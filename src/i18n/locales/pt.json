@@ -50,6 +50,13 @@
     "management": {
       "title": "Gestão de Alojamentos de Férias",
       "description": "Gerimos a sua propriedade do início ao fim. Check-in/out, limpeza, manutenção e atendimento ao hóspede para maximizar a sua rentabilidade."
+    },
+    "delivery": {
+      "title": "Serviço Porta a Porta",
+      "description": "Não pode deslocar-se? Sem problema. Recolhemos a sua roupa em casa, lavamos e secamos com o máximo cuidado, e devolvemos",
+      "descriptionBold": "pronta e em perfeito estado.",
+      "descriptionEnd": " Comodidade total sem sair de casa.",
+      "contact": "Solicitar recolha"
     }
   },
   "about": {

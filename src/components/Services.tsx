@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, ArrowRight, Shirt, Truck, Building2 } from "lucide-react";
+import { WashingMachine, Home, ArrowRight, Shirt, Truck, Building2, PackageCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -107,21 +107,61 @@ const Services = () => {
           ))}
         </motion.div>
 
+        {/* Delivery / Puerta a Puerta Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.25 }}
+          className="mt-12 relative overflow-hidden rounded-2xl bg-gradient-to-r from-accent to-primary p-8 md:p-10 shadow-elevated"
+        >
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="flex items-center gap-4 flex-shrink-0">
+              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
+                <PackageCheck className="w-7 h-7 text-primary-foreground" />
+              </div>
+              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
+                <Truck className="w-7 h-7 text-primary-foreground" />
+              </div>
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
+                {t("services.delivery.title")}
+              </h3>
+              <p className="text-primary-foreground/80 leading-relaxed">
+                {t("services.delivery.description")} <strong className="text-primary-foreground">{t("services.delivery.descriptionBold")}</strong>{t("services.delivery.descriptionEnd")}
+              </p>
+            </div>
+            <Button
+              variant="heroOutline"
+              size="lg"
+              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              asChild
+            >
+              <a
+                href="https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20el%20servicio%20puerta%20a%20puerta."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("services.delivery.contact")}
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
+        </motion.div>
+
         {/* Particulares Banner */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="mt-12 relative overflow-hidden rounded-2xl bg-gradient-openblue p-8 md:p-10 shadow-elevated"
+          className="mt-8 relative overflow-hidden rounded-2xl bg-gradient-openblue p-8 md:p-10 shadow-elevated"
         >
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
             <div className="flex items-center gap-4 flex-shrink-0">
               <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
                 <Shirt className="w-7 h-7 text-primary-foreground" />
-              </div>
-              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
-                <Truck className="w-7 h-7 text-primary-foreground" />
               </div>
             </div>
             <div className="flex-1 text-center md:text-left">

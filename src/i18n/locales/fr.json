@@ -50,6 +50,13 @@
     "management": {
       "title": "Gestion de Locations de Vacances",
       "description": "Nous gérons votre propriété de A à Z. Check-in/out, ménage, maintenance et service aux clients pour maximiser votre rentabilité."
+    },
+    "delivery": {
+      "title": "Service Porte à Porte",
+      "description": "Vous ne pouvez pas vous déplacer ? Pas de souci. Nous récupérons votre linge à domicile, le lavons et séchons avec le plus grand soin, et vous le rendons",
+      "descriptionBold": "prêt et en parfait état.",
+      "descriptionEnd": " Confort total sans quitter votre domicile.",
+      "contact": "Demander une collecte"
     }
   },
   "about": {

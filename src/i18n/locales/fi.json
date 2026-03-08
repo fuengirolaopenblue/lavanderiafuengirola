@@ -50,6 +50,13 @@
     "management": {
       "title": "Loma-asuntojen hallinta",
       "description": "Hallinnoimme kiinteistöäsi alusta loppuun. Sisään-/uloskirjautuminen, siivous, huolto ja vieraspalvelu kannattavuutesi maksimoimiseksi."
+    },
+    "delivery": {
+      "title": "Ovelta ovelle -palvelu",
+      "description": "Etkö pääse tulemaan? Ei huolta. Noudamme pyykkisi kotoa, pesemme ja kuivaamme sen huolella ja palautamme",
+      "descriptionBold": "valmiina ja täydellisessä kunnossa.",
+      "descriptionEnd": " Täydellistä mukavuutta poistumatta kotoa.",
+      "contact": "Pyydä noutoa"
     }
   },
   "about": {
