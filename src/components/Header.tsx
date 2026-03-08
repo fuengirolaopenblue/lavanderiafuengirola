@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -9,12 +10,16 @@ import LanguageSelector from "./LanguageSelector";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
+  const getHref = (hash: string) => isHome ? hash : `/${hash}`;
 
   const navItems = [
-    { name: t("nav.home"), href: "#inicio" },
-    { name: t("nav.services"), href: "#servicios" },
-    { name: t("nav.about"), href: "#nosotros" },
-    { name: t("nav.contact"), href: "#contacto" },
+    { name: t("nav.home"), href: getHref("#inicio") },
+    { name: t("nav.services"), href: getHref("#servicios") },
+    { name: t("nav.about"), href: getHref("#nosotros") },
+    { name: t("nav.contact"), href: getHref("#contacto") },
   ];
 
   return (
@@ -69,7 +74,7 @@ const Header = () => {
           >
             <LanguageSelector />
             <Button variant="hero" size="lg" asChild>
-              <a href="#contacto">{t("nav.contactBtn")}</a>
+              <a href={getHref("#contacto")}>{t("nav.contactBtn")}</a>
             </Button>
           </motion.div>
 
@@ -104,7 +109,7 @@ const Header = () => {
             </a>
           ))}
           <Button variant="hero" size="lg" className="mt-2" asChild>
-            <a href="#contacto" onClick={() => setIsOpen(false)}>{t("nav.contactBtn")}</a>
+            <a href={getHref("#contacto")} onClick={() => setIsOpen(false)}>{t("nav.contactBtn")}</a>
           </Button>
         </nav>
       </motion.div>
