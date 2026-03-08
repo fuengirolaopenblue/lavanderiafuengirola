@@ -18,6 +18,20 @@ const SERVICE_OPTIONS = [
   "Otro",
 ];
 
+const CONTACT_METHOD_OPTIONS = [
+  "Llamada telefónica",
+  "WhatsApp",
+  "Telegram",
+  "Correo electrónico",
+];
+
+const SCHEDULE_OPTIONS = [
+  "Mañana (9:00 a 12:00)",
+  "Mediodía (12:00 a 16:00)",
+  "Tarde (16:00 a 21:00)",
+  "Cualquier momento",
+];
+
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
