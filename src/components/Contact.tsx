@@ -159,6 +159,48 @@ const Contact = () => {
                   maxLength={255}
                 />
               </div>
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">
+                    {t("contact.contactMethod", "¿Cómo prefieres que te contactemos?")} *
+                  </label>
+                  <select
+                    name="entry.1674464117"
+                    required
+                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    defaultValue=""
+                  >
+                    <option value="" disabled>
+                      {t("contact.contactMethodPlaceholder", "Selecciona una opción")}
+                    </option>
+                    {CONTACT_METHOD_OPTIONS.map((opt) => (
+                      <option key={opt} value={opt}>
+                        {opt}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">
+                    {t("contact.schedule", "¿En qué horario prefieres?")} *
+                  </label>
+                  <select
+                    name="entry.583902354"
+                    required
+                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    defaultValue=""
+                  >
+                    <option value="" disabled>
+                      {t("contact.schedulePlaceholder", "Selecciona un horario")}
+                    </option>
+                    {SCHEDULE_OPTIONS.map((opt) => (
+                      <option key={opt} value={opt}>
+                        {opt}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
                   {t("contact.serviceLabel")} *
