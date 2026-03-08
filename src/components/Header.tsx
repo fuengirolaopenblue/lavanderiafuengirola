@@ -10,12 +10,16 @@ import LanguageSelector from "./LanguageSelector";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
+  const getHref = (hash: string) => isHome ? hash : `/${hash}`;
 
   const navItems = [
-    { name: t("nav.home"), href: "#inicio" },
-    { name: t("nav.services"), href: "#servicios" },
-    { name: t("nav.about"), href: "#nosotros" },
-    { name: t("nav.contact"), href: "#contacto" },
+    { name: t("nav.home"), href: getHref("#inicio") },
+    { name: t("nav.services"), href: getHref("#servicios") },
+    { name: t("nav.about"), href: getHref("#nosotros") },
+    { name: t("nav.contact"), href: getHref("#contacto") },
   ];
 
   return (
