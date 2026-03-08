@@ -94,6 +94,7 @@ const Contact = () => {
       form.reset();
       setTimeout(() => setIsSubmitted(false), 5000);
     }, 800);
+  };
 
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
