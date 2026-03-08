@@ -48,6 +48,16 @@ const About = () => {
               <p>{t("about.p4")}</p>
               <p className="font-semibold text-foreground italic">{t("about.p5")}</p>
             </div>
+
+            {/* Interior photo */}
+            <div className="mt-8 rounded-2xl overflow-hidden shadow-card border border-border/50">
+              <img
+                src={interiorLocal}
+                alt="Interior de OpenBlue Fuengirola - Lavadoras industriales Girbau"
+                className="w-full h-auto object-cover"
+                loading="lazy"
+              />
+            </div>
           </motion.div>
 
           <motion.div
