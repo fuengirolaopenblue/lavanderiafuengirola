@@ -28,7 +28,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <motion.a
-            href="#inicio"
+            href={isHome ? "#inicio" : "/"}
             className="flex items-center gap-3"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
