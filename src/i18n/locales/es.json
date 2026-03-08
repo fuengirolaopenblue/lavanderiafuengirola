@@ -5,12 +5,12 @@
     "about": "Sobre Nosotros",
     "contact": "Contacto",
     "contactBtn": "Contactar",
-    "subtitle": "Lavandería Autoservicio"
+    "subtitle": "Lavandería en Fuengirola"
   },
   "hero": {
     "badge": "Abierto de 7:00 a 23:00 · Fuengirola",
-    "subtitle": "Lavandería y Tienda Autoservicio",
-    "description": "Tu lavandería de confianza en Fuengirola. Lavado desde 6€, secado desde 3€. También ofrecemos servicio de lavandería para pisos vacacionales y gestión integral de propiedades.",
+    "subtitle": "Lavandería en Fuengirola · Autoservicio y Tienda",
+    "description": "Tu lavandería de confianza en Fuengirola. Lavado desde 6€, secado desde 3€. Somos tu lavandería en Fuengirola de referencia. También ofrecemos servicio de lavandería para pisos vacacionales y gestión integral de propiedades.",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
     "productsIncluded": "Productos incluidos",
@@ -22,11 +22,11 @@
     "sectionLabel": "Nuestros Servicios",
     "title": "Soluciones completas para tu",
     "titleHighlight": "comodidad",
-    "subtitle": "Desde lavandería de autoservicio hasta la gestión integral de tu propiedad, ofrecemos servicios profesionales adaptados a tus necesidades.",
+    "subtitle": "Desde nuestra lavandería en Fuengirola de autoservicio hasta la gestión integral de tu propiedad, ofrecemos servicios profesionales adaptados a tus necesidades.",
     "moreInfo": "Más información",
     "selfService": {
       "title": "Lavandería Autoservicio",
-      "description": "Máquinas de última generación disponibles las 24 horas. Paga cómodamente con monedas, billetes o tarjetas de débito/crédito.",
+      "description": "Nuestra lavandería en Fuengirola cuenta con máquinas de última generación disponibles las 24 horas. Paga cómodamente con monedas, billetes o tarjetas de débito/crédito.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
@@ -56,11 +56,11 @@
     "sectionLabel": "Sobre Nosotros",
     "title": "Pasión por el detalle, compromiso con tu",
     "titleHighlight": "tranquilidad",
-    "p1": "En OpenBlue Fuengirola comenzamos hace 4 años con una misión clara: ofrecer un servicio de lavandería profesional que marcara la diferencia. Nos especializamos en el cuidado de ropa blanca para pisos vacacionales y particulares, porque sabemos que la frescura y la presentación impecable son fundamentales.",
+    "p1": "En OpenBlue Fuengirola comenzamos hace 4 años con una misión clara: ser la mejor lavandería en Fuengirola ofreciendo un servicio profesional que marcara la diferencia. Nos especializamos en el cuidado de ropa blanca para pisos vacacionales y particulares, porque sabemos que la frescura y la presentación impecable son fundamentales.",
     "p2": "Nos mueve la pasión por el trabajo bien hecho, por esos pequeños detalles que transforman una simple ropa de cama en una experiencia acogedora para tus huéspedes. Cada prenda que tratamos, cada mancha que eliminamos y cada entrega puntual que cumplimos nos impulsa a ser mejores.",
-    "p3": "Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano. Ya sea que gestiones varios pisos vacacionales o simplemente necesites un servicio de lavandería confiable para tu hogar, estamos aquí para facilitarte la vida.",
+    "p3": "Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano. Ya sea que gestiones varios pisos vacacionales o simplemente necesites una lavandería en Fuengirola confiable para tu hogar, estamos aquí para facilitarte la vida.",
     "p4": "Estamos en constante crecimiento, ampliando nuestra capacidad y mejorando nuestros procesos porque creemos que siempre podemos ofrecerte más. Tu confianza es nuestro mayor impulso.",
-    "p5": "Bienvenido a OpenBlue Fuengirola. Donde cada prenda recibe el cuidado que merece.",
+    "p5": "Bienvenido a OpenBlue, tu lavandería en Fuengirola. Donde cada prenda recibe el cuidado que merece.",
     "features": {
       "quality": "Calidad Garantizada",
       "qualityDesc": "Utilizamos productos premium y técnicas profesionales para resultados impecables.",
@@ -100,7 +100,7 @@
     "laundryHoursValue": "24 horas / 365 días"
   },
   "footer": {
-    "description": "Tu lavandería de confianza en Fuengirola. Servicios de lavandería autoservicio y gestión de propiedades vacacionales.",
+    "description": "OpenBlue, tu lavandería en Fuengirola de confianza. Servicios de lavandería autoservicio y gestión de propiedades vacacionales.",
     "quickLinks": "Enlaces Rápidos",
     "servicesTitle": "Servicios",
     "selfService": "Lavandería Autoservicio",
@@ -133,7 +133,7 @@
   "autoservicioModal": {
     "title": "Lavandería Autoservicio en Fuengirola",
     "subtitle": "Una experiencia completa pensada para tu comodidad",
-    "intro": "En nuestra lavandería autoservicio no solo te ayudamos a tener la ropa impecable, también te ofrecemos un espacio cómodo para que aproveches tu tiempo al máximo.",
+    "intro": "En nuestra lavandería en Fuengirola de autoservicio no solo te ayudamos a tener la ropa impecable, también te ofrecemos un espacio cómodo para que aproveches tu tiempo al máximo.",
     "machinesTitle": "Maquinaria de Primera Línea Mundial",
     "machinesDesc": "Contamos con lavadoras y secadoras industriales <strong>GIRBAU, fabricadas en España</strong>, reconocidas internacionalmente por su eficiencia, durabilidad y resultados excepcionales.",
     "washer19": "Lavadora 19 kg",
@@ -153,7 +153,7 @@
     "oxygenDesc": "Utilizamos <strong>oxígeno activo</strong> en cada lavado, un potente agente que elimina manchas difíciles, blanquea y desinfecta en profundidad sin dañar los tejidos. Perfecto para cuidar tu ropa y proteger la salud de tu familia.",
     "tip": "¿Haces cambio de temporada? Ven a conocernos. Guarda tu ropa limpia y desinfectada con nuestras lavadoras de gran capacidad, ideales para mantas, edredones y toda la ropa de invierno.",
     "tipLabel": "💡 Consejo:",
-    "closing": "Te esperamos en un espacio limpio, moderno y de fácil acceso, con todos los servicios que necesitas."
+    "closing": "Te esperamos en nuestra lavandería en Fuengirola, un espacio limpio, moderno y de fácil acceso, con todos los servicios que necesitas."
   },
   "pisosModal": {
     "title": "Servicio de Lavandería Profesional para tu",
