@@ -11,38 +11,26 @@ const FORMSPREE_URL = "https://formspree.io/f/xnjbndyz";
 const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/formResponse";
 
-// Send to Google Forms in background via hidden iframe (no blank page)
+// Send to Google Forms in background (multiple methods for reliability)
 const sendToGoogleForms = (formData: FormData) => {
-  try {
-    const iframe = document.createElement("iframe");
-    iframe.name = "google-form-iframe-" + Date.now();
-    iframe.style.display = "none";
-    document.body.appendChild(iframe);
+  const params = new URLSearchParams();
+  formData.forEach((value, key) => params.append(key, value.toString()));
+  const url = `${GOOGLE_FORM_URL}?${params.toString()}`;
 
-    const form = document.createElement("form");
-    form.method = "POST";
-    form.action = GOOGLE_FORM_URL;
-    form.target = iframe.name;
-
-    formData.forEach((value, key) => {
-      const input = document.createElement("input");
-      input.type = "hidden";
-      input.name = key;
-      input.value = value.toString();
-      form.appendChild(input);
-    });
-
-    document.body.appendChild(form);
-    form.submit();
-
-    // Cleanup after a few seconds
-    setTimeout(() => {
-      document.body.removeChild(form);
-      document.body.removeChild(iframe);
-    }, 5000);
-  } catch {
-    // Silent fail - Formspree is the primary
+  // Method 1: sendBeacon (most reliable for background sends)
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon(
+      GOOGLE_FORM_URL,
+      new URLSearchParams(params)
+    );
   }
+
+  // Method 2: Pixel/image GET request (bypasses CORS)
+  const img = document.createElement("img");
+  img.style.display = "none";
+  img.src = url;
+  document.body.appendChild(img);
+  setTimeout(() => img.remove(), 5000);
 };
 
 const SERVICE_OPTIONS = [
