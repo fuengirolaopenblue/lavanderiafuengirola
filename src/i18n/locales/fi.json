@@ -180,5 +180,20 @@
     "experienceDesc": "Luota <strong>OpenBlue Fuengirolaan</strong>. Yli 4 vuoden kokemus tukee meitä täydellisenä kumppanina omistajille, jotka etsivät ammattimaisuutta, täsmällisyyttä ja moitteettomia tuloksia.",
     "ctaText": "Haluatko tietää lisää? Ota meihin yhteyttä ja laadimme räätälöidyn suunnitelman kiinteistöllesi.",
     "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
+  },
+  "deliveryModal": {
+    "title": "Kotinouto- ja toimituspalvelu",
+    "subtitle": "Ammattimainen pesulasi, nyt lähempänä kuin koskaan.",
+    "intro": "OpenBlue Fuengirolassa tiedämme, että aikasi on arvokasta. Siksi olemme luoneet kotinouto- ja toimituspalvelumme, jotta voit nauttia moitteettomasta pyykistä poistumatta kotoa.",
+    "howTitle": "Miten se toimii?",
+    "howDesc": "Hyvin yksinkertaista: pyydät palvelun, tulemme noutamaan pyykkisi sovittuna aikana, käsittelemme sen ensiluokkaisilla, ympäristöystävällisillä tuotteillamme ja palautamme sen puhtaana, raikkaana ja käyttövalmiina.",
+    "coverageTitle": "Kattavuusalue",
+    "coverageDesc": "Tarjoamme nouto- ja toimituspalvelua Fuengirolassa ja lähialueilla.",
+    "costTitle": "Palvelun hinta",
+    "costDesc": "Sijainnistasi riippuen ovelta ovelle -palveluun voi sisältyä pieni lisäkustannus. Kysy meiltä ilman sitoumusta, niin kerromme alueesi hinnan.",
+    "comfortTitle": "Mukavuus ja laatu yhdessä palvelussa",
+    "comfortDesc": "Unohda matkat, odottelu ja hankaluudet. Toimituspalvelumme avulla ammattimainen pesula tulee ovellesi. Täydellinen yksityishenkilöille ja loma-asuntojen omistajille.",
+    "ctaText": "Haluatko tietää alueesi hinnat? Ota yhteyttä ja laadimme sinulle räätälöidyn tarjouksen.",
+    "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
   }
 }

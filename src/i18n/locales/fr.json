@@ -180,5 +180,20 @@
     "experienceDesc": "Faites confiance à <strong>OpenBlue Fuengirola</strong>. Plus de 4 ans d'expérience nous soutiennent comme l'allié parfait pour les propriétaires.",
     "ctaText": "Vous voulez en savoir plus ? Contactez-nous et nous préparerons un plan sur mesure pour votre propriété.",
     "ctaWhatsApp": "Contacter par WhatsApp"
+  },
+  "deliveryModal": {
+    "title": "Service de Collecte et Livraison à Domicile",
+    "subtitle": "Votre blanchisserie professionnelle, plus proche que jamais.",
+    "intro": "Chez OpenBlue Fuengirola, nous savons que votre temps est précieux. C'est pourquoi nous avons créé notre service de collecte et livraison à domicile, pour profiter d'un linge impeccable sans bouger de chez vous.",
+    "howTitle": "Comment ça marche ?",
+    "howDesc": "C'est très simple : vous demandez le service, nous passons récupérer votre linge à l'heure convenue, le traitons avec nos produits de première qualité et respectueux de l'environnement, et vous le rendons propre, frais et prêt à l'emploi.",
+    "coverageTitle": "Zone de couverture",
+    "coverageDesc": "Nous assurons la collecte et la livraison à Fuengirola et ses environs.",
+    "costTitle": "Coût du service",
+    "costDesc": "Selon votre localisation, le service porte à porte peut comporter un petit coût supplémentaire. Consultez-nous sans engagement et nous vous informerons selon votre zone.",
+    "comfortTitle": "Confort et qualité en un seul service",
+    "comfortDesc": "Oubliez les déplacements, les attentes et les complications. Avec notre service de livraison, la blanchisserie professionnelle arrive à votre porte. Parfait pour les particuliers et les propriétaires de locations de vacances.",
+    "ctaText": "Vous souhaitez connaître les tarifs pour votre zone ? Contactez-nous et nous vous préparerons un devis personnalisé.",
+    "ctaWhatsApp": "Contacter par WhatsApp"
   }
 }

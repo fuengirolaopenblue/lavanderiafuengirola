@@ -53,9 +53,9 @@
     },
     "delivery": {
       "title": "Servicio Puerta a Puerta",
-      "description": "¿No puedes acercarte? No te preocupes. Recogemos tu ropa en tu domicilio, la lavamos y secamos con el máximo cuidado, y te la devolvemos",
-      "descriptionBold": "lista y en perfecto estado.",
-      "descriptionEnd": " Comodidad total sin salir de casa.",
+      "description": "Tu lavandería profesional, ahora más cerca que nunca. Recogemos tu ropa a domicilio y te la devolvemos impecable.",
+      "descriptionBold": "",
+      "descriptionEnd": "",
       "contact": "Solicitar recogida"
     }
   },
@@ -179,6 +179,21 @@
     "trustDesc": "Sabemos que la gestión de un alquiler vacacional implica estar atento a mil detalles. Con nuestro servicio de lavandería, eliminas una de las tareas más repetitivas y críticas. Tus huéspedes disfrutarán siempre de ropa impecable, fresca y acogedora, y tú ganarás tiempo para enfocarte en lo que realmente importa: maximizar tu rentabilidad y ofrecer experiencias memorables.",
     "experienceDesc": "Confía en <strong>OpenBlue Fuengirola</strong>. Más de 4 años de experiencia nos avalan como el aliado perfecto para propietarios que buscan profesionalidad, puntualidad y resultados impecables.",
     "ctaText": "¿Quieres saber más? Contáctanos y te preparamos un plan a medida para tu propiedad.",
+    "ctaWhatsApp": "Contactar por WhatsApp"
+  },
+  "deliveryModal": {
+    "title": "Servicio de Recogida y Entrega a Domicilio",
+    "subtitle": "Tu lavandería profesional, ahora más cerca que nunca.",
+    "intro": "En OpenBlue Fuengirola sabemos que tu tiempo es valioso. Por eso hemos creado nuestro servicio de recogida y entrega a domicilio, para que disfrutes de ropa impecable sin moverte de casa.",
+    "howTitle": "¿Cómo funciona?",
+    "howDesc": "Es muy sencillo: tú solicitas el servicio, nosotros pasamos a recoger tu ropa en el horario acordado, la tratamos con nuestros productos de primera línea y respetuosos con el medio ambiente, y te la devolvemos limpia, fresca y lista para usar.",
+    "coverageTitle": "Zona de cobertura",
+    "coverageDesc": "Realizamos servicio de recogida y entrega en Fuengirola y alrededores.",
+    "costTitle": "Coste del servicio",
+    "costDesc": "Dependiendo de tu ubicación, el servicio puerta a puerta puede llevar un pequeño coste adicional. Consúltanos sin compromiso y te informamos según tu zona.",
+    "comfortTitle": "Comodidad y calidad en un solo servicio",
+    "comfortDesc": "Olvídate de desplazamientos, esperas y complicaciones. Con nuestro servicio delivery, la lavandería profesional llega hasta tu puerta. Perfecto para particulares que buscan practicidad y para propietarios de pisos vacacionales que necesitan un aliado confiable.",
+    "ctaText": "¿Quieres conocer las tarifas para tu zona? Contáctanos y te preparamos un presupuesto personalizado.",
     "ctaWhatsApp": "Contactar por WhatsApp"
   }
 }
