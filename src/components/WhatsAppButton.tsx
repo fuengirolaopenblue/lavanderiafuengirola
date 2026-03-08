@@ -6,10 +6,12 @@ const WhatsAppButton = () => {
       href="https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20vuestros%20servicios."
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_2px_8px_rgba(0,0,0,0.2)] hover:scale-110 transition-transform duration-300 ring-2 ring-[#25D366]/30"
+      className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_2px_8px_rgba(0,0,0,0.2)] ring-2 ring-[#25D366]/30"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
-      transition={{ delay: 1, type: "spring", stiffness: 200 }}
+      whileHover={{ scale: 1.15, rotate: -8, boxShadow: "0 8px 25px rgba(37,211,102,0.4)" }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ delay: 1, type: "spring", stiffness: 300, damping: 15 }}
       aria-label="Contactar por WhatsApp"
     >
       <svg viewBox="0 0 32 32" className="w-7 h-7 fill-white">

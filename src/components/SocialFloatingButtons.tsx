@@ -35,10 +35,12 @@ const SocialFloatingButtons = () => {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className={`w-11 h-11 ${bg} rounded-full flex items-center justify-center shadow-elevated text-white hover:scale-110 transition-transform duration-300`}
+          className={`w-11 h-11 ${bg} rounded-full flex items-center justify-center shadow-elevated text-white`}
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ delay: 1.2 + index * 0.15, type: "spring", stiffness: 200 }}
+          whileHover={{ scale: 1.2, rotate: 8, boxShadow: "0 8px 25px rgba(0,0,0,0.3)" }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ delay: 1.2 + index * 0.15, type: "spring", stiffness: 300, damping: 15 }}
           aria-label={label}
         >
           <Icon className={`w-5 h-5 ${fill ? "fill-current" : ""}`} />
