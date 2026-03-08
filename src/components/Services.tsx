@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
 import DeliveryModal from "./DeliveryModal";
+import ParticularesModal from "./ParticularesModal";
 
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
