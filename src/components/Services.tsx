@@ -16,38 +16,8 @@ const Services = () => {
   const [particularesModalOpen, setParticularesModalOpen] = useState(false);
   const { t } = useTranslation();
 
-  const services = [
-    {
-      icon: WashingMachine,
-      title: t("services.selfService.title"),
-      description: t("services.selfService.description"),
-      features: t("services.selfService.features", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Home,
-      title: t("services.vacation.title"),
-      description: t("services.vacation.description"),
-      features: t("services.vacation.features", { returnObjects: true }) as string[],
-    },
-  ];
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.2 },
-    },
-  };
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-  };
-
-  const openModals = [
-    () => setAutoservicioModalOpen(true),
-    () => setPisosModalOpen(true),
-  ];
 
   return (
     <section id="servicios" className="py-20 md:py-32 bg-background">
