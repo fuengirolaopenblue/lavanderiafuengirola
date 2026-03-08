@@ -195,5 +195,26 @@
     "comfortDesc": "Esqueça deslocações, esperas e complicações. Com o nosso serviço delivery, a lavandaria profissional chega à sua porta. Perfeito para particulares e proprietários de alojamentos de férias.",
     "ctaText": "Quer conhecer as tarifas para a sua zona? Contacte-nos e preparamos um orçamento personalizado.",
     "ctaWhatsApp": "Contactar por WhatsApp"
+  },
+  "particularesModal": {
+    "title": "Lavandaria para Particulares",
+    "subtitle": "A sua roupa nas melhores mãos, sem complicações.",
+    "intro": "Na OpenBlue Fuengirola entendemos que o ritmo de vida atual deixa pouco tempo para as tarefas domésticas. Por isso oferecemos um serviço de lavandaria profissional pensado para particulares que procuram comodidade, qualidade e resultados impecáveis.",
+    "whatTitle": "O que inclui o nosso serviço?",
+    "washTitle": "Lavagem profissional",
+    "washDesc": "Tratamos cada peça com o cuidado que merece, utilizando produtos de primeira linha e ecológicos.",
+    "stainTitle": "Tratamento de manchas",
+    "stainDesc": "Aplicamos técnicas especializadas de remoção de manchas para devolver às suas peças o aspeto original.",
+    "dryTitle": "Secagem ótima",
+    "dryDesc": "Secamos com equipamentos profissionais que cuidam das fibras e garantem resultados perfeitos.",
+    "bagTitle": "Embalagem e proteção",
+    "bagDesc": "Entregamos a sua roupa limpa, organizada e protegida, pronta para guardar ou usar.",
+    "pickupTitle": "Recolha e entrega ao domicílio",
+    "pickupDesc": "Passamos por sua casa no horário que lhe for mais conveniente. Basta ter a roupa pronta, nós fazemos o resto. Serviço disponível em Fuengirola e arredores.",
+    "flexTitle": "Flexibilidade e atenção personalizada",
+    "flexDesc": "Cada cliente tem necessidades diferentes. Seja um serviço pontual ou recorrente, adaptamo-nos a si.",
+    "experience": "Mais de 4 anos a cuidar da roupa dos nossos clientes com profissionalismo, pontualidade e paixão pelo detalhe.",
+    "ctaText": "Quer simplificar a sua vida? Contacte-nos e descubra como é fácil ter a roupa sempre perfeita.",
+    "ctaWhatsApp": "Contactar por WhatsApp"
   }
 }

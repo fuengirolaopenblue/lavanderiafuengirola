@@ -195,5 +195,26 @@
     "comfortDesc": "Olvídate de desplazamientos, esperas y complicaciones. Con nuestro servicio delivery, la lavandería profesional llega hasta tu puerta. Perfecto para particulares que buscan practicidad y para propietarios de pisos vacacionales que necesitan un aliado confiable.",
     "ctaText": "¿Quieres conocer las tarifas para tu zona? Contáctanos y te preparamos un presupuesto personalizado.",
     "ctaWhatsApp": "Contactar por WhatsApp"
+  },
+  "particularesModal": {
+    "title": "Lavandería para Particulares",
+    "subtitle": "Tu ropa en las mejores manos, sin complicaciones.",
+    "intro": "En OpenBlue Fuengirola entendemos que el ritmo de vida actual deja poco tiempo para las tareas del hogar. Por eso ofrecemos un servicio de lavandería profesional diseñado para particulares que buscan comodidad, calidad y resultados impecables.",
+    "whatTitle": "¿Qué incluye nuestro servicio?",
+    "washTitle": "Lavado profesional",
+    "washDesc": "Tratamos cada prenda con el cuidado que merece, utilizando productos de primera línea y respetuosos con el medio ambiente. Ropa de diario, sábanas, toallas, edredones... nos encargamos de todo.",
+    "stainTitle": "Tratamiento de manchas",
+    "stainDesc": "Aplicamos técnicas especializadas de desmanchado para devolver a tus prendas su aspecto original.",
+    "dryTitle": "Secado óptimo",
+    "dryDesc": "Secamos con equipos profesionales que cuidan las fibras y garantizan resultados perfectos.",
+    "bagTitle": "Embolsado y protección",
+    "bagDesc": "Entregamos tu ropa limpia, ordenada y protegida, lista para guardar o usar.",
+    "pickupTitle": "Recogida y entrega a domicilio",
+    "pickupDesc": "Pasamos por tu casa en el horario que mejor te convenga. Tú solo tienes que tener la ropa lista, nosotros hacemos el resto. Servicio disponible en Fuengirola y alrededores (puede aplicar un coste adicional según zona).",
+    "flexTitle": "Flexibilidad y atención personalizada",
+    "flexDesc": "Cada cliente tiene necesidades diferentes. Ya sea un servicio puntual o recurrente, nos adaptamos a ti. Cuéntanos qué necesitas y diseñamos la solución perfecta para tu día a día.",
+    "experience": "Más de 4 años cuidando la ropa de nuestros clientes con profesionalidad, puntualidad y pasión por el detalle.",
+    "ctaText": "¿Quieres simplificar tu vida? Contáctanos y descubre lo fácil que es tener tu ropa siempre perfecta.",
+    "ctaWhatsApp": "Contactar por WhatsApp"
   }
 }

@@ -195,5 +195,26 @@
     "comfortDesc": "Forget about trips, waiting and complications. With our delivery service, professional laundry comes to your door. Perfect for individuals seeking practicality and vacation rental owners who need a reliable partner.",
     "ctaText": "Want to know the rates for your area? Contact us and we'll prepare a personalized quote.",
     "ctaWhatsApp": "Contact via WhatsApp"
+  },
+  "particularesModal": {
+    "title": "Laundry for Individuals",
+    "subtitle": "Your clothes in the best hands, hassle-free.",
+    "intro": "At OpenBlue Fuengirola we understand that today's pace of life leaves little time for household chores. That's why we offer a professional laundry service designed for individuals seeking convenience, quality and impeccable results.",
+    "whatTitle": "What does our service include?",
+    "washTitle": "Professional washing",
+    "washDesc": "We treat each garment with the care it deserves, using top-quality, eco-friendly products. Everyday clothes, sheets, towels, duvets... we take care of everything.",
+    "stainTitle": "Stain treatment",
+    "stainDesc": "We apply specialized stain-removal techniques to restore your garments to their original appearance.",
+    "dryTitle": "Optimal drying",
+    "dryDesc": "We dry with professional equipment that cares for fibers and guarantees perfect results.",
+    "bagTitle": "Bagging and protection",
+    "bagDesc": "We deliver your laundry clean, organized and protected, ready to store or wear.",
+    "pickupTitle": "Home pick-up and delivery",
+    "pickupDesc": "We come to your home at the time that suits you best. You just need to have your laundry ready, we do the rest. Service available in Fuengirola and surrounding areas (additional cost may apply depending on location).",
+    "flexTitle": "Flexibility and personalized attention",
+    "flexDesc": "Every client has different needs. Whether it's a one-time or recurring service, we adapt to you. Tell us what you need and we'll design the perfect solution for your daily life.",
+    "experience": "Over 4 years caring for our clients' laundry with professionalism, punctuality and passion for detail.",
+    "ctaText": "Want to simplify your life? Contact us and discover how easy it is to always have perfect laundry.",
+    "ctaWhatsApp": "Contact via WhatsApp"
   }
 }

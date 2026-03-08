@@ -7,11 +7,13 @@ import { useTranslation } from "react-i18next";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
 import DeliveryModal from "./DeliveryModal";
+import ParticularesModal from "./ParticularesModal";
 
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
   const [deliveryModalOpen, setDeliveryModalOpen] = useState(false);
+  const [particularesModalOpen, setParticularesModalOpen] = useState(false);
   const { t } = useTranslation();
 
   const services = [
@@ -172,16 +174,10 @@ const Services = () => {
               variant="heroOutline"
               size="lg"
               className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              asChild
+              onClick={() => setParticularesModalOpen(true)}
             >
-              <a
-                href="https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20lavander%C3%ADa%20para%20particulares."
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t("services.individuals.contact")}
-                <ArrowRight className="w-4 h-4" />
-              </a>
+              {t("services.moreInfo")}
+              <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
         </motion.div>
@@ -219,6 +215,7 @@ const Services = () => {
       <AutoservicioModal open={autoservicioModalOpen} onOpenChange={setAutoservicioModalOpen} />
       <PisosVacacionalModal open={pisosModalOpen} onOpenChange={setPisosModalOpen} />
       <DeliveryModal open={deliveryModalOpen} onOpenChange={setDeliveryModalOpen} />
+      <ParticularesModal open={particularesModalOpen} onOpenChange={setParticularesModalOpen} />
     </section>
   );
 };
