@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import SocialFloatingButtons from "@/components/SocialFloatingButtons";
 
 const stepIcons = [Globe, MessageSquare, KeyRound, SprayCan, WashingMachine, Wrench, BarChart3];
 const stepKeys = ["visibility", "guests", "checkin", "cleaning", "laundry", "maintenance", "financial"];
