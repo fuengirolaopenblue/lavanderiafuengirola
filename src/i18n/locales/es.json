@@ -53,9 +53,9 @@
     },
     "delivery": {
       "title": "Servicio Puerta a Puerta",
-      "description": "¿No puedes acercarte? No te preocupes. Recogemos tu ropa en tu domicilio, la lavamos y secamos con el máximo cuidado, y te la devolvemos",
-      "descriptionBold": "lista y en perfecto estado.",
-      "descriptionEnd": " Comodidad total sin salir de casa.",
+      "description": "Tu lavandería profesional, ahora más cerca que nunca. Recogemos tu ropa a domicilio y te la devolvemos impecable.",
+      "descriptionBold": "",
+      "descriptionEnd": "",
       "contact": "Solicitar recogida"
     }
   },
