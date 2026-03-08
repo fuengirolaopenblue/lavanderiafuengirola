@@ -97,7 +97,6 @@ const Contact = () => {
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
       try { form.reset(); } catch { /* form may be unmounted */ }
-      setTimeout(() => setIsSubmitted(false), 5000);
     }, 800);
   };
 
