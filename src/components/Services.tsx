@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, ArrowRight, Shirt, Truck, Building2 } from "lucide-react";
+import { WashingMachine, Home, ArrowRight, Shirt, Truck, Building2, PackageCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
