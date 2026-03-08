@@ -1,15 +1,8 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, Send, Loader2, CheckCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useState, FormEvent } from "react";
-import { toast } from "sonner";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const { t } = useTranslation();
 
   const contactInfo = [
