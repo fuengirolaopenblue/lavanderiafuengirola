@@ -1,15 +1,8 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, Send, Loader2, CheckCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useState, FormEvent } from "react";
-import { toast } from "sonner";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const { t } = useTranslation();
 
   const contactInfo = [
@@ -38,34 +31,6 @@ const Contact = () => {
     },
   ];
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch("https://formspree.io/f/xnjbndyz", {
-        method: "POST",
-        body: formData,
-        headers: { Accept: "application/json" },
-      });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-        toast.success(t("contact.successToast"));
-        form.reset();
-        setTimeout(() => setIsSubmitted(false), 5000);
-      } else {
-        toast.error(t("contact.errorToast"));
-      }
-    } catch {
-      toast.error(t("contact.connectionError"));
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
@@ -98,39 +63,18 @@ const Contact = () => {
             <h3 className="font-display text-2xl font-bold text-foreground mb-6">
               {t("contact.formTitle")}
             </h3>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">{t("contact.name")}</label>
-                  <Input name="nombre" placeholder={t("contact.namePlaceholder")} required />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">{t("contact.phone")}</label>
-                  <Input name="telefono" type="tel" placeholder={t("contact.phonePlaceholder")} required />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">{t("contact.email")}</label>
-                <Input name="email" type="email" placeholder={t("contact.emailPlaceholder")} required />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">{t("contact.serviceLabel")}</label>
-                <Input name="servicio" placeholder={t("contact.servicePlaceholder")} />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">{t("contact.message")}</label>
-                <Textarea name="mensaje" placeholder={t("contact.messagePlaceholder")} rows={5} required />
-              </div>
-              <Button type="submit" variant="hero" size="lg" className="w-full group" disabled={isSubmitting}>
-                {isSubmitting ? (
-                  <><Loader2 className="w-4 h-4 animate-spin" />{t("contact.sending")}</>
-                ) : isSubmitted ? (
-                  <><CheckCircle className="w-4 h-4" />{t("contact.sent")}</>
-                ) : (
-                  <>{t("contact.sendMessage")}<Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" /></>
-                )}
-              </Button>
-            </form>
+            <div className="w-full overflow-hidden rounded-xl">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/viewform?embedded=true"
+                width="100%"
+                height="600"
+                className="border-0 w-full"
+                title="Formulario de contacto OpenBlue"
+                loading="lazy"
+              >
+                Cargando…
+              </iframe>
+            </div>
           </motion.div>
 
           <motion.div
