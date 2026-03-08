@@ -180,5 +180,20 @@
     "experienceDesc": "Confía en <strong>OpenBlue Fuengirola</strong>. Más de 4 años de experiencia nos avalan como el aliado perfecto para propietarios que buscan profesionalidad, puntualidad y resultados impecables.",
     "ctaText": "¿Quieres saber más? Contáctanos y te preparamos un plan a medida para tu propiedad.",
     "ctaWhatsApp": "Contactar por WhatsApp"
+  },
+  "deliveryModal": {
+    "title": "Servicio de Recogida y Entrega a Domicilio",
+    "subtitle": "Tu lavandería profesional, ahora más cerca que nunca.",
+    "intro": "En OpenBlue Fuengirola sabemos que tu tiempo es valioso. Por eso hemos creado nuestro servicio de recogida y entrega a domicilio, para que disfrutes de ropa impecable sin moverte de casa.",
+    "howTitle": "¿Cómo funciona?",
+    "howDesc": "Es muy sencillo: tú solicitas el servicio, nosotros pasamos a recoger tu ropa en el horario acordado, la tratamos con nuestros productos de primera línea y respetuosos con el medio ambiente, y te la devolvemos limpia, fresca y lista para usar.",
+    "coverageTitle": "Zona de cobertura",
+    "coverageDesc": "Realizamos servicio de recogida y entrega en Fuengirola y alrededores.",
+    "costTitle": "Coste del servicio",
+    "costDesc": "Dependiendo de tu ubicación, el servicio puerta a puerta puede llevar un pequeño coste adicional. Consúltanos sin compromiso y te informamos según tu zona.",
+    "comfortTitle": "Comodidad y calidad en un solo servicio",
+    "comfortDesc": "Olvídate de desplazamientos, esperas y complicaciones. Con nuestro servicio delivery, la lavandería profesional llega hasta tu puerta. Perfecto para particulares que buscan practicidad y para propietarios de pisos vacacionales que necesitan un aliado confiable.",
+    "ctaText": "¿Quieres conocer las tarifas para tu zona? Contáctanos y te preparamos un presupuesto personalizado.",
+    "ctaWhatsApp": "Contactar por WhatsApp"
   }
 }
