@@ -77,22 +77,26 @@ const Contact = () => {
       params.append(key, value.toString());
     });
 
-    // Use Image beacon to submit (bypasses CORS and sandbox restrictions)
-    const img = new Image();
-    img.src = `${GOOGLE_FORM_URL}?${params.toString()}`;
+    try {
+      // Use Image beacon to submit (bypasses CORS and sandbox restrictions)
+      const img = new window.Image();
+      img.src = `${GOOGLE_FORM_URL}?${params.toString()}`;
 
-    // Also try fetch as backup
-    fetch(GOOGLE_FORM_URL, {
-      method: "POST",
-      body: params,
-      mode: "no-cors",
-    }).catch(() => {});
+      // Also try fetch as backup
+      fetch(GOOGLE_FORM_URL, {
+        method: "POST",
+        body: params,
+        mode: "no-cors",
+      }).catch(() => {});
+    } catch {
+      // Silently handle any submission errors
+    }
 
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
-      form.reset();
+      try { form.reset(); } catch { /* form may be unmounted */ }
       setTimeout(() => setIsSubmitted(false), 5000);
     }, 800);
   };
