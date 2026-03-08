@@ -133,6 +133,7 @@ const GestionVacacional = () => {
       </main>
       <Footer />
       <WhatsAppButton />
+      <SocialFloatingButtons />
     </div>
   );
 };
