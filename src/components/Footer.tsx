@@ -62,29 +62,33 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row items-center justify-center gap-4">
-          <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} OpenBlue Fuengirola. {t("footer.rights")}
-          </p>
-          <div className="flex items-center gap-4">
+        {/* Social & Review - Prominent Section */}
+        <div className="flex flex-col items-center gap-4 mb-10 pt-8 border-t border-primary-foreground/20">
+          <h4 className="font-display text-lg font-semibold text-primary-foreground">{t("footer.followUs", "Síguenos y déjanos tu opinión")}</h4>
+          <div className="flex items-center gap-4 flex-wrap justify-center">
             <a
               href="https://maps.app.goo.gl/hAr6kkbGsWDwadLE9"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-gold/20 text-gold hover:bg-gold hover:text-primary-foreground transition-colors duration-300 text-sm font-medium"
+              className="flex items-center gap-2 px-6 py-3 rounded-full bg-gold text-openblue-dark hover:bg-gold/80 transition-colors duration-300 text-sm font-bold shadow-elevated"
             >
-              <Star className="w-4 h-4 fill-current" />
+              <Star className="w-5 h-5 fill-current" />
               {t("footer.leaveReview")}
             </a>
-            {[
-              { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=61575797150377" },
-              { Icon: Instagram, href: "https://www.instagram.com/openblue_fuengirola/" },
-            ].map(({ Icon, href }, index) => (
-              <a key={index} href={href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-gold transition-colors duration-300">
-                <Icon className="w-5 h-5" />
-              </a>
-            ))}
+            <a href="https://www.facebook.com/profile.php?id=61575797150377" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-primary-foreground/15 flex items-center justify-center hover:bg-gold hover:text-openblue-dark transition-colors duration-300">
+              <Facebook className="w-6 h-6" />
+            </a>
+            <a href="https://www.instagram.com/openblue_fuengirola/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-primary-foreground/15 flex items-center justify-center hover:bg-gold hover:text-openblue-dark transition-colors duration-300">
+              <Instagram className="w-6 h-6" />
+            </a>
           </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="pt-6 border-t border-primary-foreground/20 text-center">
+          <p className="text-primary-foreground/60 text-sm">
+            © {new Date().getFullYear()} OpenBlue Fuengirola. {t("footer.rights")}
+          </p>
         </div>
       </div>
     </footer>
