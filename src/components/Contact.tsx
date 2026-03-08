@@ -8,8 +8,6 @@ import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
 const FORMSPREE_URL = "https://formspree.io/f/xnjbndyz";
-const GOOGLE_FORM_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/formResponse";
 
 const SERVICE_OPTIONS = [
   "Gestión de Pisos Vacacionales",
@@ -84,25 +82,22 @@ const Contact = () => {
     };
 
     try {
-      // Primary: Formspree (reliable, with CORS support)
-      await fetch(FORMSPREE_URL, {
+      const response = await fetch(FORMSPREE_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(formspreeData),
       });
 
-      // Secondary: Google Forms backup (no-cors, fire & forget)
-      const params = new URLSearchParams();
-      formData.forEach((value, key) => params.append(key, value.toString()));
-      fetch(GOOGLE_FORM_URL, { method: "POST", body: params, mode: "no-cors" }).catch(() => {});
-    } catch {
-      // Even if Formspree fails, show success (Google Forms backup may work)
-    }
+      if (!response.ok) throw new Error("Formspree submission failed");
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    toast.success(t("contact.successToast"));
-    try { form.reset(); } catch { /* form may be unmounted */ }
+      setIsSubmitted(true);
+      toast.success(t("contact.successToast"));
+      try { form.reset(); } catch { /* form may be unmounted */ }
+    } catch {
+      toast.error(t("contact.errorToast", "No se pudo enviar el mensaje. Inténtalo de nuevo."));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
