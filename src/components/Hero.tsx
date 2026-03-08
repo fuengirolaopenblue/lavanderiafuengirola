@@ -25,17 +25,20 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
           {/* Badge */}
-          <motion.div
+          <motion.a
+            href="https://maps.app.goo.gl/hAr6kkbGsWDwadLE9"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm border border-primary-foreground/20 mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm border border-primary-foreground/20 mb-8 hover:bg-primary/30 transition-colors cursor-pointer"
           >
             <Clock className="w-4 h-4 text-primary-foreground" />
             <span className="text-sm font-medium text-primary-foreground">
               {t("hero.badge")}
             </span>
-          </motion.div>
+          </motion.a>
 
           {/* Heading */}
           <motion.h1
