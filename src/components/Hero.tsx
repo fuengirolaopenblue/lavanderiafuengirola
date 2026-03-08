@@ -76,6 +76,10 @@ const Hero = () => {
               <div className="text-3xl font-bold text-gold">3,00€</div>
               <div className="text-sm text-primary-foreground/70">{t("hero.dryFrom")}</div>
             </div>
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/20">
+              <div className="text-3xl font-bold text-gold">50'</div>
+              <div className="text-sm text-primary-foreground/70">{t("hero.washAndDry")}</div>
+            </div>
           </motion.div>
 
           {/* CTA Buttons */}
