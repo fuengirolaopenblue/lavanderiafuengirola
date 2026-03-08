@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import logoOpenblue from "@/assets/logo-openblue.jpg";
 
