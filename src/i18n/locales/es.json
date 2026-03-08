@@ -50,6 +50,13 @@
     "management": {
       "title": "Gestión de Pisos Vacacionales",
       "description": "Gestionamos tu propiedad de principio a fin. Check-in/out, limpieza, mantenimiento y atención al huésped para maximizar tu rentabilidad."
+    },
+    "delivery": {
+      "title": "Servicio Puerta a Puerta",
+      "description": "¿No puedes acercarte? No te preocupes. Recogemos tu ropa en tu domicilio, la lavamos y secamos con el máximo cuidado, y te la devolvemos",
+      "descriptionBold": "lista y en perfecto estado.",
+      "descriptionEnd": " Comodidad total sin salir de casa.",
+      "contact": "Solicitar recogida"
     }
   },
   "about": {

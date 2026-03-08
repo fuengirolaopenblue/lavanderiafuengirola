@@ -50,6 +50,13 @@
     "management": {
       "title": "Vacation Property Management",
       "description": "We manage your property from start to finish. Check-in/out, cleaning, maintenance and guest care to maximize your profitability."
+    },
+    "delivery": {
+      "title": "Door-to-Door Service",
+      "description": "Can't come to us? No worries. We pick up your laundry from your home, wash and dry it with the utmost care, and return it",
+      "descriptionBold": "ready and in perfect condition.",
+      "descriptionEnd": " Total convenience without leaving home.",
+      "contact": "Request pickup"
     }
   },
   "about": {
