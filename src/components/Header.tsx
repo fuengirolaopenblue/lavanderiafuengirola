@@ -103,8 +103,8 @@ const Header = () => {
               {item.name}
             </a>
           ))}
-          <Button variant="hero" size="lg" className="mt-2">
-            {t("nav.contactBtn")}
+          <Button variant="hero" size="lg" className="mt-2" asChild>
+            <a href="#contacto" onClick={() => setIsOpen(false)}>{t("nav.contactBtn")}</a>
           </Button>
         </nav>
       </motion.div>
