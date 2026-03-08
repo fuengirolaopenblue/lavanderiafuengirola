@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row items-center justify-center gap-4">
           <p className="text-primary-foreground/60 text-sm">
             © {new Date().getFullYear()} OpenBlue Fuengirola. {t("footer.rights")}
           </p>
