@@ -11,11 +11,12 @@ const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdR9taQm-0Rfl-7oBGXIAweeVnQ7iJRNpmb5GCXlvUmm9kuQw/formResponse";
 
 const SERVICE_OPTIONS = [
+  "Gestión de Pisos Vacacionales",
   "Lavandería Autoservicio",
   "Recogida y Entrega a domicilio",
   "Presupuesto para Hoteles/Apartamentos",
   "Objeto perdido / Incidencia",
-  "Otro",
+  "Otros",
 ];
 
 const CONTACT_METHOD_OPTIONS = [
