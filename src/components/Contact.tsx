@@ -90,8 +90,7 @@ const Contact = () => {
 
       if (!response.ok) throw new Error("Formspree submission failed");
 
-      // Also send to Google Forms for statistics (background, won't affect UX)
-      sendToGoogleForms(formData);
+      // Google Forms removed - was causing blank page issues
 
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
