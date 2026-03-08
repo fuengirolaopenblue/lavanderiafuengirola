@@ -127,8 +127,34 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="bg-card rounded-2xl p-8 shadow-card border border-border/50"
+            className="bg-card rounded-2xl p-8 shadow-card border border-border/50 min-h-[400px] flex flex-col"
           >
+            {isSubmitted ? (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="flex flex-col items-center justify-center text-center flex-1 gap-6 py-12"
+              >
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
+                  <CheckCircle className="w-10 h-10 text-primary" />
+                </div>
+                <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground">
+                  {t("contact.thankYouTitle", "¡Gracias por contactarnos!")}
+                </h3>
+                <p className="text-muted-foreground text-lg max-w-md">
+                  {t("contact.thankYouMessage", "Hemos recibido tu mensaje. Te responderemos a la mayor brevedad posible.")}
+                </p>
+                <Button
+                  variant="outline"
+                  onClick={() => setIsSubmitted(false)}
+                  className="mt-4"
+                >
+                  {t("contact.sendAnother", "Enviar otro mensaje")}
+                </Button>
+              </motion.div>
+            ) : (
+            <>
             <h3 className="font-display text-2xl font-bold text-foreground mb-6">
               {t("contact.formTitle")}
             </h3>
