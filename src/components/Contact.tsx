@@ -31,34 +31,6 @@ const Contact = () => {
     },
   ];
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch("https://formspree.io/f/xnjbndyz", {
-        method: "POST",
-        body: formData,
-        headers: { Accept: "application/json" },
-      });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-        toast.success(t("contact.successToast"));
-        form.reset();
-        setTimeout(() => setIsSubmitted(false), 5000);
-      } else {
-        toast.error(t("contact.errorToast"));
-      }
-    } catch {
-      toast.error(t("contact.connectionError"));
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
