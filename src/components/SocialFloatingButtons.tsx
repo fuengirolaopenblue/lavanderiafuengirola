@@ -38,9 +38,9 @@ const SocialFloatingButtons = () => {
           className={`w-11 h-11 ${bg} rounded-full flex items-center justify-center shadow-elevated text-white`}
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          whileHover={{ scale: 1.2, rotate: 8, boxShadow: "0 8px 25px rgba(0,0,0,0.3)" }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ delay: 1.2 + index * 0.15, type: "spring", stiffness: 300, damping: 15 }}
+          whileHover={{ scale: 1.15, rotate: 5, boxShadow: "0 6px 20px rgba(0,0,0,0.25)" }}
+          whileTap={{ scale: 0.92 }}
+          transition={{ delay: 0.3 + index * 0.08, type: "spring", stiffness: 500, damping: 20 }}
           aria-label={label}
         >
           <Icon className={`w-5 h-5 ${fill ? "fill-current" : ""}`} />
