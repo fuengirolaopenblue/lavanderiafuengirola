@@ -13,6 +13,7 @@ const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
   const [deliveryModalOpen, setDeliveryModalOpen] = useState(false);
+  const [particularesModalOpen, setParticularesModalOpen] = useState(false);
   const { t } = useTranslation();
 
   const services = [
