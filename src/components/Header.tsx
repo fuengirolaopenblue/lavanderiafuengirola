@@ -68,8 +68,8 @@ const Header = () => {
             className="hidden md:flex items-center gap-3"
           >
             <LanguageSelector />
-            <Button variant="hero" size="lg">
-              {t("nav.contactBtn")}
+            <Button variant="hero" size="lg" asChild>
+              <a href="#contacto">{t("nav.contactBtn")}</a>
             </Button>
           </motion.div>
 
@@ -103,8 +103,8 @@ const Header = () => {
               {item.name}
             </a>
           ))}
-          <Button variant="hero" size="lg" className="mt-2">
-            {t("nav.contactBtn")}
+          <Button variant="hero" size="lg" className="mt-2" asChild>
+            <a href="#contacto" onClick={() => setIsOpen(false)}>{t("nav.contactBtn")}</a>
           </Button>
         </nav>
       </motion.div>
