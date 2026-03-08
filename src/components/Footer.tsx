@@ -1,15 +1,19 @@
 import { Facebook, Instagram, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 import logoOpenblue from "@/assets/logo-ob.png";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+  const getHref = (hash: string) => isHome ? hash : `/${hash}`;
 
   const quickLinks = [
-    { label: t("nav.home"), href: "#inicio" },
-    { label: t("nav.services"), href: "#servicios" },
-    { label: t("nav.about"), href: "#nosotros" },
-    { label: t("nav.contact"), href: "#contacto" },
+    { label: t("nav.home"), href: getHref("#inicio") },
+    { label: t("nav.services"), href: getHref("#servicios") },
+    { label: t("nav.about"), href: getHref("#nosotros") },
+    { label: t("nav.contact"), href: getHref("#contacto") },
   ];
 
   const serviceLinks = [
