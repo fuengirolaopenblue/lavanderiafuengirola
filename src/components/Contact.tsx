@@ -148,9 +148,14 @@ ${formspreeData.mensaje}
 ✅ _Enviado desde lavanderiafuengirola.com_`;
 
       // Enviar a CallMeBot via img tag (evita CORS)
-      const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
-      const img = new Image();
-      img.src = callmebotUrl;
+      try {
+        const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
+        const img = new Image();
+        img.onerror = () => console.log("CallMeBot request sent (expected error due to CORS)");
+        img.src = callmebotUrl;
+      } catch (e) {
+        console.log("CallMeBot error (non-blocking):", e);
+      }
 
       const formspreeResponse = await formspreePromise;
       if (!formspreeResponse.ok) throw new Error("Formspree submission failed");
