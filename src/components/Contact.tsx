@@ -8,6 +8,8 @@ import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
 const FORMSPREE_URL = "https://formspree.io/f/xnjbndyz";
+const CALLMEBOT_PHONE = "34641819577";
+const CALLMEBOT_APIKEY = "5478565";
 
 const SERVICE_OPTIONS = [
   "Gestión de Pisos Vacacionales",
