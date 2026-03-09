@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Star } from "lucide-react";
+import { Facebook, Instagram, Star, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const SocialFloatingButtons = () => {
