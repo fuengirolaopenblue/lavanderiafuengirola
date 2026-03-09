@@ -79,6 +79,15 @@ const Footer = () => {
               <Star className="w-5 h-5 fill-current" />
               {t("footer.leaveReview")}
             </a>
+            <a
+              href="https://maps.app.goo.gl/bu8z2BPR11gnGxpe6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/80 transition-colors duration-300 text-sm font-bold shadow-elevated"
+            >
+              <MapPin className="w-5 h-5" />
+              {t("footer.location", "Ubicación")}
+            </a>
             <a href="https://www.facebook.com/profile.php?id=61575797150377" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-primary-foreground/15 flex items-center justify-center hover:bg-gold hover:text-openblue-dark transition-colors duration-300">
               <Facebook className="w-6 h-6" />
             </a>
