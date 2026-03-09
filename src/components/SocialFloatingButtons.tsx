@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Star } from "lucide-react";
+import { Facebook, Instagram, Star, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const SocialFloatingButtons = () => {
@@ -24,6 +24,13 @@ const SocialFloatingButtons = () => {
       label: t("footer.leaveReview"),
       bg: "bg-gold",
       fill: true,
+    },
+    {
+      Icon: MapPin,
+      href: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
+      label: t("footer.location", "Ubicación"),
+      bg: "bg-primary",
+      fill: false,
     },
   ];
 
