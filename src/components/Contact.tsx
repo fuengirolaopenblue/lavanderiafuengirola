@@ -84,15 +84,36 @@ const Contact = () => {
     };
 
     try {
-      const response = await fetch(FORMSPREE_URL, {
+      // Enviar a Formspree (backup)
+      const formspreePromise = fetch(FORMSPREE_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(formspreeData),
       });
 
-      if (!response.ok) throw new Error("Formspree submission failed");
+      // Construir mensaje para WhatsApp
+      const whatsappMessage = `📩 *Nuevo contacto web*
+      
+👤 *Nombre:* ${formspreeData.nombre}
+📱 *Teléfono:* ${formspreeData.telefono}
+📧 *Email:* ${formspreeData.email}
+💬 *Contactar por:* ${formspreeData.metodo_contacto}
+🕐 *Horario:* ${formspreeData.horario}
+🧺 *Servicio:* ${formspreeData.servicio}
 
-      // Google Forms removed - was causing blank page issues
+📝 *Mensaje:*
+${formspreeData.mensaje}`;
+
+      // Enviar a CallMeBot (WhatsApp)
+      const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
+      
+      // Ejecutar ambas peticiones en paralelo
+      const [formspreeResponse] = await Promise.all([
+        formspreePromise,
+        fetch(callmebotUrl, { mode: "no-cors" }) // CallMeBot no soporta CORS
+      ]);
+
+      if (!formspreeResponse.ok) throw new Error("Formspree submission failed");
 
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
