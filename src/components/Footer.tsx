@@ -71,7 +71,7 @@ const Footer = () => {
           <h4 className="font-display text-lg font-semibold text-primary-foreground">{t("footer.followUs", "Síguenos y déjanos tu opinión")}</h4>
           <div className="flex items-center gap-4 flex-wrap justify-center">
             <a
-              href="https://maps.app.goo.gl/hAr6kkbGsWDwadLE9"
+              href="https://search.google.com/local/writereview?placeid=ChIJBQS-udV7aCURPAuhZ0N7dgI"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full bg-gold text-openblue-dark hover:bg-gold/80 transition-colors duration-300 text-sm font-bold shadow-elevated"
