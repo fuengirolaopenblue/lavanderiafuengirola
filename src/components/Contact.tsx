@@ -91,6 +91,25 @@ const Contact = () => {
         body: JSON.stringify(formspreeData),
       });
 
+      // Generar link de contacto según el método preferido
+      const getContactLink = () => {
+        const phone = String(formspreeData.telefono).replace(/\s+/g, '');
+        const phoneClean = phone.startsWith('+') ? phone.slice(1) : (phone.startsWith('34') ? phone : `34${phone}`);
+        
+        switch (formspreeData.metodo_contacto) {
+          case "Llamada telefónica":
+            return `📞 Llamar: tel:+${phoneClean}`;
+          case "WhatsApp":
+            return `💬 WhatsApp: https://wa.me/${phoneClean}`;
+          case "Telegram":
+            return `✈️ Telegram: https://t.me/+${phoneClean}`;
+          case "Correo electrónico":
+            return `✉️ Email: mailto:${formspreeData.email}`;
+          default:
+            return "";
+        }
+      };
+
       // Construir mensaje para WhatsApp con formato mejorado
       const whatsappMessage = `🔔 *NUEVO CONTACTO WEB*
 ━━━━━━━━━━━━━━━━━━
@@ -108,6 +127,9 @@ ${formspreeData.email}
 
 💬 *PREFIERE CONTACTO POR*
 ${formspreeData.metodo_contacto}
+
+👉 *LINK DIRECTO*
+${getContactLink()}
 
 🕐 *HORARIO PREFERIDO*
 ${formspreeData.horario}
