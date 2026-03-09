@@ -165,13 +165,26 @@ ${formspreeData.mensaje}
       if (!formspreeResponse.ok) throw new Error("Formspree submission failed");
 
       console.log("Formulario enviado correctamente");
-      setIsSubmitted(true);
-      toast.success(t("contact.successToast"));
-      try { form.reset(); } catch { /* form may be unmounted */ }
+      toast.success("¡Mensaje enviado correctamente!");
+      
+      // Reset form before changing state to avoid DOM conflicts
+      try { 
+        form.reset(); 
+        console.log("Form reset OK");
+      } catch (resetErr) { 
+        console.log("Form reset skipped:", resetErr);
+      }
+      
+      // Use setTimeout to avoid potential race conditions with DOM updates
+      setTimeout(() => {
+        setIsSubmitted(true);
+        setIsSubmitting(false);
+        console.log("State updated to submitted");
+      }, 100);
+      return; // Exit early, setIsSubmitting handled in setTimeout
     } catch (error) {
       console.error("Error en envío:", error);
-      toast.error(t("contact.errorToast", "No se pudo enviar el mensaje. Inténtalo de nuevo."));
-    } finally {
+      toast.error("No se pudo enviar el mensaje. Inténtalo de nuevo.");
       setIsSubmitting(false);
     }
   };
