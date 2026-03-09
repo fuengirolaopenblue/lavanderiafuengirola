@@ -91,18 +91,39 @@ const Contact = () => {
         body: JSON.stringify(formspreeData),
       });
 
-      // Construir mensaje para WhatsApp
-      const whatsappMessage = `📩 *Nuevo contacto web*
-      
-👤 *Nombre:* ${formspreeData.nombre}
-📱 *Teléfono:* ${formspreeData.telefono}
-📧 *Email:* ${formspreeData.email}
-💬 *Contactar por:* ${formspreeData.metodo_contacto}
-🕐 *Horario:* ${formspreeData.horario}
-🧺 *Servicio:* ${formspreeData.servicio}
+      // Construir mensaje para WhatsApp con formato mejorado
+      const whatsappMessage = `🔔 *NUEVO CONTACTO WEB*
+━━━━━━━━━━━━━━━━━━
 
-📝 *Mensaje:*
-${formspreeData.mensaje}`;
+👤 *NOMBRE*
+${formspreeData.nombre}
+
+📱 *TELÉFONO*
+${formspreeData.telefono}
+
+📧 *EMAIL*
+${formspreeData.email}
+
+━━━━━━━━━━━━━━━━━━
+
+💬 *PREFIERE CONTACTO POR*
+${formspreeData.metodo_contacto}
+
+🕐 *HORARIO PREFERIDO*
+${formspreeData.horario}
+
+━━━━━━━━━━━━━━━━━━
+
+🧺 *SERVICIO SOLICITADO*
+${formspreeData.servicio}
+
+━━━━━━━━━━━━━━━━━━
+
+📝 *MENSAJE DEL CLIENTE*
+${formspreeData.mensaje}
+
+━━━━━━━━━━━━━━━━━━
+✅ _Enviado desde lavanderiafuengirola.com_`;
 
       // Enviar a CallMeBot via img tag (evita CORS)
       const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
