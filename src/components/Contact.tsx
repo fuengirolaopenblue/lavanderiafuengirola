@@ -104,15 +104,12 @@ const Contact = () => {
 📝 *Mensaje:*
 ${formspreeData.mensaje}`;
 
-      // Enviar a CallMeBot (WhatsApp)
+      // Enviar a CallMeBot via img tag (evita CORS)
       const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
-      
-      // Ejecutar ambas peticiones en paralelo
-      const [formspreeResponse] = await Promise.all([
-        formspreePromise,
-        fetch(callmebotUrl, { mode: "no-cors" }) // CallMeBot no soporta CORS
-      ]);
+      const img = new Image();
+      img.src = callmebotUrl;
 
+      const formspreeResponse = await formspreePromise;
       if (!formspreeResponse.ok) throw new Error("Formspree submission failed");
 
       setIsSubmitted(true);
