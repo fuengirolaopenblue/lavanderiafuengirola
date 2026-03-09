@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Star } from "lucide-react";
+import { Facebook, Instagram, Star, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import logoOpenblue from "@/assets/logo-ob.png";

@@ -25,6 +25,13 @@ const SocialFloatingButtons = () => {
       bg: "bg-gold",
       fill: true,
     },
+    {
+      Icon: MapPin,
+      href: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
+      label: t("footer.location", "Ubicación"),
+      bg: "bg-primary",
+      fill: false,
+    },
   ];
 
   return (
