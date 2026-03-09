@@ -84,6 +84,8 @@ const Contact = () => {
     };
 
     try {
+      console.log("Iniciando envío del formulario...");
+      
       // Enviar a Formspree (backup)
       const formspreePromise = fetch(FORMSPREE_URL, {
         method: "POST",
@@ -148,17 +150,26 @@ ${formspreeData.mensaje}
 ✅ _Enviado desde lavanderiafuengirola.com_`;
 
       // Enviar a CallMeBot via img tag (evita CORS)
-      const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
-      const img = new Image();
-      img.src = callmebotUrl;
+      try {
+        const callmebotUrl = `https://api.callmebot.com/whatsapp.php?phone=${CALLMEBOT_PHONE}&text=${encodeURIComponent(whatsappMessage)}&apikey=${CALLMEBOT_APIKEY}`;
+        const img = new Image();
+        img.onerror = () => console.log("CallMeBot request sent (expected error due to CORS)");
+        img.src = callmebotUrl;
+      } catch (e) {
+        console.log("CallMeBot error (non-blocking):", e);
+      }
 
+      console.log("Esperando respuesta de Formspree...");
       const formspreeResponse = await formspreePromise;
+      console.log("Respuesta Formspree:", formspreeResponse.ok);
       if (!formspreeResponse.ok) throw new Error("Formspree submission failed");
 
+      console.log("Formulario enviado correctamente");
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
       try { form.reset(); } catch { /* form may be unmounted */ }
-    } catch {
+    } catch (error) {
+      console.error("Error en envío:", error);
       toast.error(t("contact.errorToast", "No se pudo enviar el mensaje. Inténtalo de nuevo."));
     } finally {
       setIsSubmitting(false);
