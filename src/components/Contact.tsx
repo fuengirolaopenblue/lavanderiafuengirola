@@ -29,7 +29,7 @@ const CONTACT_METHOD_OPTIONS = [
 
 const SCHEDULE_OPTIONS = [
   "Mañana (9:00 a 12:00)",
-  "Mediodía (12:00 a 16:00)",
+  "Medio día (12:00 a 16:00)",
   "Tarde (16:00 a 21:00)",
   "Cualquier momento",
 ];
