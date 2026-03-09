@@ -84,6 +84,8 @@ const Contact = () => {
     };
 
     try {
+      console.log("Iniciando envío del formulario...");
+      
       // Enviar a Formspree (backup)
       const formspreePromise = fetch(FORMSPREE_URL, {
         method: "POST",
