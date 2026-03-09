@@ -159,13 +159,17 @@ ${formspreeData.mensaje}
         console.log("CallMeBot error (non-blocking):", e);
       }
 
+      console.log("Esperando respuesta de Formspree...");
       const formspreeResponse = await formspreePromise;
+      console.log("Respuesta Formspree:", formspreeResponse.ok);
       if (!formspreeResponse.ok) throw new Error("Formspree submission failed");
 
+      console.log("Formulario enviado correctamente");
       setIsSubmitted(true);
       toast.success(t("contact.successToast"));
       try { form.reset(); } catch { /* form may be unmounted */ }
-    } catch {
+    } catch (error) {
+      console.error("Error en envío:", error);
       toast.error(t("contact.errorToast", "No se pudo enviar el mensaje. Inténtalo de nuevo."));
     } finally {
       setIsSubmitting(false);
