@@ -13,6 +13,7 @@ const CALLMEBOT_APIKEY = "5478565";
 
 const SERVICE_OPTIONS = [
   "Gestión de Pisos Vacacionales",
+  "Lavandería para Pisos Vacacionales",
   "Lavandería Autoservicio",
   "Recogida y Entrega a domicilio",
   "Presupuesto para Hoteles/Apartamentos",
