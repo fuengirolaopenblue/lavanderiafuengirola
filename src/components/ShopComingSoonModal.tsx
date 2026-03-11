@@ -5,15 +5,33 @@ import { motion } from "framer-motion";
 const ShopComingSoonModal = ({ floating }: { floating?: boolean }) => {
   const trigger = floating ? (
     <motion.button
-      className="fixed bottom-24 right-6 z-50 w-14 h-14 bg-gold rounded-full flex items-center justify-center shadow-elevated ring-2 ring-gold/30 text-openblue-dark"
+      className="fixed bottom-24 right-6 z-50 w-16 h-16 bg-gold rounded-full flex items-center justify-center text-openblue-dark"
+      style={{
+        boxShadow: "0 0 20px rgba(255,193,7,0.5), 0 0 40px rgba(255,193,7,0.25), 0 4px 15px rgba(0,0,0,0.2)",
+      }}
       initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      whileHover={{ scale: 1.12, rotate: 5, boxShadow: "0 6px 20px rgba(0,0,0,0.25)" }}
-      whileTap={{ scale: 0.92 }}
-      transition={{ delay: 0.5, type: "spring", stiffness: 500, damping: 20 }}
+      animate={{
+        scale: [1, 1.12, 1],
+        opacity: 1,
+        boxShadow: [
+          "0 0 20px rgba(255,193,7,0.5), 0 0 40px rgba(255,193,7,0.25), 0 4px 15px rgba(0,0,0,0.2)",
+          "0 0 30px rgba(255,193,7,0.7), 0 0 60px rgba(255,193,7,0.4), 0 4px 20px rgba(0,0,0,0.3)",
+          "0 0 20px rgba(255,193,7,0.5), 0 0 40px rgba(255,193,7,0.25), 0 4px 15px rgba(0,0,0,0.2)",
+        ],
+      }}
+      whileHover={{ scale: 1.2, rotate: -10 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{
+        delay: 0.5,
+        type: "spring",
+        stiffness: 500,
+        damping: 20,
+        scale: { repeat: Infinity, duration: 2, ease: "easeInOut" },
+        boxShadow: { repeat: Infinity, duration: 2, ease: "easeInOut" },
+      }}
       aria-label="Tienda"
     >
-      <ShoppingCart className="w-7 h-7" />
+      <ShoppingCart className="w-8 h-8" />
     </motion.button>
   ) : null;
 
