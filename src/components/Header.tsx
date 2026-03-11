@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import logoOpenblue from "@/assets/logo-ob.png";
 import LanguageSelector from "./LanguageSelector";
-import ShopComingSoonModal from "./ShopComingSoonModal";
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
