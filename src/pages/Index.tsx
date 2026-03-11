@@ -19,6 +19,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <ShopComingSoonModal floating />
       <WhatsAppButton />
       <SocialFloatingButtons />
     </div>

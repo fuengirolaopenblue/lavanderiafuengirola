@@ -109,9 +109,6 @@ const Header = () => {
               {item.name}
             </a>
           ))}
-          <div className="mt-2">
-            <ShopComingSoonModal />
-          </div>
           <Button variant="hero" size="lg" className="mt-2" asChild>
             <a href={getHref("#contacto")} onClick={() => setIsOpen(false)}>{t("nav.contactBtn")}</a>
           </Button>
