@@ -52,7 +52,7 @@ const ShopComingSoonModal = () => {
 
           <div className="bg-gradient-openblue rounded-xl p-5 text-center text-primary-foreground">
             <p className="font-semibold text-lg">
-              ¡Crea tu cuenta ahora y sé el primero en disfrutar de todas las novedades cuando lancemos la tienda!
+              ¡Muy pronto podrás crear tu cuenta e iniciar sesión para ser el primero en disfrutar de todas las novedades cuando lancemos la tienda!
             </p>
           </div>
         </div>
