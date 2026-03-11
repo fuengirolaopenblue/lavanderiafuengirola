@@ -1,20 +1,28 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ShoppingCart, Gift, Tag, Smartphone } from "lucide-react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
-const ShopComingSoonModal = () => {
+const ShopComingSoonModal = ({ floating }: { floating?: boolean }) => {
+  const trigger = floating ? (
+    <motion.button
+      className="fixed bottom-24 right-6 z-50 w-14 h-14 bg-gold rounded-full flex items-center justify-center shadow-elevated ring-2 ring-gold/30 text-openblue-dark"
+      initial={{ scale: 0, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      whileHover={{ scale: 1.12, rotate: 5, boxShadow: "0 6px 20px rgba(0,0,0,0.25)" }}
+      whileTap={{ scale: 0.92 }}
+      transition={{ delay: 0.5, type: "spring", stiffness: 500, damping: 20 }}
+      aria-label="Tienda"
+    >
+      <ShoppingCart className="w-7 h-7" />
+    </motion.button>
+  ) : null;
+
+  if (!trigger) return null;
+
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button
-          variant="hero"
-          size="lg"
-          className="gap-2 animate-pulse hover:animate-none"
-        >
-          <ShoppingCart className="w-5 h-5" />
-          Tienda
-        </Button>
+        {trigger}
       </DialogTrigger>
       <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto">
         <DialogHeader>
