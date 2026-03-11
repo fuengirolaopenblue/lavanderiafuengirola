@@ -74,6 +74,7 @@ const Header = () => {
             className="hidden md:flex items-center gap-3"
           >
             <LanguageSelector />
+            <ShopComingSoonModal />
             <Button variant="hero" size="lg" asChild>
               <a href={getHref("#contacto")}>{t("nav.contactBtn")}</a>
             </Button>
