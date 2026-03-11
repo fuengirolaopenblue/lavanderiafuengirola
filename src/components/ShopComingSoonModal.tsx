@@ -1,6 +1,7 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { ShoppingCart, Gift, Tag, Smartphone } from "lucide-react";
+import { ShoppingCart, Gift, Tag, Bell } from "lucide-react";
 import { motion } from "framer-motion";
+import centralPagoImg from "@/assets/central-pago.png";
 
 const ShopComingSoonModal = ({ floating }: { floating?: boolean }) => {
   const trigger = floating ? (
@@ -42,26 +43,36 @@ const ShopComingSoonModal = ({ floating }: { floating?: boolean }) => {
       <DialogTrigger asChild>
         {trigger}
       </DialogTrigger>
-      <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto">
-        <DialogHeader>
-          <DialogTitle className="text-2xl font-display text-center">
-            🛒 ¡Tienda en línea próximamente!
-          </DialogTitle>
-        </DialogHeader>
-        <div className="space-y-5 py-4">
+      <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto p-0">
+        {/* Hero image */}
+        <div className="relative w-full h-48 sm:h-56 overflow-hidden rounded-t-lg">
+          <img
+            src={centralPagoImg}
+            alt="Central de pago OpenBlue"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+          <div className="absolute bottom-4 left-4 right-4">
+            <h2 className="text-xl sm:text-2xl font-display font-bold text-white drop-shadow-lg">
+              🛒 ¡Tienda en línea próximamente!
+            </h2>
+          </div>
+        </div>
+
+        <div className="space-y-5 px-6 pb-6 pt-2">
           <p className="text-muted-foreground leading-relaxed">
-            Muy pronto podrás gestionar tus lavados y secados de forma fácil, rápida y sin complicaciones directamente desde nuestra página web. Olvídate de las colas y los cambios — con unos pocos clics podrás comprar y pagar tus ciclos de lavado y secado cuando quieras, donde quieras.
+            Muy pronto llevarás la central de pagos en la palma de tu mano. Desde nuestra página web podrás comprar y pagar tus ciclos de lavado y secado cuando quieras, sin necesidad de desplazarte ni llevar efectivo — todo a golpe de clic, desde donde estés.
           </p>
 
           <p className="text-foreground font-medium">
-            Además, si te registras e inicias sesión con tus datos, accederás a un mundo de ventajas exclusivas:
+            Para disfrutar de la experiencia completa, solo necesitas crear tu cuenta en nuestra web. Una vez registrado, además de gestionar tus pagos cómodamente, podrás acceder a:
           </p>
 
-          <div className="space-y-4">
+          <div className="space-y-3">
             {[
-              { icon: Gift, text: "Regalos y sorpresas para nuestros clientes más fieles", color: "text-gold" },
-              { icon: Tag, text: "Promociones y descuentos especiales disponibles solo para usuarios registrados", color: "text-primary" },
-              { icon: Smartphone, text: "Gestión cómoda de tus pagos e historial de uso", color: "text-primary" },
+              { icon: Gift, text: "Sorpresas y regalos pensados para nuestros clientes", color: "text-gold" },
+              { icon: Tag, text: "Promociones y descuentos exclusivos para usuarios registrados", color: "text-primary" },
+              { icon: Bell, text: "Novedades y ofertas antes que nadie", color: "text-primary" },
             ].map(({ icon: Icon, text, color }, i) => (
               <motion.div
                 key={i}
@@ -78,7 +89,7 @@ const ShopComingSoonModal = ({ floating }: { floating?: boolean }) => {
 
           <div className="bg-gradient-openblue rounded-xl p-5 text-center text-primary-foreground">
             <p className="font-semibold text-lg">
-              ¡Muy pronto podrás crear tu cuenta e iniciar sesión para ser el primero en disfrutar de todas las novedades cuando lancemos la tienda!
+              ¡Regístrate ahora y prepárate para una nueva forma de hacer la colada!
             </p>
           </div>
         </div>
