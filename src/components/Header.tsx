@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import logoOpenblue from "@/assets/logo-ob.png";
 import LanguageSelector from "./LanguageSelector";
+import ShopComingSoonModal from "./ShopComingSoonModal";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,6 +74,7 @@ const Header = () => {
             className="hidden md:flex items-center gap-3"
           >
             <LanguageSelector />
+            <ShopComingSoonModal />
             <Button variant="hero" size="lg" asChild>
               <a href={getHref("#contacto")}>{t("nav.contactBtn")}</a>
             </Button>
@@ -108,6 +110,9 @@ const Header = () => {
               {item.name}
             </a>
           ))}
+          <div className="mt-2">
+            <ShopComingSoonModal />
+          </div>
           <Button variant="hero" size="lg" className="mt-2" asChild>
             <a href={getHref("#contacto")} onClick={() => setIsOpen(false)}>{t("nav.contactBtn")}</a>
           </Button>
