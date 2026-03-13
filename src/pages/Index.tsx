@@ -23,7 +23,7 @@ const Index = () => {
       <ShopComingSoonModal floating />
       <WhatsAppButton />
       <SocialFloatingButtons />
-      <WifiModal />
+      
     </div>
   );
 };
