@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ShopComingSoonModal from "@/components/ShopComingSoonModal";
 import SocialFloatingButtons from "@/components/SocialFloatingButtons";
-import WifiModal from "@/components/WifiModal";
+
 
 const Index = () => {
   return (
@@ -23,7 +23,7 @@ const Index = () => {
       <ShopComingSoonModal floating />
       <WhatsAppButton />
       <SocialFloatingButtons />
-      <WifiModal />
+      
     </div>
   );
 };
