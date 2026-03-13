@@ -26,7 +26,7 @@ const WifiModal = () => {
     <Dialog>
       <DialogTrigger asChild>
         <motion.button
-          className="fixed bottom-24 left-6 z-50 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated text-primary-foreground"
+          className="fixed bottom-44 right-6 z-50 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated text-primary-foreground"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           whileHover={{ scale: 1.15, rotate: 5, boxShadow: "0 6px 20px rgba(0,0,0,0.25)" }}
