@@ -53,20 +53,22 @@
     <meta name="twitter:image:alt" content="OpenBlue Fuengirola - Lavandería autoservicio moderna" />
 
     <!-- JSON-LD Structured Data: Local Business -->
+    <!-- JSON-LD Structured Data: Local Business -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Laundromat",
       "name": "OpenBlue Fuengirola",
-      "alternateName": "Lavandería OpenBlue",
+      "alternateName": ["Lavandería OpenBlue", "OpenBlue Laundry Fuengirola"],
       "url": "https://www.lavanderiafuengirola.com",
       "logo": "https://www.lavanderiafuengirola.com/favicon.png",
       "image": "https://www.lavanderiafuengirola.com/og-image.png",
       "description": "Lavandería autoservicio 24 horas en Fuengirola, Málaga. Lavadoras y secadoras industriales. Servicios para pisos vacacionales, particulares y gestión de propiedades turísticas.",
-      "telephone": "+34-951-000-000",
+      "telephone": "+34-641-819-577",
+      "email": "fuengirolaopenblue@gmail.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Av. de Mijas, 5",
+        "streetAddress": "Av. de Mijas nº5, Local 2",
         "addressLocality": "Fuengirola",
         "addressRegion": "Málaga",
         "postalCode": "29640",
@@ -85,11 +87,12 @@
       },
       "priceRange": "€",
       "currenciesAccepted": "EUR",
-      "paymentAccepted": "Cash, Credit Card",
-      "areaServed": {
-        "@type": "City",
-        "name": "Fuengirola"
-      },
+      "paymentAccepted": "Cash, Credit Card, Contactless",
+      "areaServed": [
+        { "@type": "City", "name": "Fuengirola" },
+        { "@type": "City", "name": "Mijas" },
+        { "@type": "City", "name": "Benalmádena" }
+      ],
       "sameAs": [
         "https://www.facebook.com/profile.php?id=61575797150377",
         "https://www.instagram.com/openblue_fuengirola/",
@@ -99,7 +102,102 @@
       "amenityFeature": [
         { "@type": "LocationFeatureSpecification", "name": "Self-Service", "value": true },
         { "@type": "LocationFeatureSpecification", "name": "24 Hours", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Vending Machines", "value": true }
+        { "@type": "LocationFeatureSpecification", "name": "Vending Machines", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de lavandería",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lavandería Autoservicio 24h",
+              "description": "Lavadoras y secadoras industriales de autoservicio disponibles las 24 horas del día, los 7 días de la semana."
+            },
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "6",
+              "priceCurrency": "EUR",
+              "description": "Desde 6€ por lavado"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lavandería para Pisos Vacacionales",
+              "description": "Servicio de lavandería especializado para propietarios de pisos turísticos y vacacionales en la Costa del Sol."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recogida y Entrega a Domicilio",
+              "description": "Servicio de recogida y entrega de ropa a domicilio en Fuengirola y alrededores."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gestión Integral de Pisos Vacacionales",
+              "description": "Gestión completa de propiedades turísticas: limpieza, lavandería, check-in/check-out y mantenimiento."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD: FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta lavar la ropa en OpenBlue Fuengirola?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El lavado en nuestra lavandería autoservicio empieza desde 6€. Disponemos de lavadoras de 15kg y 19kg y secadoras industriales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Está abierta la lavandería las 24 horas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, nuestra lavandería autoservicio está abierta las 24 horas del día, los 7 días de la semana, incluidos festivos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Ofrecen servicio de lavandería para pisos turísticos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, ofrecemos un servicio especializado para propietarios de pisos vacacionales y turísticos, con recogida y entrega incluida. También ofrecemos gestión integral de propiedades."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde está ubicada la lavandería OpenBlue en Fuengirola?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Estamos en la Avenida de Mijas nº5, Local 2, 29640 Fuengirola, Málaga. Justo al lado del centro de la ciudad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tienen servicio de recogida y entrega a domicilio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, ofrecemos servicio de recogida y entrega de ropa a domicilio en Fuengirola y zonas cercanas como Mijas y Benalmádena."
+          }
+        }
       ]
     }
     </script>
