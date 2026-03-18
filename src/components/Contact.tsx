@@ -12,12 +12,12 @@ const CALLMEBOT_PHONE = "34641819577";
 const CALLMEBOT_APIKEY = "5478565";
 
 const SERVICE_OPTIONS = [
-  "Gestión de Pisos Vacacionales",
-  "Lavandería para Pisos Vacacionales",
+  "Particular",
+  "Propietario Airbnb / Vacacional",
+  "Gestión Integral de Propiedad",
   "Lavandería Autoservicio",
-  "Recogida y Entrega a domicilio",
+  "Lavandería a Domicilio",
   "Presupuesto para Hoteles/Apartamentos",
-  "Objeto perdido / Incidencia",
   "Otros",
 ];
 
