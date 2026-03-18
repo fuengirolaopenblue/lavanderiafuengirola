@@ -53,7 +53,7 @@ const About = () => {
             <div className="mt-8 rounded-2xl overflow-hidden shadow-card border border-border/50">
               <img
                 src={interiorLocal}
-                alt="Interior de OpenBlue Fuengirola - Lavadoras industriales Girbau"
+                alt="Interior lavandería autoservicio 24h Fuengirola - Máquinas industriales Girbau OpenBlue"
                 className="w-full h-auto object-cover"
                 loading="lazy"
               />

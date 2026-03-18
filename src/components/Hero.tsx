@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={lavanderiaFachada}
-          alt="OpenBlue Lavandería"
+          alt="Lavandería autoservicio 24 horas Fuengirola OpenBlue - Fachada exterior"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-openblue-dark/90 via-openblue-dark/70 to-transparent" />
