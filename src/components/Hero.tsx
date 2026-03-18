@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={lavanderiaFachada}
-          alt="OpenBlue Lavandería"
+          alt="Lavandería autoservicio 24 horas Fuengirola OpenBlue - Fachada exterior"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-openblue-dark/90 via-openblue-dark/70 to-transparent" />
@@ -47,11 +47,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6"
           >
-            OPEN<span className="text-gold">BLUE</span>
-            <br />
-            <span className="text-3xl md:text-4xl lg:text-5xl font-normal">
-              {t("hero.subtitle")}
-            </span>
+            {t("hero.subtitle")}
           </motion.h1>
 
           {/* Subtitle */}

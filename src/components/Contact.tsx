@@ -12,12 +12,12 @@ const CALLMEBOT_PHONE = "34641819577";
 const CALLMEBOT_APIKEY = "5478565";
 
 const SERVICE_OPTIONS = [
-  "Gestión de Pisos Vacacionales",
-  "Lavandería para Pisos Vacacionales",
+  "Particular",
+  "Propietario Airbnb / Vacacional",
+  "Gestión Integral de Propiedad",
   "Lavandería Autoservicio",
-  "Recogida y Entrega a domicilio",
+  "Lavandería a Domicilio",
   "Presupuesto para Hoteles/Apartamentos",
-  "Objeto perdido / Incidencia",
   "Otros",
 ];
 
@@ -51,7 +51,7 @@ const Contact = () => {
       icon: Phone,
       title: t("contact.whatsapp"),
       content: "+34 641 819 577",
-      link: "https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20vuestros%20servicios.",
+      link: "https://wa.me/34641819577?text=Hola%20OpenBlue%2C%20quiero%20informaci%C3%B3n%20sobre%20vuestros%20servicios%20en%20Fuengirola",
     },
     {
       icon: Mail,

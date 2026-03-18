@@ -9,11 +9,11 @@
   },
   "hero": {
     "badge": "Abierto de 7:00 a 23:00 · Fuengirola",
-    "subtitle": "Lavandería en Fuengirola · Autoservicio y Tienda",
-    "description": "Tu lavandería de confianza en Fuengirola. Lavado desde 6€, secado desde 3€. Somos tu lavandería en Fuengirola de referencia. También ofrecemos servicio de lavandería para pisos vacacionales y gestión integral de propiedades.",
+    "subtitle": "Tu ropa impecable en Fuengirola, las 24 horas.",
+    "description": "La lavandería #1 de Fuengirola. Autoservicio 24h con tecnología industrial Girbau, servicio a domicilio y gestión integral de textiles para pisos vacacionales. ¡Jabón incluido en cada lavado!",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
-    "productsIncluded": "Productos incluidos",
+    "productsIncluded": "Jabón incluido",
     "washAndDry": "Lavado y secado",
     "viewServices": "Ver Nuestros Servicios",
     "contactNow": "Contactar Ahora"
@@ -22,34 +22,34 @@
     "sectionLabel": "Nuestros Servicios",
     "title": "Soluciones completas para tu",
     "titleHighlight": "comodidad",
-    "subtitle": "Desde nuestra lavandería en Fuengirola de autoservicio hasta la gestión integral de tu propiedad, ofrecemos servicios profesionales adaptados a tus necesidades.",
+    "subtitle": "Desde nuestra lavandería autoservicio 24h hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
     "selfService": {
-      "title": "Lavandería Autoservicio",
-      "description": "Nuestra lavandería en Fuengirola cuenta con máquinas de última generación disponibles las 24 horas. Paga cómodamente con monedas, billetes o tarjetas de débito/crédito.",
+      "title": "Lavandería Autoservicio 24/7",
+      "description": "Tecnología industrial Girbau para resultados profesionales en 30 minutos. Desinfección con Oxígeno Activo incluida. Lavado desde 6€ | Secado desde 3€.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
         "+5 min por 0,50€ (ampliable)",
-        "Productos incluidos",
+        "Jabón y desinfección incluidos",
         "Abierto 24h / 365 días"
       ]
     },
     "vacation": {
-      "title": "Lavandería para Pisos Vacacionales",
-      "description": "Servicio especializado para propietarios y gestores de alojamientos turísticos. Ropa de cama, toallas y textiles siempre impecables.",
-      "features": ["Recogida y entrega", "Tratamiento profesional", "Desinfección completa", "Tarifas para empresas"]
+      "title": "Partner Estratégico para Pisos Vacacionales",
+      "description": "Elevamos la experiencia de tus huéspedes con ropa blanca impecable. Recogemos tras el check-out y entregamos listo para el siguiente ingreso.",
+      "features": ["Recogida tras check-out", "Entrega antes del check-in", "Desinfección completa", "Solicitar Tarifas para Empresas"]
     },
     "individuals": {
-      "title": "Lavandería para Particulares",
-      "description": "¿No tienes tiempo para lavar? Nosotros lo hacemos por ti. Servicio de lavandería completo para particulares con",
-      "descriptionBold": "recogida y entrega a domicilio",
-      "descriptionEnd": ". Cuéntanos qué necesitas y nos encargamos de todo.",
+      "title": "Lavandería a Domicilio (Particulares)",
+      "description": "Recupera tu tiempo libre. Recogemos tu colada semanal o prendas voluminosas (edredones/mantas) y te las devolvemos",
+      "descriptionBold": "listas para guardar",
+      "descriptionEnd": ".",
       "contact": "Contactar"
     },
     "management": {
-      "title": "Gestión de Pisos Vacacionales",
-      "description": "Gestionamos tu propiedad de principio a fin. Check-in/out, limpieza, mantenimiento y atención al huésped para maximizar tu rentabilidad."
+      "title": "Gestión Integral de Propiedades",
+      "description": "Nos encargamos de todo: limpieza profunda, check-in/out, mantenimiento y lavandería. Maximiza tu rentabilidad sin mover un dedo."
     },
     "delivery": {
       "title": "Servicio Puerta a Puerta",
@@ -63,10 +63,10 @@
     "sectionLabel": "Sobre Nosotros",
     "title": "Pasión por el detalle, compromiso con tu",
     "titleHighlight": "tranquilidad",
-    "p1": "En OpenBlue Fuengirola comenzamos hace 4 años con una misión clara: ser la mejor lavandería en Fuengirola ofreciendo un servicio profesional que marcara la diferencia. Nos especializamos en el cuidado de ropa blanca para pisos vacacionales y particulares, porque sabemos que la frescura y la presentación impecable son fundamentales.",
-    "p2": "Nos mueve la pasión por el trabajo bien hecho, por esos pequeños detalles que transforman una simple ropa de cama en una experiencia acogedora para tus huéspedes. Cada prenda que tratamos, cada mancha que eliminamos y cada entrega puntual que cumplimos nos impulsa a ser mejores.",
-    "p3": "Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano. Ya sea que gestiones varios pisos vacacionales o simplemente necesites una lavandería en Fuengirola confiable para tu hogar, estamos aquí para facilitarte la vida.",
-    "p4": "Estamos en constante crecimiento, ampliando nuestra capacidad y mejorando nuestros procesos porque creemos que siempre podemos ofrecerte más. Tu confianza es nuestro mayor impulso.",
+    "p1": "En OpenBlue Fuengirola llevamos 4 años transformando el concepto de lavandería. No solo operamos máquinas, cuidamos la imagen de tu negocio y la comodidad de tu hogar con productos premium y respeto al medio ambiente.",
+    "p2": "Nos mueve la pasión por el trabajo bien hecho, por esos pequeños detalles que transforman una simple ropa de cama en una experiencia acogedora para tus huéspedes.",
+    "p3": "Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano.",
+    "p4": "Estamos en constante crecimiento, ampliando nuestra capacidad y mejorando nuestros procesos porque creemos que siempre podemos ofrecerte más.",
     "p5": "Bienvenido a OpenBlue, tu lavandería en Fuengirola. Donde cada prenda recibe el cuidado que merece.",
     "features": {
       "quality": "Calidad Garantizada",
@@ -89,8 +89,8 @@
     "phonePlaceholder": "+34 600 000 000",
     "email": "Email",
     "emailPlaceholder": "tu@email.com",
-    "serviceLabel": "Servicio de interés",
-    "servicePlaceholder": "Ej: Lavandería para pisos vacacionales",
+    "serviceLabel": "Tipo de servicio",
+    "servicePlaceholder": "Selecciona un servicio",
     "message": "Mensaje",
     "messagePlaceholder": "Cuéntanos en qué podemos ayudarte...",
     "sending": "Enviando...",
@@ -107,13 +107,13 @@
     "laundryHoursValue": "24 horas / 365 días"
   },
   "footer": {
-    "description": "OpenBlue, tu lavandería en Fuengirola de confianza. Servicios de lavandería autoservicio y gestión de propiedades vacacionales.",
+    "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio 24h, gestión de textiles para Airbnb y servicio a domicilio.",
     "quickLinks": "Enlaces Rápidos",
     "servicesTitle": "Servicios",
-    "selfService": "Lavandería Autoservicio",
-    "vacationLaundry": "Lavandería Vacacional",
-    "propertyMgmt": "Gestión de Pisos",
-    "profCleaning": "Limpieza Profesional",
+    "selfService": "Lavandería Autoservicio 24h",
+    "vacationLaundry": "Lavandería para Airbnb",
+    "propertyMgmt": "Gestión de Propiedades",
+    "profCleaning": "Lavandería a Domicilio",
     "rights": "Todos los derechos reservados.",
     "leaveReview": "Déjanos tu reseña"
   },
@@ -139,9 +139,9 @@
     "backHome": "Volver al inicio"
   },
   "autoservicioModal": {
-    "title": "Lavandería Autoservicio en Fuengirola",
+    "title": "Lavandería Autoservicio 24/7 en Fuengirola",
     "subtitle": "Una experiencia completa pensada para tu comodidad",
-    "intro": "En nuestra lavandería en Fuengirola de autoservicio no solo te ayudamos a tener la ropa impecable, también te ofrecemos un espacio cómodo para que aproveches tu tiempo al máximo.",
+    "intro": "En nuestra lavandería autoservicio no solo te ayudamos a tener la ropa impecable, también te ofrecemos un espacio cómodo para que aproveches tu tiempo al máximo.",
     "machinesTitle": "Maquinaria de Primera Línea Mundial",
     "machinesDesc": "Contamos con lavadoras y secadoras industriales <strong>GIRBAU, fabricadas en España</strong>, reconocidas internacionalmente por su eficiencia, durabilidad y resultados excepcionales.",
     "washer19": "Lavadora 19 kg",
@@ -164,22 +164,22 @@
     "closing": "Te esperamos en nuestra lavandería en Fuengirola, un espacio limpio, moderno y de fácil acceso, con todos los servicios que necesitas."
   },
   "pisosModal": {
-    "title": "Servicio de Lavandería Profesional para tu",
+    "title": "Partner Estratégico para tu",
     "titleHighlight": "Alquiler Vacacional",
-    "introTitle": "Olvídate de las preocupaciones. Nosotros cuidamos cada detalle de tu ropa blanca.",
-    "introDesc": "En OpenBlue Fuengirola entendemos que la ropa de cama y las toallas son el corazón de la experiencia de tus huéspedes. Por eso hemos diseñado un servicio de lavandería integral que te libera completamente de esta tarea, garantizando siempre la máxima calidad y presentación impecable.",
+    "introTitle": "Elevamos la experiencia de tus huéspedes con ropa blanca impecable.",
+    "introDesc": "En OpenBlue Fuengirola entendemos que la ropa de cama y las toallas son el corazón de la experiencia de tus huéspedes. Recogemos tras el check-out y entregamos listo para el siguiente ingreso, garantizando siempre la máxima calidad.",
     "howTitle": "¿Cómo funciona nuestro servicio?",
     "steps": {
-      "pickup": { "title": "Recogida a domicilio", "description": "Pasamos por tu propiedad y retiramos toda la ropa de cama y baño tras cada check-out. Tú no mueves un dedo." },
-      "treatment": { "title": "Tratamiento profesional", "description": "Aplicamos tratamientos específicos de desmanchado cuando es necesario, asegurando que cada pieza recupere su blancura y frescura original. Lavamos con productos de primera línea que cuidan el medio ambiente, protegen las fibras y alargan la vida útil de tus textiles." },
-      "drying": { "title": "Secado y preparación", "description": "Secamos y embolsamos cada juego de forma individual, listo para usar en el próximo check-in. Todo perfectamente ordenado y protegido." },
-      "delivery": { "title": "Entrega puntual", "description": "Devolvemos la ropa limpia y lista en los plazos acordados, para que tu propiedad esté siempre preparada para recibir a los siguientes huéspedes sin demoras." }
+      "pickup": { "title": "Recogida tras check-out", "description": "Pasamos por tu propiedad y retiramos toda la ropa de cama y baño tras cada check-out. Tú no mueves un dedo." },
+      "treatment": { "title": "Tratamiento profesional", "description": "Aplicamos tratamientos específicos de desmanchado, lavamos con productos de primera línea y desinfectamos con oxígeno activo." },
+      "drying": { "title": "Secado y preparación", "description": "Secamos y embolsamos cada juego de forma individual, listo para usar en el próximo check-in." },
+      "delivery": { "title": "Entrega antes del check-in", "description": "Devolvemos la ropa limpia y lista en los plazos acordados, para que tu propiedad esté siempre preparada." }
     },
     "trustTitle": "Tu tranquilidad, nuestra prioridad",
-    "trustDesc": "Sabemos que la gestión de un alquiler vacacional implica estar atento a mil detalles. Con nuestro servicio de lavandería, eliminas una de las tareas más repetitivas y críticas. Tus huéspedes disfrutarán siempre de ropa impecable, fresca y acogedora, y tú ganarás tiempo para enfocarte en lo que realmente importa: maximizar tu rentabilidad y ofrecer experiencias memorables.",
-    "experienceDesc": "Confía en <strong>OpenBlue Fuengirola</strong>. Más de 4 años de experiencia nos avalan como el aliado perfecto para propietarios que buscan profesionalidad, puntualidad y resultados impecables.",
-    "ctaText": "¿Quieres saber más? Contáctanos y te preparamos un plan a medida para tu propiedad.",
-    "ctaWhatsApp": "Contactar por WhatsApp"
+    "trustDesc": "Eliminas una de las tareas más repetitivas y críticas de la gestión vacacional. Tus huéspedes disfrutarán siempre de ropa impecable y tú ganarás tiempo para maximizar tu rentabilidad.",
+    "experienceDesc": "Confía en <strong>OpenBlue Fuengirola</strong>. Más de 4 años de experiencia como partner de propietarios de Airbnb en Fuengirola.",
+    "ctaText": "¿Quieres tarifas para empresas? Contáctanos para un plan a medida.",
+    "ctaWhatsApp": "Solicitar Tarifas para Empresas"
   },
   "deliveryModal": {
     "title": "Servicio de Recogida y Entrega a Domicilio",
@@ -197,12 +197,12 @@
     "ctaWhatsApp": "Contactar por WhatsApp"
   },
   "particularesModal": {
-    "title": "Lavandería para Particulares",
-    "subtitle": "Tu ropa en las mejores manos, sin complicaciones.",
-    "intro": "En OpenBlue Fuengirola entendemos que el ritmo de vida actual deja poco tiempo para las tareas del hogar. Por eso ofrecemos un servicio de lavandería profesional diseñado para particulares que buscan comodidad, calidad y resultados impecables.",
+    "title": "Lavandería a Domicilio para Particulares",
+    "subtitle": "Recupera tu tiempo libre. Nosotros nos encargamos de todo.",
+    "intro": "Recogemos tu colada semanal o prendas voluminosas (edredones, mantas) y te las devolvemos listas para guardar. Sin desplazamientos, sin complicaciones.",
     "whatTitle": "¿Qué incluye nuestro servicio?",
     "washTitle": "Lavado profesional",
-    "washDesc": "Tratamos cada prenda con el cuidado que merece, utilizando productos de primera línea y respetuosos con el medio ambiente. Ropa de diario, sábanas, toallas, edredones... nos encargamos de todo.",
+    "washDesc": "Tratamos cada prenda con el cuidado que merece, utilizando productos de primera línea y respetuosos con el medio ambiente.",
     "stainTitle": "Tratamiento de manchas",
     "stainDesc": "Aplicamos técnicas especializadas de desmanchado para devolver a tus prendas su aspecto original.",
     "dryTitle": "Secado óptimo",
@@ -210,11 +210,11 @@
     "bagTitle": "Embolsado y protección",
     "bagDesc": "Entregamos tu ropa limpia, ordenada y protegida, lista para guardar o usar.",
     "pickupTitle": "Recogida y entrega a domicilio",
-    "pickupDesc": "Pasamos por tu casa en el horario que mejor te convenga. Tú solo tienes que tener la ropa lista, nosotros hacemos el resto. Servicio disponible en Fuengirola y alrededores (puede aplicar un coste adicional según zona).",
+    "pickupDesc": "Pasamos por tu casa en el horario que mejor te convenga. Servicio disponible en Fuengirola y alrededores.",
     "flexTitle": "Flexibilidad y atención personalizada",
-    "flexDesc": "Cada cliente tiene necesidades diferentes. Ya sea un servicio puntual o recurrente, nos adaptamos a ti. Cuéntanos qué necesitas y diseñamos la solución perfecta para tu día a día.",
-    "experience": "Más de 4 años cuidando la ropa de nuestros clientes con profesionalidad, puntualidad y pasión por el detalle.",
-    "ctaText": "¿Quieres simplificar tu vida? Contáctanos y descubre lo fácil que es tener tu ropa siempre perfecta.",
+    "flexDesc": "Ya sea un servicio puntual o recurrente, nos adaptamos a ti. Cuéntanos qué necesitas.",
+    "experience": "Más de 4 años cuidando la ropa de nuestros clientes con profesionalidad y pasión por el detalle.",
+    "ctaText": "¿Quieres simplificar tu vida? Contáctanos y descubre lo fácil que es.",
     "ctaWhatsApp": "Contactar por WhatsApp"
   }
 }
