@@ -47,11 +47,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6"
           >
-            OPEN<span className="text-gold">BLUE</span>
-            <br />
-            <span className="text-3xl md:text-4xl lg:text-5xl font-normal">
-              {t("hero.subtitle")}
-            </span>
+            {t("hero.subtitle")}
           </motion.h1>
 
           {/* Subtitle */}
