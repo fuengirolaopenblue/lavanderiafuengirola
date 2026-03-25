@@ -8,6 +8,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 const WIFI_SSID = "Lavandería Openblue Fuengirola";
 const WIFI_PASSWORD = "OpenblueFuengirola";
@@ -15,6 +16,7 @@ const WIFI_QR_STRING = `WIFI:T:WPA;S:${WIFI_SSID};P:${WIFI_PASSWORD};;`;
 
 const WifiModal = () => {
   const [copied, setCopied] = useState(false);
+  const { t } = useTranslation();
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(WIFI_PASSWORD);
@@ -26,7 +28,7 @@ const WifiModal = () => {
     <Dialog>
       <DialogTrigger asChild>
         <motion.button
-          className="fixed bottom-44 right-6 z-50 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated text-primary-foreground"
+          className="fixed bottom-24 right-6 z-50 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated text-primary-foreground"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           whileHover={{ scale: 1.15, rotate: 5, boxShadow: "0 6px 20px rgba(0,0,0,0.25)" }}
@@ -39,7 +41,6 @@ const WifiModal = () => {
       </DialogTrigger>
 
       <DialogContent className="sm:max-w-md p-0 overflow-hidden">
-        {/* Header */}
         <div className="bg-gradient-openblue p-6 text-center text-primary-foreground">
           <motion.div
             initial={{ scale: 0 }}
@@ -49,10 +50,9 @@ const WifiModal = () => {
             <Wifi className="w-12 h-12 mx-auto mb-3" />
           </motion.div>
           <h2 className="text-2xl font-bold">WiFi Gratis</h2>
-          <p className="text-sm opacity-90 mt-1">Conéctate a nuestra red mientras esperas</p>
+          <p className="text-sm opacity-90 mt-1">{t("wifi.scanText")}</p>
         </div>
 
-        {/* QR Code */}
         <div className="flex flex-col items-center px-6 pt-6 pb-4">
           <div className="bg-white p-4 rounded-xl shadow-soft">
             <QRCodeSVG
@@ -63,11 +63,10 @@ const WifiModal = () => {
             />
           </div>
           <p className="text-xs text-muted-foreground mt-3 text-center">
-            Escanea el código QR con la cámara de tu móvil para conectarte automáticamente
+            {t("wifi.scanText")}
           </p>
         </div>
 
-        {/* Credentials */}
         <div className="px-6 pb-6 space-y-3">
           <div className="bg-muted rounded-lg p-4 space-y-2">
             <div className="flex items-center justify-between">

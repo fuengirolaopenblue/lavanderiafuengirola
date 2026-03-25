@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, ArrowRight, Shirt, Truck, Building2, PackageCheck } from "lucide-react";
+import { WashingMachine, Home, Truck, Building2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -16,8 +16,36 @@ const Services = () => {
   const [particularesModalOpen, setParticularesModalOpen] = useState(false);
   const { t } = useTranslation();
 
-
-
+  const cards = [
+    {
+      icon: WashingMachine,
+      title: t("services.selfService.title"),
+      description: t("services.selfService.description"),
+      onClick: () => setAutoservicioModalOpen(true),
+      gradient: false,
+    },
+    {
+      icon: Home,
+      title: t("services.vacation.title"),
+      description: t("services.vacation.description"),
+      onClick: () => setPisosModalOpen(true),
+      gradient: true,
+    },
+    {
+      icon: Truck,
+      title: t("services.individuals.title"),
+      description: t("services.individuals.description"),
+      onClick: () => setParticularesModalOpen(true),
+      gradient: false,
+    },
+    {
+      icon: Building2,
+      title: t("services.management.title"),
+      description: t("services.management.description"),
+      isLink: true,
+      gradient: true,
+    },
+  ];
 
   return (
     <section id="servicios" className="py-20 md:py-32 bg-background">
@@ -42,169 +70,52 @@ const Services = () => {
           </p>
         </motion.div>
 
-        {/* Autoservicio Banner */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-          className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-accent to-primary p-8 md:p-10 shadow-elevated"
-        >
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center flex-shrink-0">
-              <WashingMachine className="w-7 h-7 text-primary-foreground" />
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
-                {t("services.selfService.title")}
-              </h3>
-              <p className="text-primary-foreground/80 leading-relaxed">
-                {t("services.selfService.description")}
-              </p>
-            </div>
-            <Button
-              variant="heroOutline"
-              size="lg"
-              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => setAutoservicioModalOpen(true)}
-            >
-              {t("services.moreInfo")}
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-          </div>
-        </motion.div>
+        {/* Service Cards Grid */}
+        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          {cards.map((card, i) => {
+            const Icon = card.icon;
+            const inner = (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className={`group relative rounded-2xl p-8 border cursor-pointer transition-all duration-300 hover:shadow-elevated hover:-translate-y-1 ${
+                  card.gradient
+                    ? "bg-gradient-openblue text-primary-foreground border-transparent"
+                    : "bg-card text-foreground border-border/50 hover:border-primary/50"
+                }`}
+                onClick={card.isLink ? undefined : card.onClick}
+              >
+                <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 ${
+                  card.gradient ? "bg-primary-foreground/15" : "bg-primary/10"
+                }`}>
+                  <Icon className={`w-7 h-7 ${card.gradient ? "text-primary-foreground" : "text-primary"}`} />
+                </div>
+                <h3 className="font-display text-xl font-bold mb-3">{card.title}</h3>
+                <p className={`leading-relaxed mb-6 ${card.gradient ? "text-primary-foreground/80" : "text-muted-foreground"}`}>
+                  {card.description}
+                </p>
+                <div className={`inline-flex items-center gap-2 text-sm font-semibold group-hover:gap-3 transition-all ${
+                  card.gradient ? "text-primary-foreground" : "text-primary"
+                }`}>
+                  {t("services.moreInfo")}
+                  <ArrowRight className="w-4 h-4" />
+                </div>
+              </motion.div>
+            );
 
-        {/* Pisos Vacacionales Banner */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="mt-8 relative overflow-hidden rounded-2xl bg-gradient-openblue p-8 md:p-10 shadow-elevated"
-        >
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center flex-shrink-0">
-              <Home className="w-7 h-7 text-primary-foreground" />
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
-                {t("services.vacation.title")}
-              </h3>
-              <p className="text-primary-foreground/80 leading-relaxed">
-                {t("services.vacation.description")}
-              </p>
-            </div>
-            <Button
-              variant="heroOutline"
-              size="lg"
-              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => setPisosModalOpen(true)}
-            >
-              {t("services.moreInfo")}
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-          </div>
-        </motion.div>
-
-        {/* Delivery / Puerta a Puerta Banner */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.25 }}
-          className="mt-12 relative overflow-hidden rounded-2xl bg-gradient-to-r from-accent to-primary p-8 md:p-10 shadow-elevated"
-        >
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="flex items-center gap-4 flex-shrink-0">
-              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
-                <PackageCheck className="w-7 h-7 text-primary-foreground" />
-              </div>
-              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
-                <Truck className="w-7 h-7 text-primary-foreground" />
-              </div>
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
-                {t("services.delivery.title")}
-              </h3>
-              <p className="text-primary-foreground/80 leading-relaxed">
-                {t("services.delivery.description")} <strong className="text-primary-foreground">{t("services.delivery.descriptionBold")}</strong>{t("services.delivery.descriptionEnd")}
-              </p>
-            </div>
-            <Button
-              variant="heroOutline"
-              size="lg"
-              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => setDeliveryModalOpen(true)}
-            >
-              {t("services.moreInfo")}
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-          </div>
-        </motion.div>
-
-        {/* Particulares Banner */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="mt-8 relative overflow-hidden rounded-2xl bg-gradient-openblue p-8 md:p-10 shadow-elevated"
-        >
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="flex items-center gap-4 flex-shrink-0">
-              <div className="w-14 h-14 rounded-xl bg-primary-foreground/15 flex items-center justify-center">
-                <Shirt className="w-7 h-7 text-primary-foreground" />
-              </div>
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="font-display text-xl md:text-2xl font-bold text-primary-foreground mb-2">
-                {t("services.individuals.title")}
-              </h3>
-              <p className="text-primary-foreground/80 leading-relaxed">
-                {t("services.individuals.description")} <strong className="text-primary-foreground">{t("services.individuals.descriptionBold")}</strong>{t("services.individuals.descriptionEnd")}
-              </p>
-            </div>
-            <Button
-              variant="heroOutline"
-              size="lg"
-              className="flex-shrink-0 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => setParticularesModalOpen(true)}
-            >
-              {t("services.moreInfo")}
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-          </div>
-        </motion.div>
-
-        {/* Gestión Vacacional Link */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-8 relative overflow-hidden rounded-2xl bg-card p-8 md:p-10 shadow-card border border-border/50"
-        >
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="w-14 h-14 rounded-xl bg-gradient-openblue flex items-center justify-center flex-shrink-0">
-              <Building2 className="w-7 h-7 text-primary-foreground" />
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="font-display text-xl md:text-2xl font-bold text-foreground mb-2">
-                {t("services.management.title")}
-              </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                {t("services.management.description")}
-              </p>
-            </div>
-            <Button variant="outline" size="lg" className="flex-shrink-0" asChild>
-              <Link to="/gestion-vacacional">
-                {t("services.moreInfo")}
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </Button>
-          </div>
-        </motion.div>
+            if (card.isLink) {
+              return (
+                <Link to="/gestion-vacacional" key={i} className="block">
+                  {inner}
+                </Link>
+              );
+            }
+            return inner;
+          })}
+        </div>
       </div>
 
       <AutoservicioModal open={autoservicioModalOpen} onOpenChange={setAutoservicioModalOpen} />

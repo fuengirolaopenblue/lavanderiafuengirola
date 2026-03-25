@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Clock } from "lucide-react";
+import { ArrowRight, Clock, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import lavanderiaFachada from "@/assets/lavanderia-fachada.jpg";
+
+const WHATSAPP_URL = "https://wa.me/34641819577?text=Hola%2C%20quiero%20solicitar%20recogida%20a%20domicilio%20en%20Fuengirola";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -40,14 +42,15 @@ const Hero = () => {
             </span>
           </motion.a>
 
-          {/* Heading */}
+          {/* H1 — Loss Aversion */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6"
           >
-            {t("hero.subtitle")}
+            {t("hero.title")}{" "}
+            <span className="text-gold">{t("hero.titleHighlight")}</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -57,7 +60,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mb-10"
           >
-            {t("hero.description")}
+            {t("hero.subtitle")}
           </motion.p>
 
           {/* Prices */}
@@ -88,22 +91,25 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <Button 
-              variant="hero" 
-              size="xl" 
+            <Button
+              variant="hero"
+              size="xl"
               className="group"
+              asChild
+            >
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5" />
+                {t("hero.ctaPrimary")}
+              </a>
+            </Button>
+            <Button
+              variant="heroOutline"
+              size="xl"
+              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-openblue-dark"
               onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              {t("hero.viewServices")}
+              {t("hero.ctaSecondary")}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              variant="heroOutline" 
-              size="xl" 
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-openblue-dark"
-              onClick={() => document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              {t("hero.contactNow")}
             </Button>
           </motion.div>
         </div>
