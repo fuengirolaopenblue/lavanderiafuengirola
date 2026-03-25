@@ -9,24 +9,47 @@
   },
   "hero": {
     "badge": "Abierto de 7:00 a 23:00 · Fuengirola",
-    "subtitle": "Tu ropa impecable en Fuengirola, las 24 horas.",
-    "description": "La lavandería #1 de Fuengirola. Autoservicio 24h con tecnología industrial Girbau, servicio a domicilio y gestión integral de textiles para pisos vacacionales. ¡Jabón incluido en cada lavado!",
+    "title": "Deja de perder horas lavando.",
+    "titleHighlight": "Recupera tu tiempo hoy.",
+    "subtitle": "Lavandería industrial 24h y gestión estratégica de textiles para Airbnb en Fuengirola. Resultados profesionales que tu lavadora de casa no puede lograr.",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
     "productsIncluded": "Jabón incluido",
     "washAndDry": "Lavado y secado",
-    "viewServices": "Ver Nuestros Servicios",
-    "contactNow": "Contactar Ahora"
+    "ctaPrimary": "Solicitar Recogida a Domicilio",
+    "ctaSecondary": "Ver Servicios 24h"
+  },
+  "testimonials": {
+    "sectionLabel": "Lo que dicen nuestros clientes",
+    "title": "Resultados que",
+    "titleHighlight": "hablan por sí solos",
+    "items": [
+      {
+        "name": "Marta G.",
+        "role": "Superhost Airbnb",
+        "text": "Desde que OpenBlue gestiona mi ropa blanca, mis reseñas en limpieza son siempre de 5 estrellas. Puntualidad británica."
+      },
+      {
+        "name": "Carlos R.",
+        "role": "Particular",
+        "text": "Lavar los edredones de toda la familia en 30 minutos es un cambio de vida. La desinfección con oxígeno se nota en el olor."
+      },
+      {
+        "name": "Gestión Inmobiliaria Fuengirola",
+        "role": "Empresa",
+        "text": "Nuestro partner de confianza para más de 20 apartamentos. Eficiencia y resultados impecables."
+      }
+    ]
   },
   "services": {
     "sectionLabel": "Nuestros Servicios",
-    "title": "Soluciones completas para tu",
-    "titleHighlight": "comodidad",
+    "title": "Soluciones profesionales para tu",
+    "titleHighlight": "tranquilidad",
     "subtitle": "Desde nuestra lavandería autoservicio 24h hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
     "selfService": {
-      "title": "Lavandería Autoservicio 24/7",
-      "description": "Tecnología industrial Girbau para resultados profesionales en 30 minutos. Desinfección con Oxígeno Activo incluida. Lavado desde 6€ | Secado desde 3€.",
+      "title": "Autoservicio 24/7",
+      "description": "Maquinaria Girbau. Lava 15kg en 30 min por solo 6€. Jabón y suavizante premium incluidos.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
@@ -36,20 +59,20 @@
       ]
     },
     "vacation": {
-      "title": "Partner Estratégico para Pisos Vacacionales",
-      "description": "Elevamos la experiencia de tus huéspedes con ropa blanca impecable. Recogemos tras el check-out y entregamos listo para el siguiente ingreso.",
+      "title": "Especial Airbnb",
+      "description": "Lavandería profesional para sábanas y toallas. Recogida tras el check-out y entrega lista para el siguiente huésped.",
       "features": ["Recogida tras check-out", "Entrega antes del check-in", "Desinfección completa", "Solicitar Tarifas para Empresas"]
     },
     "individuals": {
-      "title": "Lavandería a Domicilio (Particulares)",
-      "description": "Recupera tu tiempo libre. Recogemos tu colada semanal o prendas voluminosas (edredones/mantas) y te las devolvemos",
-      "descriptionBold": "listas para guardar",
-      "descriptionEnd": ".",
+      "title": "Puerta a Puerta",
+      "description": "Recogemos tu colada en casa y te la devolvemos doblada y perfecta. Fuengirola y alrededores.",
+      "descriptionBold": "",
+      "descriptionEnd": "",
       "contact": "Contactar"
     },
     "management": {
-      "title": "Gestión Integral de Propiedades",
-      "description": "Nos encargamos de todo: limpieza profunda, check-in/out, mantenimiento y lavandería. Maximiza tu rentabilidad sin mover un dedo."
+      "title": "Gestión 360°",
+      "description": "Check-in, limpieza de apartamentos y mantenimiento. Tu propiedad en piloto automático."
     },
     "delivery": {
       "title": "Servicio Puerta a Puerta",
@@ -57,6 +80,29 @@
       "descriptionBold": "",
       "descriptionEnd": "",
       "contact": "Solicitar recogida"
+    }
+  },
+  "comparison": {
+    "sectionLabel": "¿Por qué elegirnos?",
+    "title": "Lavar en casa vs.",
+    "titleHighlight": "Lavar en OpenBlue",
+    "home": {
+      "title": "Lavar en Casa",
+      "items": [
+        "4 horas de espera",
+        "Gasto de luz y agua",
+        "Jabón caro por separado",
+        "Desgaste prematuro de ropa"
+      ]
+    },
+    "openblue": {
+      "title": "Lavar en OpenBlue",
+      "items": [
+        "30 minutos y listo",
+        "6€ todo incluido",
+        "Desinfección industrial",
+        "Secado perfecto garantizado"
+      ]
     }
   },
   "about": {
@@ -91,6 +137,11 @@
     "emailPlaceholder": "tu@email.com",
     "serviceLabel": "Tipo de servicio",
     "servicePlaceholder": "Selecciona un servicio",
+    "serviceOptions": {
+      "particular": "Particular",
+      "airbnb": "Propietario Airbnb",
+      "gestion": "Gestión Integral"
+    },
     "message": "Mensaje",
     "messagePlaceholder": "Cuéntanos en qué podemos ayudarte...",
     "sending": "Enviando...",
@@ -106,6 +157,12 @@
     "laundryHours": "Horario Lavandería",
     "laundryHoursValue": "24 horas / 365 días"
   },
+  "whatsapp": {
+    "tooltip": "Presupuesto para tu Airbnb en 2 minutos"
+  },
+  "wifi": {
+    "scanText": "Escanea y conéctate gratis mientras esperas"
+  },
   "footer": {
     "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio 24h, gestión de textiles para Airbnb y servicio a domicilio.",
     "quickLinks": "Enlaces Rápidos",
@@ -115,7 +172,9 @@
     "propertyMgmt": "Gestión de Propiedades",
     "profCleaning": "Lavandería a Domicilio",
     "rights": "Todos los derechos reservados.",
-    "leaveReview": "Déjanos tu reseña"
+    "leaveReview": "Déjanos tu reseña",
+    "hours": "Horario: 24h / 365 días",
+    "followUs": "Síguenos y déjanos tu opinión"
   },
   "gestion": {
     "heroTitle": "Gestión Integral de tu Piso Vacacional",

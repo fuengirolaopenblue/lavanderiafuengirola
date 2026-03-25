@@ -98,7 +98,8 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="pt-6 border-t border-primary-foreground/20 text-center">
+        <div className="pt-6 border-t border-primary-foreground/20 text-center space-y-1">
+          <p className="text-primary-foreground/80 text-sm font-medium">{t("footer.hours")}</p>
           <p className="text-primary-foreground/60 text-sm">
             © {new Date().getFullYear()} OpenBlue Fuengirola. {t("footer.rights")}
           </p>
