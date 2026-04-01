@@ -7,7 +7,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import WifiModal from "@/components/WifiModal";
+
 import ShopComingSoonModal from "@/components/ShopComingSoonModal";
 import SocialFloatingButtons from "@/components/SocialFloatingButtons";
 
