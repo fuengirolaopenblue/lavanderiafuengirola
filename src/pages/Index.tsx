@@ -26,7 +26,7 @@ const Index = () => {
       <Footer />
       <ShopComingSoonModal floating />
       <WhatsAppButton />
-      <WifiModal />
+      
       <SocialFloatingButtons />
     </div>
   );
