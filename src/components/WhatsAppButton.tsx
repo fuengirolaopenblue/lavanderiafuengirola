@@ -18,7 +18,7 @@ const WhatsAppButton = () => {
 
       {/* Button */}
       <motion.a
-        href="https://wa.me/34641819577?text=Hola%20OpenBlue%2C%20quiero%20informaci%C3%B3n%20sobre%20vuestros%20servicios%20en%20Fuengirola"
+        href="https://wa.me/34641819577?text=Hola%20Lavander%C3%ADa%20Fuengirola%2C%20necesito%20informaci%C3%B3n"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_2px_8px_rgba(0,0,0,0.2)] ring-2 ring-[#25D366]/30"

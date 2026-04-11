@@ -51,7 +51,7 @@ const Contact = () => {
       icon: Phone,
       title: t("contact.whatsapp"),
       content: "+34 641 819 577",
-      link: "https://wa.me/34641819577?text=Hola%20OpenBlue%2C%20quiero%20informaci%C3%B3n%20sobre%20vuestros%20servicios%20en%20Fuengirola",
+      link: "https://wa.me/34641819577?text=Hola%20Lavander%C3%ADa%20Fuengirola%2C%20necesito%20informaci%C3%B3n",
     },
     {
       icon: Mail,

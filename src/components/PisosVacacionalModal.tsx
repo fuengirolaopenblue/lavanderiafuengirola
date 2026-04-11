@@ -68,7 +68,7 @@ const PisosVacacionalModal = ({ open, onOpenChange }: PisosVacacionalModalProps)
             <p className="text-muted-foreground font-medium">{t("pisosModal.ctaText")}</p>
             <Button variant="hero" size="lg" asChild>
               <a
-                href="https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20lavander%C3%ADa%20para%20pisos%20vacacionales."
+                href="https://wa.me/34641819577?text=Hola%20Lavander%C3%ADa%20Fuengirola%2C%20necesito%20informaci%C3%B3n"
                 target="_blank"
                 rel="noopener noreferrer"
               >

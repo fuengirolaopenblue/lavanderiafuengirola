@@ -88,7 +88,7 @@ const ParticularesModal = ({ open, onOpenChange }: ParticularesModalProps) => {
               asChild
             >
               <a
-                href="https://wa.me/34641819577?text=Hola%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20lavander%C3%ADa%20para%20particulares."
+                href="https://wa.me/34641819577?text=Hola%20Lavander%C3%ADa%20Fuengirola%2C%20necesito%20informaci%C3%B3n"
                 target="_blank"
                 rel="noopener noreferrer"
               >
