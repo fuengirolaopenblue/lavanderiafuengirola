@@ -164,22 +164,23 @@
     "closing": "Odotamme sinua puhtaassa, modernissa ja helposti saavutettavassa tilassa, kaikilla tarvitsemillasi palveluilla."
   },
   "pisosModal": {
-    "title": "Ammattimainen pesulapalvelu",
+    "title": "Strateginen kumppani",
     "titleHighlight": "loma-asunnollesi",
-    "introTitle": "Unohda huolet. Me huolehdimme jokaisesta valkoisten liinavaatteidesi yksityiskohdasta.",
-    "introDesc": "OpenBlue Fuengirolassa ymmärrämme, että vuodevaatteet ja pyyhkeet ovat vieraidesi kokemuksen ytimessä. Siksi olemme suunnitelleet kokonaisvaltaisen pesulapalvelun, joka vapauttaa sinut täysin tästä tehtävästä, taaten aina korkeimman laadun ja moitteettoman esityksen.",
+    "introTitle": "Nostamme vieraidesi kokemusta moitteettomilla tekstiileillä ja saumattomalla logistiikalla.",
+    "introDesc": "OpenBlue Fuengirolassa ymmärrämme, että vuodevaatteet ja pyyhkeet ovat vieraidesi kokemuksen ytimessä. Huolehdimme koko kierrosta: noudosta uloskirjautumisen jälkeen strategiseen toimitukseen seuraavaa saapumista varten. Sinä keskityt hallintaan, me pidämme huolen, että kaikki on moitteetonta.",
     "howTitle": "Miten palvelumme toimii?",
     "steps": {
-      "pickup": { "title": "Kotinouto", "description": "Tulemme kiinteistöllesi ja keräämme kaikki vuode- ja kylpyliinavaatteet jokaisen uloskirjautumisen jälkeen. Sinun ei tarvitse nostaa sormeakaan." },
-      "treatment": { "title": "Ammattimainen käsittely", "description": "Sovellamme erityisiä tahranpoistokäsittelyjä tarvittaessa varmistaen, että jokainen kappale saa takaisin alkuperäisen valkoisuutensa ja tuoreudensa. Pesemme ensiluokkaisilla, ympäristöystävällisillä tuotteilla, jotka suojaavat kuituja ja pidentävät tekstiileidesi käyttöikää." },
-      "drying": { "title": "Kuivaus ja valmistelu", "description": "Kuivaamme ja pakkaamme jokaisen setin erikseen, valmiina käyttöön seuraavassa sisäänkirjautumisessa. Kaikki täydellisesti järjestetty ja suojattu." },
-      "delivery": { "title": "Täsmällinen toimitus", "description": "Palautamme puhtaat, valmiit liinavaatteet sovituissa aikatauluissa, jotta kiinteistösi on aina valmis vastaanottamaan seuraavat vieraat ilman viivästyksiä." }
+      "pickup": { "title": "Nouto uloskirjautumisen jälkeen", "description": "Tulemme kiinteistöllesi ja keräämme kaikki vuode- ja kylpyliinavaatteet. Ilman vaivannäköä sinulta." },
+      "treatment": { "title": "Ammattimainen käsittely", "description": "Sovellamme erityisiä tahranpoistoprosesseja, pesemme premium-tuotteilla ja desinfioimme kokonaan aktiivihapella." },
+      "drying": { "title": "Kuivaus ja valmistelu", "description": "Kuivaamme ja pakkaamme jokaisen setin erikseen, taaten hygienian ja premium-esityksen." },
+      "storage": { "title": "Säilytys ja varastointi", "description": "Odotatko uusia vieraita? Säilytämme tekstiilejäsi tiloissanne kunnes tarvitset niitä, vapauttaen tilaa varastoistasi tai ajoneuvoistasi." },
+      "delivery": { "title": "Ajoitettu \"Just-in-Time\" toimitus", "description": "Toimitamme puhtaat liinavaatteet haluamanasi päivänä ja tarkkana ajankohtana, suoraan siivoushenkilökunnalle majoituksessa." }
     },
     "trustTitle": "Mielenrauhasi, meidän prioriteettimme",
-    "trustDesc": "Tiedämme, että loma-asunnon hallinta vaatii huomiota tuhanteen yksityiskohtaan. Pesulapalvelumme avulla eliminoit yhden toistuvimmista ja kriittisimmistä tehtävistä. Vieraasi nauttivat aina moitteettomista, raikkaista ja kodikkaista liinavaatteista, ja sinä saat aikaa keskittyä siihen, mikä todella merkitsee: kannattavuutesi maksimointiin ja unohtumattomien kokemusten tarjoamiseen.",
-    "experienceDesc": "Luota <strong>OpenBlue Fuengirolaan</strong>. Yli 4 vuoden kokemus tukee meitä täydellisenä kumppanina omistajille, jotka etsivät ammattimaisuutta, täsmällisyyttä ja moitteettomia tuloksia.",
-    "ctaText": "Haluatko tietää lisää? Ota meihin yhteyttä ja laadimme räätälöidyn suunnitelman kiinteistöllesi.",
-    "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
+    "trustDesc": "Poista loma-asunnon hallinnan kriittisin ja toistuvin tehtävä. Räätälöidyllä logistiikallamme saat tarvittavan täsmällisyyden positiivisten arvostelujen ja kannattavuuden maksimointiin.",
+    "experienceDesc": "Luota <strong>OpenBlue Fuengirolaan</strong>. Yli 4 vuotta luotettuna kumppanina Airbnb-omistajille Fuengirolassa.",
+    "ctaText": "Haluatko yrityshinnat? Ota meihin yhteyttä räätälöityä suunnitelmaa varten.",
+    "ctaWhatsApp": "Pyydä yrityshintoja"
   },
   "deliveryModal": {
     "title": "Kotinouto- ja toimituspalvelu",
