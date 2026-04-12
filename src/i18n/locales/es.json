@@ -157,6 +157,16 @@
     "laundryHours": "Horario Lavandería",
     "laundryHoursValue": "24 horas / 365 días"
   },
+  "vip": {
+    "sectionLabel": "Servicios VIP para Property Managers",
+    "title": "Logística premium para tu",
+    "titleHighlight": "alquiler vacacional",
+    "subtitle": "Soluciones diseñadas para propietarios y gestores de Airbnb en Fuengirola.",
+    "pickup": { "title": "Recogida Post-Check-out", "description": "Recogemos en Los Boliches, Puerto y Centro." },
+    "storage": { "title": "Custodia y Almacenamiento", "description": "Guardamos tu ropa limpia hasta el próximo ingreso." },
+    "delivery": { "title": "Entrega Just-in-Time", "description": "Entregamos directamente al personal de limpieza en el horario exacto." },
+    "disinfection": { "title": "Desinfección Pro", "description": "Oxígeno activo y productos de alta gama." }
+  },
   "whatsapp": {
     "tooltip": "Presupuesto para tu Airbnb en 2 minutos"
   },
