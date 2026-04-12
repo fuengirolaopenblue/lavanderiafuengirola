@@ -1,6 +1,6 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Truck, Sparkles, Wind, Clock, ShieldCheck, Star } from "lucide-react";
+import { Truck, Sparkles, Wind, Clock, Warehouse, CalendarClock, ShieldCheck, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 interface PisosVacacionalModalProps {
@@ -15,7 +15,8 @@ const PisosVacacionalModal = ({ open, onOpenChange }: PisosVacacionalModalProps)
     { icon: Truck, key: "pickup" },
     { icon: Sparkles, key: "treatment" },
     { icon: Wind, key: "drying" },
-    { icon: Clock, key: "delivery" },
+    { icon: Warehouse, key: "storage" },
+    { icon: CalendarClock, key: "delivery" },
   ];
 
   return (

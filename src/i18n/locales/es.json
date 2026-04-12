@@ -225,18 +225,19 @@
   "pisosModal": {
     "title": "Partner Estratégico para tu",
     "titleHighlight": "Alquiler Vacacional",
-    "introTitle": "Elevamos la experiencia de tus huéspedes con ropa blanca impecable.",
-    "introDesc": "En OpenBlue Fuengirola entendemos que la ropa de cama y las toallas son el corazón de la experiencia de tus huéspedes. Recogemos tras el check-out y entregamos listo para el siguiente ingreso, garantizando siempre la máxima calidad.",
+    "introTitle": "Elevamos la experiencia de tus huéspedes con textiles impecables y logística sin fisuras.",
+    "introDesc": "En OpenBlue Fuengirola entendemos que la ropa de cama y las toallas son el corazón de la experiencia de tus huéspedes. Nos encargamos de todo el ciclo: desde la recogida tras el check-out hasta la entrega estratégica para el siguiente ingreso. Tú te centras en gestionar, nosotros en que todo esté impecable.",
     "howTitle": "¿Cómo funciona nuestro servicio?",
     "steps": {
-      "pickup": { "title": "Recogida tras check-out", "description": "Pasamos por tu propiedad y retiramos toda la ropa de cama y baño tras cada check-out. Tú no mueves un dedo." },
-      "treatment": { "title": "Tratamiento profesional", "description": "Aplicamos tratamientos específicos de desmanchado, lavamos con productos de primera línea y desinfectamos con oxígeno activo." },
-      "drying": { "title": "Secado y preparación", "description": "Secamos y embolsamos cada juego de forma individual, listo para usar en el próximo check-in." },
-      "delivery": { "title": "Entrega antes del check-in", "description": "Devolvemos la ropa limpia y lista en los plazos acordados, para que tu propiedad esté siempre preparada." }
+      "pickup": { "title": "Recogida tras el Check-out", "description": "Pasamos por tu propiedad y retiramos toda la ropa de cama y baño. Sin esfuerzos por tu parte." },
+      "treatment": { "title": "Tratamiento Profesional", "description": "Aplicamos procesos específicos de desmanchado, lavados con productos de alta gama y desinfección total con oxígeno activo." },
+      "drying": { "title": "Secado y Preparación", "description": "Secamos y embolsamos cada juego de forma individual, garantizando higiene y una presentación premium." },
+      "storage": { "title": "Custodia y Almacenamiento", "description": "¿Esperando nuevos ingresos? Almacenamos tus textiles en nuestras instalaciones hasta que los necesites, liberando espacio en tus trasteros o vehículos." },
+      "delivery": { "title": "Entrega Programada \"Just-in-Time\"", "description": "Entregamos la ropa limpia el día y en la franja horaria exacta que solicites, directamente al personal de limpieza en el alojamiento para una puesta a punto sin esperas." }
     },
     "trustTitle": "Tu tranquilidad, nuestra prioridad",
-    "trustDesc": "Eliminas una de las tareas más repetitivas y críticas de la gestión vacacional. Tus huéspedes disfrutarán siempre de ropa impecable y tú ganarás tiempo para maximizar tu rentabilidad.",
-    "experienceDesc": "Confía en <strong>OpenBlue Fuengirola</strong>. Más de 4 años de experiencia como partner de propietarios de Airbnb en Fuengirola.",
+    "trustDesc": "Elimina la tarea más crítica y repetitiva de la gestión vacacional. Con nuestra logística a medida, ganarás la puntualidad necesaria para maximizar tus reseñas positivas y rentabilidad.",
+    "experienceDesc": "Confía en <strong>OpenBlue Fuengirola</strong>. Más de 4 años siendo el partner de confianza para propietarios de Airbnb en Fuengirola.",
     "ctaText": "¿Quieres tarifas para empresas? Contáctanos para un plan a medida.",
     "ctaWhatsApp": "Solicitar Tarifas para Empresas"
   },
