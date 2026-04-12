@@ -9,8 +9,9 @@
   },
   "hero": {
     "badge": "Aberto das 7:00 às 23:00 · Fuengirola",
-    "subtitle": "Lavandaria e Loja Self-Service",
-    "description": "A sua lavandaria de confiança em Fuengirola. Lavagem a partir de 6€, secagem a partir de 3€. Também oferecemos serviço de lavandaria para alojamentos de férias e gestão integral de propriedades.",
+    "title": "A solução logística definitiva",
+    "titleHighlight": "para o seu Airbnb em Fuengirola.",
+    "subtitle": "Recolhemos após o check-out, guardamos a sua roupa e entregamos à sua equipa de limpeza mesmo a tempo.",
     "washFrom": "Lavagem desde",
     "dryFrom": "Secagem desde",
     "productsIncluded": "Produtos incluídos",
@@ -108,6 +109,7 @@
   },
   "footer": {
     "description": "A sua lavandaria de confiança em Fuengirola. Serviços de lavandaria self-service e gestão de alojamentos de férias.",
+    "localSeo": "Serviço de lavandaria profissional em Fuengirola Centro, Los Boliches, Torreblanca, Carvajal e Puerto Deportivo. Especialistas em Airbnb e alojamento de férias.",
     "quickLinks": "Links Rápidos",
     "servicesTitle": "Serviços",
     "selfService": "Lavandaria Self-Service",
@@ -116,6 +118,16 @@
     "profCleaning": "Limpeza Profissional",
     "rights": "Todos os direitos reservados.",
     "leaveReview": "Deixe sua avaliação"
+  },
+  "vip": {
+    "sectionLabel": "Serviços VIP para Property Managers",
+    "title": "Logística premium para o seu",
+    "titleHighlight": "alojamento de férias",
+    "subtitle": "Soluções desenhadas para proprietários e gestores de Airbnb em Fuengirola.",
+    "pickup": { "title": "Recolha Pós-Check-out", "description": "Recolhemos em Los Boliches, Puerto e Centro." },
+    "storage": { "title": "Custódia e Armazenamento", "description": "Guardamos a sua roupa limpa até à próxima estadia." },
+    "delivery": { "title": "Entrega Just-in-Time", "description": "Entregamos diretamente à equipa de limpeza na hora exata." },
+    "disinfection": { "title": "Desinfeção Pro", "description": "Oxigénio ativo e produtos de alta gama." }
   },
   "gestion": {
     "heroTitle": "Gestão Integral do Seu Alojamento de Férias",

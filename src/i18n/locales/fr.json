@@ -9,8 +9,9 @@
   },
   "hero": {
     "badge": "Ouvert de 7h00 à 23h00 · Fuengirola",
-    "subtitle": "Laverie et Boutique Libre-Service",
-    "description": "Votre laverie de confiance à Fuengirola. Lavage à partir de 6€, séchage à partir de 3€. Nous proposons également un service de blanchisserie pour locations de vacances et gestion intégrale de propriétés.",
+    "title": "La solution logistique ultime",
+    "titleHighlight": "pour votre Airbnb à Fuengirola.",
+    "subtitle": "Ramassage après le check-out, stockage de votre linge et livraison juste à temps à votre personnel de ménage.",
     "washFrom": "Lavage dès",
     "dryFrom": "Séchage dès",
     "productsIncluded": "Produits inclus",
@@ -108,6 +109,7 @@
   },
   "footer": {
     "description": "Votre laverie de confiance à Fuengirola. Services de laverie libre-service et gestion de locations de vacances.",
+    "localSeo": "Service de blanchisserie professionnelle à Fuengirola Centro, Los Boliches, Torreblanca, Carvajal et Puerto Deportivo. Spécialistes Airbnb et locations de vacances.",
     "quickLinks": "Liens Rapides",
     "servicesTitle": "Services",
     "selfService": "Laverie Libre-Service",
@@ -116,6 +118,16 @@
     "profCleaning": "Nettoyage Professionnel",
     "rights": "Tous droits réservés.",
     "leaveReview": "Laissez-nous un avis"
+  },
+  "vip": {
+    "sectionLabel": "Services VIP pour Property Managers",
+    "title": "Logistique premium pour votre",
+    "titleHighlight": "location de vacances",
+    "subtitle": "Solutions conçues pour les propriétaires et gestionnaires Airbnb à Fuengirola.",
+    "pickup": { "title": "Ramassage Post-Check-out", "description": "Nous collectons à Los Boliches, Puerto et Centro." },
+    "storage": { "title": "Garde et Stockage", "description": "Nous gardons votre linge propre jusqu'au prochain séjour." },
+    "delivery": { "title": "Livraison Just-in-Time", "description": "Livraison directe au personnel de ménage à l'heure exacte." },
+    "disinfection": { "title": "Désinfection Pro", "description": "Oxygène actif et produits haut de gamme." }
   },
   "gestion": {
     "heroTitle": "Gestion Intégrale de Votre Location de Vacances",

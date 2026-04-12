@@ -9,14 +9,17 @@
   },
   "hero": {
     "badge": "Open 7:00 AM - 11:00 PM · Fuengirola",
-    "subtitle": "Self-Service Laundry & Shop",
-    "description": "Your trusted laundry in Fuengirola. Washing from €6, drying from €3. We also offer laundry services for vacation rentals and full property management.",
+    "title": "The ultimate laundry logistics",
+    "titleHighlight": "for your Fuengirola Airbnb.",
+    "subtitle": "Pickup after check-out, linen storage, and just-in-time delivery for your cleaning staff.",
     "washFrom": "Washing from",
     "dryFrom": "Drying from",
     "productsIncluded": "Products included",
     "washAndDry": "Wash & dry",
     "viewServices": "View Our Services",
-    "contactNow": "Contact Now"
+    "contactNow": "Contact Now",
+    "ctaPrimary": "Request Home Pickup",
+    "ctaSecondary": "View 24h Services"
   },
   "services": {
     "sectionLabel": "Our Services",
@@ -108,6 +111,7 @@
   },
   "footer": {
     "description": "Your trusted laundry in Fuengirola. Self-service laundry and vacation property management services.",
+    "localSeo": "Professional laundry service in Fuengirola Centro, Los Boliches, Torreblanca, Carvajal and Puerto Deportivo. Airbnb and vacation rental specialists.",
     "quickLinks": "Quick Links",
     "servicesTitle": "Services",
     "selfService": "Self-Service Laundry",
@@ -116,6 +120,16 @@
     "profCleaning": "Professional Cleaning",
     "rights": "All rights reserved.",
     "leaveReview": "Leave us a review"
+  },
+  "vip": {
+    "sectionLabel": "VIP Services for Property Managers",
+    "title": "Premium logistics for your",
+    "titleHighlight": "vacation rental",
+    "subtitle": "Solutions designed for Airbnb owners and managers in Fuengirola.",
+    "pickup": { "title": "Post-Check-out Pickup", "description": "We collect from Los Boliches, Puerto and Centro." },
+    "storage": { "title": "Storage & Custody", "description": "We store your clean linen until the next guest." },
+    "delivery": { "title": "Just-in-Time Delivery", "description": "We deliver directly to cleaning staff at the exact time." },
+    "disinfection": { "title": "Pro Disinfection", "description": "Active oxygen and premium products." }
   },
   "gestion": {
     "heroTitle": "Full Management of Your Vacation Rental",
