@@ -164,22 +164,23 @@
     "closing": "Nous vous attendons dans un espace propre, moderne et facilement accessible, avec tous les services dont vous avez besoin."
   },
   "pisosModal": {
-    "title": "Service de Blanchisserie Professionnel pour Votre",
+    "title": "Partenaire Stratégique pour Votre",
     "titleHighlight": "Location de Vacances",
-    "introTitle": "Oubliez les soucis. Nous prenons soin de chaque détail de votre linge.",
-    "introDesc": "Chez OpenBlue Fuengirola, nous comprenons que le linge de lit et les serviettes sont au cœur de l'expérience de vos hôtes. C'est pourquoi nous avons conçu un service de blanchisserie intégral qui vous libère complètement de cette tâche.",
+    "introTitle": "Nous élevons l'expérience de vos hôtes avec des textiles impeccables et une logistique sans faille.",
+    "introDesc": "Chez OpenBlue Fuengirola, nous comprenons que le linge de lit et les serviettes sont au cœur de l'expérience de vos hôtes. Nous gérons tout le cycle : de la collecte après le check-out à la livraison stratégique pour la prochaine arrivée. Vous vous concentrez sur la gestion, nous nous occupons que tout soit impeccable.",
     "howTitle": "Comment fonctionne notre service ?",
     "steps": {
-      "pickup": { "title": "Collecte à domicile", "description": "Nous passons chez vous et récupérons tout le linge de lit et de bain après chaque check-out." },
-      "treatment": { "title": "Traitement professionnel", "description": "Nous appliquons des traitements spécifiques de détachage, assurant que chaque pièce retrouve sa blancheur et fraîcheur originales. Nous lavons avec des produits écologiques de première qualité." },
-      "drying": { "title": "Séchage et préparation", "description": "Nous séchons et emballons chaque jeu individuellement, prêt à l'emploi pour le prochain check-in." },
-      "delivery": { "title": "Livraison ponctuelle", "description": "Nous rendons le linge propre et prêt dans les délais convenus, pour que votre propriété soit toujours préparée." }
+      "pickup": { "title": "Collecte après le Check-out", "description": "Nous passons par votre propriété et récupérons tout le linge de lit et de bain. Sans effort de votre part." },
+      "treatment": { "title": "Traitement Professionnel", "description": "Nous appliquons des processus spécifiques de détachage, lavage avec des produits haut de gamme et désinfection totale à l'oxygène actif." },
+      "drying": { "title": "Séchage et Préparation", "description": "Nous séchons et emballons chaque jeu individuellement, garantissant hygiène et présentation premium." },
+      "storage": { "title": "Garde et Stockage", "description": "En attente de nouveaux arrivants ? Nous stockons vos textiles dans nos installations jusqu'à ce que vous en ayez besoin, libérant de l'espace dans vos débarras ou véhicules." },
+      "delivery": { "title": "Livraison Programmée \"Just-in-Time\"", "description": "Nous livrons le linge propre le jour et dans le créneau horaire exact que vous demandez, directement au personnel de ménage dans le logement." }
     },
     "trustTitle": "Votre tranquillité, notre priorité",
-    "trustDesc": "Nous savons que la gestion d'une location de vacances implique mille détails. Avec notre service de blanchisserie, vous éliminez l'une des tâches les plus répétitives et critiques.",
-    "experienceDesc": "Faites confiance à <strong>OpenBlue Fuengirola</strong>. Plus de 4 ans d'expérience nous soutiennent comme l'allié parfait pour les propriétaires.",
-    "ctaText": "Vous voulez en savoir plus ? Contactez-nous et nous préparerons un plan sur mesure pour votre propriété.",
-    "ctaWhatsApp": "Contacter par WhatsApp"
+    "trustDesc": "Éliminez la tâche la plus critique et répétitive de la gestion locative. Avec notre logistique sur mesure, vous gagnerez la ponctualité nécessaire pour maximiser vos avis positifs et votre rentabilité.",
+    "experienceDesc": "Faites confiance à <strong>OpenBlue Fuengirola</strong>. Plus de 4 ans en tant que partenaire de confiance pour les propriétaires Airbnb à Fuengirola.",
+    "ctaText": "Vous voulez des tarifs entreprise ? Contactez-nous pour un plan sur mesure.",
+    "ctaWhatsApp": "Demander des Tarifs Entreprise"
   },
   "deliveryModal": {
     "title": "Service de Collecte et Livraison à Domicile",

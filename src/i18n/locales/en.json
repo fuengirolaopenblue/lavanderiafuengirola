@@ -164,22 +164,23 @@
     "closing": "We look forward to welcoming you in a clean, modern and easily accessible space, with all the services you need."
   },
   "pisosModal": {
-    "title": "Professional Laundry Service for Your",
+    "title": "Strategic Partner for Your",
     "titleHighlight": "Vacation Rental",
-    "introTitle": "Forget the worries. We take care of every detail of your white linen.",
-    "introDesc": "At OpenBlue Fuengirola we understand that bed linen and towels are at the heart of your guests' experience. That's why we've designed a comprehensive laundry service that completely frees you from this task, always guaranteeing the highest quality and impeccable presentation.",
+    "introTitle": "We elevate your guests' experience with impeccable textiles and seamless logistics.",
+    "introDesc": "At OpenBlue Fuengirola we understand that bed linen and towels are at the heart of your guests' experience. We handle the entire cycle: from pick-up after check-out to strategic delivery for the next arrival. You focus on managing, we make sure everything is spotless.",
     "howTitle": "How does our service work?",
     "steps": {
-      "pickup": { "title": "Home pick-up", "description": "We come to your property and collect all bed and bath linen after each check-out. You don't have to lift a finger." },
-      "treatment": { "title": "Professional treatment", "description": "We apply specific stain-removal treatments when necessary, ensuring each piece recovers its original whiteness and freshness. We wash with top-quality, environmentally friendly products that protect fibers and extend the life of your textiles." },
-      "drying": { "title": "Drying and preparation", "description": "We dry and individually bag each set, ready to use for the next check-in. Everything perfectly organized and protected." },
-      "delivery": { "title": "On-time delivery", "description": "We return clean, ready linen within agreed timeframes, so your property is always prepared to receive the next guests without delays." }
+      "pickup": { "title": "Post Check-out Pick-up", "description": "We come to your property and collect all bed and bath linen. No effort on your part." },
+      "treatment": { "title": "Professional Treatment", "description": "We apply specific stain-removal processes, wash with premium products and fully disinfect with active oxygen." },
+      "drying": { "title": "Drying and Preparation", "description": "We dry and individually bag each set, ensuring hygiene and a premium presentation." },
+      "storage": { "title": "Storage and Safekeeping", "description": "Waiting for new guests? We store your textiles in our facilities until you need them, freeing up space in your storage rooms or vehicles." },
+      "delivery": { "title": "\"Just-in-Time\" Scheduled Delivery", "description": "We deliver clean linen on the exact day and time slot you request, directly to the cleaning staff at the property for a seamless setup." }
     },
     "trustTitle": "Your peace of mind, our priority",
-    "trustDesc": "We know that managing a vacation rental involves paying attention to a thousand details. With our laundry service, you eliminate one of the most repetitive and critical tasks. Your guests will always enjoy impeccable, fresh and cozy linen, and you'll gain time to focus on what really matters: maximizing your profitability and offering memorable experiences.",
-    "experienceDesc": "Trust <strong>OpenBlue Fuengirola</strong>. Over 4 years of experience back us up as the perfect partner for owners seeking professionalism, punctuality and impeccable results.",
-    "ctaText": "Want to know more? Contact us and we'll prepare a tailored plan for your property.",
-    "ctaWhatsApp": "Contact via WhatsApp"
+    "trustDesc": "Eliminate the most critical and repetitive task of vacation rental management. With our tailored logistics, you'll gain the punctuality needed to maximize your positive reviews and profitability.",
+    "experienceDesc": "Trust <strong>OpenBlue Fuengirola</strong>. Over 4 years as the trusted partner for Airbnb owners in Fuengirola.",
+    "ctaText": "Want business rates? Contact us for a tailored plan.",
+    "ctaWhatsApp": "Request Business Rates"
   },
   "deliveryModal": {
     "title": "Home Pick-up & Delivery Service",

@@ -164,22 +164,23 @@
     "closing": "Esperamos por si num espaço limpo, moderno e de fácil acesso, com todos os serviços de que precisa."
   },
   "pisosModal": {
-    "title": "Serviço de Lavandaria Profissional para o Seu",
+    "title": "Parceiro Estratégico para o Seu",
     "titleHighlight": "Alojamento de Férias",
-    "introTitle": "Esqueça as preocupações. Nós cuidamos de cada detalhe da sua roupa branca.",
-    "introDesc": "Na OpenBlue Fuengirola entendemos que a roupa de cama e as toalhas são o coração da experiência dos seus hóspedes. Por isso concebemos um serviço de lavandaria integral que o liberta completamente desta tarefa.",
+    "introTitle": "Elevamos a experiência dos seus hóspedes com têxteis impecáveis e logística sem falhas.",
+    "introDesc": "Na OpenBlue Fuengirola entendemos que a roupa de cama e as toalhas são o coração da experiência dos seus hóspedes. Cuidamos de todo o ciclo: desde a recolha após o check-out até à entrega estratégica para a próxima chegada. Você foca-se na gestão, nós garantimos que tudo esteja impecável.",
     "howTitle": "Como funciona o nosso serviço?",
     "steps": {
-      "pickup": { "title": "Recolha ao domicílio", "description": "Passamos pela sua propriedade e recolhemos toda a roupa de cama e banho após cada check-out." },
-      "treatment": { "title": "Tratamento profissional", "description": "Aplicamos tratamentos específicos de remoção de manchas, garantindo que cada peça recupere a sua brancura e frescura originais." },
-      "drying": { "title": "Secagem e preparação", "description": "Secamos e embalamos cada conjunto individualmente, pronto para usar no próximo check-in." },
-      "delivery": { "title": "Entrega pontual", "description": "Devolvemos a roupa limpa e pronta nos prazos acordados, para que a sua propriedade esteja sempre preparada." }
+      "pickup": { "title": "Recolha após o Check-out", "description": "Passamos pela sua propriedade e recolhemos toda a roupa de cama e banho. Sem esforços da sua parte." },
+      "treatment": { "title": "Tratamento Profissional", "description": "Aplicamos processos específicos de remoção de manchas, lavagem com produtos premium e desinfeção total com oxigénio ativo." },
+      "drying": { "title": "Secagem e Preparação", "description": "Secamos e embalamos cada conjunto individualmente, garantindo higiene e uma apresentação premium." },
+      "storage": { "title": "Custódia e Armazenamento", "description": "À espera de novos hóspedes? Armazenamos os seus têxteis nas nossas instalações até que precise deles, libertando espaço nos seus arrumos ou veículos." },
+      "delivery": { "title": "Entrega Programada \"Just-in-Time\"", "description": "Entregamos a roupa limpa no dia e na faixa horária exata que solicitar, diretamente ao pessoal de limpeza no alojamento." }
     },
     "trustTitle": "A sua tranquilidade, a nossa prioridade",
-    "trustDesc": "Sabemos que a gestão de um alojamento de férias implica atenção a mil detalhes. Com o nosso serviço de lavandaria, elimina uma das tarefas mais repetitivas e críticas.",
-    "experienceDesc": "Confie na <strong>OpenBlue Fuengirola</strong>. Mais de 4 anos de experiência sustentam-nos como o aliado perfeito para proprietários.",
-    "ctaText": "Quer saber mais? Contacte-nos e preparamos um plano à medida para a sua propriedade.",
-    "ctaWhatsApp": "Contactar por WhatsApp"
+    "trustDesc": "Elimine a tarefa mais crítica e repetitiva da gestão de alojamento de férias. Com a nossa logística à medida, ganhará a pontualidade necessária para maximizar as suas avaliações positivas e rentabilidade.",
+    "experienceDesc": "Confie na <strong>OpenBlue Fuengirola</strong>. Mais de 4 anos como parceiro de confiança para proprietários Airbnb em Fuengirola.",
+    "ctaText": "Quer tarifas para empresas? Contacte-nos para um plano à medida.",
+    "ctaWhatsApp": "Solicitar Tarifas para Empresas"
   },
   "deliveryModal": {
     "title": "Serviço de Recolha e Entrega ao Domicílio",
