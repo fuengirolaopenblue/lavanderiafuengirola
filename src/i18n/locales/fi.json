@@ -9,8 +9,9 @@
   },
   "hero": {
     "badge": "Avoinna 7:00 - 23:00 · Fuengirola",
-    "subtitle": "Itsepalvelupesula ja myymälä",
-    "description": "Luotettava pesulasi Fuengirolassa. Pesu alkaen 6€, kuivaus alkaen 3€. Tarjoamme myös pesulapalveluita loma-asunnoille ja kokonaisvaltaista kiinteistönhallintaa.",
+    "title": "Lopullinen logistiikkaratkaisu",
+    "titleHighlight": "Fuengirolan Airbnb-asunnollesi.",
+    "subtitle": "Noudamme check-outin jälkeen, säilytämme liinavaatteesi ja toimitamme ne siivoushenkilökunnallesi juuri oikeaan aikaan.",
     "washFrom": "Pesu alkaen",
     "dryFrom": "Kuivaus alkaen",
     "productsIncluded": "Tuotteet sisältyvät",
@@ -108,6 +109,7 @@
   },
   "footer": {
     "description": "Luotettava pesulasi Fuengirolassa. Itsepalvelupesula ja loma-asuntojen hallintapalvelut.",
+    "localSeo": "Ammattimainen pesulapalvelu Fuengirola Centrossa, Los Bolichesissa, Torreblancassa, Carvajalissa ja Puerto Deportivossa. Airbnb- ja loma-asuntoasiantuntijat.",
     "quickLinks": "Pikalinkit",
     "servicesTitle": "Palvelut",
     "selfService": "Itsepalvelupesula",

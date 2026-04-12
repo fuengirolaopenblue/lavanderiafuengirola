@@ -9,8 +9,9 @@
   },
   "hero": {
     "badge": "Aberto das 7:00 às 23:00 · Fuengirola",
-    "subtitle": "Lavandaria e Loja Self-Service",
-    "description": "A sua lavandaria de confiança em Fuengirola. Lavagem a partir de 6€, secagem a partir de 3€. Também oferecemos serviço de lavandaria para alojamentos de férias e gestão integral de propriedades.",
+    "title": "A solução logística definitiva",
+    "titleHighlight": "para o seu Airbnb em Fuengirola.",
+    "subtitle": "Recolhemos após o check-out, guardamos a sua roupa e entregamos à sua equipa de limpeza mesmo a tempo.",
     "washFrom": "Lavagem desde",
     "dryFrom": "Secagem desde",
     "productsIncluded": "Produtos incluídos",
@@ -108,6 +109,7 @@
   },
   "footer": {
     "description": "A sua lavandaria de confiança em Fuengirola. Serviços de lavandaria self-service e gestão de alojamentos de férias.",
+    "localSeo": "Serviço de lavandaria profissional em Fuengirola Centro, Los Boliches, Torreblanca, Carvajal e Puerto Deportivo. Especialistas em Airbnb e alojamento de férias.",
     "quickLinks": "Links Rápidos",
     "servicesTitle": "Serviços",
     "selfService": "Lavandaria Self-Service",
