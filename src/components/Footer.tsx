@@ -97,6 +97,13 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Local SEO */}
+        <div className="px-4 pb-6">
+          <p className="text-primary-foreground/50 text-xs text-center max-w-2xl mx-auto">
+            {t("footer.localSeo", "Servicio de lavandería profesional en Fuengirola Centro, Los Boliches, Torreblanca, Carvajal y Puerto Deportivo. Especialistas en Airbnb y alquiler vacacional.")}
+          </p>
+        </div>
+
         {/* Copyright */}
         <div className="pt-6 border-t border-primary-foreground/20 text-center space-y-1">
           <p className="text-primary-foreground/80 text-sm font-medium">{t("footer.hours")}</p>
