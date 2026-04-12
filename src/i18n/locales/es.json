@@ -9,9 +9,9 @@
   },
   "hero": {
     "badge": "Abierto de 7:00 a 23:00 · Fuengirola",
-    "title": "Deja de perder horas lavando.",
-    "titleHighlight": "Recupera tu tiempo hoy.",
-    "subtitle": "Lavandería autoservicio 24h y gestión estratégica de textiles para Airbnb en Fuengirola. Resultados profesionales que tu lavadora de casa no puede lograr.",
+    "title": "La solución logística definitiva",
+    "titleHighlight": "para tu Airbnb en Fuengirola.",
+    "subtitle": "Recogemos tras el check-out, custodiamos tu ropa y la entregamos a tu personal de limpieza justo a tiempo.",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
     "productsIncluded": "Jabón incluido",
@@ -165,6 +165,7 @@
   },
   "footer": {
     "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio 24h, gestión de textiles para Airbnb y servicio a domicilio.",
+    "localSeo": "Servicio de lavandería profesional en Fuengirola Centro, Los Boliches, Torreblanca, Carvajal y Puerto Deportivo. Especialistas en Airbnb y alquiler vacacional.",
     "quickLinks": "Enlaces Rápidos",
     "servicesTitle": "Servicios",
     "selfService": "Lavandería Autoservicio 24h",
