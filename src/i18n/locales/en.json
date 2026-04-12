@@ -17,7 +17,9 @@
     "productsIncluded": "Products included",
     "washAndDry": "Wash & dry",
     "viewServices": "View Our Services",
-    "contactNow": "Contact Now"
+    "contactNow": "Contact Now",
+    "ctaPrimary": "Request Home Pickup",
+    "ctaSecondary": "View 24h Services"
   },
   "services": {
     "sectionLabel": "Our Services",
