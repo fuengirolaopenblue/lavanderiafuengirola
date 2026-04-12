@@ -119,6 +119,16 @@
     "rights": "Kaikki oikeudet pidätetään.",
     "leaveReview": "Jätä arvostelu"
   },
+  "vip": {
+    "sectionLabel": "VIP-palvelut kiinteistönhaltijoille",
+    "title": "Premium-logistiikka",
+    "titleHighlight": "loma-asunnollesi",
+    "subtitle": "Ratkaisut suunniteltu Airbnb-omistajille ja -haltijoille Fuengirolassa.",
+    "pickup": { "title": "Nouto check-outin jälkeen", "description": "Noudamme Los Bolichesista, Puertosta ja Centrosta." },
+    "storage": { "title": "Säilytys ja varastointi", "description": "Säilytämme puhtaat liinavaatteesi seuraavaan vieraaseen asti." },
+    "delivery": { "title": "Just-in-Time-toimitus", "description": "Toimitamme suoraan siivoushenkilökunnalle tarkkaan aikaan." },
+    "disinfection": { "title": "Pro-desinfiointi", "description": "Aktiivihappi ja premium-tuotteet." }
+  },
   "gestion": {
     "heroTitle": "Loma-asuntosi kokonaisvaltainen hallinta",
     "heroSubtitle": "Rentoudu täysin. Me hoidamme kaiken.",

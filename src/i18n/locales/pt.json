@@ -119,6 +119,16 @@
     "rights": "Todos os direitos reservados.",
     "leaveReview": "Deixe sua avaliação"
   },
+  "vip": {
+    "sectionLabel": "Serviços VIP para Property Managers",
+    "title": "Logística premium para o seu",
+    "titleHighlight": "alojamento de férias",
+    "subtitle": "Soluções desenhadas para proprietários e gestores de Airbnb em Fuengirola.",
+    "pickup": { "title": "Recolha Pós-Check-out", "description": "Recolhemos em Los Boliches, Puerto e Centro." },
+    "storage": { "title": "Custódia e Armazenamento", "description": "Guardamos a sua roupa limpa até à próxima estadia." },
+    "delivery": { "title": "Entrega Just-in-Time", "description": "Entregamos diretamente à equipa de limpeza na hora exata." },
+    "disinfection": { "title": "Desinfeção Pro", "description": "Oxigénio ativo e produtos de alta gama." }
+  },
   "gestion": {
     "heroTitle": "Gestão Integral do Seu Alojamento de Férias",
     "heroSubtitle": "Despreocupe-se completamente. Nós tratamos de tudo.",
