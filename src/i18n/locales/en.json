@@ -119,6 +119,16 @@
     "rights": "All rights reserved.",
     "leaveReview": "Leave us a review"
   },
+  "vip": {
+    "sectionLabel": "VIP Services for Property Managers",
+    "title": "Premium logistics for your",
+    "titleHighlight": "vacation rental",
+    "subtitle": "Solutions designed for Airbnb owners and managers in Fuengirola.",
+    "pickup": { "title": "Post-Check-out Pickup", "description": "We collect from Los Boliches, Puerto and Centro." },
+    "storage": { "title": "Storage & Custody", "description": "We store your clean linen until the next guest." },
+    "delivery": { "title": "Just-in-Time Delivery", "description": "We deliver directly to cleaning staff at the exact time." },
+    "disinfection": { "title": "Pro Disinfection", "description": "Active oxygen and premium products." }
+  },
   "gestion": {
     "heroTitle": "Full Management of Your Vacation Rental",
     "heroSubtitle": "Relax completely. We take care of everything.",
