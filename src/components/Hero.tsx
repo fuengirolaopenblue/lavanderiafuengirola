@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import lavanderiaFachada from "@/assets/lavanderia-fachada.jpg";
 
-const WHATSAPP_URL = "https://wa.me/34641819577?text=Hola%20Lavander%C3%ADa%20Fuengirola%2C%20necesito%20informaci%C3%B3n";
+const WHATSAPP_URL = "https://wa.me/34641819577?text=Hola!%20Necesito%20presupuesto%20para%20servicio%20de%20Lavander%C3%ADa%20en%20Fuengirola%2FBenalm%C3%A1dena.";
 
 const Hero = () => {
   const { t } = useTranslation();

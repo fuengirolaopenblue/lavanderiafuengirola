@@ -131,7 +131,9 @@
     "propertyMgmt": "Property Management",
     "profCleaning": "Professional Cleaning",
     "rights": "All rights reserved.",
-    "leaveReview": "Leave us a review"
+    "leaveReview": "Leave us a review",
+    "hours": "Hours: 24h / 365 days",
+    "followUs": "Follow us and leave your review"
   },
   "vip": {
     "sectionLabel": "VIP Services for Property Managers",
