@@ -8,10 +8,10 @@
     "subtitle": "Self-Service Laundry"
   },
   "hero": {
-    "badge": "Open 7:00 AM - 11:00 PM · Fuengirola",
-    "title": "The ultimate laundry logistics",
-    "titleHighlight": "for your Fuengirola Airbnb.",
-    "subtitle": "Pickup after check-out, linen storage, and just-in-time delivery for your cleaning staff.",
+    "badge": "Open 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "title": "Laundry in Fuengirola:",
+    "titleHighlight": "Professional Service & Logistics for Airbnb",
+    "subtitle": "Your trusted laundry in Fuengirola, Mijas Costa and now also in Benalmádena Costa. OpenBlue quality.",
     "washFrom": "Washing from",
     "dryFrom": "Drying from",
     "productsIncluded": "Products included",
@@ -20,6 +20,18 @@
     "contactNow": "Contact Now",
     "ctaPrimary": "Request Home Pickup",
     "ctaSecondary": "View 24h Services"
+  },
+  "expansion": {
+    "badge": "We're Expanding!",
+    "title": "Now also Laundry in",
+    "titleHighlight": "Benalmádena Costa",
+    "subtitle": "Professional service for Airbnb hosts and individuals across the Costa del Sol.",
+    "zonesTitle": "Areas we cover",
+    "zones": {
+      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
+      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
+      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+    }
   },
   "services": {
     "sectionLabel": "Our Services",
