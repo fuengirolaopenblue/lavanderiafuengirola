@@ -175,7 +175,7 @@
     "titleHighlight": "alquiler vacacional",
     "subtitle": "Soluciones diseñadas para propietarios y gestores de Airbnb en Fuengirola.",
     "pickup": { "title": "Recogida Post-Check-out", "description": "Recogemos en Los Boliches, Puerto y Centro." },
-    "storage": { "title": "Custodia y Almacenamiento", "description": "Guardamos tu ropa limpia hasta el próximo ingreso." },
+    "storage": { "title": "Custodia Gratuita de Ropa Limpia", "description": "Almacenamos tu ropa limpia sin coste hasta el siguiente ingreso." },
     "delivery": { "title": "Entrega Just-in-Time", "description": "Entregamos directamente al personal de limpieza en el horario exacto." },
     "disinfection": { "title": "Desinfección Pro", "description": "Oxígeno activo y productos de alta gama." }
   },
@@ -187,7 +187,7 @@
   },
   "footer": {
     "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio 24h, gestión de textiles para Airbnb y servicio a domicilio.",
-    "localSeo": "Servicio de lavandería profesional en Fuengirola Centro, Los Boliches, Torreblanca, Carvajal y Puerto Deportivo. Especialistas en Airbnb y alquiler vacacional.",
+    "localSeo": "Servicio de lavandería profesional en Fuengirola (Centro, Los Boliches, Torreblanca, Carvajal, Puerto Deportivo), Mijas Costa (La Cala, Riviera) y Benalmádena Costa (Puerto Marina). Especialistas en Airbnb y alquiler vacacional.",
     "quickLinks": "Enlaces Rápidos",
     "servicesTitle": "Servicios",
     "selfService": "Lavandería Autoservicio 24h",
