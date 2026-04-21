@@ -8,16 +8,28 @@
     "subtitle": "Lavandaria Self-Service"
   },
   "hero": {
-    "badge": "Aberto das 7:00 às 23:00 · Fuengirola",
-    "title": "A solução logística definitiva",
-    "titleHighlight": "para o seu Airbnb em Fuengirola.",
-    "subtitle": "Recolhemos após o check-out, guardamos a sua roupa e entregamos à sua equipa de limpeza mesmo a tempo.",
+    "badge": "Aberto 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "title": "Lavandaria em Fuengirola:",
+    "titleHighlight": "Serviço Profissional e Logística para Airbnb",
+    "subtitle": "A sua lavandaria de confiança em Fuengirola, Mijas Costa e agora também em Benalmádena Costa. Qualidade OpenBlue.",
     "washFrom": "Lavagem desde",
     "dryFrom": "Secagem desde",
     "productsIncluded": "Produtos incluídos",
     "washAndDry": "Lavagem e secagem",
     "viewServices": "Ver Os Nossos Serviços",
     "contactNow": "Contactar Agora"
+  },
+  "expansion": {
+    "badge": "Cobertura ampliada!",
+    "title": "Agora também Lavandaria em",
+    "titleHighlight": "Benalmádena Costa",
+    "subtitle": "Serviço profissional para Airbnb e particulares em toda a Costa del Sol.",
+    "zonesTitle": "Zonas de cobertura",
+    "zones": {
+      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
+      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
+      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+    }
   },
   "services": {
     "sectionLabel": "Os Nossos Serviços",
