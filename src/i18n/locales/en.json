@@ -8,10 +8,10 @@
     "subtitle": "Self-Service Laundry"
   },
   "hero": {
-    "badge": "Open 7:00 AM - 11:00 PM · Fuengirola",
-    "title": "The ultimate laundry logistics",
-    "titleHighlight": "for your Fuengirola Airbnb.",
-    "subtitle": "Pickup after check-out, linen storage, and just-in-time delivery for your cleaning staff.",
+    "badge": "Open 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "title": "Laundry in Fuengirola:",
+    "titleHighlight": "Professional Service & Logistics for Airbnb",
+    "subtitle": "Your trusted laundry in Fuengirola, Mijas Costa and now also in Benalmádena Costa. OpenBlue quality.",
     "washFrom": "Washing from",
     "dryFrom": "Drying from",
     "productsIncluded": "Products included",
@@ -20,6 +20,18 @@
     "contactNow": "Contact Now",
     "ctaPrimary": "Request Home Pickup",
     "ctaSecondary": "View 24h Services"
+  },
+  "expansion": {
+    "badge": "We're Expanding!",
+    "title": "Now also Laundry in",
+    "titleHighlight": "Benalmádena Costa",
+    "subtitle": "Professional service for Airbnb hosts and individuals across the Costa del Sol.",
+    "zonesTitle": "Areas we cover",
+    "zones": {
+      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
+      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
+      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+    }
   },
   "services": {
     "sectionLabel": "Our Services",
@@ -111,7 +123,7 @@
   },
   "footer": {
     "description": "Your trusted laundry in Fuengirola. Self-service laundry and vacation property management services.",
-    "localSeo": "Professional laundry service in Fuengirola Centro, Los Boliches, Torreblanca, Carvajal and Puerto Deportivo. Airbnb and vacation rental specialists.",
+    "localSeo": "Professional laundry service in Fuengirola (Centro, Los Boliches, Torreblanca, Carvajal, Puerto Deportivo), Mijas Costa (La Cala, Riviera) and Benalmádena Costa (Puerto Marina). Airbnb and vacation rental specialists.",
     "quickLinks": "Quick Links",
     "servicesTitle": "Services",
     "selfService": "Self-Service Laundry",
@@ -119,7 +131,9 @@
     "propertyMgmt": "Property Management",
     "profCleaning": "Professional Cleaning",
     "rights": "All rights reserved.",
-    "leaveReview": "Leave us a review"
+    "leaveReview": "Leave us a review",
+    "hours": "Hours: 24h / 365 days",
+    "followUs": "Follow us and leave your review"
   },
   "vip": {
     "sectionLabel": "VIP Services for Property Managers",
@@ -127,7 +141,7 @@
     "titleHighlight": "vacation rental",
     "subtitle": "Solutions designed for Airbnb owners and managers in Fuengirola.",
     "pickup": { "title": "Post-Check-out Pickup", "description": "We collect from Los Boliches, Puerto and Centro." },
-    "storage": { "title": "Storage & Custody", "description": "We store your clean linen until the next guest." },
+    "storage": { "title": "Free Clean Linen Storage", "description": "We store your clean linen at no cost until the next guest." },
     "delivery": { "title": "Just-in-Time Delivery", "description": "We deliver directly to cleaning staff at the exact time." },
     "disinfection": { "title": "Pro Disinfection", "description": "Active oxygen and premium products." }
   },

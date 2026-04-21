@@ -8,16 +8,28 @@
     "subtitle": "Laverie Libre-Service"
   },
   "hero": {
-    "badge": "Ouvert de 7h00 à 23h00 · Fuengirola",
-    "title": "La solution logistique ultime",
-    "titleHighlight": "pour votre Airbnb à Fuengirola.",
-    "subtitle": "Ramassage après le check-out, stockage de votre linge et livraison juste à temps à votre personnel de ménage.",
+    "badge": "Ouvert 24h/24 · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "title": "Laverie à Fuengirola :",
+    "titleHighlight": "Service Professionnel et Logistique pour Airbnb",
+    "subtitle": "Votre laverie de confiance à Fuengirola, Mijas Costa et désormais aussi à Benalmádena Costa. Qualité OpenBlue.",
     "washFrom": "Lavage dès",
     "dryFrom": "Séchage dès",
     "productsIncluded": "Produits inclus",
     "washAndDry": "Lavage et séchage",
     "viewServices": "Voir Nos Services",
     "contactNow": "Contacter Maintenant"
+  },
+  "expansion": {
+    "badge": "Couverture étendue !",
+    "title": "Maintenant aussi Laverie à",
+    "titleHighlight": "Benalmádena Costa",
+    "subtitle": "Service professionnel pour Airbnb et particuliers sur toute la Costa del Sol.",
+    "zonesTitle": "Zones desservies",
+    "zones": {
+      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
+      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
+      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+    }
   },
   "services": {
     "sectionLabel": "Nos Services",

@@ -8,16 +8,28 @@
     "subtitle": "Itsepalvelupesula"
   },
   "hero": {
-    "badge": "Avoinna 7:00 - 23:00 · Fuengirola",
-    "title": "Lopullinen logistiikkaratkaisu",
-    "titleHighlight": "Fuengirolan Airbnb-asunnollesi.",
-    "subtitle": "Noudamme check-outin jälkeen, säilytämme liinavaatteesi ja toimitamme ne siivoushenkilökunnallesi juuri oikeaan aikaan.",
+    "badge": "Avoinna 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "title": "Pesula Fuengirolassa:",
+    "titleHighlight": "Ammattimainen palvelu ja logistiikka Airbnb:lle",
+    "subtitle": "Luotettava pesulasi Fuengirolassa, Mijas Costalla ja nyt myös Benalmádena Costalla. OpenBlue-laatu.",
     "washFrom": "Pesu alkaen",
     "dryFrom": "Kuivaus alkaen",
     "productsIncluded": "Tuotteet sisältyvät",
     "washAndDry": "Pesu ja kuivaus",
     "viewServices": "Katso palvelumme",
     "contactNow": "Ota yhteyttä nyt"
+  },
+  "expansion": {
+    "badge": "Laajennamme palvelualuetta!",
+    "title": "Nyt myös pesula",
+    "titleHighlight": "Benalmádena Costalla",
+    "subtitle": "Ammattimainen palvelu Airbnb-isännille ja yksityishenkilöille koko Costa del Solilla.",
+    "zonesTitle": "Palvelualueet",
+    "zones": {
+      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
+      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
+      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+    }
   },
   "services": {
     "sectionLabel": "Palvelumme",

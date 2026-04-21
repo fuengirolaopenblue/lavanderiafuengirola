@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import lavanderiaFachada from "@/assets/lavanderia-fachada.jpg";
 
-const WHATSAPP_URL = "https://wa.me/34641819577?text=Hola%20Lavander%C3%ADa%20Fuengirola%2C%20necesito%20informaci%C3%B3n";
+const WHATSAPP_URL = "https://wa.me/34641819577?text=Hola!%20Necesito%20presupuesto%20para%20servicio%20de%20Lavander%C3%ADa%20en%20Fuengirola%2FBenalm%C3%A1dena.";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={lavanderiaFachada}
-          alt="Lavandería autoservicio 24 horas Fuengirola OpenBlue - Fachada exterior"
+          alt="Lavandería industrial Fuengirola - Servicio de lavandería para Airbnb en Fuengirola, Mijas Costa y Benalmádena Costa"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-openblue-dark/90 via-openblue-dark/70 to-transparent" />
@@ -42,7 +42,7 @@ const Hero = () => {
             </span>
           </motion.a>
 
-          {/* H1 — Loss Aversion */}
+          {/* H1 — Lavandería Fuengirola como keyword principal */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -53,15 +53,15 @@ const Hero = () => {
             <span className="text-gold">{t("hero.titleHighlight")}</span>
           </motion.h1>
 
-          {/* Subtitle */}
-          <motion.p
+          {/* H2 — Cobertura geográfica */}
+          <motion.h2
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mb-10"
+            className="font-display text-lg md:text-xl text-primary-foreground/90 max-w-xl mb-10 font-medium"
           >
             {t("hero.subtitle")}
-          </motion.p>
+          </motion.h2>
 
           {/* Prices */}
           <motion.div
