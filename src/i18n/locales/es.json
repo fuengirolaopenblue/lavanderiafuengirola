@@ -8,7 +8,7 @@
     "subtitle": "Lavandería en Fuengirola"
   },
   "hero": {
-    "badge": "Abierto 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "badge": "Abierto 7:00 a 23:00 · 365 días · Fuengirola · Mijas · Benalmádena",
     "title": "Lavandería en Fuengirola:",
     "titleHighlight": "Servicio Profesional y Logística para Airbnb",
     "subtitle": "Tu lavandería de confianza en Fuengirola, Mijas Costa y ahora también en Benalmádena Costa. Calidad OpenBlue.",
@@ -17,7 +17,7 @@
     "productsIncluded": "Jabón incluido",
     "washAndDry": "Lavado y secado",
     "ctaPrimary": "Solicitar Recogida a Domicilio",
-    "ctaSecondary": "Ver Servicios 24h"
+    "ctaSecondary": "Ver Servicios"
   },
   "expansion": {
     "badge": "¡Ampliamos Cobertura!",
@@ -57,17 +57,17 @@
     "sectionLabel": "Nuestros Servicios",
     "title": "Soluciones profesionales para tu",
     "titleHighlight": "tranquilidad",
-    "subtitle": "Desde nuestra lavandería autoservicio 24h hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
+    "subtitle": "Desde nuestra lavandería autoservicio (7:00 a 23:00, 365 días) hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
     "selfService": {
-      "title": "Autoservicio 24/7",
+      "title": "Autoservicio 7:00 - 23:00",
       "description": "Maquinaria Girbau. Lava 15kg en 30 min por solo 6€. Jabón y suavizante premium incluidos.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
         "+5 min por 0,50€ (ampliable)",
         "Jabón y desinfección incluidos",
-        "Abierto 24h / 365 días"
+        "Abierto 7:00 - 23:00 · 365 días al año"
       ]
     },
     "vacation": {
@@ -129,8 +129,8 @@
     "features": {
       "quality": "Calidad Garantizada",
       "qualityDesc": "Utilizamos productos premium y técnicas profesionales para resultados impecables.",
-      "open": "Abierto 24/7",
-      "openDesc": "Nuestras instalaciones están disponibles todos los días del año, las 24 horas.",
+      "open": "Abierto 7:00 - 23:00",
+      "openDesc": "Nuestras instalaciones están disponibles todos los días del año, de 7:00 a 23:00.",
       "team": "Equipo Profesional",
       "teamDesc": "Personal cualificado y comprometido con la excelencia en cada detalle."
     }
@@ -167,7 +167,7 @@
     "location": "Ubicación",
     "whatsapp": "WhatsApp",
     "laundryHours": "Horario Lavandería",
-    "laundryHoursValue": "24 horas / 365 días"
+    "laundryHoursValue": "7:00 - 23:00 · 365 días al año"
   },
   "vip": {
     "sectionLabel": "Servicios VIP para Property Managers",
@@ -186,17 +186,17 @@
     "scanText": "Escanea y conéctate gratis mientras esperas"
   },
   "footer": {
-    "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio 24h, gestión de textiles para Airbnb y servicio a domicilio.",
+    "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio de 7:00 a 23:00 los 365 días del año, gestión de textiles para Airbnb y servicio a domicilio.",
     "localSeo": "Servicio de lavandería profesional en Fuengirola (Centro, Los Boliches, Torreblanca, Carvajal, Puerto Deportivo), Mijas Costa (La Cala, Riviera) y Benalmádena Costa (Puerto Marina). Especialistas en Airbnb y alquiler vacacional.",
     "quickLinks": "Enlaces Rápidos",
     "servicesTitle": "Servicios",
-    "selfService": "Lavandería Autoservicio 24h",
+    "selfService": "Lavandería Autoservicio 7-23h",
     "vacationLaundry": "Lavandería para Airbnb",
     "propertyMgmt": "Gestión de Propiedades",
     "profCleaning": "Lavandería a Domicilio",
     "rights": "Todos los derechos reservados.",
     "leaveReview": "Déjanos tu reseña",
-    "hours": "Horario: 24h / 365 días",
+    "hours": "Horario: 7:00 - 23:00 · 365 días al año",
     "followUs": "Síguenos y déjanos tu opinión"
   },
   "gestion": {
@@ -221,7 +221,7 @@
     "backHome": "Volver al inicio"
   },
   "autoservicioModal": {
-    "title": "Lavandería Autoservicio 24/7 en Fuengirola",
+    "title": "Lavandería Autoservicio 7:00 - 23:00 en Fuengirola",
     "subtitle": "Una experiencia completa pensada para tu comodidad",
     "intro": "En nuestra lavandería autoservicio no solo te ayudamos a tener la ropa impecable, también te ofrecemos un espacio cómodo para que aproveches tu tiempo al máximo.",
     "machinesTitle": "Maquinaria de Primera Línea Mundial",
@@ -233,7 +233,7 @@
     "dryer19": "Secadora 19 kg",
     "dryer19Extra": "+5 minutos adicionales por solo 0,50€",
     "dryer19Extra2": "Ampliable las veces que necesites",
-    "vendingTitle": "Zona de Vending 24h",
+    "vendingTitle": "Zona de Vending",
     "vendingDesc": "Máquina de café con amplia variedad de opciones calientes, refrescos, snacks y golosinas para hacer tu espera más agradable.",
     "coffeeTitle": "Máquina de Café",
     "coffeeDesc": "Exquisito café de avellanas, café con leche, cortado, cappuccino, chocolate caliente y muchas más opciones",
