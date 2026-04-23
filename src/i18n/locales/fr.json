@@ -8,7 +8,7 @@
     "subtitle": "Laverie Libre-Service"
   },
   "hero": {
-    "badge": "Ouvert 24h/24 · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "badge": "Ouvert 7-23h/24 · Fuengirola · Mijas Costa · Benalmádena Costa",
     "title": "Laverie à Fuengirola :",
     "titleHighlight": "Service Professionnel et Logistique pour Airbnb",
     "subtitle": "Votre laverie de confiance à Fuengirola, Mijas Costa et désormais aussi à Benalmádena Costa. Qualité OpenBlue.",
@@ -39,13 +39,13 @@
     "moreInfo": "Plus d'informations",
     "selfService": {
       "title": "Laverie Libre-Service",
-      "description": "Machines dernière génération disponibles 24h/24. Payez facilement en espèces, billets ou cartes bancaires.",
+      "description": "Machines dernière génération disponibles 7-23h/24. Payez facilement en espèces, billets ou cartes bancaires.",
       "features": [
         "Lave-linge 19kg → 8€ | 15kg → 6€",
         "Sèche-linge 19kg → 3€/20min",
         "+5 min pour 0,50€ (extensible)",
         "Produits inclus",
-        "Ouvert 24h / 365 jours"
+        "Ouvert 7-23h / 365 jours"
       ]
     },
     "vacation": {
@@ -84,8 +84,8 @@
     "features": {
       "quality": "Qualité Garantie",
       "qualityDesc": "Nous utilisons des produits premium et des techniques professionnelles pour des résultats impeccables.",
-      "open": "Ouvert 24/7",
-      "openDesc": "Nos installations sont disponibles tous les jours de l'année, 24 heures sur 24.",
+      "open": "Ouvert 7-23h · 365d",
+      "openDesc": "Nos installations sont disponibles tous les jours de l'année, de 7h00 à 23h00 sur 24.",
       "team": "Équipe Professionnelle",
       "teamDesc": "Personnel qualifié et engagé pour l'excellence dans chaque détail."
     }
@@ -117,7 +117,7 @@
     "location": "Emplacement",
     "whatsapp": "WhatsApp",
     "laundryHours": "Horaires Laverie",
-    "laundryHoursValue": "24 heures / 365 jours"
+    "laundryHoursValue": "de 7h00 à 23h00 / 365 jours"
   },
   "footer": {
     "description": "Votre laverie de confiance à Fuengirola. Services de laverie libre-service et gestion de locations de vacances.",
@@ -175,7 +175,7 @@
     "dryer19": "Sèche-linge 19 kg",
     "dryer19Extra": "+5 minutes supplémentaires pour seulement 0,50€",
     "dryer19Extra2": "Extensible autant de fois que nécessaire",
-    "vendingTitle": "Zone Distributeurs 24h",
+    "vendingTitle": "Zone Distributeurs 7-23h",
     "vendingDesc": "Machine à café avec variété d'options chaudes, boissons fraîches, snacks et confiseries pour rendre votre attente agréable.",
     "coffeeTitle": "Machine à Café",
     "coffeeDesc": "Délicieux café noisette, latte, espresso, cappuccino, chocolat chaud et bien plus",

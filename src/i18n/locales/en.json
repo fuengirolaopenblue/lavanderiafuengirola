@@ -8,7 +8,7 @@
     "subtitle": "Self-Service Laundry"
   },
   "hero": {
-    "badge": "Open 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "badge": "Open 7-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
     "title": "Laundry in Fuengirola:",
     "titleHighlight": "Professional Service & Logistics for Airbnb",
     "subtitle": "Your trusted laundry in Fuengirola, Mijas Costa and now also in Benalmádena Costa. OpenBlue quality.",
@@ -19,7 +19,7 @@
     "viewServices": "View Our Services",
     "contactNow": "Contact Now",
     "ctaPrimary": "Request Home Pickup",
-    "ctaSecondary": "View 24h Services"
+    "ctaSecondary": "View 7-23h Services"
   },
   "expansion": {
     "badge": "We're Expanding!",
@@ -41,13 +41,13 @@
     "moreInfo": "More information",
     "selfService": {
       "title": "Self-Service Laundry",
-      "description": "State-of-the-art machines available 24 hours. Pay conveniently with coins, bills or debit/credit cards.",
+      "description": "State-of-the-art machines available from 7:00 to 23:00. Pay conveniently with coins, bills or debit/credit cards.",
       "features": [
         "Washer 19kg → €8 | 15kg → €6",
         "Dryer 19kg → €3/20min",
         "+5 min for €0.50 (extendable)",
         "Products included",
-        "Open 24h / 365 days"
+        "Open 7-23h / 365 days"
       ]
     },
     "vacation": {
@@ -86,8 +86,8 @@
     "features": {
       "quality": "Guaranteed Quality",
       "qualityDesc": "We use premium products and professional techniques for impeccable results.",
-      "open": "Open 24/7",
-      "openDesc": "Our facilities are available every day of the year, 24 hours a day.",
+      "open": "Open 7-23h · 365d",
+      "openDesc": "Our facilities are available every day of the year, from 7:00 to 23:00 a day.",
       "team": "Professional Team",
       "teamDesc": "Qualified staff committed to excellence in every detail."
     }
@@ -119,7 +119,7 @@
     "location": "Location",
     "whatsapp": "WhatsApp",
     "laundryHours": "Laundry Hours",
-    "laundryHoursValue": "24 hours / 365 days"
+    "laundryHoursValue": "from 7:00 to 23:00 / 365 days"
   },
   "footer": {
     "description": "Your trusted laundry in Fuengirola. Self-service laundry and vacation property management services.",
@@ -132,7 +132,7 @@
     "profCleaning": "Professional Cleaning",
     "rights": "All rights reserved.",
     "leaveReview": "Leave us a review",
-    "hours": "Hours: 24h / 365 days",
+    "hours": "Hours: 7-23h / 365 days",
     "followUs": "Follow us and leave your review"
   },
   "vip": {
@@ -179,7 +179,7 @@
     "dryer19": "19 kg Dryer",
     "dryer19Extra": "+5 extra minutes for just €0.50",
     "dryer19Extra2": "Extendable as many times as you need",
-    "vendingTitle": "24h Vending Area",
+    "vendingTitle": "7-23h Vending Area",
     "vendingDesc": "Coffee machine with a wide variety of hot options, soft drinks, snacks and sweets to make your wait more pleasant.",
     "coffeeTitle": "Coffee Machine",
     "coffeeDesc": "Delicious hazelnut coffee, latte, espresso, cappuccino, hot chocolate and many more options",

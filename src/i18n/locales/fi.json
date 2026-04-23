@@ -8,7 +8,7 @@
     "subtitle": "Itsepalvelupesula"
   },
   "hero": {
-    "badge": "Avoinna 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "badge": "Avoinna 7-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
     "title": "Pesula Fuengirolassa:",
     "titleHighlight": "Ammattimainen palvelu ja logistiikka Airbnb:lle",
     "subtitle": "Luotettava pesulasi Fuengirolassa, Mijas Costalla ja nyt myös Benalmádena Costalla. OpenBlue-laatu.",
@@ -39,13 +39,13 @@
     "moreInfo": "Lisätietoja",
     "selfService": {
       "title": "Itsepalvelupesula",
-      "description": "Uusimman teknologian koneet käytettävissä 24 tuntia. Maksa kätevästi kolikoilla, seteleillä tai pankki-/luottokortilla.",
+      "description": "Uusimman teknologian koneet käytettävissä 7:00–23:00. Maksa kätevästi kolikoilla, seteleillä tai pankki-/luottokortilla.",
       "features": [
         "Pesukone 19kg → 8€ | 15kg → 6€",
         "Kuivausrumpu 19kg → 3€/20min",
         "+5 min 0,50€ (laajennettavissa)",
         "Tuotteet sisältyvät",
-        "Avoinna 24h / 365 päivää"
+        "Avoinna 7-23h / 365 päivää"
       ]
     },
     "vacation": {
@@ -84,8 +84,8 @@
     "features": {
       "quality": "Taattu laatu",
       "qualityDesc": "Käytämme premium-tuotteita ja ammattimaisia tekniikoita moitteettomiin tuloksiin.",
-      "open": "Avoinna 24/7",
-      "openDesc": "Tilojamme on käytettävissä joka päivä vuoden ympäri, 24 tuntia vuorokaudessa.",
+      "open": "Avoinna 7-23h · 365d",
+      "openDesc": "Tilojamme on käytettävissä joka päivä vuoden ympäri, 7:00–23:00 vuorokaudessa.",
       "team": "Ammattimainen tiimi",
       "teamDesc": "Pätevä henkilökunta, joka on sitoutunut huippuosaamiseen jokaisessa yksityiskohdassa."
     }
@@ -117,7 +117,7 @@
     "location": "Sijainti",
     "whatsapp": "WhatsApp",
     "laundryHours": "Pesulan aukioloajat",
-    "laundryHoursValue": "24 tuntia / 365 päivää"
+    "laundryHoursValue": "7:00–23:00 / 365 päivää"
   },
   "footer": {
     "description": "Luotettava pesulasi Fuengirolassa. Itsepalvelupesula ja loma-asuntojen hallintapalvelut.",
@@ -175,7 +175,7 @@
     "dryer19": "19 kg kuivausrumpu",
     "dryer19Extra": "+5 lisäminuuttia vain 0,50€",
     "dryer19Extra2": "Laajennettavissa niin monta kertaa kuin tarvitset",
-    "vendingTitle": "24h automaattialue",
+    "vendingTitle": "7-23h automaattialue",
     "vendingDesc": "Kahviautomaatti laajalla valikoimalla kuumia juomia, virvoitusjuomia, välipaloja ja makeisia, jotta odottaminen olisi miellyttävämpää.",
     "coffeeTitle": "Kahviautomaatti",
     "coffeeDesc": "Herkullinen hasselpähkinäkahvi, maitokahvi, espresso, cappuccino, kuuma suklaa ja monia muita vaihtoehtoja",

@@ -8,7 +8,7 @@
     "subtitle": "Lavandaria Self-Service"
   },
   "hero": {
-    "badge": "Aberto 24h · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "badge": "Aberto 7-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
     "title": "Lavandaria em Fuengirola:",
     "titleHighlight": "Serviço Profissional e Logística para Airbnb",
     "subtitle": "A sua lavandaria de confiança em Fuengirola, Mijas Costa e agora também em Benalmádena Costa. Qualidade OpenBlue.",
@@ -39,13 +39,13 @@
     "moreInfo": "Mais informações",
     "selfService": {
       "title": "Lavandaria Self-Service",
-      "description": "Máquinas de última geração disponíveis 24 horas. Pague facilmente com moedas, notas ou cartões bancários.",
+      "description": "Máquinas de última geração disponíveis de 7:00 a 23:00. Pague facilmente com moedas, notas ou cartões bancários.",
       "features": [
         "Máquina de lavar 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
         "+5 min por 0,50€ (extensível)",
         "Produtos incluídos",
-        "Aberto 24h / 365 dias"
+        "Aberto 7-23h / 365 dias"
       ]
     },
     "vacation": {
@@ -84,8 +84,8 @@
     "features": {
       "quality": "Qualidade Garantida",
       "qualityDesc": "Utilizamos produtos premium e técnicas profissionais para resultados impecáveis.",
-      "open": "Aberto 24/7",
-      "openDesc": "As nossas instalações estão disponíveis todos os dias do ano, 24 horas por dia.",
+      "open": "Aberto 7-23h · 365d",
+      "openDesc": "As nossas instalações estão disponíveis todos os dias do ano, de 7:00 a 23:00 por dia.",
       "team": "Equipa Profissional",
       "teamDesc": "Pessoal qualificado e comprometido com a excelência em cada detalhe."
     }
@@ -117,7 +117,7 @@
     "location": "Localização",
     "whatsapp": "WhatsApp",
     "laundryHours": "Horário Lavandaria",
-    "laundryHoursValue": "24 horas / 365 dias"
+    "laundryHoursValue": "de 7:00 a 23:00 / 365 dias"
   },
   "footer": {
     "description": "A sua lavandaria de confiança em Fuengirola. Serviços de lavandaria self-service e gestão de alojamentos de férias.",
@@ -175,7 +175,7 @@
     "dryer19": "Secadora 19 kg",
     "dryer19Extra": "+5 minutos adicionais por apenas 0,50€",
     "dryer19Extra2": "Extensível quantas vezes precisar",
-    "vendingTitle": "Zona de Vending 24h",
+    "vendingTitle": "Zona de Vending 7-23h",
     "vendingDesc": "Máquina de café com ampla variedade de opções quentes, refrigerantes, snacks e doces para tornar a sua espera mais agradável.",
     "coffeeTitle": "Máquina de Café",
     "coffeeDesc": "Delicioso café de avelã, café com leite, expresso, cappuccino, chocolate quente e muito mais",
