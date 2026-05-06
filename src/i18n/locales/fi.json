@@ -9,15 +9,15 @@
   },
   "hero": {
     "badge": "Avoinna 7-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
-    "title": "Pesula Fuengirolassa:",
-    "titleHighlight": "Ammattimainen palvelu ja logistiikka Airbnb:lle",
-    "subtitle": "Luotettava pesulasi Fuengirolassa, Mijas Costalla ja nyt myös Benalmádena Costalla. OpenBlue-laatu.",
+    "title": "Pesula 7-23 Fuengirolassa:",
+    "titleHighlight": "Kumppanisi loma-asunnoille",
+    "subtitle": "Palvelemme kaikenlaisia kiinteistöjä: rannikon studioista suuriin loma-huviloihin Fuengirolassa, Mijas Costalla ja Benalmádena Costalla.",
     "washFrom": "Pesu alkaen",
     "dryFrom": "Kuivaus alkaen",
     "productsIncluded": "Tuotteet sisältyvät",
     "washAndDry": "Pesu ja kuivaus",
-    "viewServices": "Katso palvelumme",
-    "contactNow": "Ota yhteyttä nyt"
+    "ctaPrimary": "Pyydä yritystarjous",
+    "ctaSecondary": "Katso palvelumme"
   },
   "expansion": {
     "badge": "Laajennamme palvelualuetta!",
@@ -121,7 +121,7 @@
   },
   "footer": {
     "description": "Luotettava pesulasi Fuengirolassa. Itsepalvelupesula ja loma-asuntojen hallintapalvelut.",
-    "localSeo": "Ammattimainen pesulapalvelu Fuengirola Centrossa, Los Bolichesissa, Torreblancassa, Carvajalissa ja Puerto Deportivossa. Airbnb- ja loma-asuntoasiantuntijat.",
+    "localSeo": "Palvelu Fuengirolassa, Los Bolichesissa, Puerto Deportivossa, Torreblancassa, Carvajalissa, Mijasissa, Mijas Costalla ja Benalmádena Costalla. Airbnb- ja loma-asuntoasiantuntijat.",
     "quickLinks": "Pikalinkit",
     "servicesTitle": "Palvelut",
     "selfService": "Itsepalvelupesula",
