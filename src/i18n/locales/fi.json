@@ -136,10 +136,11 @@
     "title": "Premium-logistiikka",
     "titleHighlight": "loma-asunnollesi",
     "subtitle": "Ratkaisut suunniteltu Airbnb-omistajille ja -haltijoille Fuengirolassa.",
-    "pickup": { "title": "Nouto check-outin jälkeen", "description": "Noudamme Los Bolichesista, Puertosta ja Centrosta." },
+    "pickup": { "title": "Nouto check-outin jälkeen", "description": "Noudamme liinavaatteet suoraan kiinteistöltä." },
+    "treatment": { "title": "Ammattimainen käsittely", "description": "Täydellinen desinfiointi aktiivihapella ja premium-tuotteilla." },
+    "preparation": { "title": "Kuivaus ja valmistelu", "description": "Yksittäispakattu premium-hygienia ja esitys." },
     "storage": { "title": "Säilytys ja varastointi", "description": "Säilytämme puhtaat liinavaatteesi seuraavaan vieraaseen asti." },
-    "delivery": { "title": "Just-in-Time-toimitus", "description": "Toimitamme suoraan siivoushenkilökunnalle tarkkaan aikaan." },
-    "disinfection": { "title": "Pro-desinfiointi", "description": "Aktiivihappi ja premium-tuotteet." }
+    "delivery": { "title": "Aikataulutettu toimitus", "description": "'Just-in-Time' -toimitus koordinoidusti siivoushenkilökuntasi kanssa." }
   },
   "gestion": {
     "heroTitle": "Loma-asuntosi kokonaisvaltainen hallinta",
