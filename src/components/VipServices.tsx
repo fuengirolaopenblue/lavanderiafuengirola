@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Truck, Warehouse, CalendarClock, ShieldCheck } from "lucide-react";
+import { Truck, Sparkles, Wind, Warehouse, CalendarClock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const icons = [Truck, Warehouse, CalendarClock, ShieldCheck];
-const keys = ["pickup", "storage", "delivery", "disinfection"];
+const icons = [Truck, Sparkles, Wind, Warehouse, CalendarClock];
+const keys = ["pickup", "treatment", "preparation", "storage", "delivery"];
 
 const VipServices = () => {
   const { t } = useTranslation();
@@ -29,7 +29,7 @@ const VipServices = () => {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {keys.map((key, i) => {
             const Icon = icons[i];
             return (
