@@ -9,15 +9,15 @@
   },
   "hero": {
     "badge": "Aberto 7-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
-    "title": "Lavandaria em Fuengirola:",
-    "titleHighlight": "Serviço Profissional e Logística para Airbnb",
-    "subtitle": "A sua lavandaria de confiança em Fuengirola, Mijas Costa e agora também em Benalmádena Costa. Qualidade OpenBlue.",
+    "title": "Lavandaria 7h-23h em Fuengirola:",
+    "titleHighlight": "O Seu Parceiro para Alojamento de Férias",
+    "subtitle": "Servimos todo o tipo de propriedades: desde estúdios costeiros a grandes vilas de férias em Fuengirola, Mijas Costa e Benalmádena Costa.",
     "washFrom": "Lavagem desde",
     "dryFrom": "Secagem desde",
     "productsIncluded": "Produtos incluídos",
     "washAndDry": "Lavagem e secagem",
-    "viewServices": "Ver Os Nossos Serviços",
-    "contactNow": "Contactar Agora"
+    "ctaPrimary": "Pedir Tarifas para Empresas",
+    "ctaSecondary": "Ver Serviços"
   },
   "expansion": {
     "badge": "Cobertura ampliada!",
@@ -121,7 +121,7 @@
   },
   "footer": {
     "description": "A sua lavandaria de confiança em Fuengirola. Serviços de lavandaria self-service e gestão de alojamentos de férias.",
-    "localSeo": "Serviço de lavandaria profissional em Fuengirola Centro, Los Boliches, Torreblanca, Carvajal e Puerto Deportivo. Especialistas em Airbnb e alojamento de férias.",
+    "localSeo": "Serviço em Fuengirola, Los Boliches, Puerto Deportivo, Torreblanca, Carvajal, Mijas, Mijas Costa e Benalmádena Costa. Especialistas em Airbnb e alojamento de férias.",
     "quickLinks": "Links Rápidos",
     "servicesTitle": "Serviços",
     "selfService": "Lavandaria Self-Service",
@@ -136,10 +136,11 @@
     "title": "Logística premium para o seu",
     "titleHighlight": "alojamento de férias",
     "subtitle": "Soluções desenhadas para proprietários e gestores de Airbnb em Fuengirola.",
-    "pickup": { "title": "Recolha Pós-Check-out", "description": "Recolhemos em Los Boliches, Puerto e Centro." },
-    "storage": { "title": "Custódia e Armazenamento", "description": "Guardamos a sua roupa limpa até à próxima estadia." },
-    "delivery": { "title": "Entrega Just-in-Time", "description": "Entregamos diretamente à equipa de limpeza na hora exata." },
-    "disinfection": { "title": "Desinfeção Pro", "description": "Oxigénio ativo e produtos de alta gama." }
+    "pickup": { "title": "Recolha após o Check-out", "description": "Recolhemos a roupa de cama e banho diretamente na propriedade." },
+    "treatment": { "title": "Tratamento Profissional", "description": "Desinfeção total com oxigénio ativo e produtos de alta gama." },
+    "preparation": { "title": "Secagem e Preparação", "description": "Embalagem individual para higiene e apresentação premium." },
+    "storage": { "title": "Custódia e Armazenamento", "description": "Guardamos a sua roupa limpa até à próxima estadia. Liberte espaço!" },
+    "delivery": { "title": "Entrega Programada", "description": "Entrega 'Just-in-Time' coordenada com o seu pessoal de limpeza." }
   },
   "gestion": {
     "heroTitle": "Gestão Integral do Seu Alojamento de Férias",
