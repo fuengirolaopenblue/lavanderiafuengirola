@@ -7,6 +7,7 @@ import VipServices from "@/components/VipServices";
 import ComparisonTable from "@/components/ComparisonTable";
 import PropertyServices from "@/components/PropertyServices";
 import PropertyManagement from "@/components/PropertyManagement";
+import VacationRentalLaundry from "@/components/VacationRentalLaundry";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -25,6 +26,7 @@ const Index = () => {
         <VipServices />
         <PropertyServices />
         <PropertyManagement />
+        <VacationRentalLaundry />
         <Testimonials />
         <Services />
         <ComparisonTable />
