@@ -5,6 +5,7 @@ import Testimonials from "@/components/Testimonials";
 import Services from "@/components/Services";
 import VipServices from "@/components/VipServices";
 import ComparisonTable from "@/components/ComparisonTable";
+import PropertyServices from "@/components/PropertyServices";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -21,6 +22,7 @@ const Index = () => {
         <Hero />
         <ExpansionBanner />
         <VipServices />
+        <PropertyServices />
         <Testimonials />
         <Services />
         <ComparisonTable />
