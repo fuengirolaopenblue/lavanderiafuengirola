@@ -97,7 +97,7 @@ const Hero = () => {
               className="group"
               asChild
             >
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+              <a href="#contacto">
                 <MessageCircle className="w-5 h-5" />
                 {t("hero.ctaPrimary")}
               </a>
@@ -105,11 +105,13 @@ const Hero = () => {
             <Button
               variant="heroOutline"
               size="xl"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-openblue-dark"
-              onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })}
+              className="group border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-openblue-dark"
+              asChild
             >
-              {t("hero.ctaSecondary")}
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <a href="#viviendas-vacacionales">
+                {t("hero.ctaSecondary")}
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </motion.div>
         </div>
