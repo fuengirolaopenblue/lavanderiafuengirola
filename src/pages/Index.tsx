@@ -29,6 +29,7 @@ const Index = () => {
         <PropertyServices />
         <PropertyManagement />
         <VacationRentalLaundry />
+        <PropertyFaq />
         <Testimonials />
         <Services />
         <ComparisonTable />
