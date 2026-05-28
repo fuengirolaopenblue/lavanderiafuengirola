@@ -8,6 +8,8 @@ import ComparisonTable from "@/components/ComparisonTable";
 import PropertyServices from "@/components/PropertyServices";
 import PropertyManagement from "@/components/PropertyManagement";
 import VacationRentalLaundry from "@/components/VacationRentalLaundry";
+import PropertyFaq from "@/components/PropertyFaq";
+
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -27,6 +29,7 @@ const Index = () => {
         <PropertyServices />
         <PropertyManagement />
         <VacationRentalLaundry />
+        <PropertyFaq />
         <Testimonials />
         <Services />
         <ComparisonTable />
