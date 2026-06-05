@@ -9,6 +9,7 @@ import PropertyServices from "@/components/PropertyServices";
 import PropertyManagement from "@/components/PropertyManagement";
 import VacationRentalLaundry from "@/components/VacationRentalLaundry";
 import PropertyFaq from "@/components/PropertyFaq";
+import GeneralFaq from "@/components/GeneralFaq";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -33,6 +34,7 @@ const Index = () => {
         <Testimonials />
         <Services />
         <ComparisonTable />
+        <GeneralFaq />
         <About />
         <Contact />
       </main>
