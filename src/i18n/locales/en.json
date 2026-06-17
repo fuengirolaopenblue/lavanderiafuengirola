@@ -246,5 +246,21 @@
     "experience": "Over 4 years caring for our clients' laundry with professionalism, punctuality and passion for detail.",
     "ctaText": "Want to simplify your life? Contact us and discover how easy it is to always have perfect laundry.",
     "ctaWhatsApp": "Contact via WhatsApp"
+  },
+  "privacy": {
+    "backHome": "Back to home",
+    "title": "Privacy Policy and Data Protection",
+    "lastUpdated": "Last updated",
+    "responsible": { "title": "1. Data Controller" },
+    "dataCollected": { "title": "2. Personal data we collect", "intro": "We may collect and process the following personal data depending on the service you use:" },
+    "purpose": { "title": "3. Purpose of processing", "intro": "We process your personal data for the following purposes:" },
+    "legalBasis": { "title": "4. Legal basis for processing" },
+    "retention": { "title": "5. Retention period" },
+    "recipients": { "title": "6. Recipients and transfers" },
+    "rights": { "title": "7. Your rights" },
+    "security": { "title": "8. Security measures" },
+    "minors": { "title": "9. Minors" },
+    "changes": { "title": "10. Changes to this policy" },
+    "contact": { "title": "11. Contact" }
   }
 }
