@@ -14,6 +14,7 @@ const Footer = () => {
     { label: t("nav.services"), href: getHref("#servicios") },
     { label: t("nav.about"), href: getHref("#nosotros") },
     { label: t("nav.contact"), href: getHref("#contacto") },
+    { label: t("footer.privacy", "Privacidad"), href: "/privacidad" },
   ];
 
   const serviceLinks = [
