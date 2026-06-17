@@ -62,7 +62,18 @@ const CookieConsent = () => {
                     className="font-medium text-primary underline underline-offset-2 hover:opacity-80"
                   >
                     ver más información
-                  </button>
+                  </button>{" "}
+                  o consultar nuestra{" "}
+                  <a
+                    href="/privacidad"
+                    className="font-medium text-primary underline underline-offset-2 hover:opacity-80"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href = "/privacidad";
+                    }}
+                  >
+                    Política de Privacidad
+                  </a>
                   .
                 </p>
               </div>

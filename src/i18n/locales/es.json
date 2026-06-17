@@ -300,5 +300,21 @@
     "experience": "Más de 4 años cuidando la ropa de nuestros clientes con profesionalidad y pasión por el detalle.",
     "ctaText": "¿Quieres simplificar tu vida? Contáctanos y descubre lo fácil que es.",
     "ctaWhatsApp": "Contactar por WhatsApp"
+  },
+  "privacy": {
+    "backHome": "Volver al inicio",
+    "title": "Política de Privacidad y Protección de Datos",
+    "lastUpdated": "Última actualización",
+    "responsible": { "title": "1. Responsable del tratamiento" },
+    "dataCollected": { "title": "2. Datos personales que recopilamos", "intro": "Podemos recopilar y tratar los siguientes datos personales en función del servicio que utilices:" },
+    "purpose": { "title": "3. Finalidad del tratamiento", "intro": "Tratamos tus datos personales con las siguientes finalidades:" },
+    "legalBasis": { "title": "4. Base legal del tratamiento" },
+    "retention": { "title": "5. Plazo de conservación" },
+    "recipients": { "title": "6. Destinatarios y transferencias" },
+    "rights": { "title": "7. Tus derechos" },
+    "security": { "title": "8. Medidas de seguridad" },
+    "minors": { "title": "9. Menores de edad" },
+    "changes": { "title": "10. Cambios en esta política" },
+    "contact": { "title": "11. Contacto" }
   }
 }
