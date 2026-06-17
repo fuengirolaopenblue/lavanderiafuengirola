@@ -7,6 +7,7 @@ import ErrorBoundary from "@/components/ErrorBoundary";
 import CookieConsent from "@/components/CookieConsent";
 import Index from "./pages/Index";
 import GestionVacacional from "./pages/GestionVacacional";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
