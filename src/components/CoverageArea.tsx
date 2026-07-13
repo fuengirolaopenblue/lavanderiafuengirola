@@ -2,7 +2,15 @@ import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const areaKeys = ["centro", "boliches", "torreblanca", "mijas"] as const;
+const areaKeys = [
+  "benalmadena",
+  "fuengirola",
+  "boliches",
+  "mijas",
+  "calahonda",
+  "elviria",
+  "marbella",
+] as const;
 
 const CoverageArea = () => {
   const { t } = useTranslation();
@@ -33,7 +41,7 @@ const CoverageArea = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.08 }}
+              transition={{ delay: i * 0.06 }}
               className="bg-card rounded-2xl p-6 border border-border shadow-soft hover:shadow-elevated transition-shadow"
             >
               <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
