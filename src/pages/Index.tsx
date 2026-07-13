@@ -11,6 +11,7 @@ import VacationRentalLaundry from "@/components/VacationRentalLaundry";
 import PropertyFaq from "@/components/PropertyFaq";
 import GeneralFaq from "@/components/GeneralFaq";
 import CoverageArea from "@/components/CoverageArea";
+import B2BQuote from "@/components/B2BQuote";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -38,6 +39,7 @@ const Index = () => {
         <ComparisonTable />
         <GeneralFaq />
         <About />
+        <B2BQuote />
         <Contact />
       </main>
       <Footer />

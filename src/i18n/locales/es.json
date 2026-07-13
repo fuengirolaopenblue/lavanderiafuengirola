@@ -182,15 +182,43 @@
   },
   "coverage": {
     "sectionLabel": "Cobertura",
-    "title": "Lavandería Industrial con Cobertura Completa en",
-    "titleHighlight": "Fuengirola",
-    "intro": "Prestamos servicio a pie de calle en nuestro local de Av. de Mijas 5 y ofrecemos logística a domicilio en las siguientes áreas de influencia:",
+    "title": "Cobertura de Benalmádena a",
+    "titleHighlight": "Marbella",
+    "intro": "Optimizamos tu logística sin importar dónde estén tus propiedades. Recogida y entrega en toda la Costa del Sol.",
     "areas": {
+      "benalmadena": { "name": "Benalmádena (Puerto Marina)", "desc": "Logística premium para apartamentos y villas turísticas." },
+      "fuengirola": { "name": "Fuengirola (Centro & El Puerto)", "desc": "Servicios Express para Airbnb y apartamentos vacacionales." },
+      "boliches": { "name": "Los Boliches", "desc": "Especialistas en sábanas y toallas para grandes carteras." },
+      "mijas": { "name": "Mijas Costa (La Cala & Riviera)", "desc": "Logística B2B para Property Managers." },
+      "calahonda": { "name": "Calahonda", "desc": "Recogida y entrega programada para urbanizaciones turísticas." },
+      "elviria": { "name": "Elviria", "desc": "Servicio premium para villas y complejos residenciales." },
+      "marbella": { "name": "Marbella (Milla de Oro)", "desc": "Servicio VIP para propiedades de lujo y Property Managers." },
       "centro": { "name": "Fuengirola Centro & Puerto Deportivo", "desc": "Servicios Express para apartamentos vacacionales." },
-      "boliches": { "name": "Los Boliches", "desc": "Especialistas en sábanas y toallas para grandes carteras de alquiler." },
-      "torreblanca": { "name": "Torreblanca & Carvajal", "desc": "Recogida y entrega en villas turísticas." },
-      "mijas": { "name": "Mijas Costa (La Cala y Riviera) & Benalmádena Costa", "desc": "Logística B2B para Property Managers." }
+      "torreblanca": { "name": "Torreblanca & Carvajal", "desc": "Recogida y entrega en villas turísticas." }
     }
+  },
+  "b2b": {
+    "sectionLabel": "B2B · Property Managers",
+    "title": "Solicita tu presupuesto",
+    "titleHighlight": "personalizado",
+    "subtitle": "Diseñamos un plan a medida según tu volumen semanal y zona. Respuesta en menos de 24h.",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "company": "Empresa",
+    "companyPlaceholder": "Nombre de tu empresa",
+    "email": "Email",
+    "phone": "Teléfono",
+    "zone": "Zona de cobertura",
+    "zonePlaceholder": "Selecciona zona",
+    "turnovers": "Rotaciones semanales estimadas",
+    "turnoversPlaceholder": "Selecciona rango",
+    "submit": "Solicitar Presupuesto B2B",
+    "sending": "Enviando...",
+    "successToast": "¡Solicitud enviada! Te contactaremos muy pronto.",
+    "errorToast": "No se pudo enviar. Inténtalo de nuevo.",
+    "thankYouTitle": "¡Solicitud recibida!",
+    "thankYouMessage": "Nuestro equipo B2B te contactará en menos de 24h con una propuesta personalizada.",
+    "sendAnother": "Enviar otra solicitud"
   },
   "whatsapp": {
     "tooltip": "Presupuesto para tu Airbnb en 2 minutos"
