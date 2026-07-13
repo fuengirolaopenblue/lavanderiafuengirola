@@ -8,16 +8,16 @@
     "subtitle": "Lavandería en Fuengirola"
   },
   "hero": {
-    "badge": "Abierto 7:00 a 23:00 · 365 días · Fuengirola · Mijas · Benalmádena",
-    "title": "Lavandería 7:00-23:00 en Fuengirola:",
-    "titleHighlight": "Tu Partner para Pisos Vacacionales",
-    "subtitle": "Damos servicio a todo tipo de propiedades: desde estudios costeros hasta grandes villas vacacionales en Fuengirola, Mijas Costa y Benalmádena Costa.",
+    "badge": "Autoservicio 24h · 365 días · Fuengirola · Mijas · Benalmádena",
+    "title": "Lavandería para Airbnb en Fuengirola",
+    "titleHighlight": "y Autoservicio 24h",
+    "subtitle": "Servicio de lavandería industrial y logística premium para alquiler vacacional en Fuengirola, Los Boliches y Mijas Costa. Higiene con Oxígeno Activo, Recogida, Custodia y Entrega Just-in-Time.",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
     "productsIncluded": "Jabón incluido",
     "washAndDry": "Lavado y secado",
-    "ctaPrimary": "Solicitar Tarifas para Empresas",
-    "ctaSecondary": "Ver Servicios"
+    "ctaPrimary": "Solicitar Tarifas Especiales Airbnb",
+    "ctaSecondary": "Ver Servicios y Horarios"
   },
   "expansion": {
     "badge": "¡Ampliamos Cobertura!",
@@ -60,14 +60,14 @@
     "subtitle": "Desde nuestra lavandería autoservicio (7:00 a 23:00, 365 días) hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
     "selfService": {
-      "title": "Autoservicio 7:00 - 23:00",
-      "description": "Maquinaria Girbau. Lava 15kg en 30 min por solo 6€. Jabón y suavizante premium incluidos.",
+      "title": "Lavandería Autoservicio Abierta 24h en Fuengirola",
+      "description": "Lavadoras y secadoras de última generación abiertas todos los días del año, las 24 horas. Lava y seca edredones, mantas o tu colada diaria en menos de una hora. Detergente y suavizante profesional con desinfección ya integrados en cada ciclo.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
         "+5 min por 0,50€ (ampliable)",
         "Jabón y desinfección incluidos",
-        "Abierto 7:00 - 23:00 · 365 días al año"
+        "Abierto 24h · 365 días al año"
       ]
     },
     "vacation": {
@@ -171,14 +171,26 @@
   },
   "vip": {
     "sectionLabel": "Servicios VIP para Property Managers",
-    "title": "Logística premium para tu",
-    "titleHighlight": "alquiler vacacional",
-    "subtitle": "Soluciones diseñadas para propietarios y gestores de Airbnb en Fuengirola.",
-    "pickup": { "title": "Recogida tras el Check-out", "description": "Retiramos la ropa de cama y baño directamente en la propiedad." },
-    "treatment": { "title": "Tratamiento Profesional", "description": "Desinfección total con oxígeno activo y productos de alta gama." },
-    "preparation": { "title": "Secado y Preparación", "description": "Embolsado individual para higiene y presentación premium." },
-    "storage": { "title": "Custodia y Almacenamiento", "description": "Guardamos tu ropa limpia hasta tu próximo ingreso. ¡Libera espacio!" },
-    "delivery": { "title": "Entrega Programada", "description": "Entrega 'Just-in-Time' coordinada con tu personal de limpieza." }
+    "title": "La Solución Logística Definitiva para",
+    "titleHighlight": "Property Managers en Fuengirola",
+    "subtitle": "Olvídate del estrés en los días de cambio de huéspedes (turnovers). Más de 4 años de experiencia nos avalan ofreciendo tranquilidad y máxima limpieza.",
+    "pickup": { "title": "Desinfección con Oxígeno Activo", "description": "Eliminamos bacterias y malos olores en procesos de alta temperatura con productos premium. Sábanas y toallas con un blanco impecable y aroma duradero." },
+    "treatment": { "title": "Recogida Post-Checkout", "description": "Retiramos la ropa sucia directamente en tu apartamento vacacional tras la salida de tus huéspedes en Fuengirola, Los Boliches o Torreblanca." },
+    "preparation": { "title": "Custodia y Almacenamiento Gratuito", "description": "Guardamos y custodiamos tu ropa limpia y embolsada de forma segura hasta el próximo check-in. ¡Libera espacio en tus armarios!" },
+    "storage": { "title": "Entrega Programada Just-in-Time", "description": "Coordinamos con tu personal de limpieza o limpiadoras autónomas para entregar el textil limpio en el horario exacto solicitado. Sin esperas." },
+    "delivery": { "title": "Control de Daños y Stock", "description": "Revisamos minuciosamente cada prenda. Si detectamos manchas difíciles o roturas, te notificamos con fotos al momento para reponer tu inventario." }
+  },
+  "coverage": {
+    "sectionLabel": "Cobertura",
+    "title": "Lavandería Industrial con Cobertura Completa en",
+    "titleHighlight": "Fuengirola",
+    "intro": "Prestamos servicio a pie de calle en nuestro local de Av. de Mijas 5 y ofrecemos logística a domicilio en las siguientes áreas de influencia:",
+    "areas": {
+      "centro": { "name": "Fuengirola Centro & Puerto Deportivo", "desc": "Servicios Express para apartamentos vacacionales." },
+      "boliches": { "name": "Los Boliches", "desc": "Especialistas en sábanas y toallas para grandes carteras de alquiler." },
+      "torreblanca": { "name": "Torreblanca & Carvajal", "desc": "Recogida y entrega en villas turísticas." },
+      "mijas": { "name": "Mijas Costa (La Cala y Riviera) & Benalmádena Costa", "desc": "Logística B2B para Property Managers." }
+    }
   },
   "whatsapp": {
     "tooltip": "Presupuesto para tu Airbnb en 2 minutos"

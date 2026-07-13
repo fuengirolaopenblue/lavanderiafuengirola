@@ -10,6 +10,7 @@ import PropertyManagement from "@/components/PropertyManagement";
 import VacationRentalLaundry from "@/components/VacationRentalLaundry";
 import PropertyFaq from "@/components/PropertyFaq";
 import GeneralFaq from "@/components/GeneralFaq";
+import CoverageArea from "@/components/CoverageArea";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -26,6 +27,7 @@ const Index = () => {
       <main>
         <Hero />
         <ExpansionBanner />
+        <CoverageArea />
         <VipServices />
         <PropertyServices />
         <PropertyManagement />
