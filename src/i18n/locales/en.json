@@ -8,18 +8,18 @@
     "subtitle": "Self-Service Laundry"
   },
   "hero": {
-    "badge": "Open 7-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
-    "title": "Self-Service Laundry 7am-11pm in Fuengirola:",
-    "titleHighlight": "Your Partner for Holiday Rentals",
-    "subtitle": "We serve every type of property: from coastal studios to large vacation villas in Fuengirola, Mijas Costa and Benalmádena Costa.",
+    "badge": "24/7 Self-Service · 365 days · Fuengirola · Mijas · Benalmádena",
+    "title": "Airbnb Laundry in Fuengirola",
+    "titleHighlight": "& 24/7 Self-Service",
+    "subtitle": "Industrial laundry & premium logistics for holiday rentals in Fuengirola, Los Boliches and Mijas Costa. Active Oxygen disinfection, Checkout pickup, Storage and Just-in-Time delivery.",
     "washFrom": "Washing from",
     "dryFrom": "Drying from",
     "productsIncluded": "Products included",
     "washAndDry": "Wash & dry",
     "viewServices": "View Our Services",
     "contactNow": "Contact Now",
-    "ctaPrimary": "Request Business Rates",
-    "ctaSecondary": "View Services"
+    "ctaPrimary": "Request Airbnb Rates",
+    "ctaSecondary": "View Services & Hours"
   },
   "expansion": {
     "badge": "We're Expanding!",
@@ -137,14 +137,26 @@
   },
   "vip": {
     "sectionLabel": "VIP Services for Property Managers",
-    "title": "Premium logistics for your",
-    "titleHighlight": "vacation rental",
-    "subtitle": "Solutions designed for Airbnb owners and managers in Fuengirola.",
-    "pickup": { "title": "Collection after Check-out", "description": "We collect linen directly from the property." },
-    "treatment": { "title": "Professional Care", "description": "Full disinfection with active oxygen and premium products." },
-    "preparation": { "title": "Drying & Preparation", "description": "Individually bagged for premium hygiene." },
-    "storage": { "title": "Linen Storage", "description": "We securely store your clean linen until your next guest arrives." },
-    "delivery": { "title": "Scheduled Delivery", "description": "Just-in-Time delivery coordinated with your cleaning staff." }
+    "title": "The Ultimate Laundry Logistics for",
+    "titleHighlight": "Property Managers in Fuengirola",
+    "subtitle": "Forget about turnover day stress. Backed by over 4 years of experience, we deliver peace of mind and maximum cleanliness.",
+    "pickup": { "title": "Active Oxygen Disinfection", "description": "We eliminate bacteria and odors in high-temperature cycles using premium products. Sheets and towels with an impeccable white finish and long-lasting freshness." },
+    "treatment": { "title": "Post-Checkout Pickup", "description": "We collect dirty linen directly from your holiday rental in Fuengirola, Los Boliches or Torreblanca right after guest departure." },
+    "preparation": { "title": "Secure Textile Storage & Custody", "description": "We store and secure your clean, individually packed linen until your next guest arrives. Save valuable storage space in your properties!" },
+    "storage": { "title": "Just-in-Time Scheduled Delivery", "description": "We coordinate with your cleaning team or staff to deliver clean linen at the exact scheduled hour. Zero delays." },
+    "delivery": { "title": "Damage & Stock Control", "description": "We inspect every piece of linen. If we detect stubborn stains or damage, we notify you instantly with photos to prevent bad Airbnb reviews." }
+  },
+  "coverage": {
+    "sectionLabel": "Coverage",
+    "title": "Industrial Laundry with Full Coverage in",
+    "titleHighlight": "Fuengirola",
+    "intro": "We provide walk-in services at Av. de Mijas 5 and home/business logistics across the following areas:",
+    "areas": {
+      "centro": { "name": "Fuengirola Town Centre & Marina", "desc": "Express service for vacation apartments." },
+      "boliches": { "name": "Los Boliches", "desc": "Linen and towel specialists for property portfolios." },
+      "torreblanca": { "name": "Torreblanca & Carvajal", "desc": "Pickup and delivery for tourist villas." },
+      "mijas": { "name": "Mijas Costa (La Cala & Riviera) & Benalmádena Costa", "desc": "B2B logistics for Property Managers." }
+    }
   },
   "gestion": {
     "heroTitle": "Full Management of Your Vacation Rental",
