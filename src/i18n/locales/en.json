@@ -2,10 +2,33 @@
   "nav": {
     "home": "Home",
     "services": "Services",
+    "cleaning": "Cleaning",
     "about": "About Us",
     "contact": "Contact",
     "contactBtn": "Contact",
     "subtitle": "Self-Service Laundry"
+  },
+  "hybrid": {
+    "badge": "Door-to-Door Service",
+    "title": "Artisanal Care,",
+    "titleHighlight": "Industrial Power",
+    "subtitle": "We don't just process your linen in mass bulk. Our 'Door-to-Door Service' inspects every single garment individually: we apply manual spot-treatments on mattress protectors, sheets, and towels before starting our high-tech industrial wash with active oxygen.",
+    "steps": {
+      "inspect": { "title": "Individual Inspection", "desc": "Every sheet, towel and mattress protector is checked one by one on arrival to detect stains, wear or damage." },
+      "spot": { "title": "Manual Spot-Treating", "desc": "Artisanal hand pre-treatment on tough stains before any machine touches the fabric — protecting fibers and colors." },
+      "wash": { "title": "High-Tech Girbau Wash", "desc": "Commercial laundry for tourist apartments with Girbau machines and active oxygen: total disinfection, zero harsh chemicals." }
+    }
+  },
+  "cleaning": {
+    "badge": "360° · Cleaning + Laundry",
+    "title": "Professional Cleaning Services for Holiday Rentals & Airbnb",
+    "subtitle": "The ultimate solution for property management companies from Benalmadena to Marbella. Holiday home cleaning and integrated laundry under the same trusted brand — the short and long-term rental management partner you've been looking for.",
+    "cta": "Request Cleaning + Laundry Pack",
+    "features": {
+      "logistics": { "title": "Door-to-Door Logistics", "desc": "We collect dirty linens on checkout, clean the property, and deliver freshly sanitized linen exactly on time for your next guest." },
+      "checklist": { "title": "5-Star Quality Checklist", "desc": "Full kitchen and bathroom disinfection, guest amenities refill, and photo-report updates for property managers after every service." },
+      "time": { "title": "Massive Time Savings", "desc": "No washing inside the properties. Your cleaning staff focuses on cleaning, and we handle the entire linen cycle." }
+    }
   },
   "hero": {
     "badge": "24/7 Self-Service · 365 days · Fuengirola · Mijas · Benalmádena",
@@ -174,7 +197,14 @@
     "companyPlaceholder": "Your company name",
     "email": "Email",
     "phone": "Phone",
-    "zone": "Coverage zone",
+    "service": "Service of interest",
+    "servicePlaceholder": "Select a service",
+    "serviceOptions": {
+      "laundry": "Laundry Only",
+      "cleaning": "Cleaning Only",
+      "full": "Full Pack (Cleaning + Laundry)"
+    },
+    "zone": "Operational area",
     "zonePlaceholder": "Select zone",
     "turnovers": "Estimated weekly turnovers",
     "turnoversPlaceholder": "Select range",
