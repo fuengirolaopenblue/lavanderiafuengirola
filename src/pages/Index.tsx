@@ -12,6 +12,8 @@ import PropertyFaq from "@/components/PropertyFaq";
 import GeneralFaq from "@/components/GeneralFaq";
 import CoverageArea from "@/components/CoverageArea";
 import B2BQuote from "@/components/B2BQuote";
+import HybridLaundry from "@/components/HybridLaundry";
+import HolidayCleaning from "@/components/HolidayCleaning";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -29,6 +31,8 @@ const Index = () => {
         <Hero />
         <ExpansionBanner />
         <CoverageArea />
+        <HybridLaundry />
+        <HolidayCleaning />
         <VipServices />
         <PropertyServices />
         <PropertyManagement />

@@ -21,6 +21,7 @@ const ZONE_KEYS = [
 ] as const;
 
 const TURNOVER_OPTIONS = ["1-5", "5-15", "15+"] as const;
+const SERVICE_KEYS = ["laundry", "cleaning", "full"] as const;
 
 const B2BQuote = () => {
   const { t } = useTranslation();
@@ -39,6 +40,7 @@ const B2BQuote = () => {
       empresa: fd.get("company"),
       email: fd.get("email"),
       telefono: fd.get("phone"),
+      servicio: fd.get("service"),
       zona: fd.get("zone"),
       turnovers: fd.get("turnovers"),
     };
@@ -56,6 +58,7 @@ const B2BQuote = () => {
 🏛️ ${data.empresa}
 📧 ${data.email}
 📱 ${data.telefono}
+🧺 Servicio: ${data.servicio}
 📍 Zona: ${data.zona}
 🔁 Rotaciones/semana: ${data.turnovers}
 ━━━━━━━━━━━━━━━━━━
@@ -170,6 +173,27 @@ const B2BQuote = () => {
                 </label>
                 <Input name="phone" type="tel" required maxLength={20} placeholder="+34 ..." />
               </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-foreground mb-2">
+                {t("b2b.service", "Servicio de interés")} *
+              </label>
+              <select
+                name="service"
+                required
+                defaultValue=""
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                <option value="" disabled>
+                  {t("b2b.servicePlaceholder", "Selecciona un servicio")}
+                </option>
+                {SERVICE_KEYS.map((k) => (
+                  <option key={k} value={t(`b2b.serviceOptions.${k}`)}>
+                    {t(`b2b.serviceOptions.${k}`)}
+                  </option>
+                ))}
+              </select>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">

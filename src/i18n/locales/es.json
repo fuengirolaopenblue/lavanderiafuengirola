@@ -2,10 +2,33 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
+    "cleaning": "Limpieza",
     "about": "Sobre Nosotros",
     "contact": "Contacto",
     "contactBtn": "Contactar",
     "subtitle": "Lavandería en Fuengirola"
+  },
+  "hybrid": {
+    "badge": "Servicio Puerta a Puerta",
+    "title": "Cuidado Artesanal,",
+    "titleHighlight": "Potencia Industrial",
+    "subtitle": "No procesamos tu ropa en masa de forma automática. Nuestro 'Servicio Puerta a Puerta' analiza cada prenda individualmente: aplicamos desmanchado artesanal a mano para protectores, sábanas y toallas antes de su lavado industrial con oxígeno activo.",
+    "steps": {
+      "inspect": { "title": "Inspección Individual", "desc": "Revisamos una a una cada sábana, toalla y protector para detectar manchas, desgaste o daños antes de lavar." },
+      "spot": { "title": "Desmanchado a Mano", "desc": "Pretratamiento artesanal en manchas difíciles antes de que ninguna máquina toque el tejido — protegemos fibras y colores." },
+      "wash": { "title": "Lavado Girbau de Alta Tecnología", "desc": "Lavandería industrial para apartamentos turísticos con máquinas Girbau y oxígeno activo: desinfección total sin químicos agresivos." }
+    }
+  },
+  "cleaning": {
+    "badge": "360° · Limpieza + Lavandería",
+    "title": "Servicio de Limpieza de Viviendas Turísticas y Alquiler Vacacional",
+    "subtitle": "La solución definitiva para empresas de administración de viviendas turísticas de Benalmádena a Marbella. Limpieza de viviendas vacacionales y lavandería integradas bajo el mismo sello de confianza — tu partner para la gestión de apartamentos de corta y larga temporada.",
+    "cta": "Solicitar Pack Limpieza + Lavandería",
+    "features": {
+      "logistics": { "title": "Logística Puerta a Puerta", "desc": "Recogemos la ropa sucia al check-out, limpiamos la vivienda y entregamos el textil recién higienizado justo a tiempo para tu próximo huésped." },
+      "checklist": { "title": "Checklist de Calidad 5 Estrellas", "desc": "Desinfección total de cocina y baños, reposición de amenities y foto-reporte para Property Managers después de cada servicio." },
+      "time": { "title": "Ahorro de Tiempo Absoluto", "desc": "Sin lavados dentro de las propiedades. Tu personal de limpieza se centra en limpiar y nosotros gestionamos todo el ciclo del textil." }
+    }
   },
   "hero": {
     "badge": "Autoservicio 24h · 365 días · Fuengirola · Mijas · Benalmádena",
@@ -208,7 +231,14 @@
     "companyPlaceholder": "Nombre de tu empresa",
     "email": "Email",
     "phone": "Teléfono",
-    "zone": "Zona de cobertura",
+    "service": "Servicio de interés",
+    "servicePlaceholder": "Selecciona un servicio",
+    "serviceOptions": {
+      "laundry": "Sólo Lavandería",
+      "cleaning": "Sólo Limpieza",
+      "full": "Pack Completo (Limpieza + Lavandería)"
+    },
+    "zone": "Zona de operación",
     "zonePlaceholder": "Selecciona zona",
     "turnovers": "Rotaciones semanales estimadas",
     "turnoversPlaceholder": "Selecciona rango",
