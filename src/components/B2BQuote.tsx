@@ -21,6 +21,7 @@ const ZONE_KEYS = [
 ] as const;
 
 const TURNOVER_OPTIONS = ["1-5", "5-15", "15+"] as const;
+const SERVICE_KEYS = ["laundry", "cleaning", "full"] as const;
 
 const B2BQuote = () => {
   const { t } = useTranslation();
@@ -39,6 +40,7 @@ const B2BQuote = () => {
       empresa: fd.get("company"),
       email: fd.get("email"),
       telefono: fd.get("phone"),
+      servicio: fd.get("service"),
       zona: fd.get("zone"),
       turnovers: fd.get("turnovers"),
     };
@@ -56,6 +58,7 @@ const B2BQuote = () => {
 🏛️ ${data.empresa}
 📧 ${data.email}
 📱 ${data.telefono}
+🧺 Servicio: ${data.servicio}
 📍 Zona: ${data.zona}
 🔁 Rotaciones/semana: ${data.turnovers}
 ━━━━━━━━━━━━━━━━━━
