@@ -3,12 +3,17 @@
   "sdk_version": "0.24.0",
   "path": "/functions/v1/mcp",
   "auth": {
-    "type": "none"
+    "type": "oauth",
+    "issuer": "https://lysfvsgmlgciucleaecz.supabase.co/auth/v1",
+    "require_oauth_client_claim": false,
+    "accepted_audiences": [
+      "authenticated"
+    ]
   },
   "mcp": {
     "server": {
       "name": "lavanderia-fuengirola-mcp",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "title": "Lavandería Fuengirola (OpenBlue) MCP"
     },
     "tools": [
