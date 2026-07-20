@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "sdk_version": "0.24.0",
+  "path": "/functions/v1/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "lavanderia-fuengirola-mcp",
+      "version": "0.1.0",
+      "title": "Lavandería Fuengirola (OpenBlue) MCP"
+    },
+    "tools": [
+      {
+        "name": "get_business_info",
+        "title": "Get business info",
+        "description": "Returns core business information for Lavandería Fuengirola (OpenBlue): address, opening hours, phone, WhatsApp, email and social profiles.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_services",
+        "title": "List services",
+        "description": "Returns the catalogue of services offered: self-service laundry, vacation-rental logistics (Airbnb), residential, and B2B (property managers, cleaning agencies).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_coverage_areas",
+        "title": "List coverage areas",
+        "description": "Returns the geographic areas where OpenBlue offers pickup and delivery on the Costa del Sol.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "submit_b2b_lead",
+        "title": "Submit B2B quote request",
+        "description": "Submits a B2B quote request (property managers, cleaning agencies, vacation-rental owners) to OpenBlue. The team responds within 24h.",
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false,
+          "openWorldHint": true
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Contact person's full name."
+            },
+            "company": {
+              "type": "string",
+              "description": "Company or property-management brand."
+            },
+            "email": {
+              "type": "string",
+              "description": "Contact email address."
+            },
+            "phone": {
+              "type": "string",
+              "description": "Contact phone number, ideally in international format."
+            },
+            "service": {
+              "type": "string",
+              "enum": [
+                "laundry",
+                "cleaning",
+                "full"
+              ],
+              "description": "Service of interest: laundry only, cleaning only, or full pack."
+            },
+            "zone": {
+              "type": "string",
+              "description": "Operational area (e.g. Fuengirola, Los Boliches, Mijas Costa, Benalmádena, Calahonda, Elviria, Marbella)."
+            },
+            "weekly_turnovers": {
+              "type": "string",
+              "enum": [
+                "1-5",
+                "5-15",
+                "15+"
+              ],
+              "description": "Estimated weekly property turnovers."
+            },
+            "notes": {
+              "description": "Optional additional details.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "company",
+            "email",
+            "phone",
+            "service",
+            "zone",
+            "weekly_turnovers"
+          ]
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
