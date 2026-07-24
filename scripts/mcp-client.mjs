@@ -127,7 +127,14 @@ export function createMcpClient({
       currentAccess = data.access_token;
       // Supabase rota el refresh_token — actualiza SIEMPRE.
       if (data.refresh_token) currentRefresh = data.refresh_token;
+      currentExpiresAt =
+        normalizeExpiresAt(data.expires_at) ??
+        (typeof data.expires_in === "number"
+          ? Math.floor(Date.now() / 1000) + data.expires_in
+          : decodeJwtExp(currentAccess));
+      scheduleProactiveRefresh();
       if (typeof onTokensRefreshed === "function") {
+
         try {
           await onTokensRefreshed({
             access_token: data.access_token,
