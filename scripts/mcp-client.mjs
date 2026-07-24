@@ -232,10 +232,20 @@ export function createMcpClient({
     return payload.result;
   }
 
+  // Arranca el timer proactivo con los tokens iniciales.
+  scheduleProactiveRefresh();
+
   return {
     request,
     getAccessToken: () => currentAccess,
     getRefreshToken: () => currentRefresh,
+    getExpiresAt: () => currentExpiresAt,
+    secondsUntilExpiry,
     refreshAccessToken,
+    /** Detiene el timer de refresh proactivo (útil al cerrar el proceso). */
+    stop() {
+      if (refreshTimer) { clearTimeout(refreshTimer); refreshTimer = null; }
+    },
   };
 }
+
