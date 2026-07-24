@@ -33,16 +33,79 @@ export function createMcpClient({
   refreshUrl,
   accessToken,
   refreshToken,
+  expiresAt,
   onTokensRefreshed,
   fetchImpl = globalThis.fetch,
+  // Segundos antes de la expiración en los que forzamos un refresh proactivo.
+  // Por defecto 120s (Supabase da tokens de ~1h).
+  proactiveSkewSeconds = 120,
+  // Activar/desactivar el timer en segundo plano. En procesos cortos (CLI/serverless)
+  // puedes desactivarlo y confiar solo en el chequeo previo a cada request.
+  autoScheduleRefresh = true,
 }) {
   if (!mcpUrl) throw new Error("mcpUrl is required");
   if (!refreshUrl) throw new Error("refreshUrl is required");
 
   let currentAccess = accessToken ?? null;
   let currentRefresh = refreshToken ?? null;
+  let currentExpiresAt = normalizeExpiresAt(expiresAt) ?? decodeJwtExp(currentAccess);
   let refreshPromise = null;
+  let refreshTimer = null;
   let rpcId = 0;
+
+  function normalizeExpiresAt(value) {
+    if (value == null) return null;
+    const n = Number(value);
+    if (!Number.isFinite(n) || n <= 0) return null;
+    // Acepta segundos (unix) o milisegundos; normaliza a segundos.
+    return n > 1e12 ? Math.floor(n / 1000) : Math.floor(n);
+  }
+
+  function decodeJwtExp(jwt) {
+    if (!jwt || typeof jwt !== "string") return null;
+    const parts = jwt.split(".");
+    if (parts.length < 2) return null;
+    try {
+      const payload = parts[1].replace(/-/g, "+").replace(/_/g, "/");
+      const pad = payload.length % 4 ? 4 - (payload.length % 4) : 0;
+      const b64 = payload + "=".repeat(pad);
+      const json = typeof atob === "function"
+        ? atob(b64)
+        : Buffer.from(b64, "base64").toString("utf8");
+      const parsed = JSON.parse(json);
+      return typeof parsed.exp === "number" ? parsed.exp : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function secondsUntilExpiry() {
+    if (!currentExpiresAt) return null;
+    return currentExpiresAt - Math.floor(Date.now() / 1000);
+  }
+
+  function scheduleProactiveRefresh() {
+    if (!autoScheduleRefresh) return;
+    if (refreshTimer) {
+      clearTimeout(refreshTimer);
+      refreshTimer = null;
+    }
+    if (!currentRefresh || !currentExpiresAt) return;
+    const secsLeft = secondsUntilExpiry();
+    // Refrescar `proactiveSkewSeconds` antes de expirar; mínimo 1s, máximo ~24d (limit de setTimeout).
+    const delayMs = Math.max(1, (secsLeft - proactiveSkewSeconds)) * 1000;
+    const capped = Math.min(delayMs, 2_147_000_000);
+    refreshTimer = setTimeout(() => {
+      refreshTimer = null;
+      refreshAccessToken().catch(() => {
+        // Reintenta en 30s si el refresh proactivo falla (red caída, etc.).
+        refreshTimer = setTimeout(scheduleProactiveRefresh, 30_000);
+        if (typeof refreshTimer.unref === "function") refreshTimer.unref();
+      });
+    }, capped);
+    if (typeof refreshTimer.unref === "function") refreshTimer.unref();
+  }
+
 
   async function refreshAccessToken() {
     if (!currentRefresh) throw new Error("No refresh_token available");
