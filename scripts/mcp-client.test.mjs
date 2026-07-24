@@ -92,9 +92,9 @@ describe("mcp-client — reintento en 401", () => {
       refresh: [
         () =>
           jsonResponse({
-            access_token: makeJwt(Math.floor(Date.now() / 1000) + 3600),
+            access_token: makeJwt(Math.floor(Date.now() / 1000) + 7200),
             refresh_token: "rt-2",
-            expires_in: 3600,
+            expires_in: 7200,
           }),
       ],
     });
