@@ -183,6 +183,12 @@ export function createMcpClient({
   async function request({ method, params }) {
     const message = { jsonrpc: "2.0", id: ++rpcId, method, params };
 
+    // Refresh proactivo: si el token está a punto de expirar, renuévalo ANTES de la request.
+    const secsLeft = secondsUntilExpiry();
+    if (currentRefresh && secsLeft !== null && secsLeft <= proactiveSkewSeconds) {
+      try { await refreshAccessToken(); } catch { /* dejar que la request falle con 401 y reintente */ }
+    }
+
     let res = await rawFetch(message);
     let payload = null;
 
@@ -190,6 +196,7 @@ export function createMcpClient({
       await refreshAccessToken();
       res = await rawFetch(message);
     }
+
 
     // Puede venir como SSE; leemos texto y parseamos si es JSON.
     const text = await res.text();
