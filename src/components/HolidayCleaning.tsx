@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-import { Truck, ClipboardCheck, Clock } from "lucide-react";
+import { Truck, ClipboardCheck, Clock, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+
 
 const HolidayCleaning = () => {
   const { t } = useTranslation();
@@ -80,11 +82,18 @@ const HolidayCleaning = () => {
           })}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 flex flex-col sm:flex-row gap-3 items-center justify-center">
           <Button variant="hero" size="lg" asChild>
             <a href="#b2b">{t("cleaning.cta", "Solicitar Pack Limpieza + Lavandería")}</a>
           </Button>
+          <Button variant="outline" size="lg" asChild>
+            <Link to={t("cleaning.detailPath", "/limpieza-viviendas-vacacionales")}>
+              {t("cleaning.detailCta", "Ver todos los detalles")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </Button>
         </div>
+
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, Truck, Building2, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { WashingMachine, Home, Truck, Building2, Sparkles, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import AutoservicioModal from "./AutoservicioModal";
@@ -9,12 +8,14 @@ import PisosVacacionalModal from "./PisosVacacionalModal";
 import DeliveryModal from "./DeliveryModal";
 import ParticularesModal from "./ParticularesModal";
 
+
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
   const [deliveryModalOpen, setDeliveryModalOpen] = useState(false);
   const [particularesModalOpen, setParticularesModalOpen] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isEn = i18n.language === "en";
 
   const cards = [
     {
@@ -39,13 +40,27 @@ const Services = () => {
       gradient: false,
     },
     {
-      icon: Building2,
-      title: t("services.management.title"),
-      description: t("services.management.description"),
+      icon: Sparkles,
+      title: isEn ? "Vacation Rental Cleaning" : "Limpieza de Viviendas Vacacionales",
+      description: isEn
+        ? "Professional turnover cleaning with photo checklist, for Airbnb, Booking and Vrbo."
+        : "Limpieza profesional entre huéspedes con checklist fotográfico, para Airbnb, Booking y Vrbo.",
       isLink: true,
+      to: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales",
+      gradient: false,
+    },
+    {
+      icon: Building2,
+      title: isEn ? "360° Property Management" : "Gestión 360°",
+      description: isEn
+        ? "Full management of your vacation rental: listing, guests, cleaning and maintenance. Your property on autopilot."
+        : "Gestión integral de tu alquiler vacacional: publicación, huéspedes, limpieza y mantenimiento. Tu propiedad en piloto automático.",
+      isLink: true,
+      to: isEn ? "/vacation-rental-management" : "/gestion-vacacional",
       gradient: true,
     },
   ];
+
 
   return (
     <section id="servicios" className="py-20 md:py-32 bg-background">
@@ -71,17 +86,16 @@ const Services = () => {
         </motion.div>
 
         {/* Service Cards Grid */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {cards.map((card, i) => {
             const Icon = card.icon;
             const inner = (
               <motion.div
-                key={i}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className={`group relative rounded-2xl p-8 border cursor-pointer transition-all duration-300 hover:shadow-elevated hover:-translate-y-1 ${
+                className={`group relative rounded-2xl p-8 border cursor-pointer transition-all duration-300 hover:shadow-elevated hover:-translate-y-1 h-full ${
                   card.gradient
                     ? "bg-gradient-openblue text-primary-foreground border-transparent"
                     : "bg-card text-foreground border-border/50 hover:border-primary/50"
@@ -106,16 +120,17 @@ const Services = () => {
               </motion.div>
             );
 
-            if (card.isLink) {
+            if (card.isLink && card.to) {
               return (
-                <Link to="/gestion-vacacional" key={i} className="block">
+                <Link to={card.to} key={i} className="block">
                   {inner}
                 </Link>
               );
             }
-            return inner;
+            return <div key={i}>{inner}</div>;
           })}
         </div>
+
       </div>
 
       <AutoservicioModal open={autoservicioModalOpen} onOpenChange={setAutoservicioModalOpen} />

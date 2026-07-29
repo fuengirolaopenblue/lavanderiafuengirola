@@ -13,16 +13,20 @@ const Header = () => {
   const { t } = useTranslation();
   const location = useLocation();
   const isHome = location.pathname === "/";
+  const lang = (typeof window !== "undefined" && localStorage.getItem("language")) || "es";
+  const isEn = lang === "en";
 
   const getHref = (hash: string) => isHome ? hash : `/${hash}`;
 
   const navItems = [
     { name: t("nav.home"), href: getHref("#inicio") },
     { name: t("nav.services"), href: getHref("#servicios") },
-    { name: t("nav.cleaning", "Limpieza"), href: getHref("#limpieza") },
+    { name: t("nav.cleaningPage", isEn ? "Cleaning" : "Limpieza de Viviendas"), href: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales" },
+    { name: t("nav.managementPage", isEn ? "Property Management" : "Gestión Vacacional"), href: isEn ? "/vacation-rental-management" : "/gestion-vacacional" },
     { name: t("nav.about"), href: getHref("#nosotros") },
     { name: t("nav.contact"), href: getHref("#contacto") },
   ];
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">

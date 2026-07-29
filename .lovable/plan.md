@@ -1,85 +1,52 @@
+## Plan: Páginas Limpieza + Gestión Vacacional (ES/EN) con SEO y nuevas rutas
 
+### 1. Rutas nuevas (`src/App.tsx`)
+Añadir:
+- `/limpieza-viviendas-vacacionales` → `LimpiezaViviendas`
+- `/vacation-rental-cleaning` → misma página (variante EN, fuerza `i18n.changeLanguage('en')` al montar)
+- `/vacation-rental-management` → nueva variante EN de `GestionVacacional`
 
-## Plan: Rediseno CRO + SEO de lavanderiafuengirola.com
+`/gestion-vacacional` se mantiene y se reemplaza su contenido.
 
-### Resumen
-Rediseno completo orientado a conversion (CRO) con psicologia de ventas, nuevas secciones (testimonios, tabla comparativa), textos optimizados para SEO local, y mejoras UX (tooltip WhatsApp, modal WiFi restaurado).
+### 2. Menú principal (`src/components/Header.tsx`)
+Sustituir "Limpieza" (ancla) por dos entradas de ruta:
+- **Limpieza de Viviendas** → `/limpieza-viviendas-vacacionales` (o `/vacation-rental-cleaning` según idioma)
+- **Gestión Vacacional** → `/gestion-vacacional` (o `/vacation-rental-management`)
 
----
+Nuevas claves i18n en `nav`: `cleaningPage`, `managementPage`.
 
-### Cambios por archivo
+### 3. Página nueva `src/pages/LimpiezaViviendas.tsx`
+Estructura: Header → Hero (H1 + subtítulo azul) → Intro → "Qué incluye" (lista con iconos) → "Tres perfiles" (3 cards H3) → "Zonas" (chips) → FAQ (Accordion) → CTA WhatsApp → Footer + WhatsAppButton + SocialFloatingButtons.
+Usa `react-helmet-async` para meta title/description + JSON-LD FAQPage. Textos vía `t('cleaningPage.*')`.
+Detecta idioma por ruta y fuerza `i18n.changeLanguage`.
 
-#### 1. `index.html` — Metadatos SEO
-- Actualizar Title a: "Lavandería 24h Fuengirola | OpenBlue: Lavado, Secado y Gestión Airbnb"
-- Meta description: "La lavandería #1 en Fuengirola. Autoservicio 24h, recogida a domicilio y especialistas en textiles para alquiler vacacional. ¡Desde 6€ con jabón incluido!"
-- Actualizar OG y Twitter cards con los mismos textos
+### 4. Página reemplazada `src/pages/GestionVacacional.tsx`
+Reescribir con nueva estructura: Hero H1 "Gestión Integral..." → Intro → "Qué incluye" (5 bloques H3) → "Cómo funciona" (4 pasos numerados) → "Modelo claro sin sorpresas" → "Cumplimiento normativo" → FAQ → CTA. Igual, Helmet + JSON-LD.
 
-#### 2. `src/i18n/locales/es.json` — Textos nuevos
-- Hero: H1 = "Deja de perder horas lavando. Recupera tu tiempo hoy." / Subtitulo = "Lavandería industrial 24h y gestión estratégica..."
-- Hero CTAs: "Solicitar Recogida a Domicilio" (primario, WhatsApp) + "Ver Servicios 24h" (scroll)
-- Servicios: 4 tarjetas con textos nuevos (Autoservicio, Especial Airbnb, Puerta a Puerta, Gestión 360)
-- About: texto nuevo de autoridad
-- Nuevas claves para testimonios (3 testimonios con nombre, texto, tipo)
-- Nuevas claves para tabla comparativa (casa vs OpenBlue)
-- WhatsApp tooltip: "Presupuesto para tu Airbnb en 2 minutos"
-- WiFi modal textos
+### 5. Traducciones (`src/i18n/locales/es.json` + `en.json`)
+Añadir bloques `cleaningPage` y `managementPage` con todos los textos (H1, intros, bullets, H3 perfiles, FAQ items, zonas, CTA). Añadir `nav.cleaningPage` y `nav.managementPage`.
 
-#### 3. `src/components/Hero.tsx` — Rediseno Hero
-- H1 con texto de aversion a la perdida
-- Subtitulo persuasivo
-- CTA primario: boton que abre WhatsApp directamente (recogida a domicilio)
-- CTA secundario: scroll a servicios
-- Mantener precios y badge
+### 6. Home (`src/components/Services.tsx`)
+- Tarjeta nueva "Limpieza de Viviendas Vacacionales" (icono `Sparkles`) → link a `/limpieza-viviendas-vacacionales`.
+- Tarjeta "Gestión 360°" existente: actualizar título/descripción y confirmar link a `/gestion-vacacional`.
 
-#### 4. `src/components/Services.tsx` — Tarjetas interactivas
-- Cambiar de banners horizontales a 4 tarjetas en grid (2x2)
-- Hover effect con elevacion y borde azul
-- Cada tarjeta: icono, titulo, descripcion, CTA
-- Mantener modales existentes
+Grid pasa a 5 tarjetas (`md:grid-cols-2 lg:grid-cols-3`).
 
-#### 5. **Nuevo: `src/components/Testimonials.tsx`** — Seccion de prueba social
-- 3 testimonios con avatar placeholder, nombre, rol, estrellas (5/5), texto
-- Diseno estilo tarjetas con foto circular, estrellas doradas
-- Animacion con framer-motion
+### 7. Teaser home (`src/components/HolidayCleaning.tsx` o nuevo bloque)
+Reemplazar el bloque "360°" actual bajo "Limpieza" con:
+- H2 "Limpieza de Viviendas Vacacionales, con el mismo rigor que tu lavandería"
+- Texto + CTA `Ver todos los detalles` → `/limpieza-viviendas-vacacionales`
 
-#### 6. **Nuevo: `src/components/ComparisonTable.tsx`** — Tabla de contraste
-- Dos columnas: "Lavar en Casa" vs "Lavar en OpenBlue"
-- Items con iconos check/x
-- Visual: columna casa en gris/rojo, columna OpenBlue en azul/verde
+### 8. Provider Helmet (`src/main.tsx`)
+Instalar `react-helmet-async` y envolver `App` con `HelmetProvider`.
 
-#### 7. `src/components/About.tsx` — Texto de autoridad
-- Actualizar parrafos con nuevo texto
+### 9. `public/sitemap.xml`
+Añadir las 3 nuevas URLs.
 
-#### 8. `src/components/WhatsAppButton.tsx` — Tooltip
-- Anadir tooltip visible: "Presupuesto para tu Airbnb en 2 minutos"
-- Animacion de aparicion del tooltip
+### Sección técnica
+- Idioma por ruta: hook `useEffect` en cada página EN que llame `i18n.changeLanguage('en')`; ES equivalente en la ES.
+- WhatsApp CTAs usan el patrón existente `https://wa.me/34641819577?text=...`.
+- JSON-LD FAQPage inline con `JSON.stringify` dentro de `<Helmet>`.
+- Sin cambios en backend/business logic.
 
-#### 9. `src/components/WifiModal.tsx` — Restaurar
-- Restaurar boton flotante WiFi con texto "Escanea y conectate gratis mientras esperas"
-
-#### 10. `src/pages/Index.tsx` — Nueva estructura
-- Orden: Header > Hero > Testimonials > Services > ComparisonTable > About > Contact > Footer
-- Restaurar WifiModal
-
-#### 11. `src/components/Footer.tsx` — Anadir horario 24h y enlace Google Maps resenas
-
----
-
-### Seccion tecnica
-
-**Nuevos componentes:**
-- `Testimonials.tsx`: Grid de 3 cards con avatar, estrellas (Star icon de lucide con fill), texto, nombre y rol
-- `ComparisonTable.tsx`: Grid 2 columnas con iconos X (rojo) y Check (verde), fondo diferenciado
-
-**Servicios como tarjetas:**
-- Grid `md:grid-cols-2` con cards que tienen `hover:shadow-elevated hover:border-primary/50 transition-all`
-- Cada card mantiene su onClick para abrir el modal correspondiente
-
-**Hero CTA primario:**
-- Link directo a WhatsApp con mensaje: "Hola, quiero solicitar recogida a domicilio en Fuengirola"
-
-**SEO:**
-- H1 en Hero.tsx (ya existe como `<h1>`)
-- ALT tags actualizados en imagenes existentes
-- JSON-LD ya implementado, solo actualizar description
-
+Confirma y aplico todo en una tanda.
