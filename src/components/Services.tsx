@@ -14,7 +14,8 @@ const Services = () => {
   const [pisosModalOpen, setPisosModalOpen] = useState(false);
   const [deliveryModalOpen, setDeliveryModalOpen] = useState(false);
   const [particularesModalOpen, setParticularesModalOpen] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isEn = i18n.language === "en";
 
   const cards = [
     {
@@ -39,13 +40,27 @@ const Services = () => {
       gradient: false,
     },
     {
-      icon: Building2,
-      title: t("services.management.title"),
-      description: t("services.management.description"),
+      icon: Sparkles,
+      title: isEn ? "Vacation Rental Cleaning" : "Limpieza de Viviendas Vacacionales",
+      description: isEn
+        ? "Professional turnover cleaning with photo checklist, for Airbnb, Booking and Vrbo."
+        : "Limpieza profesional entre huéspedes con checklist fotográfico, para Airbnb, Booking y Vrbo.",
       isLink: true,
+      to: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales",
+      gradient: false,
+    },
+    {
+      icon: Building2,
+      title: isEn ? "360° Property Management" : "Gestión 360°",
+      description: isEn
+        ? "Full management of your vacation rental: listing, guests, cleaning and maintenance. Your property on autopilot."
+        : "Gestión integral de tu alquiler vacacional: publicación, huéspedes, limpieza y mantenimiento. Tu propiedad en piloto automático.",
+      isLink: true,
+      to: isEn ? "/vacation-rental-management" : "/gestion-vacacional",
       gradient: true,
     },
   ];
+
 
   return (
     <section id="servicios" className="py-20 md:py-32 bg-background">
