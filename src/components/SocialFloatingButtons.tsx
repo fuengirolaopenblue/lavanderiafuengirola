@@ -35,7 +35,7 @@ const SocialFloatingButtons = () => {
   ];
 
   return (
-    <div className="fixed left-6 bottom-6 z-50 flex flex-row gap-3">
+    <div className="fixed left-6 bottom-6 z-50 flex flex-col-reverse gap-3">
       {buttons.map(({ Icon, href, label, bg, fill }, index) => (
         <motion.a
           key={label}
