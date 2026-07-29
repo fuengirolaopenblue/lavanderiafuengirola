@@ -86,17 +86,16 @@ const Services = () => {
         </motion.div>
 
         {/* Service Cards Grid */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {cards.map((card, i) => {
             const Icon = card.icon;
             const inner = (
               <motion.div
-                key={i}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className={`group relative rounded-2xl p-8 border cursor-pointer transition-all duration-300 hover:shadow-elevated hover:-translate-y-1 ${
+                className={`group relative rounded-2xl p-8 border cursor-pointer transition-all duration-300 hover:shadow-elevated hover:-translate-y-1 h-full ${
                   card.gradient
                     ? "bg-gradient-openblue text-primary-foreground border-transparent"
                     : "bg-card text-foreground border-border/50 hover:border-primary/50"
@@ -121,16 +120,17 @@ const Services = () => {
               </motion.div>
             );
 
-            if (card.isLink) {
+            if (card.isLink && card.to) {
               return (
-                <Link to="/gestion-vacacional" key={i} className="block">
+                <Link to={card.to} key={i} className="block">
                   {inner}
                 </Link>
               );
             }
-            return inner;
+            return <div key={i}>{inner}</div>;
           })}
         </div>
+
       </div>
 
       <AutoservicioModal open={autoservicioModalOpen} onOpenChange={setAutoservicioModalOpen} />
