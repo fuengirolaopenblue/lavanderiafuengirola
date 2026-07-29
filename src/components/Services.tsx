@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { WashingMachine, Home, Truck, Building2, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { WashingMachine, Home, Truck, Building2, Sparkles, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
 import DeliveryModal from "./DeliveryModal";
 import ParticularesModal from "./ParticularesModal";
+
 
 const Services = () => {
   const [autoservicioModalOpen, setAutoservicioModalOpen] = useState(false);
