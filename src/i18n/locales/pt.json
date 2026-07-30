@@ -26,9 +26,18 @@
     "subtitle": "Serviço profissional para Airbnb e particulares em toda a Costa del Sol.",
     "zonesTitle": "Zonas de cobertura",
     "zones": {
-      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
-      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
-      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+      "fuengirola": {
+        "name": "Fuengirola",
+        "areas": "Los Boliches · Centro"
+      },
+      "mijas": {
+        "name": "Mijas Costa",
+        "areas": "La Cala · Riviera"
+      },
+      "benalmadena": {
+        "name": "Benalmádena",
+        "areas": "Puerto Marina"
+      }
     }
   },
   "services": {
@@ -51,7 +60,12 @@
     "vacation": {
       "title": "Lavandaria para Alojamentos de Férias",
       "description": "Serviço especializado para proprietários e gestores de alojamentos turísticos. Roupa de cama, toalhas e têxteis sempre impecáveis.",
-      "features": ["Recolha e entrega", "Tratamento profissional", "Desinfeção completa", "Tarifas empresariais"]
+      "features": [
+        "Recolha e entrega",
+        "Tratamento profissional",
+        "Desinfeção completa",
+        "Tarifas empresariais"
+      ]
     },
     "individuals": {
       "title": "Lavandaria para Particulares",
@@ -136,11 +150,26 @@
     "title": "Logística premium para o seu",
     "titleHighlight": "alojamento de férias",
     "subtitle": "Soluções desenhadas para proprietários e gestores de Airbnb em Fuengirola.",
-    "pickup": { "title": "Recolha após o Check-out", "description": "Recolhemos a roupa de cama e banho diretamente na propriedade." },
-    "treatment": { "title": "Tratamento Profissional", "description": "Desinfeção total com oxigénio ativo e produtos de alta gama." },
-    "preparation": { "title": "Secagem e Preparação", "description": "Embalagem individual para higiene e apresentação premium." },
-    "storage": { "title": "Custódia e Armazenamento", "description": "Guardamos a sua roupa limpa até à próxima estadia. Liberte espaço!" },
-    "delivery": { "title": "Entrega Programada", "description": "Entrega 'Just-in-Time' coordenada com o seu pessoal de limpeza." }
+    "pickup": {
+      "title": "Recolha após o Check-out",
+      "description": "Recolhemos a roupa de cama e banho diretamente na propriedade."
+    },
+    "treatment": {
+      "title": "Tratamento Profissional",
+      "description": "Desinfeção total com oxigénio ativo e produtos de alta gama."
+    },
+    "preparation": {
+      "title": "Secagem e Preparação",
+      "description": "Embalagem individual para higiene e apresentação premium."
+    },
+    "storage": {
+      "title": "Custódia e Armazenamento",
+      "description": "Guardamos a sua roupa limpa até à próxima estadia. Liberte espaço!"
+    },
+    "delivery": {
+      "title": "Entrega Programada",
+      "description": "Entrega 'Just-in-Time' coordenada com o seu pessoal de limpeza."
+    }
   },
   "gestion": {
     "heroTitle": "Gestão Integral do Seu Alojamento de Férias",
@@ -148,13 +177,34 @@
     "intro": "Na OpenBlue Fuengirola transformamos a sua propriedade numa fonte de rendimento constante, sem que tenha de se preocupar com nada. Oferecemos um serviço de gestão 360° desenhado para proprietários que procuram maximizar a sua rentabilidade sem complicações.",
     "whatIncluded": "O que inclui a nossa gestão integral?",
     "steps": {
-      "visibility": { "title": "Publicação e visibilidade", "description": "Criamos e gerimos anúncios profissionais nas principais plataformas de aluguer de férias (Airbnb, Booking, Vrbo e mais). Otimizamos descrições, fotos e preços para atrair mais reservas." },
-      "guests": { "title": "Atendimento aos hóspedes", "description": "Gerimos todas as comunicações, consultas e reservas. Do primeiro contacto à despedida, os seus hóspedes recebem atenção personalizada e profissional." },
-      "checkin": { "title": "Check-in e check-out", "description": "Tratamos da entrega e recolha das chaves nos horários combinados, dando as boas-vindas aos seus hóspedes e garantindo que tudo está perfeito." },
-      "cleaning": { "title": "Limpeza profissional", "description": "Após cada estadia, realizamos uma limpeza profunda e exaustiva. A sua propriedade estará sempre impecável, pronta para receber os próximos hóspedes." },
-      "laundry": { "title": "Serviço de lavandaria", "description": "Recolhemos, removemos manchas, lavamos, secamos e embalamos toda a roupa de cama e toalhas. Devolvemos tudo pronto a usar, com produtos ecológicos." },
-      "maintenance": { "title": "Manutenção e supervisão", "description": "Realizamos inspeções periódicas e coordenamos qualquer reparação necessária. Detetamos problemas antes que se tornem inconvenientes maiores." },
-      "financial": { "title": "Gestão financeira transparente", "description": "Receberá relatórios detalhados de receitas, despesas e ocupação. Total transparência para que saiba sempre como está a funcionar a sua propriedade." }
+      "visibility": {
+        "title": "Publicação e visibilidade",
+        "description": "Criamos e gerimos anúncios profissionais nas principais plataformas de aluguer de férias (Airbnb, Booking, Vrbo e mais). Otimizamos descrições, fotos e preços para atrair mais reservas."
+      },
+      "guests": {
+        "title": "Atendimento aos hóspedes",
+        "description": "Gerimos todas as comunicações, consultas e reservas. Do primeiro contacto à despedida, os seus hóspedes recebem atenção personalizada e profissional."
+      },
+      "checkin": {
+        "title": "Check-in e check-out",
+        "description": "Tratamos da entrega e recolha das chaves nos horários combinados, dando as boas-vindas aos seus hóspedes e garantindo que tudo está perfeito."
+      },
+      "cleaning": {
+        "title": "Limpeza profissional",
+        "description": "Após cada estadia, realizamos uma limpeza profunda e exaustiva. A sua propriedade estará sempre impecável, pronta para receber os próximos hóspedes."
+      },
+      "laundry": {
+        "title": "Serviço de lavandaria",
+        "description": "Recolhemos, removemos manchas, lavamos, secamos e embalamos toda a roupa de cama e toalhas. Devolvemos tudo pronto a usar, com produtos ecológicos."
+      },
+      "maintenance": {
+        "title": "Manutenção e supervisão",
+        "description": "Realizamos inspeções periódicas e coordenamos qualquer reparação necessária. Detetamos problemas antes que se tornem inconvenientes maiores."
+      },
+      "financial": {
+        "title": "Gestão financeira transparente",
+        "description": "Receberá relatórios detalhados de receitas, despesas e ocupação. Total transparência para que saiba sempre como está a funcionar a sua propriedade."
+      }
     },
     "trustTitle": "A sua propriedade nas melhores mãos",
     "trustDesc": "Sabemos que o seu alojamento de férias é um investimento importante. Por isso trabalhamos todos os dias para gerar o máximo de receitas, mantendo o seu valor e garantindo experiências excecionais aos seus hóspedes.",
@@ -195,11 +245,26 @@
     "introDesc": "Na OpenBlue Fuengirola entendemos que a roupa de cama e as toalhas são o coração da experiência dos seus hóspedes. Cuidamos de todo o ciclo: desde a recolha após o check-out até à entrega estratégica para a próxima chegada. Você foca-se na gestão, nós garantimos que tudo esteja impecável.",
     "howTitle": "Como funciona o nosso serviço?",
     "steps": {
-      "pickup": { "title": "Recolha após o Check-out", "description": "Passamos pela sua propriedade e recolhemos toda a roupa de cama e banho. Sem esforços da sua parte." },
-      "treatment": { "title": "Tratamento Profissional", "description": "Aplicamos processos específicos de remoção de manchas, lavagem com produtos premium e desinfeção total com oxigénio ativo." },
-      "drying": { "title": "Secagem e Preparação", "description": "Secamos e embalamos cada conjunto individualmente, garantindo higiene e uma apresentação premium." },
-      "storage": { "title": "Custódia e Armazenamento", "description": "À espera de novos hóspedes? Armazenamos os seus têxteis nas nossas instalações até que precise deles, libertando espaço nos seus arrumos ou veículos." },
-      "delivery": { "title": "Entrega Programada \"Just-in-Time\"", "description": "Entregamos a roupa limpa no dia e na faixa horária exata que solicitar, diretamente ao pessoal de limpeza no alojamento." }
+      "pickup": {
+        "title": "Recolha após o Check-out",
+        "description": "Passamos pela sua propriedade e recolhemos toda a roupa de cama e banho. Sem esforços da sua parte."
+      },
+      "treatment": {
+        "title": "Tratamento Profissional",
+        "description": "Aplicamos processos específicos de remoção de manchas, lavagem com produtos premium e desinfeção total com oxigénio ativo."
+      },
+      "drying": {
+        "title": "Secagem e Preparação",
+        "description": "Secamos e embalamos cada conjunto individualmente, garantindo higiene e uma apresentação premium."
+      },
+      "storage": {
+        "title": "Custódia e Armazenamento",
+        "description": "À espera de novos hóspedes? Armazenamos os seus têxteis nas nossas instalações até que precise deles, libertando espaço nos seus arrumos ou veículos."
+      },
+      "delivery": {
+        "title": "Entrega Programada \"Just-in-Time\"",
+        "description": "Entregamos a roupa limpa no dia e na faixa horária exata que solicitar, diretamente ao pessoal de limpeza no alojamento."
+      }
     },
     "trustTitle": "A sua tranquilidade, a nossa prioridade",
     "trustDesc": "Elimine a tarefa mais crítica e repetitiva da gestão de alojamento de férias. Com a nossa logística à medida, ganhará a pontualidade necessária para maximizar as suas avaliações positivas e rentabilidade.",
@@ -242,5 +307,12 @@
     "experience": "Mais de 4 anos a cuidar da roupa dos nossos clientes com profissionalismo, pontualidade e paixão pelo detalhe.",
     "ctaText": "Quer simplificar a sua vida? Contacte-nos e descubra como é fácil ter a roupa sempre perfeita.",
     "ctaWhatsApp": "Contactar por WhatsApp"
+  },
+  "cleaning": {
+    "badge": "Limpeza + Lavandaria",
+    "title": "Limpeza de Alojamento Local, com o mesmo rigor da sua lavandaria",
+    "subtitle": "Checklist fotográfico, roupa de cama incluída e rotações no mesmo dia — para Airbnb, Booking e Vrbo em Fuengirola, Mijas e Benalmádena.",
+    "detailCta": "Ver todos os detalhes",
+    "detailPath": "/limpieza-viviendas-vacacionales"
   }
 }

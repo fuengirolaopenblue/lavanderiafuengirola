@@ -113,6 +113,14 @@ const content = {
         a: "Fuengirola, Mijas Costa, Benalmádena, Torremolinos y Málaga capital.",
       },
     ],
+    trustTitle: "Propietarios que ya confían en nuestra gestión",
+    trustPoints: [
+      "Gestionamos propiedades vacacionales en Fuengirola, Mijas Costa y Benalmádena con un único equipo de confianza.",
+      "Trabajamos con propietarios particulares y con gestoras que administran carteras de más de 20 apartamentos.",
+      "El mismo equipo que gestiona tu lavandería y limpieza gestiona también tus huéspedes, tu calendario y tus informes — sin subcontrataciones ni intermediarios.",
+      "Comisión clara desde el primer estudio, sin cuotas fijas ni permanencia mínima: solo ganamos si tu propiedad gana.",
+      "Propietarios que llevan más de una temporada completa con nosotros siguen renovando su contrato de gestión.",
+    ],
     ctaBtn: "Solicitar Estudio Personalizado",
     ctaMsg: "Hola, me interesa el servicio de administración de mi propiedad vacacional en Fuengirola",
     back: "Volver al inicio",
@@ -207,6 +215,14 @@ const content = {
         a: "Fuengirola, Mijas Costa, Benalmádena, Torremolinos and Málaga city.",
       },
     ],
+    trustTitle: "Owners who already trust our management",
+    trustPoints: [
+      "We manage vacation properties across Fuengirola, Mijas Costa and Benalmádena with one single trusted team.",
+      "We work with individual owners as well as agencies managing portfolios of 20+ apartments.",
+      "The same team that handles your laundry and cleaning also handles your guests, your calendar and your reports — no subcontractors, no middlemen.",
+      "Clear commission from the very first study, no fixed fees and no minimum commitment: we only earn if your property earns.",
+      "Owners who have been with us for more than a full season keep renewing their management agreement.",
+    ],
     ctaBtn: "Request a Personalised Study",
     ctaMsg: "Hi, I'm interested in your vacation rental management service in Fuengirola",
     back: "Back to home",
@@ -224,7 +240,7 @@ const GestionVacacional = () => {
   }, [isEn, i18n]);
 
   const c = isEn ? content.en : content.es;
-  const canonical = `https://lavanderiafuengirola.lovable.app${isEn ? "/vacation-rental-management" : "/gestion-vacacional"}`;
+  const canonical = `https://www.lavanderiafuengirola.com${isEn ? "/vacation-rental-management" : "/gestion-vacacional"}`;
 
   const faqLd = {
     "@context": "https://schema.org",
@@ -371,6 +387,30 @@ const GestionVacacional = () => {
                 </AccordionItem>
               ))}
             </Accordion>
+          </div>
+        </section>
+
+        {/* Trust */}
+        <section className="pb-16 md:pb-20">
+          <div className="container mx-auto px-4 max-w-4xl py-14">
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
+              {c.trustTitle}
+            </h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              {c.trustPoints.map((point, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.05 }}
+                  className="flex gap-3 p-5 rounded-xl bg-card border border-border/50 shadow-card"
+                >
+                  <ShieldCheck className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                  <p className="text-muted-foreground leading-relaxed">{point}</p>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </section>
 

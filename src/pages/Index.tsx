@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ExpansionBanner from "@/components/ExpansionBanner";
@@ -26,6 +27,10 @@ import SocialFloatingButtons from "@/components/SocialFloatingButtons";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <link rel="canonical" href="https://www.lavanderiafuengirola.com/" />
+        <meta property="og:url" content="https://www.lavanderiafuengirola.com/" />
+      </Helmet>
       <Header />
       <main>
         <Hero />
