@@ -26,9 +26,18 @@
     "subtitle": "Service professionnel pour Airbnb et particuliers sur toute la Costa del Sol.",
     "zonesTitle": "Zones desservies",
     "zones": {
-      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
-      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
-      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+      "fuengirola": {
+        "name": "Fuengirola",
+        "areas": "Los Boliches · Centro"
+      },
+      "mijas": {
+        "name": "Mijas Costa",
+        "areas": "La Cala · Riviera"
+      },
+      "benalmadena": {
+        "name": "Benalmádena",
+        "areas": "Puerto Marina"
+      }
     }
   },
   "services": {
@@ -51,7 +60,12 @@
     "vacation": {
       "title": "Blanchisserie pour Locations de Vacances",
       "description": "Service spécialisé pour propriétaires et gestionnaires d'hébergements touristiques. Linge de lit, serviettes et textiles toujours impeccables.",
-      "features": ["Collecte et livraison", "Traitement professionnel", "Désinfection complète", "Tarifs entreprises"]
+      "features": [
+        "Collecte et livraison",
+        "Traitement professionnel",
+        "Désinfection complète",
+        "Tarifs entreprises"
+      ]
     },
     "individuals": {
       "title": "Blanchisserie pour Particuliers",
@@ -136,11 +150,26 @@
     "title": "Logistique premium pour votre",
     "titleHighlight": "location de vacances",
     "subtitle": "Solutions conçues pour les propriétaires et gestionnaires Airbnb à Fuengirola.",
-    "pickup": { "title": "Collecte après le Check-out", "description": "Nous récupérons le linge de lit et de bain directement dans la propriété." },
-    "treatment": { "title": "Traitement Professionnel", "description": "Désinfection totale à l'oxygène actif et produits haut de gamme." },
-    "preparation": { "title": "Séchage et Préparation", "description": "Emballage individuel pour une hygiène et présentation premium." },
-    "storage": { "title": "Garde et Stockage", "description": "Nous gardons votre linge propre jusqu'à votre prochaine arrivée. Libérez de l'espace !" },
-    "delivery": { "title": "Livraison Programmée", "description": "Livraison 'Just-in-Time' coordonnée avec votre personnel de ménage." }
+    "pickup": {
+      "title": "Collecte après le Check-out",
+      "description": "Nous récupérons le linge de lit et de bain directement dans la propriété."
+    },
+    "treatment": {
+      "title": "Traitement Professionnel",
+      "description": "Désinfection totale à l'oxygène actif et produits haut de gamme."
+    },
+    "preparation": {
+      "title": "Séchage et Préparation",
+      "description": "Emballage individuel pour une hygiène et présentation premium."
+    },
+    "storage": {
+      "title": "Garde et Stockage",
+      "description": "Nous gardons votre linge propre jusqu'à votre prochaine arrivée. Libérez de l'espace !"
+    },
+    "delivery": {
+      "title": "Livraison Programmée",
+      "description": "Livraison 'Just-in-Time' coordonnée avec votre personnel de ménage."
+    }
   },
   "gestion": {
     "heroTitle": "Gestion Intégrale de Votre Location de Vacances",
@@ -148,13 +177,34 @@
     "intro": "Chez OpenBlue Fuengirola, nous transformons votre propriété en une source de revenus constante, sans que vous ayez à vous soucier de quoi que ce soit. Nous proposons un service de gestion 360° conçu pour les propriétaires souhaitant maximiser leur rentabilité sans complications.",
     "whatIncluded": "Que comprend notre gestion intégrale ?",
     "steps": {
-      "visibility": { "title": "Publication et visibilité", "description": "Nous créons et gérons des annonces professionnelles sur les principales plateformes de location de vacances (Airbnb, Booking, Vrbo et plus). Nous optimisons descriptions, photos et prix pour attirer plus de réservations." },
-      "guests": { "title": "Service aux clients", "description": "Nous gérons toutes les communications, demandes et réservations. Du premier contact aux adieux, vos hôtes reçoivent une attention personnalisée et professionnelle." },
-      "checkin": { "title": "Check-in et check-out", "description": "Nous nous occupons de la remise et récupération des clés aux horaires convenus, en accueillant vos hôtes et en nous assurant que tout est parfait." },
-      "cleaning": { "title": "Nettoyage professionnel", "description": "Après chaque séjour, nous effectuons un nettoyage en profondeur. Votre propriété sera toujours impeccable, prête à accueillir les prochains hôtes." },
-      "laundry": { "title": "Service de blanchisserie", "description": "Nous collectons, détachons, lavons, séchons et emballons tout le linge de lit et les serviettes. Nous les rendons prêts à l'emploi, avec des produits écologiques." },
-      "maintenance": { "title": "Maintenance et supervision", "description": "Nous effectuons des inspections régulières et coordonnons les réparations nécessaires. Nous détectons les problèmes avant qu'ils ne deviennent majeurs." },
-      "financial": { "title": "Gestion financière transparente", "description": "Vous recevrez des rapports détaillés sur les revenus, dépenses et taux d'occupation. Transparence totale pour que vous sachiez toujours comment fonctionne votre propriété." }
+      "visibility": {
+        "title": "Publication et visibilité",
+        "description": "Nous créons et gérons des annonces professionnelles sur les principales plateformes de location de vacances (Airbnb, Booking, Vrbo et plus). Nous optimisons descriptions, photos et prix pour attirer plus de réservations."
+      },
+      "guests": {
+        "title": "Service aux clients",
+        "description": "Nous gérons toutes les communications, demandes et réservations. Du premier contact aux adieux, vos hôtes reçoivent une attention personnalisée et professionnelle."
+      },
+      "checkin": {
+        "title": "Check-in et check-out",
+        "description": "Nous nous occupons de la remise et récupération des clés aux horaires convenus, en accueillant vos hôtes et en nous assurant que tout est parfait."
+      },
+      "cleaning": {
+        "title": "Nettoyage professionnel",
+        "description": "Après chaque séjour, nous effectuons un nettoyage en profondeur. Votre propriété sera toujours impeccable, prête à accueillir les prochains hôtes."
+      },
+      "laundry": {
+        "title": "Service de blanchisserie",
+        "description": "Nous collectons, détachons, lavons, séchons et emballons tout le linge de lit et les serviettes. Nous les rendons prêts à l'emploi, avec des produits écologiques."
+      },
+      "maintenance": {
+        "title": "Maintenance et supervision",
+        "description": "Nous effectuons des inspections régulières et coordonnons les réparations nécessaires. Nous détectons les problèmes avant qu'ils ne deviennent majeurs."
+      },
+      "financial": {
+        "title": "Gestion financière transparente",
+        "description": "Vous recevrez des rapports détaillés sur les revenus, dépenses et taux d'occupation. Transparence totale pour que vous sachiez toujours comment fonctionne votre propriété."
+      }
     },
     "trustTitle": "Votre propriété entre les meilleures mains",
     "trustDesc": "Nous savons que votre location de vacances est un investissement important. C'est pourquoi nous travaillons chaque jour pour générer les revenus maximaux, en maintenant sa valeur et en garantissant des expériences exceptionnelles à vos hôtes.",
@@ -195,11 +245,26 @@
     "introDesc": "Chez OpenBlue Fuengirola, nous comprenons que le linge de lit et les serviettes sont au cœur de l'expérience de vos hôtes. Nous gérons tout le cycle : de la collecte après le check-out à la livraison stratégique pour la prochaine arrivée. Vous vous concentrez sur la gestion, nous nous occupons que tout soit impeccable.",
     "howTitle": "Comment fonctionne notre service ?",
     "steps": {
-      "pickup": { "title": "Collecte après le Check-out", "description": "Nous passons par votre propriété et récupérons tout le linge de lit et de bain. Sans effort de votre part." },
-      "treatment": { "title": "Traitement Professionnel", "description": "Nous appliquons des processus spécifiques de détachage, lavage avec des produits haut de gamme et désinfection totale à l'oxygène actif." },
-      "drying": { "title": "Séchage et Préparation", "description": "Nous séchons et emballons chaque jeu individuellement, garantissant hygiène et présentation premium." },
-      "storage": { "title": "Garde et Stockage", "description": "En attente de nouveaux arrivants ? Nous stockons vos textiles dans nos installations jusqu'à ce que vous en ayez besoin, libérant de l'espace dans vos débarras ou véhicules." },
-      "delivery": { "title": "Livraison Programmée \"Just-in-Time\"", "description": "Nous livrons le linge propre le jour et dans le créneau horaire exact que vous demandez, directement au personnel de ménage dans le logement." }
+      "pickup": {
+        "title": "Collecte après le Check-out",
+        "description": "Nous passons par votre propriété et récupérons tout le linge de lit et de bain. Sans effort de votre part."
+      },
+      "treatment": {
+        "title": "Traitement Professionnel",
+        "description": "Nous appliquons des processus spécifiques de détachage, lavage avec des produits haut de gamme et désinfection totale à l'oxygène actif."
+      },
+      "drying": {
+        "title": "Séchage et Préparation",
+        "description": "Nous séchons et emballons chaque jeu individuellement, garantissant hygiène et présentation premium."
+      },
+      "storage": {
+        "title": "Garde et Stockage",
+        "description": "En attente de nouveaux arrivants ? Nous stockons vos textiles dans nos installations jusqu'à ce que vous en ayez besoin, libérant de l'espace dans vos débarras ou véhicules."
+      },
+      "delivery": {
+        "title": "Livraison Programmée \"Just-in-Time\"",
+        "description": "Nous livrons le linge propre le jour et dans le créneau horaire exact que vous demandez, directement au personnel de ménage dans le logement."
+      }
     },
     "trustTitle": "Votre tranquillité, notre priorité",
     "trustDesc": "Éliminez la tâche la plus critique et répétitive de la gestion locative. Avec notre logistique sur mesure, vous gagnerez la ponctualité nécessaire pour maximiser vos avis positifs et votre rentabilité.",
@@ -242,5 +307,12 @@
     "experience": "Plus de 4 ans à prendre soin du linge de nos clients avec professionnalisme, ponctualité et passion du détail.",
     "ctaText": "Vous voulez simplifier votre vie ? Contactez-nous et découvrez comme c'est facile d'avoir un linge toujours parfait.",
     "ctaWhatsApp": "Contacter par WhatsApp"
+  },
+  "cleaning": {
+    "badge": "Nettoyage + Blanchisserie",
+    "title": "Nettoyage de locations saisonnières, avec la même rigueur que votre blanchisserie",
+    "subtitle": "Checklist photo, linge de lit inclus et rotations le jour même — pour Airbnb, Booking et Vrbo à Fuengirola, Mijas et Benalmádena.",
+    "detailCta": "Voir tous les détails",
+    "detailPath": "/limpieza-viviendas-vacacionales"
   }
 }

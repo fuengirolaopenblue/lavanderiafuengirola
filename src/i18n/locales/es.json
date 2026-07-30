@@ -14,21 +14,27 @@
     "titleHighlight": "Potencia Industrial",
     "subtitle": "No procesamos tu ropa en masa de forma automática. Nuestro 'Servicio Puerta a Puerta' analiza cada prenda individualmente: aplicamos desmanchado artesanal a mano para protectores, sábanas y toallas antes de su lavado industrial con oxígeno activo.",
     "steps": {
-      "inspect": { "title": "Inspección Individual", "desc": "Revisamos una a una cada sábana, toalla y protector para detectar manchas, desgaste o daños antes de lavar." },
-      "spot": { "title": "Desmanchado a Mano", "desc": "Pretratamiento artesanal en manchas difíciles antes de que ninguna máquina toque el tejido — protegemos fibras y colores." },
-      "wash": { "title": "Lavado Girbau de Alta Tecnología", "desc": "Lavandería industrial para apartamentos turísticos con máquinas Girbau y oxígeno activo: desinfección total sin químicos agresivos." }
+      "inspect": {
+        "title": "Inspección Individual",
+        "desc": "Revisamos una a una cada sábana, toalla y protector para detectar manchas, desgaste o daños antes de lavar."
+      },
+      "spot": {
+        "title": "Desmanchado a Mano",
+        "desc": "Pretratamiento artesanal en manchas difíciles antes de que ninguna máquina toque el tejido — protegemos fibras y colores."
+      },
+      "wash": {
+        "title": "Lavado Girbau de Alta Tecnología",
+        "desc": "Lavandería industrial para apartamentos turísticos con máquinas Girbau y oxígeno activo: desinfección total sin químicos agresivos."
+      }
     }
   },
   "cleaning": {
-    "badge": "360° · Limpieza + Lavandería",
-    "title": "Servicio de Limpieza de Viviendas Turísticas y Alquiler Vacacional",
-    "subtitle": "La solución definitiva para empresas de administración de viviendas turísticas de Benalmádena a Marbella. Limpieza de viviendas vacacionales y lavandería integradas bajo el mismo sello de confianza — tu partner para la gestión de apartamentos de corta y larga temporada.",
+    "badge": "Limpieza + Lavandería",
+    "title": "Limpieza de Viviendas Vacacionales, con el mismo rigor que tu lavandería",
+    "subtitle": "Checklist fotográfico, ropa de cama incluida y rotaciones el mismo día — para Airbnb, Booking y Vrbo en Fuengirola, Mijas y Benalmádena.",
     "cta": "Solicitar Pack Limpieza + Lavandería",
-    "features": {
-      "logistics": { "title": "Logística Puerta a Puerta", "desc": "Recogemos la ropa sucia al check-out, limpiamos la vivienda y entregamos el textil recién higienizado justo a tiempo para tu próximo huésped." },
-      "checklist": { "title": "Checklist de Calidad 5 Estrellas", "desc": "Desinfección total de cocina y baños, reposición de amenities y foto-reporte para Property Managers después de cada servicio." },
-      "time": { "title": "Ahorro de Tiempo Absoluto", "desc": "Sin lavados dentro de las propiedades. Tu personal de limpieza se centra en limpiar y nosotros gestionamos todo el ciclo del textil." }
-    }
+    "detailCta": "Ver todos los detalles",
+    "detailPath": "/limpieza-viviendas-vacacionales"
   },
   "hero": {
     "badge": "Autoservicio 24h · 365 días · Fuengirola · Mijas · Benalmádena",
@@ -49,9 +55,18 @@
     "subtitle": "Servicio profesional para Airbnb y particulares en toda la Costa del Sol.",
     "zonesTitle": "Zonas de influencia",
     "zones": {
-      "fuengirola": { "name": "Fuengirola", "areas": "Los Boliches · Centro" },
-      "mijas": { "name": "Mijas Costa", "areas": "La Cala · Riviera" },
-      "benalmadena": { "name": "Benalmádena", "areas": "Puerto Marina" }
+      "fuengirola": {
+        "name": "Fuengirola",
+        "areas": "Los Boliches · Centro"
+      },
+      "mijas": {
+        "name": "Mijas Costa",
+        "areas": "La Cala · Riviera"
+      },
+      "benalmadena": {
+        "name": "Benalmádena",
+        "areas": "Puerto Marina"
+      }
     }
   },
   "testimonials": {
@@ -96,7 +111,12 @@
     "vacation": {
       "title": "Especial Airbnb",
       "description": "Lavandería profesional para sábanas y toallas. Recogida tras el check-out y entrega lista para el siguiente huésped.",
-      "features": ["Recogida tras check-out", "Entrega antes del check-in", "Desinfección completa", "Solicitar Tarifas para Empresas"]
+      "features": [
+        "Recogida tras check-out",
+        "Entrega antes del check-in",
+        "Desinfección completa",
+        "Solicitar Tarifas para Empresas"
+      ]
     },
     "individuals": {
       "title": "Puerta a Puerta",
@@ -197,11 +217,26 @@
     "title": "La Solución Logística Definitiva para",
     "titleHighlight": "Property Managers en Fuengirola",
     "subtitle": "Olvídate del estrés en los días de cambio de huéspedes (turnovers). Más de 4 años de experiencia nos avalan ofreciendo tranquilidad y máxima limpieza.",
-    "pickup": { "title": "Desinfección con Oxígeno Activo", "description": "Eliminamos bacterias y malos olores en procesos de alta temperatura con productos premium. Sábanas y toallas con un blanco impecable y aroma duradero." },
-    "treatment": { "title": "Recogida Post-Checkout", "description": "Retiramos la ropa sucia directamente en tu apartamento vacacional tras la salida de tus huéspedes en Fuengirola, Los Boliches o Torreblanca." },
-    "preparation": { "title": "Custodia y Almacenamiento Gratuito", "description": "Guardamos y custodiamos tu ropa limpia y embolsada de forma segura hasta el próximo check-in. ¡Libera espacio en tus armarios!" },
-    "storage": { "title": "Entrega Programada Just-in-Time", "description": "Coordinamos con tu personal de limpieza o limpiadoras autónomas para entregar el textil limpio en el horario exacto solicitado. Sin esperas." },
-    "delivery": { "title": "Control de Daños y Stock", "description": "Revisamos minuciosamente cada prenda. Si detectamos manchas difíciles o roturas, te notificamos con fotos al momento para reponer tu inventario." }
+    "pickup": {
+      "title": "Desinfección con Oxígeno Activo",
+      "description": "Eliminamos bacterias y malos olores en procesos de alta temperatura con productos premium. Sábanas y toallas con un blanco impecable y aroma duradero."
+    },
+    "treatment": {
+      "title": "Recogida Post-Checkout",
+      "description": "Retiramos la ropa sucia directamente en tu apartamento vacacional tras la salida de tus huéspedes en Fuengirola, Los Boliches o Torreblanca."
+    },
+    "preparation": {
+      "title": "Custodia y Almacenamiento Gratuito",
+      "description": "Guardamos y custodiamos tu ropa limpia y embolsada de forma segura hasta el próximo check-in. ¡Libera espacio en tus armarios!"
+    },
+    "storage": {
+      "title": "Entrega Programada Just-in-Time",
+      "description": "Coordinamos con tu personal de limpieza o limpiadoras autónomas para entregar el textil limpio en el horario exacto solicitado. Sin esperas."
+    },
+    "delivery": {
+      "title": "Control de Daños y Stock",
+      "description": "Revisamos minuciosamente cada prenda. Si detectamos manchas difíciles o roturas, te notificamos con fotos al momento para reponer tu inventario."
+    }
   },
   "coverage": {
     "sectionLabel": "Cobertura",
@@ -209,15 +244,42 @@
     "titleHighlight": "Marbella",
     "intro": "Optimizamos tu logística sin importar dónde estén tus propiedades. Recogida y entrega en toda la Costa del Sol.",
     "areas": {
-      "benalmadena": { "name": "Benalmádena (Puerto Marina)", "desc": "Logística premium para apartamentos y villas turísticas." },
-      "fuengirola": { "name": "Fuengirola (Centro & El Puerto)", "desc": "Servicios Express para Airbnb y apartamentos vacacionales." },
-      "boliches": { "name": "Los Boliches", "desc": "Especialistas en sábanas y toallas para grandes carteras." },
-      "mijas": { "name": "Mijas Costa (La Cala & Riviera)", "desc": "Logística B2B para Property Managers." },
-      "calahonda": { "name": "Calahonda", "desc": "Recogida y entrega programada para urbanizaciones turísticas." },
-      "elviria": { "name": "Elviria", "desc": "Servicio premium para villas y complejos residenciales." },
-      "marbella": { "name": "Marbella (Milla de Oro)", "desc": "Servicio VIP para propiedades de lujo y Property Managers." },
-      "centro": { "name": "Fuengirola Centro & Puerto Deportivo", "desc": "Servicios Express para apartamentos vacacionales." },
-      "torreblanca": { "name": "Torreblanca & Carvajal", "desc": "Recogida y entrega en villas turísticas." }
+      "benalmadena": {
+        "name": "Benalmádena (Puerto Marina)",
+        "desc": "Logística premium para apartamentos y villas turísticas."
+      },
+      "fuengirola": {
+        "name": "Fuengirola (Centro & El Puerto)",
+        "desc": "Servicios Express para Airbnb y apartamentos vacacionales."
+      },
+      "boliches": {
+        "name": "Los Boliches",
+        "desc": "Especialistas en sábanas y toallas para grandes carteras."
+      },
+      "mijas": {
+        "name": "Mijas Costa (La Cala & Riviera)",
+        "desc": "Logística B2B para Property Managers."
+      },
+      "calahonda": {
+        "name": "Calahonda",
+        "desc": "Recogida y entrega programada para urbanizaciones turísticas."
+      },
+      "elviria": {
+        "name": "Elviria",
+        "desc": "Servicio premium para villas y complejos residenciales."
+      },
+      "marbella": {
+        "name": "Marbella (Milla de Oro)",
+        "desc": "Servicio VIP para propiedades de lujo y Property Managers."
+      },
+      "centro": {
+        "name": "Fuengirola Centro & Puerto Deportivo",
+        "desc": "Servicios Express para apartamentos vacacionales."
+      },
+      "torreblanca": {
+        "name": "Torreblanca & Carvajal",
+        "desc": "Recogida y entrega en villas turísticas."
+      }
     }
   },
   "b2b": {
@@ -276,13 +338,34 @@
     "intro": "En OpenBlue Fuengirola convertimos tu propiedad en una fuente de ingresos constante, sin que tengas que ocuparte de nada. Ofrecemos un servicio de gestión 360° diseñado para propietarios que buscan maximizar su rentabilidad sin complicaciones, estrés ni pérdidas de tiempo.",
     "whatIncluded": "¿Qué incluye nuestra gestión integral?",
     "steps": {
-      "visibility": { "title": "Publicación y visibilidad", "description": "Creamos y gestionamos anuncios profesionales en las principales plataformas de alquiler vacacional (Airbnb, Booking, Vrbo y más). Optimizamos descripciones, fotos y precios para atraer más reservas y aumentar tu ocupación." },
-      "guests": { "title": "Atención a huéspedes", "description": "Gestionamos todas las comunicaciones, consultas y reservas. Desde el primer contacto hasta la despedida, tus huéspedes reciben atención personalizada y profesional que se traduce en valoraciones excelentes." },
-      "checkin": { "title": "Check-in y check-out", "description": "Nos encargamos de la entrega y recogida de llaves en los horarios acordados, dando la bienvenida a tus huéspedes y asegurándonos de que todo esté perfecto a su llegada y salida." },
-      "cleaning": { "title": "Limpieza profesional", "description": "Después de cada estancia, realizamos una limpieza profunda y exhaustiva. Tu propiedad siempre estará impecable, lista para recibir a los próximos huéspedes con los más altos estándares de higiene y presentación." },
-      "laundry": { "title": "Servicio de lavandería", "description": "Recogemos, desmanchamos, lavamos, secamos y embolsamos toda la ropa de cama y toallas. Las devolvemos listas para usar, con productos de primera línea y respetuosos con el medio ambiente." },
-      "maintenance": { "title": "Mantenimiento y supervisión", "description": "Realizamos inspecciones periódicas y coordinamos cualquier reparación o mantenimiento necesario. Detectamos problemas antes de que se conviertan en inconvenientes mayores, protegiendo tu inversión." },
-      "financial": { "title": "Gestión económica transparente", "description": "Recibirás informes detallados de ingresos, gastos y ocupación. Total transparencia para que siempre sepas cómo está funcionando tu propiedad." }
+      "visibility": {
+        "title": "Publicación y visibilidad",
+        "description": "Creamos y gestionamos anuncios profesionales en las principales plataformas de alquiler vacacional (Airbnb, Booking, Vrbo y más). Optimizamos descripciones, fotos y precios para atraer más reservas y aumentar tu ocupación."
+      },
+      "guests": {
+        "title": "Atención a huéspedes",
+        "description": "Gestionamos todas las comunicaciones, consultas y reservas. Desde el primer contacto hasta la despedida, tus huéspedes reciben atención personalizada y profesional que se traduce en valoraciones excelentes."
+      },
+      "checkin": {
+        "title": "Check-in y check-out",
+        "description": "Nos encargamos de la entrega y recogida de llaves en los horarios acordados, dando la bienvenida a tus huéspedes y asegurándonos de que todo esté perfecto a su llegada y salida."
+      },
+      "cleaning": {
+        "title": "Limpieza profesional",
+        "description": "Después de cada estancia, realizamos una limpieza profunda y exhaustiva. Tu propiedad siempre estará impecable, lista para recibir a los próximos huéspedes con los más altos estándares de higiene y presentación."
+      },
+      "laundry": {
+        "title": "Servicio de lavandería",
+        "description": "Recogemos, desmanchamos, lavamos, secamos y embolsamos toda la ropa de cama y toallas. Las devolvemos listas para usar, con productos de primera línea y respetuosos con el medio ambiente."
+      },
+      "maintenance": {
+        "title": "Mantenimiento y supervisión",
+        "description": "Realizamos inspecciones periódicas y coordinamos cualquier reparación o mantenimiento necesario. Detectamos problemas antes de que se conviertan en inconvenientes mayores, protegiendo tu inversión."
+      },
+      "financial": {
+        "title": "Gestión económica transparente",
+        "description": "Recibirás informes detallados de ingresos, gastos y ocupación. Total transparencia para que siempre sepas cómo está funcionando tu propiedad."
+      }
     },
     "trustTitle": "Tu propiedad en las mejores manos",
     "trustDesc": "Sabemos que tu piso vacacional es una inversión importante. Por eso trabajamos cada día para que genere los máximos ingresos posibles, manteniendo su valor y garantizando experiencias excepcionales a tus huéspedes. Tú solo tienes que disfrutar de los beneficios.",
@@ -323,11 +406,26 @@
     "introDesc": "En OpenBlue Fuengirola entendemos que la ropa de cama y las toallas son el corazón de la experiencia de tus huéspedes. Nos encargamos de todo el ciclo: desde la recogida tras el check-out hasta la entrega estratégica para el siguiente ingreso. Tú te centras en gestionar, nosotros en que todo esté impecable.",
     "howTitle": "¿Cómo funciona nuestro servicio?",
     "steps": {
-      "pickup": { "title": "Recogida tras el Check-out", "description": "Pasamos por tu propiedad y retiramos toda la ropa de cama y baño. Sin esfuerzos por tu parte." },
-      "treatment": { "title": "Tratamiento Profesional", "description": "Aplicamos procesos específicos de desmanchado, lavados con productos de alta gama y desinfección total con oxígeno activo." },
-      "drying": { "title": "Secado y Preparación", "description": "Secamos y embolsamos cada juego de forma individual, garantizando higiene y una presentación premium." },
-      "storage": { "title": "Custodia y Almacenamiento", "description": "¿Esperando nuevos ingresos? Almacenamos tus textiles en nuestras instalaciones hasta que los necesites, liberando espacio en tus trasteros o vehículos." },
-      "delivery": { "title": "Entrega Programada \"Just-in-Time\"", "description": "Entregamos la ropa limpia el día y en la franja horaria exacta que solicites, directamente al personal de limpieza en el alojamiento para una puesta a punto sin esperas." }
+      "pickup": {
+        "title": "Recogida tras el Check-out",
+        "description": "Pasamos por tu propiedad y retiramos toda la ropa de cama y baño. Sin esfuerzos por tu parte."
+      },
+      "treatment": {
+        "title": "Tratamiento Profesional",
+        "description": "Aplicamos procesos específicos de desmanchado, lavados con productos de alta gama y desinfección total con oxígeno activo."
+      },
+      "drying": {
+        "title": "Secado y Preparación",
+        "description": "Secamos y embolsamos cada juego de forma individual, garantizando higiene y una presentación premium."
+      },
+      "storage": {
+        "title": "Custodia y Almacenamiento",
+        "description": "¿Esperando nuevos ingresos? Almacenamos tus textiles en nuestras instalaciones hasta que los necesites, liberando espacio en tus trasteros o vehículos."
+      },
+      "delivery": {
+        "title": "Entrega Programada \"Just-in-Time\"",
+        "description": "Entregamos la ropa limpia el día y en la franja horaria exacta que solicites, directamente al personal de limpieza en el alojamiento para una puesta a punto sin esperas."
+      }
     },
     "trustTitle": "Tu tranquilidad, nuestra prioridad",
     "trustDesc": "Elimina la tarea más crítica y repetitiva de la gestión vacacional. Con nuestra logística a medida, ganarás la puntualidad necesaria para maximizar tus reseñas positivas y rentabilidad.",
@@ -375,16 +473,40 @@
     "backHome": "Volver al inicio",
     "title": "Política de Privacidad y Protección de Datos",
     "lastUpdated": "Última actualización",
-    "responsible": { "title": "1. Responsable del tratamiento" },
-    "dataCollected": { "title": "2. Datos personales que recopilamos", "intro": "Podemos recopilar y tratar los siguientes datos personales en función del servicio que utilices:" },
-    "purpose": { "title": "3. Finalidad del tratamiento", "intro": "Tratamos tus datos personales con las siguientes finalidades:" },
-    "legalBasis": { "title": "4. Base legal del tratamiento" },
-    "retention": { "title": "5. Plazo de conservación" },
-    "recipients": { "title": "6. Destinatarios y transferencias" },
-    "rights": { "title": "7. Tus derechos" },
-    "security": { "title": "8. Medidas de seguridad" },
-    "minors": { "title": "9. Menores de edad" },
-    "changes": { "title": "10. Cambios en esta política" },
-    "contact": { "title": "11. Contacto" }
+    "responsible": {
+      "title": "1. Responsable del tratamiento"
+    },
+    "dataCollected": {
+      "title": "2. Datos personales que recopilamos",
+      "intro": "Podemos recopilar y tratar los siguientes datos personales en función del servicio que utilices:"
+    },
+    "purpose": {
+      "title": "3. Finalidad del tratamiento",
+      "intro": "Tratamos tus datos personales con las siguientes finalidades:"
+    },
+    "legalBasis": {
+      "title": "4. Base legal del tratamiento"
+    },
+    "retention": {
+      "title": "5. Plazo de conservación"
+    },
+    "recipients": {
+      "title": "6. Destinatarios y transferencias"
+    },
+    "rights": {
+      "title": "7. Tus derechos"
+    },
+    "security": {
+      "title": "8. Medidas de seguridad"
+    },
+    "minors": {
+      "title": "9. Menores de edad"
+    },
+    "changes": {
+      "title": "10. Cambios en esta política"
+    },
+    "contact": {
+      "title": "11. Contacto"
+    }
   }
 }
