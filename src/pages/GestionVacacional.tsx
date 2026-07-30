@@ -224,7 +224,7 @@ const GestionVacacional = () => {
   }, [isEn, i18n]);
 
   const c = isEn ? content.en : content.es;
-  const canonical = `https://lavanderiafuengirola.lovable.app${isEn ? "/vacation-rental-management" : "/gestion-vacacional"}`;
+  const canonical = `https://www.lavanderiafuengirola.com${isEn ? "/vacation-rental-management" : "/gestion-vacacional"}`;
 
   const faqLd = {
     "@context": "https://schema.org",
