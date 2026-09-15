@@ -12,7 +12,7 @@ export const routes = [
     title:
       "Lavandería Industrial y Autoservicio en Fuengirola | OpenBlue 7-23h",
     description:
-      "Lavandería en Fuengirola de 7:00 a 23:00, los 365 días. Desinfección con oxígeno activo, custodia de ropa y entrega programada para Airbnb y viviendas turísticas.",
+      "Lavandería Fuengirola de 7:00 a 23:00, los 365 días. Desinfección con oxígeno activo, custodia de ropa y entrega programada para Airbnb y viviendas turísticas.",
   },
   {
     path: "/limpieza-viviendas-vacacionales",
