@@ -61,22 +61,20 @@
     <meta name="twitter:image:alt" content="OpenBlue Fuengirola - Lavandería autoservicio moderna" />
 
     <!-- JSON-LD Structured Data: Local Business -->
-    <!-- JSON-LD Structured Data: Local Business -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Laundromat",
+      "@type": "DryCleaningOrLaundry",
       "name": "OpenBlue Fuengirola",
-      "alternateName": ["Lavandería OpenBlue", "OpenBlue Laundry Fuengirola"],
-      "url": "https://www.lavanderiafuengirola.com",
-      "logo": "https://www.lavanderiafuengirola.com/favicon.png",
-      "image": "https://www.lavanderiafuengirola.com/og-image.png",
-      "description": "La lavandería #1 de Fuengirola. Autoservicio de 7:00 a 23:00 los 365 días del año, con tecnología industrial Girbau, servicio a domicilio y gestión integral de textiles para pisos vacacionales y Airbnb. Lavado desde 6€ con jabón incluido.",
-      "telephone": "+34-641-819-577",
+      "alternateName": "Lavandería Openblue Fuengirola",
+      "url": "https://www.lavanderiafuengirola.com/",
+      "telephone": "+34641819577",
       "email": "fuengirolaopenblue@gmail.com",
+      "priceRange": "€€",
+      "image": "https://www.lavanderiafuengirola.com/og-image.png",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Av. de Mijas nº5, Local 2",
+        "streetAddress": "Av. de Mijas, 5, Bajo 3, Edif. Guadalupe IV",
         "addressLocality": "Fuengirola",
         "addressRegion": "Málaga",
         "postalCode": "29640",
@@ -89,76 +87,31 @@
       },
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "07:00",
         "closes": "23:00"
       },
-      "priceRange": "€",
-      "currenciesAccepted": "EUR",
-      "paymentAccepted": "Cash, Credit Card, Contactless",
-      "areaServed": [
-        { "@type": "City", "name": "Fuengirola" },
-        { "@type": "City", "name": "Los Boliches" },
-        { "@type": "City", "name": "Mijas Costa" },
-        { "@type": "City", "name": "La Cala de Mijas" },
-        { "@type": "City", "name": "Riviera del Sol" },
-        { "@type": "City", "name": "Benalmádena Costa" },
-        { "@type": "City", "name": "Puerto Marina" }
-      ],
       "sameAs": [
-        "https://www.facebook.com/profile.php?id=61575797150377",
         "https://www.instagram.com/openblue_fuengirola/",
-        "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6"
+        "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
+        "https://www.facebook.com/profile.php?id=61575797150377"
       ],
       "hasMap": "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
-      "amenityFeature": [
-        { "@type": "LocationFeatureSpecification", "name": "Self-Service", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Open 365 days a year", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Vending Machines", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true }
+      "areaServed": [
+        { "@type": "City", "name": "Fuengirola" },
+        { "@type": "City", "name": "Mijas" },
+        { "@type": "City", "name": "Benalmádena" },
+        { "@type": "City", "name": "Torremolinos" },
+        { "@type": "City", "name": "Málaga" }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Servicios de lavandería",
+        "name": "Servicios OpenBlue Fuengirola",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Lavandería Autoservicio 7:00 - 23:00",
-              "description": "Lavadoras y secadoras industriales de autoservicio disponibles de 7:00 a 23:00, los 365 días del año."
-            },
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "6",
-              "priceCurrency": "EUR",
-              "description": "Desde 6€ por lavado"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Lavandería para Pisos Vacacionales",
-              "description": "Servicio de lavandería especializado para propietarios de pisos turísticos y vacacionales en la Costa del Sol."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Recogida y Entrega a Domicilio",
-              "description": "Servicio de recogida y entrega de ropa a domicilio en Fuengirola y alrededores."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gestión Integral de Pisos Vacacionales",
-              "description": "Gestión completa de propiedades turísticas: limpieza, lavandería, check-in/check-out y mantenimiento."
-            }
-          }
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lavandería autoservicio" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lavandería especial Airbnb / ropa de cama" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza de viviendas vacacionales", "url": "https://www.lavanderiafuengirola.com/limpieza-viviendas-vacacionales" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gestión integral de alquiler vacacional", "url": "https://www.lavanderiafuengirola.com/gestion-vacacional" } }
         ]
       }
     }
