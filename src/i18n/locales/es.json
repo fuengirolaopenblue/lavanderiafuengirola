@@ -37,9 +37,9 @@
     "detailPath": "/limpieza-viviendas-vacacionales"
   },
   "hero": {
-    "badge": "Autoservicio 24h · 365 días · Fuengirola · Mijas · Benalmádena",
+    "badge": "Autoservicio 7-23h · 365 días · Fuengirola · Mijas · Benalmádena",
     "title": "Lavandería para Airbnb en Fuengirola",
-    "titleHighlight": "y Autoservicio 24h",
+    "titleHighlight": "y Autoservicio 7-23h",
     "subtitle": "Servicio de lavandería industrial y logística premium para alquiler vacacional en Fuengirola, Los Boliches y Mijas Costa. Higiene con Oxígeno Activo, Recogida, Custodia y Entrega Just-in-Time.",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
@@ -98,14 +98,14 @@
     "subtitle": "Desde nuestra lavandería autoservicio (7:00 a 23:00, 365 días) hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
     "selfService": {
-      "title": "Lavandería Autoservicio Abierta 24h en Fuengirola",
-      "description": "Lavadoras y secadoras de última generación abiertas todos los días del año, las 24 horas. Lava y seca edredones, mantas o tu colada diaria en menos de una hora. Detergente y suavizante profesional con desinfección ya integrados en cada ciclo.",
+      "title": "Lavandería Autoservicio de 7 a 23h en Fuengirola",
+      "description": "Lavadoras y secadoras de última generación abiertas todos los días del año, de 7:00 a 23:00. Lava y seca edredones, mantas o tu colada diaria en menos de una hora. Detergente y suavizante profesional con desinfección ya integrados en cada ciclo.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
         "+5 min por 0,50€ (ampliable)",
         "Jabón y desinfección incluidos",
-        "Abierto 24h · 365 días al año"
+        "Abierto de 7 a 23h · 365 días al año"
       ]
     },
     "vacation": {

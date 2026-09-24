@@ -37,9 +37,9 @@
     "detailPath": "/vacation-rental-cleaning"
   },
   "hero": {
-    "badge": "24/7 Self-Service · 365 days · Fuengirola · Mijas · Benalmádena",
+    "badge": "Self-Service 7am-11pm · 365 days · Fuengirola · Mijas · Benalmádena",
     "title": "Airbnb Laundry in Fuengirola",
-    "titleHighlight": "& 24/7 Self-Service",
+    "titleHighlight": "& Self-Service 7am-11pm",
     "subtitle": "Industrial laundry & premium logistics for holiday rentals in Fuengirola, Los Boliches and Mijas Costa. Active Oxygen disinfection, Checkout pickup, Storage and Just-in-Time delivery.",
     "washFrom": "Washing from",
     "dryFrom": "Drying from",
@@ -78,14 +78,14 @@
     "subtitle": "From self-service laundry to full property management, we offer professional services tailored to your needs.",
     "moreInfo": "More information",
     "selfService": {
-      "title": "24/7 Self-Service Laundry in Fuengirola",
-      "description": "State-of-the-art washers and dryers open 365 days a year, 24 hours a day. Wash and dry duvets, blankets or your daily laundry in under an hour. Professional detergent and softener with integrated sanitization automatically included in every cycle.",
+      "title": "Self-Service Laundry (7am-11pm) in Fuengirola",
+      "description": "State-of-the-art washers and dryers open 365 days a year, from 7 am to 11 pm. Wash and dry duvets, blankets or your daily laundry in under an hour. Professional detergent and softener with integrated sanitization automatically included in every cycle.",
       "features": [
         "Washer 19kg → €8 | 15kg → €6",
         "Dryer 19kg → €3/20min",
         "+5 min for €0.50 (extendable)",
         "Products included",
-        "Open 24/7 · 365 days"
+        "Open 7am-11pm · 365 days"
       ]
     },
     "vacation": {

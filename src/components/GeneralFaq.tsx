@@ -28,7 +28,7 @@ const categories: Category[] = [
       {
         question: "¿Cuál es el horario del autoservicio?",
         answer:
-          "Abrimos 24/7, los 365 días del año. Puedes lavar de madrugada, en festivos o en plena temporada alta sin esperas.",
+          "Abrimos todos los días del año de 7:00 a 23:00, también en festivos. Puedes lavar a primera hora o al final del día sin esperas.",
       },
       {
         question: "¿Cuánto tarda un ciclo completo?",
