@@ -59,7 +59,7 @@ var list_services_default = defineTool2({
     const services = [
       {
         id: "self_service",
-        name: "Autoservicio 24h asistido",
+        name: "Autoservicio 7-23h asistido",
         summary: "Lavadoras y secadoras Girbau industriales de 8-18 kg. Horario 07:00-23:00, todos los d\xEDas."
       },
       {
