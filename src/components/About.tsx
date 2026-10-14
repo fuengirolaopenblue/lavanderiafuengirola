@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import interiorLocal from "@/assets/interior-local.jpg";
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const features = [
     {
