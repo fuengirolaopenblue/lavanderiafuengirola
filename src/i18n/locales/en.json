@@ -38,9 +38,9 @@
   },
   "hero": {
     "badge": "Self-Service 7am-11pm · 365 days · Fuengirola · Mijas · Benalmádena",
-    "title": "Airbnb Laundry in Fuengirola",
-    "titleHighlight": "& Self-Service 7am-11pm",
-    "subtitle": "Industrial laundry & premium logistics for holiday rentals in Fuengirola, Los Boliches and Mijas Costa. Active Oxygen disinfection, Checkout pickup, Storage and Just-in-Time delivery.",
+    "title": "Self-Service & Industrial Laundry in Fuengirola,",
+    "titleHighlight": "Open 365 Days a Year",
+    "subtitle": "7:00 to 23:00, Sundays and holidays included — for your everyday laundry and for your holiday rental.",
     "washFrom": "Washing from",
     "dryFrom": "Drying from",
     "productsIncluded": "Products included",
@@ -78,8 +78,8 @@
     "subtitle": "From self-service laundry to full property management, we offer professional services tailored to your needs.",
     "moreInfo": "More information",
     "selfService": {
-      "title": "Self-Service Laundry (7am-11pm) in Fuengirola",
-      "description": "State-of-the-art washers and dryers open 365 days a year, from 7 am to 11 pm. Wash and dry duvets, blankets or your daily laundry in under an hour. Professional detergent and softener with integrated sanitization automatically included in every cycle.",
+      "title": "Self-Service Laundry",
+      "description": "Large-capacity machines available every day from 7:00 to 23:00. No appointment, no long waits.",
       "features": [
         "Washer 19kg → €8 | 15kg → €6",
         "Dryer 19kg → €3/20min",
@@ -89,8 +89,8 @@
       ]
     },
     "vacation": {
-      "title": "Vacation Rental Laundry",
-      "description": "Specialized service for owners and managers of tourist accommodations. Bed linen, towels and textiles always impeccable.",
+      "title": "Airbnb Special",
+      "description": "Washing and disinfection of bed linen and towels for your holiday rental, with active oxygen and scheduled delivery.",
       "features": [
         "Pick-up and delivery",
         "Professional treatment",
@@ -99,10 +99,10 @@
       ]
     },
     "individuals": {
-      "title": "Individual Laundry Service",
-      "description": "No time to do laundry? We do it for you. Complete laundry service for individuals with",
-      "descriptionBold": "home pick-up and delivery",
-      "descriptionEnd": ". Tell us what you need and we'll take care of everything.",
+      "title": "Door to Door",
+      "description": "We pick up and deliver your laundry at a time that suits you, no need to visit the shop.",
+      "descriptionBold": "",
+      "descriptionEnd": "",
       "contact": "Contact"
     },
     "management": {
@@ -121,11 +121,11 @@
     "sectionLabel": "About Us",
     "title": "Passion for detail, commitment to your",
     "titleHighlight": "peace of mind",
-    "p1": "At OpenBlue Fuengirola we started 4 years ago with a clear mission: to offer a professional laundry service that makes a difference. We specialize in caring for white linen for vacation rentals and individuals, because we know that freshness and impeccable presentation are essential.",
-    "p2": "We are driven by our passion for a job well done, for those small details that transform simple bed linen into a cozy experience for your guests. Every garment we treat, every stain we remove and every punctual delivery we make drives us to be better.",
-    "p3": "We work with top-of-the-line, environmentally friendly products, because caring for your clothes and our planet go hand in hand. Whether you manage several vacation rentals or simply need a reliable laundry service for your home, we're here to make your life easier.",
-    "p4": "We are constantly growing, expanding our capacity and improving our processes because we believe we can always offer you more. Your trust is our greatest motivation.",
-    "p5": "Welcome to OpenBlue Fuengirola. Where every garment receives the care it deserves.",
+    "p1": "OpenBlue Fuengirola has been operating in Fuengirola since 2022, offering a self-service laundry built for local residents and for the Costa del Sol's tourism sector alike.",
+    "p2": "It's a family-run business: owner Ileana Zeballos Caretta works alongside Leonardo Quercetti on the day-to-day running of the shop.",
+    "p3": "We know Fuengirola inside out, and we've worked hand in hand with vacation rental owners, management agencies and neighbours from day one.",
+    "p4": "",
+    "p5": "Welcome to OpenBlue, your Fuengirola laundry.",
     "features": {
       "quality": "Guaranteed Quality",
       "qualityDesc": "We use premium products and professional techniques for impeccable results.",

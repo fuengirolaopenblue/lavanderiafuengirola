@@ -38,9 +38,9 @@
   },
   "hero": {
     "badge": "Autoservicio 7-23h · 365 días · Fuengirola · Mijas · Benalmádena",
-    "title": "Lavandería para Airbnb en Fuengirola",
-    "titleHighlight": "y Autoservicio 7-23h",
-    "subtitle": "Servicio de lavandería industrial y logística premium para alquiler vacacional en Fuengirola, Los Boliches y Mijas Costa. Higiene con Oxígeno Activo, Recogida, Custodia y Entrega Just-in-Time.",
+    "title": "Lavandería Autoservicio e Industrial en Fuengirola,",
+    "titleHighlight": "Abierta 365 Días al Año",
+    "subtitle": "De 7:00 a 23:00, también domingos y festivos — para la ropa de tu casa y para tu alojamiento turístico.",
     "washFrom": "Lavado desde",
     "dryFrom": "Secado desde",
     "productsIncluded": "Jabón incluido",
@@ -98,8 +98,8 @@
     "subtitle": "Desde nuestra lavandería autoservicio (7:00 a 23:00, 365 días) hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
     "selfService": {
-      "title": "Lavandería Autoservicio de 7 a 23h en Fuengirola",
-      "description": "Lavadoras y secadoras de última generación abiertas todos los días del año, de 7:00 a 23:00. Lava y seca edredones, mantas o tu colada diaria en menos de una hora. Detergente y suavizante profesional con desinfección ya integrados en cada ciclo.",
+      "title": "Lavandería Autoservicio",
+      "description": "Máquinas de gran capacidad disponibles todos los días de 7:00 a 23:00. Sin cita previa, sin esperas largas.",
       "features": [
         "Lavadora 19kg → 8€ | 15kg → 6€",
         "Secadora 19kg → 3€/20min",
@@ -110,7 +110,7 @@
     },
     "vacation": {
       "title": "Especial Airbnb",
-      "description": "Lavandería profesional para sábanas y toallas. Recogida tras el check-out y entrega lista para el siguiente huésped.",
+      "description": "Lavado y desinfección de ropa de cama y toallas para tu alojamiento turístico, con oxígeno activo y entrega programada.",
       "features": [
         "Recogida tras check-out",
         "Entrega antes del check-in",
@@ -120,7 +120,7 @@
     },
     "individuals": {
       "title": "Puerta a Puerta",
-      "description": "Recogemos tu colada en casa y te la devolvemos doblada y perfecta. Fuengirola y alrededores.",
+      "description": "Recogemos y entregamos tu colada en el horario que necesites, sin que tengas que venir al local.",
       "descriptionBold": "",
       "descriptionEnd": "",
       "contact": "Contactar"
@@ -164,11 +164,11 @@
     "sectionLabel": "Sobre Nosotros",
     "title": "Pasión por el detalle, compromiso con tu",
     "titleHighlight": "tranquilidad",
-    "p1": "En OpenBlue Fuengirola llevamos 4 años transformando el concepto de lavandería. No solo operamos máquinas, cuidamos la imagen de tu negocio y la comodidad de tu hogar con productos premium y respeto al medio ambiente.",
-    "p2": "Nos mueve la pasión por el trabajo bien hecho, por esos pequeños detalles que transforman una simple ropa de cama en una experiencia acogedora para tus huéspedes.",
-    "p3": "Trabajamos con productos de primera línea y respetuosos con el medio ambiente, porque cuidar tu ropa y nuestro planeta van de la mano.",
-    "p4": "Estamos en constante crecimiento, ampliando nuestra capacidad y mejorando nuestros procesos porque creemos que siempre podemos ofrecerte más.",
-    "p5": "Bienvenido a OpenBlue, tu Lavandería Fuengirola. Donde cada prenda recibe el cuidado que merece.",
+    "p1": "OpenBlue Fuengirola lleva operando en Fuengirola desde 2022, ofreciendo un servicio de lavandería autoservicio pensado tanto para vecinos y residentes como para el sector turístico de la Costa del Sol.",
+    "p2": "Es un negocio familiar: Ileana Zeballos Caretta, propietaria, trabaja junto a Leonardo Quercetti en la gestión diaria del local.",
+    "p3": "Conocemos cada rincón de Fuengirola y trabajamos codo a codo con propietarios de viviendas vacacionales, agencias de gestión y vecinos del barrio desde el primer día.",
+    "p4": "",
+    "p5": "Bienvenido a OpenBlue, tu Lavandería Fuengirola.",
     "features": {
       "quality": "Calidad Garantizada",
       "qualityDesc": "Utilizamos productos premium y técnicas profesionales para resultados impecables.",
