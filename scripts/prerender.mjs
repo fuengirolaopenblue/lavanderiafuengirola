@@ -35,7 +35,10 @@ function stripManagedTags(html) {
     .replace(/\n?\s*<meta\s+name="twitter:(title|description|image)"[^>]*>/gi, "");
 }
 
-function headBlock({ title, description, url, locale }) {
+function headBlock({ title, description, url, locale, alternates }) {
+  const alt = alternates
+    ? `\n    <link rel="alternate" hreflang="es" href="${SITE_URL}${alternates.es}" />\n    <link rel="alternate" hreflang="en" href="${SITE_URL}${alternates.en}" />\n    <link rel="alternate" hreflang="x-default" href="${SITE_URL}${alternates.es}" />`
+    : "";
   const t = escape(title);
   const d = escape(description);
   return `
@@ -51,7 +54,7 @@ function headBlock({ title, description, url, locale }) {
     <meta property="og:locale" content="${locale}" />
     <meta name="twitter:title" content="${t}" />
     <meta name="twitter:description" content="${d}" />
-    <meta name="twitter:image" content="${OG_IMAGE}" />`;
+    <meta name="twitter:image" content="${OG_IMAGE}" />${alt}`;
 }
 
 async function main() {

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import HomeIntro, { HomeFaq } from "@/components/HomeIntro";
 import ExpansionBanner from "@/components/ExpansionBanner";
 import Testimonials from "@/components/Testimonials";
 import Services from "@/components/Services";
@@ -34,6 +35,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <HomeIntro />
         <ExpansionBanner />
         <CoverageArea />
         <HybridLaundry />
@@ -46,6 +48,7 @@ const Index = () => {
         <Testimonials />
         <Services />
         <ComparisonTable />
+        <HomeFaq />
         <GeneralFaq />
         <About />
         <B2BQuote />
