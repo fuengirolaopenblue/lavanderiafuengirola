@@ -255,6 +255,9 @@ const GestionVacacional = () => {
   return (
     <div id="inicio" className="min-h-screen bg-background">
       <Helmet>
+        <link rel="alternate" hrefLang="es" href="https://www.lavanderiafuengirola.com/gestion-vacacional" />
+        <link rel="alternate" hrefLang="en" href="https://www.lavanderiafuengirola.com/vacation-rental-management" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.lavanderiafuengirola.com/gestion-vacacional" />
         <html lang={isEn ? "en" : "es"} />
         <title>{c.metaTitle}</title>
         <meta name="description" content={c.metaDesc} />
