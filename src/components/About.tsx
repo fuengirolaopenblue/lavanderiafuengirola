@@ -45,7 +45,15 @@ const About = () => {
               <p>{t("about.p1")}</p>
               <p>{t("about.p2")}</p>
               <p>{t("about.p3")}</p>
-              <p>{t("about.p4")}</p>
+              <h3 className="font-display text-xl font-bold text-foreground pt-2">
+                {i18n.language === "en" ? "Why choose OpenBlue" : "Por qué elegir OpenBlue"}
+              </h3>
+              <ul className="list-disc pl-5 space-y-1">
+                {(i18n.language === "en"
+                  ? ["Operating in Fuengirola since 2022", "Longer hours than most of the sector: 7:00–23:00, 365 days a year", "Active oxygen disinfection, no harsh chemicals", "The only provider in Fuengirola combining self-service laundry, property cleaning and vacation rental management under one team"]
+                  : ["Operativos en Fuengirola desde 2022", "Horario más amplio que la media del sector: 7:00–23:00, los 365 días", "Desinfección por oxígeno activo, sin químicos agresivos", "El único proveedor en Fuengirola que combina lavandería autoservicio, limpieza de viviendas y gestión de alquiler vacacional bajo un mismo equipo"]
+                ).map((x) => <li key={x}>{x}</li>)}
+              </ul>
               <p className="font-semibold text-foreground italic">{t("about.p5")}</p>
             </div>
 
