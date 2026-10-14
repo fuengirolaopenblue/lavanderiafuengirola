@@ -17,7 +17,7 @@ var get_business_info_default = defineTool({
     const info = {
       name: "Lavander\xEDa Fuengirola \u2014 OpenBlue",
       tagline: "Lavander\xEDa industrial y autoservicio en Fuengirola. Especialistas en alquiler vacacional (Airbnb).",
-      address: "Av. de Mijas n\xBA5, Local 2, 29640 Fuengirola, M\xE1laga, Espa\xF1a",
+      address: "Av. de Mijas, 5, Bajo 3, Edif. Guadalupe IV, 29640 Fuengirola, M\xE1laga, Espa\xF1a",
       hours: "07:00 \u2013 23:00, 365 d\xEDas al a\xF1o",
       phone: "+34 641 819 577",
       whatsapp: "https://wa.me/34641819577",

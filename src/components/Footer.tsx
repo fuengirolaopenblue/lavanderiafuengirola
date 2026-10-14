@@ -12,7 +12,7 @@ const Footer = () => {
   const quickLinks = [
     { label: t("nav.home"), href: getHref("#inicio") },
     { label: t("nav.services"), href: getHref("#servicios") },
-    { label: t("nav.about"), href: getHref("#nosotros") },
+    { label: t("nav.about"), href: getHref("#sobre-nosotros") },
     { label: t("nav.contact"), href: getHref("#contacto") },
     { label: t("footer.privacy", "Privacidad"), href: "/privacidad" },
   ];

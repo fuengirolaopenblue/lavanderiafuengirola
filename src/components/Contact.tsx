@@ -44,7 +44,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: t("contact.location"),
-      content: "Av. de Mijas nº5, Local 2, 29640 Fuengirola",
+      content: "Av. de Mijas, 5, Bajo 3, Edif. Guadalupe IV, 29640 Fuengirola",
       link: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
     },
     {

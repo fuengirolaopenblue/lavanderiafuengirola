@@ -10,12 +10,13 @@ export const routes = [
     lang: "es",
     locale: "es_ES",
     title:
-      "Lavandería Industrial y Autoservicio en Fuengirola | OpenBlue 7-23h",
+      "Lavandería Autoservicio e Industrial en Fuengirola | OpenBlue 7-23h, 365 días",
     description:
-      "Lavandería Fuengirola de 7:00 a 23:00, los 365 días. Desinfección con oxígeno activo, custodia de ropa y entrega programada para Airbnb y viviendas turísticas.",
+      "Lavandería autoservicio en Fuengirola abierta de 7:00 a 23:00 todos los días. Desinfección con oxígeno activo, zona de espera y servicio especial de lavandería para Airbnb y alquiler vacacional.",
   },
   {
     path: "/limpieza-viviendas-vacacionales",
+    alternates: { es: "/limpieza-viviendas-vacacionales", en: "/vacation-rental-cleaning" },
     lang: "es",
     locale: "es_ES",
     title:
@@ -25,6 +26,7 @@ export const routes = [
   },
   {
     path: "/vacation-rental-cleaning",
+    alternates: { es: "/limpieza-viviendas-vacacionales", en: "/vacation-rental-cleaning" },
     lang: "en",
     locale: "en_GB",
     title:
@@ -34,6 +36,7 @@ export const routes = [
   },
   {
     path: "/gestion-vacacional",
+    alternates: { es: "/gestion-vacacional", en: "/vacation-rental-management" },
     lang: "es",
     locale: "es_ES",
     title:
@@ -43,6 +46,7 @@ export const routes = [
   },
   {
     path: "/vacation-rental-management",
+    alternates: { es: "/gestion-vacacional", en: "/vacation-rental-management" },
     lang: "en",
     locale: "en_GB",
     title: "Full Vacation Rental Management in Fuengirola | OpenBlue",
@@ -58,3 +62,6 @@ export const routes = [
       "Información sobre el tratamiento de datos personales, cookies y derechos RGPD en lavanderiafuengirola.com.",
   },
 ];
+
+/** ES/EN page pairs, used for hreflang tags. */
+export const hreflangPairs = routes.filter((r) => r.alternates);

@@ -23,7 +23,7 @@ const Header = () => {
     { name: t("nav.services"), href: getHref("#servicios") },
     { name: t("nav.cleaningPage", isEn ? "Cleaning" : "Limpieza de Viviendas"), href: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales" },
     { name: t("nav.managementPage", isEn ? "Property Management" : "Gestión Vacacional"), href: isEn ? "/vacation-rental-management" : "/gestion-vacacional" },
-    { name: t("nav.about"), href: getHref("#nosotros") },
+    { name: t("nav.about"), href: getHref("#sobre-nosotros") },
     { name: t("nav.contact"), href: getHref("#contacto") },
   ];
 

@@ -12,7 +12,7 @@ export default defineTool({
       name: "Lavandería Fuengirola — OpenBlue",
       tagline:
         "Lavandería industrial y autoservicio en Fuengirola. Especialistas en alquiler vacacional (Airbnb).",
-      address: "Av. de Mijas nº5, Local 2, 29640 Fuengirola, Málaga, España",
+      address: "Av. de Mijas, 5, Bajo 3, Edif. Guadalupe IV, 29640 Fuengirola, Málaga, España",
       hours: "07:00 – 23:00, 365 días al año",
       phone: "+34 641 819 577",
       whatsapp: "https://wa.me/34641819577",
