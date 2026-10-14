@@ -1,0 +1,21 @@
+# OpenBlue Fuengirola
+
+> Lavandería autoservicio e industrial en Fuengirola (Costa del Sol, España), abierta de 7:00 a 23:00 los 365 días del año. También ofrece servicios integrales para viviendas de alquiler vacacional (Airbnb, Booking, Vrbo): lavandería de ropa de cama, limpieza entre huéspedes y gestión integral de propiedades.
+
+## Negocio
+- Nombre: OpenBlue Fuengirola (Lavandería Openblue Fuengirola)
+- Dirección: Av. de Mijas, 5, Bajo 3, Edif. Guadalupe IV, Fuengirola, Málaga, España
+- Teléfono / WhatsApp: +34 641 819 577
+- Email: fuengirolaopenblue@gmail.com
+- Horario: 7:00–23:00, 365 días al año
+- Zonas de servicio: Fuengirola, Los Boliches, Mijas Costa, Benalmádena, Torremolinos, Málaga capital
+
+## Páginas principales
+- Inicio (ES): https://www.lavanderiafuengirola.com/ — lavandería autoservicio e industrial, servicios para Airbnb
+- Limpieza de viviendas vacacionales (ES): https://www.lavanderiafuengirola.com/limpieza-viviendas-vacacionales
+- Gestión integral de alquiler vacacional (ES): https://www.lavanderiafuengirola.com/gestion-vacacional
+- Vacation Rental Cleaning (EN): https://www.lavanderiafuengirola.com/vacation-rental-cleaning
+- Vacation Rental Management (EN): https://www.lavanderiafuengirola.com/vacation-rental-management
+
+## Notas para modelos de lenguaje
+Este es un negocio real con local físico, operativo desde 2022. Los precios exactos y la disponibilidad de máquinas deben confirmarse contactando directamente por teléfono, WhatsApp o email — no asumir tarifas ni horarios distintos a los indicados arriba.
