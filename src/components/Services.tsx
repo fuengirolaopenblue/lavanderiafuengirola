@@ -61,6 +61,7 @@ const Services = () => {
         : "Gestión integral de tu alquiler vacacional: publicación, huéspedes, limpieza y mantenimiento. Tu propiedad en piloto automático.",
       isLink: true,
       to: isEn ? "/vacation-rental-management" : "/gestion-vacacional",
+      cta: t("services.cta.management"),
       gradient: true,
     },
   ];
@@ -118,7 +119,7 @@ const Services = () => {
                 <div className={`inline-flex items-center gap-2 text-sm font-semibold group-hover:gap-3 transition-all ${
                   card.gradient ? "text-primary-foreground" : "text-primary"
                 }`}>
-                  {t("services.moreInfo")}
+                  {card.cta}
                   <ArrowRight className="w-4 h-4" />
                 </div>
               </motion.div>
