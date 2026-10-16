@@ -11,6 +11,7 @@ import PropertyServices from "@/components/PropertyServices";
 import PropertyManagement from "@/components/PropertyManagement";
 import VacationRentalLaundry from "@/components/VacationRentalLaundry";
 import PropertyFaq from "@/components/PropertyFaq";
+import RentalServicePlanner from "@/components/RentalServicePlanner";
 import GeneralFaq from "@/components/GeneralFaq";
 import CoverageArea from "@/components/CoverageArea";
 import B2BQuote from "@/components/B2BQuote";
@@ -44,6 +45,7 @@ const Index = () => {
         <PropertyServices />
         <PropertyManagement />
         <VacationRentalLaundry />
+        <RentalServicePlanner />
         <PropertyFaq />
         <Testimonials />
         <Services />
