@@ -20,7 +20,7 @@ const SocialFloatingButtons = () => {
     },
     {
       Icon: Star,
-      href: "https://search.google.com/local/writereview?placeid=ChIJBQS-udV7aCURPAuhZ0N7dgI",
+      href: "https://g.page/r/CX-w1Mqvil3vEBM/review",
       label: t("footer.leaveReview"),
       bg: "bg-gold",
       fill: true,
