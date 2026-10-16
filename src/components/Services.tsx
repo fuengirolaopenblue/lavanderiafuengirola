@@ -22,6 +22,7 @@ const Services = () => {
       icon: WashingMachine,
       title: t("services.selfService.title"),
       description: t("services.selfService.description"),
+      cta: t("services.cta.selfService"),
       onClick: () => setAutoservicioModalOpen(true),
       gradient: false,
     },
@@ -29,6 +30,7 @@ const Services = () => {
       icon: Home,
       title: t("services.vacation.title"),
       description: t("services.vacation.description"),
+      cta: t("services.cta.vacation"),
       onClick: () => setPisosModalOpen(true),
       gradient: true,
     },
@@ -36,6 +38,7 @@ const Services = () => {
       icon: Truck,
       title: t("services.individuals.title"),
       description: t("services.individuals.description"),
+      cta: t("services.cta.individuals"),
       onClick: () => setParticularesModalOpen(true),
       gradient: false,
     },
@@ -47,6 +50,7 @@ const Services = () => {
         : "Limpieza profesional entre huéspedes con checklist fotográfico, para Airbnb, Booking y Vrbo.",
       isLink: true,
       to: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales",
+      cta: t("services.cta.cleaning"),
       gradient: false,
     },
     {
@@ -57,6 +61,7 @@ const Services = () => {
         : "Gestión integral de tu alquiler vacacional: publicación, huéspedes, limpieza y mantenimiento. Tu propiedad en piloto automático.",
       isLink: true,
       to: isEn ? "/vacation-rental-management" : "/gestion-vacacional",
+      cta: t("services.cta.management"),
       gradient: true,
     },
   ];
@@ -114,7 +119,7 @@ const Services = () => {
                 <div className={`inline-flex items-center gap-2 text-sm font-semibold group-hover:gap-3 transition-all ${
                   card.gradient ? "text-primary-foreground" : "text-primary"
                 }`}>
-                  {t("services.moreInfo")}
+                  {card.cta}
                   <ArrowRight className="w-4 h-4" />
                 </div>
               </motion.div>

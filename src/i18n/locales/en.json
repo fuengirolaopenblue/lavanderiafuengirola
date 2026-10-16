@@ -77,6 +77,13 @@
     "titleHighlight": "comfort",
     "subtitle": "From self-service laundry to full property management, we offer professional services tailored to your needs.",
     "moreInfo": "More information",
+    "cta": {
+      "selfService": "View Hours",
+      "vacation": "Request Pickup",
+      "individuals": "Request Pickup",
+      "cleaning": "View Service",
+      "management": "Request Assessment"
+    },
     "selfService": {
       "title": "Self-Service Laundry",
       "description": "Large-capacity machines available every day from 7:00 to 23:00. No appointment, no long waits.",
