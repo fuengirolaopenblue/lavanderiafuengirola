@@ -97,6 +97,13 @@
     "titleHighlight": "tranquilidad",
     "subtitle": "Desde nuestra lavandería autoservicio (7:00 a 23:00, 365 días) hasta la gestión integral de tu propiedad vacacional, ofrecemos servicios profesionales adaptados a tus necesidades en Fuengirola.",
     "moreInfo": "Más información",
+    "cta": {
+      "selfService": "Ver horarios",
+      "vacation": "Solicitar recogida",
+      "individuals": "Solicitar recogida",
+      "cleaning": "Ver servicio",
+      "management": "Solicitar estudio"
+    },
     "selfService": {
       "title": "Lavandería Autoservicio",
       "description": "Máquinas de gran capacidad disponibles todos los días de 7:00 a 23:00. Sin cita previa, sin esperas largas.",
