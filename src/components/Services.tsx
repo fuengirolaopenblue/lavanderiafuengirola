@@ -38,6 +38,7 @@ const Services = () => {
       icon: Truck,
       title: t("services.individuals.title"),
       description: t("services.individuals.description"),
+      cta: t("services.cta.individuals"),
       onClick: () => setParticularesModalOpen(true),
       gradient: false,
     },
@@ -49,6 +50,7 @@ const Services = () => {
         : "Limpieza profesional entre huéspedes con checklist fotográfico, para Airbnb, Booking y Vrbo.",
       isLink: true,
       to: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales",
+      cta: t("services.cta.cleaning"),
       gradient: false,
     },
     {
