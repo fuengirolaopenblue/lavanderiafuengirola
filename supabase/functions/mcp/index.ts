@@ -22,7 +22,7 @@ var get_business_info_default = defineTool({
       phone: "+34 641 819 577",
       whatsapp: "https://wa.me/34641819577",
       email: "info@lavanderiafuengirola.com",
-      website: "https://lavanderiafuengirola.com",
+      website: "https://www.lavanderiafuengirola.com",
       maps: "https://maps.app.goo.gl/bu8z2BPR11gnGxpe6",
       social: {
         instagram: "https://www.instagram.com/openblue_fuengirola/",
