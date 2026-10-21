@@ -57,7 +57,7 @@ const PrivacyPolicy = () => {
                 <p className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-primary shrink-0" />
                   <span className="font-medium text-foreground min-w-[100px]">Teléfono:</span>
-                  +34 640 59 49 51
+                  +34 641 819 577
                 </p>
               </div>
             </section>
@@ -250,7 +250,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <p className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-primary" />
-                  +34 640 59 49 51
+                  +34 641 819 577
                 </p>
               </div>
             </section>
