@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
                 <p className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary shrink-0" />
                   <span className="font-medium text-foreground min-w-[100px]">Dirección:</span>
-                  C. Federico García Lorca, 22, Local 2, 29640 Fuengirola, Málaga
+                  Av. de Mijas, 5, Bajo 3, Edif. Guadalupe IV, 29640 Fuengirola, Málaga
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-primary shrink-0" />
