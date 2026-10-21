@@ -1,5 +1,7 @@
 # Roadmap
 
-- [ ] Publicar la versión actualizada (planificador de servicios + llms.txt)
-- [ ] Conectar www.lavanderiafuengirola.com como dominio oficial de esta web
-- [ ] Comprobar que el dominio sirve la web y que la copia de Lovable redirige a él
+- [x] Publicar la versión actualizada (planificador de servicios + llms.txt) en la copia de Lovable
+- [x] Comprobar qué sirve hoy www.lavanderiafuengirola.com (GitHub Pages, gratuito)
+- [x] Verificar que el dominio propio ya incluye planificador, llms.txt, sitemap y textos nuevos
+- [ ] Decidir si conectar el dominio dentro de Lovable (requiere plan de pago; hoy no hace falta)
+- [ ] Publicar en GitHub el planificador cuando cambie el código (workflow de GitHub Pages)
