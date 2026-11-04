@@ -13,6 +13,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { routes, SITE_URL, OG_IMAGE } from "./seo-routes.mjs";
+import { pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -65,10 +66,20 @@ async function main() {
 
   const base = await readFile(template, "utf8");
 
+  // Full-body prerender: the SSR bundle (vite build --ssr src/entry-server.tsx)
+  // renders every route to HTML so crawlers and AI bots read all text without JS.
+  const ssrEntry = path.join(root, "dist-ssr", "entry-server.js");
+  const ssr = existsSync(ssrEntry) ? await import(pathToFileURL(ssrEntry).href) : null;
+  if (!ssr) console.warn("[prerender] dist-ssr missing: only <head> will be prerendered");
+
   for (const route of routes) {
     const url = route.path === "/" ? `${SITE_URL}/` : `${SITE_URL}${route.path}`;
     let html = stripManagedTags(base);
     html = html.replace(/<html\s+lang="[^"]*"/i, `<html lang="${route.lang}"`);
+    if (ssr) {
+      const body = await ssr.render(route.path, route.lang);
+      html = html.replace('<div id="root"></div>', `<div id="root">${body}</div>`);
+    }
     html = html.replace(/<\/head>/i, `${headBlock({ ...route, url })}\n  </head>`);
 
     const outDir =
@@ -79,7 +90,7 @@ async function main() {
   }
 
   // SPA fallback for unknown paths on static hosting (GitHub Pages).
-  await copyFile(path.join(dist, "index.html"), path.join(dist, "404.html"));
+  await writeFile(path.join(dist, "404.html"), base, "utf8");
   console.log("[prerender] 404.html written");
 }
 

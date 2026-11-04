@@ -8,7 +8,7 @@
     "subtitle": "Laverie Libre-Service"
   },
   "hero": {
-    "badge": "Ouvert 7-23h/24 · Fuengirola · Mijas Costa · Benalmádena Costa",
+    "badge": "Ouvert 7h-23h · Fuengirola · Mijas Costa · Benalmádena Costa",
     "title": "Laverie 7h-23h à Fuengirola :",
     "titleHighlight": "Votre Partenaire pour Locations de Vacances",
     "subtitle": "Nous servons tout type de propriété : du studio côtier aux grandes villas de vacances à Fuengirola, Mijas Costa et Benalmádena Costa.",
@@ -48,7 +48,7 @@
     "moreInfo": "Plus d'informations",
     "selfService": {
       "title": "Laverie Libre-Service",
-      "description": "Machines dernière génération disponibles 7-23h/24. Payez facilement en espèces, billets ou cartes bancaires.",
+      "description": "Machines dernière génération disponibles de 7h à 23h. Payez facilement en espèces, billets ou cartes bancaires.",
       "features": [
         "Lave-linge 19kg → 8€ | 15kg → 6€",
         "Sèche-linge 19kg → 3€/20min",
@@ -99,7 +99,7 @@
       "quality": "Qualité Garantie",
       "qualityDesc": "Nous utilisons des produits premium et des techniques professionnelles pour des résultats impeccables.",
       "open": "Ouvert 7-23h · 365d",
-      "openDesc": "Nos installations sont disponibles tous les jours de l'année, de 7h00 à 23h00 sur 24.",
+      "openDesc": "Nos installations sont disponibles tous les jours de l'année, de 7h00 à 23h00.",
       "team": "Équipe Professionnelle",
       "teamDesc": "Personnel qualifié et engagé pour l'excellence dans chaque détail."
     }

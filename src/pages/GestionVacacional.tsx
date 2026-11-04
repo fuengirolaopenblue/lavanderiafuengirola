@@ -40,7 +40,7 @@ const content = {
       },
       {
         icon: MessageSquare,
-        title: "Atención al huésped 24/7",
+        title: "Atención al huésped todos los días",
         desc: "Gestionamos todas las comunicaciones, consultas y reservas. Desde el primer contacto hasta la despedida, tus huéspedes reciben atención personalizada que se traduce en valoraciones de 5 estrellas.",
       },
       {
@@ -142,7 +142,7 @@ const content = {
       },
       {
         icon: MessageSquare,
-        title: "24/7 guest care",
+        title: "Daily guest care",
         desc: "We handle all communications, questions and bookings. From first contact to check-out, your guests get personalised, professional attention that turns into 5-star reviews.",
       },
       {
