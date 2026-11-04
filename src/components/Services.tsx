@@ -105,8 +105,7 @@ const Services = () => {
                     ? "bg-gradient-openblue text-primary-foreground border-transparent"
                     : "bg-card text-foreground border-border/50 hover:border-primary/50"
                 }`}
-                onClick={card.isLink ? undefined : card.onClick}
-              >
+                              >
                 <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 ${
                   card.gradient ? "bg-primary-foreground/15" : "bg-primary/10"
                 }`}>
@@ -132,7 +131,19 @@ const Services = () => {
                 </Link>
               );
             }
-            return <div key={i}>{inner}</div>;
+            return (
+              <a
+                key={i}
+                href="#servicios"
+                className="block"
+                onClick={(e) => {
+                  e.preventDefault();
+                  card.onClick?.();
+                }}
+              >
+                {inner}
+              </a>
+            );
           })}
         </div>
 
