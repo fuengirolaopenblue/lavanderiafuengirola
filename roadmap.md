@@ -8,4 +8,4 @@
 - [ ] Aclarar el flujo de publicación: el dominio se actualiza desde GitHub Pages, no con el botón Publicar de Lovable
 - [ ] Decidir si conectar el dominio dentro de Lovable (requiere plan de pago; hoy no hace falta)
 - [ ] Publicar en GitHub el planificador cuando cambie el código (workflow de GitHub Pages)
-- [ ] Comprobar que www.lavanderiafuengirola.com (GitHub Pages) recibe el prerender completo y robots con bots de IA
+- [ ] (espera al despliegue de GitHub, 1-3 min) Comprobar que www.lavanderiafuengirola.com recibe el prerender completo y robots con bots de IA

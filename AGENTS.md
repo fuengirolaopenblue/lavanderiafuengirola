@@ -1,0 +1,1 @@
+- Full-body prerender: build renders every route via src/entry-server.tsx (SSR bundle in dist-ssr) inside scripts/prerender.mjs; routes live in src/AppRoutes.tsx, so components must render without window/localStorage at import/render time. Why: crawlers and AI bots read content without JS.
