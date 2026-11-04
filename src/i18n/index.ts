@@ -7,7 +7,8 @@ import fr from "./locales/fr.json";
 import pt from "./locales/pt.json";
 import ar from "./locales/ar.json";
 
-const savedLang = localStorage.getItem("language") || "es";
+const hasStorage = typeof window !== "undefined" && typeof localStorage !== "undefined";
+const savedLang = (hasStorage && localStorage.getItem("language")) || "es";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -24,7 +25,7 @@ i18n.use(initReactI18next).init({
 });
 
 i18n.on("languageChanged", (lng) => {
-  localStorage.setItem("language", lng);
+  if (hasStorage) localStorage.setItem("language", lng);
 });
 
 export default i18n;

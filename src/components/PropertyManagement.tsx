@@ -19,7 +19,7 @@ const pillars = [
   },
   {
     icon: Headphones,
-    title: "Atención al Huésped 24/7",
+    title: "Atención al Huésped Todos los Días",
     description: "Comunicación profesional antes, durante y después de la estancia para conseguir reseñas de 5 estrellas.",
   },
   {
