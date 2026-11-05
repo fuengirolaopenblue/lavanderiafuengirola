@@ -47,7 +47,7 @@ const Header = () => {
             />
             <div className="flex flex-col leading-tight">
               <span className="text-xs font-semibold text-muted-foreground">
-                {t("nav.subtitle")}
+                Lavandería Fuengirola
               </span>
               <span className="font-display text-xl font-bold text-primary">
                 OPEN<span className="text-foreground">BLUE</span>
