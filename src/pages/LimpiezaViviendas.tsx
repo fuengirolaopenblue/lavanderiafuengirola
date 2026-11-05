@@ -21,7 +21,7 @@ const content = {
     h1: "Limpieza de Apartamentos Turísticos y Viviendas Vacacionales en Fuengirola",
     sub: "El mismo estándar de tu lavandería industrial, ahora para cada rincón de tu propiedad.",
     intro:
-      "En OpenBlue Fuengirola limpiamos tu vivienda vacacional con el mismo rigor con el que tratamos su ropa de cama: protocolo fijo, checklist verificable y cero improvisación. Trabajamos rotaciones entre huéspedes en Fuengirola, Los Boliches, Mijas Costa y Benalmádena, adaptándonos a los horarios de check-in y check-out de Airbnb, Booking y Vrbo — incluso cuando la salida y la entrada son el mismo día.",
+      "En Lavandería Fuengirola OpenBlue limpiamos tu vivienda vacacional con el mismo rigor con el que tratamos su ropa de cama: protocolo fijo, checklist verificable y cero improvisación. Trabajamos rotaciones entre huéspedes en Fuengirola, Los Boliches, Mijas Costa y Benalmádena, adaptándonos a los horarios de check-in y check-out de Airbnb, Booking y Vrbo — incluso cuando la salida y la entrada son el mismo día.",
     includesTitle: "Qué incluye nuestro servicio de limpieza para Airbnb, Booking y Vrbo",
     includes: [
       { icon: Sparkles, text: "Limpieza profunda de check-out: cocina, baños, suelos, cristales y superficies altas" },
@@ -89,7 +89,7 @@ const content = {
     h1: "Vacation Rental & Airbnb Cleaning Services in Fuengirola",
     sub: "The same industrial-grade standard as our laundry, now for every corner of your property.",
     intro:
-      "At OpenBlue Fuengirola we clean your vacation rental with the same rigour we apply to your bed linen: a fixed protocol, a verifiable checklist, and zero guesswork. We handle guest turnovers across Fuengirola, Los Boliches, Mijas Costa and Benalmádena, working around your Airbnb, Booking.com and Vrbo check-in/check-out times — even on same-day turnarounds.",
+      "At Lavandería Fuengirola OpenBlue we clean your vacation rental with the same rigour we apply to your bed linen: a fixed protocol, a verifiable checklist, and zero guesswork. We handle guest turnovers across Fuengirola, Los Boliches, Mijas Costa and Benalmádena, working around your Airbnb, Booking.com and Vrbo check-in/check-out times — even on same-day turnarounds.",
     includesTitle: "What's included in our cleaning service for Airbnb, Booking and Vrbo",
     includes: [
       { icon: Sparkles, text: "Deep check-out clean: kitchen, bathrooms, floors, glass and high surfaces" },

@@ -30,8 +30,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <img src={logoOpenblue} alt="OpenBlue Logo" className="w-12 h-12 rounded-full object-cover" />
-              <div>
+              <img src={logoOpenblue} alt="Lavandería Fuengirola OpenBlue" className="w-12 h-12 rounded-full object-cover" />
+              <div className="flex flex-col leading-tight">
+                <span className="text-xs font-semibold text-primary-foreground/70">Lavandería Fuengirola</span>
                 <span className="font-display text-xl font-bold">
                   OPEN<span className="text-gold">BLUE</span>
                 </span>
@@ -109,7 +110,7 @@ const Footer = () => {
         <div className="pt-6 border-t border-primary-foreground/20 text-center space-y-1">
           <p className="text-primary-foreground/80 text-sm font-medium">{t("footer.hours")}</p>
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} OpenBlue Fuengirola. {t("footer.rights")}
+            © {new Date().getFullYear()} Lavandería Fuengirola OpenBlue. {t("footer.rights")}
           </p>
         </div>
       </div>

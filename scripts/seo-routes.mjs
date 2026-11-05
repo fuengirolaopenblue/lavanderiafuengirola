@@ -57,7 +57,7 @@ export const routes = [
     path: "/privacidad",
     lang: "es",
     locale: "es_ES",
-    title: "Política de Privacidad y Protección de Datos | OpenBlue Fuengirola",
+    title: "Política de Privacidad y Protección de Datos | Lavandería Fuengirola OpenBlue",
     description:
       "Información sobre el tratamiento de datos personales, cookies y derechos RGPD en lavanderiafuengirola.com.",
   },

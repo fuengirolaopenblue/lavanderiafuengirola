@@ -70,7 +70,7 @@ const GestionVacacionalModal = ({ open, onOpenChange }: GestionVacacionalModalPr
               Despreocúpate por completo. Nosotros nos encargamos de todo.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              En OpenBlue Fuengirola convertimos tu propiedad en una fuente de ingresos constante, sin que tengas que ocuparte de nada. Ofrecemos un servicio de gestión 360° diseñado para propietarios que buscan maximizar su rentabilidad sin complicaciones, estrés ni pérdidas de tiempo.
+              En Lavandería Fuengirola OpenBlue convertimos tu propiedad en una fuente de ingresos constante, sin que tengas que ocuparte de nada. Ofrecemos un servicio de gestión 360° diseñado para propietarios que buscan maximizar su rentabilidad sin complicaciones, estrés ni pérdidas de tiempo.
             </p>
           </div>
 
@@ -116,7 +116,7 @@ const GestionVacacionalModal = ({ open, onOpenChange }: GestionVacacionalModalPr
           <div className="flex items-start gap-3 p-4 rounded-xl bg-secondary/50 border border-border/50">
             <Star className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Con <strong className="text-foreground">OpenBlue Fuengirola</strong>, alquilar tu propiedad es realmente rentable y sin complicaciones. Más de 4 años de experiencia gestionando propiedades vacacionales en Fuengirola nos avalan.
+              Con <strong className="text-foreground">Lavandería Fuengirola OpenBlue</strong>, alquilar tu propiedad es realmente rentable y sin complicaciones. Más de 4 años de experiencia gestionando propiedades vacacionales en Fuengirola nos avalan.
             </p>
           </div>
 

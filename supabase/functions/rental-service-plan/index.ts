@@ -13,7 +13,7 @@ const Body = z.object({
   notes: z.string().max(1500).default(""),
 });
 
-const SYSTEM = `You are the service planner for OpenBlue Fuengirola (Lavandería Fuengirola), Av. de Mijas 5, Bajo 3, Edif. Guadalupe IV, 29640 Fuengirola. Open 07:00-23:00, 365 days (never say 24h).
+const SYSTEM = `You are the service planner for Lavandería Fuengirola OpenBlue (Lavandería Fuengirola), Av. de Mijas 5, Bajo 3, Edif. Guadalupe IV, 29640 Fuengirola. Open 07:00-23:00, 365 days (never say 24h).
 Services you can recommend (only these):
 - Self-service laundry: Girbau professional machines 9-19 kg, active oxygen disinfection, 07:00-23:00.
 - Vacation rental / Airbnb laundry (B2B): pickup & delivery, linen and towel washing/ironing, Linen Custody (we store the owner's linen sets), Scheduled Delivery aligned to check-ins, monthly invoicing.
