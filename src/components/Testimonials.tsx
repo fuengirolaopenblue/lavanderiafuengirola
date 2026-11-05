@@ -27,6 +27,14 @@ const Testimonials = () => {
             {t("testimonials.title")}{" "}
             <span className="text-gradient-openblue">{t("testimonials.titleHighlight")}</span>
           </h2>
+          <a
+            href="https://share.google/Zy8eRUi4OlqEYpE1e"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 text-primary font-semibold hover:underline"
+          >
+            {t("testimonials.googleSummary", "4,6 ★ en Google · 31 reseñas")}
+          </a>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

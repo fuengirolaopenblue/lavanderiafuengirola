@@ -48,6 +48,11 @@ const categories: Category[] = [
           "Nos adaptamos a tu calendario de reservas. Recogemos el mismo día del check-out sin necesidad de que tú estés presente y coordinamos con tu equipo de limpieza.",
       },
       {
+        question: "¿Cuánto cuesta la lavandería para mi piso turístico?",
+        answer:
+          "Lavamos por kilos: 12 € + IVA hasta 9 kg y 1,30 € + IVA por cada kilo adicional. Cortinas, edredones, alfombras y piezas grandes se presupuestan aparte, según su tamaño. Si además necesitas limpieza o gestión del piso, lo hacemos desde Detalia Homes (detaliahomes.com).",
+      },
+      {
         question: "¿Cuál es el plazo de entrega entre check-out y check-in?",
         answer:
           "Garantizamos entrega en menos de 24 horas en Fuengirola. Disponemos de servicio express prioritario para check-ins el mismo día.",
@@ -82,7 +87,7 @@ const categories: Category[] = [
       {
         question: "¿Cómo se calcula el precio?",
         answer:
-          "Por kilos o por carga completa, según te convenga. Tenemos tarifas reducidas para suscripciones mensuales y familias numerosas.",
+          "Por kilos: 12 € + IVA hasta 9 kg y 1,30 € + IVA por cada kilo adicional. Cortinas, edredones, alfombras y piezas grandes se presupuestan aparte, según su tamaño.",
       },
       {
         question: "¿Y si tengo una mancha difícil?",

@@ -172,14 +172,14 @@
     "laundryHoursValue": "from 7:00 to 23:00 / 365 days"
   },
   "footer": {
-    "description": "Your trusted laundry in Fuengirola. Self-service laundry and vacation property management services.",
+    "description": "Your trusted laundry in Fuengirola. Self-service from 7:00 to 23:00, 365 days a year, laundry by the kilo for holiday rentals and pick-up service.",
     "localSeo": "Service in Fuengirola, Los Boliches, Puerto Deportivo, Torreblanca, Carvajal, Mijas, Mijas Costa and Benalmádena Costa. Airbnb and holiday rental specialists.",
     "quickLinks": "Quick Links",
     "servicesTitle": "Services",
     "selfService": "Self-Service Laundry",
     "vacationLaundry": "Vacation Laundry",
-    "propertyMgmt": "Property Management",
-    "profCleaning": "Professional Cleaning",
+    "propertyMgmt": "Property management (Detalia)",
+    "profCleaning": "Laundry by the kilo",
     "rights": "All rights reserved.",
     "leaveReview": "Leave us a review",
     "hours": "Hours: 7-23h / 365 days",
@@ -189,7 +189,7 @@
     "sectionLabel": "VIP Services for Property Managers",
     "title": "The Ultimate Laundry Logistics for",
     "titleHighlight": "Property Managers in Fuengirola",
-    "subtitle": "Forget about turnover day stress. Backed by over 4 years of experience, we deliver peace of mind and maximum cleanliness.",
+    "subtitle": "Forget about turnover day stress: we take care of the linen for every changeover, fast and spotlessly clean.",
     "pickup": {
       "title": "Active Oxygen Disinfection",
       "description": "We eliminate bacteria and odors in high-temperature cycles using premium products. Sheets and towels with an impeccable white finish and long-lasting freshness."
@@ -322,7 +322,7 @@
     },
     "trustTitle": "Your property in the best hands",
     "trustDesc": "We know that your vacation rental is an important investment. That's why we work every day to generate the maximum possible income, maintaining its value and guaranteeing exceptional experiences for your guests. You just have to enjoy the benefits.",
-    "experienceDesc": "With <strong>Lavandería Fuengirola OpenBlue</strong>, renting your property is truly profitable and hassle-free. Over 4 years of experience managing vacation properties in Fuengirola back us up.",
+    "experienceDesc": "With <strong>Lavandería Fuengirola OpenBlue</strong>, renting your property is truly profitable and hassle-free.",
     "ctaText": "Want to know how much you can earn with your property? Contact us for a personalized, no-obligation study.",
     "ctaWhatsApp": "Contact via WhatsApp",
     "backHome": "Back to home"
@@ -382,7 +382,7 @@
     },
     "trustTitle": "Your peace of mind, our priority",
     "trustDesc": "Eliminate the most critical and repetitive task of vacation rental management. With our tailored logistics, you'll gain the punctuality needed to maximize your positive reviews and profitability.",
-    "experienceDesc": "Trust <strong>Lavandería Fuengirola OpenBlue</strong>. Over 4 years as the trusted partner for Airbnb owners in Fuengirola.",
+    "experienceDesc": "Trust <strong>Lavandería Fuengirola OpenBlue</strong>.",
     "ctaText": "Want business rates? Contact us for a tailored plan.",
     "ctaWhatsApp": "Request Business Rates"
   },
@@ -418,7 +418,7 @@
     "pickupDesc": "We come to your home at the time that suits you best. You just need to have your laundry ready, we do the rest. Service available in Fuengirola and surrounding areas (additional cost may apply depending on location).",
     "flexTitle": "Flexibility and personalized attention",
     "flexDesc": "Every client has different needs. Whether it's a one-time or recurring service, we adapt to you. Tell us what you need and we'll design the perfect solution for your daily life.",
-    "experience": "Over 4 years caring for our clients' laundry with professionalism, punctuality and passion for detail.",
+    "experience": "We care for our clients' laundry with professionalism, punctuality and passion for detail.",
     "ctaText": "Want to simplify your life? Contact us and discover how easy it is to always have perfect laundry.",
     "ctaWhatsApp": "Contact via WhatsApp"
   },
@@ -461,5 +461,28 @@
     "contact": {
       "title": "11. Contact"
     }
+  },
+  "testimonials": {
+    "sectionLabel": "What our customers say",
+    "title": "Results that",
+    "titleHighlight": "speak for themselves",
+    "items": [
+      {
+        "name": "Google review",
+        "role": "October 2026 · translated from Spanish",
+        "text": "Incredible service, the machines are perfect and clean. I did not expect such good customer care."
+      },
+      {
+        "name": "Google review",
+        "role": "May 2026 · translated from Spanish",
+        "text": "The service is excellent, first-class. The cleanliness of the place stands out. Without a doubt the best laundry I have been to."
+      },
+      {
+        "name": "Google review",
+        "role": "August 2026",
+        "text": "Had the wash and fold service and got the clothes perfectly folded organized and clean. Also got the clothes same day I gave them."
+      }
+    ],
+    "googleSummary": "4.6 ★ on Google · 31 reviews"
   }
 }

@@ -2,9 +2,10 @@ import { Facebook, Instagram, Star, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import logoOpenblue from "@/assets/logo-ob.png";
+import { DETALIA } from "@/lib/detalia";
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const location = useLocation();
   const isHome = location.pathname === "/";
   const getHref = (hash: string) => isHome ? hash : `/${hash}`;
@@ -104,6 +105,25 @@ const Footer = () => {
           <p className="text-primary-foreground/50 text-xs text-center max-w-2xl mx-auto">
             {t("footer.localSeo", "Servicio de lavandería profesional en Fuengirola Centro, Los Boliches, Torreblanca, Carvajal y Puerto Deportivo. Especialistas en Airbnb y alquiler vacacional.")}
           </p>
+        </div>
+
+        {/* Grupo Detalia */}
+        <div className="px-4 pb-6 text-center text-sm text-primary-foreground/80">
+          {(() => {
+            const l = i18n.language === "es" ? "es" : "en";
+            const tx = {
+              es: { part: "Lavandería Fuengirola OpenBlue forma parte de", jobs: "Trabaja con nosotros" },
+              en: { part: "Lavandería Fuengirola OpenBlue is part of", jobs: "Work with us" },
+            }[l];
+            return (
+              <>
+                {tx.part}{" "}
+                <a href={DETALIA.home} className="font-semibold underline hover:text-primary-foreground">Detalia Homes</a>
+                {" · "}
+                <a href={DETALIA.jobs} className="underline hover:text-primary-foreground">{tx.jobs}</a>
+              </>
+            );
+          })()}
         </div>
 
         {/* Copyright */}

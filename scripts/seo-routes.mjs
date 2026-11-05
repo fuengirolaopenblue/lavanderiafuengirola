@@ -14,45 +14,12 @@ export const routes = [
     description:
       "Lavandería autoservicio en Fuengirola abierta de 7:00 a 23:00 todos los días. Desinfección con oxígeno activo, zona de espera y servicio especial de lavandería para Airbnb y alquiler vacacional.",
   },
-  {
-    path: "/limpieza-viviendas-vacacionales",
-    alternates: { es: "/limpieza-viviendas-vacacionales", en: "/vacation-rental-cleaning" },
-    lang: "es",
-    locale: "es_ES",
-    title:
-      "Limpieza de Viviendas Vacacionales en Fuengirola | Lavandería Fuengirola OpenBlue",
-    description:
-      "Limpieza profesional de pisos turísticos con checklist fotográfico, ropa de cama incluida y rotaciones el mismo día para Airbnb, Booking y Vrbo.",
-  },
-  {
-    path: "/vacation-rental-cleaning",
-    alternates: { es: "/limpieza-viviendas-vacacionales", en: "/vacation-rental-cleaning" },
-    lang: "en",
-    locale: "en_GB",
-    title:
-      "Vacation Rental Cleaning in Fuengirola | Lavandería Fuengirola OpenBlue",
-    description:
-      "Professional holiday home cleaning with photo checklists, linen included and same-day turnarounds for Airbnb, Booking and Vrbo hosts.",
-  },
-  {
-    path: "/gestion-vacacional",
-    alternates: { es: "/gestion-vacacional", en: "/vacation-rental-management" },
-    lang: "es",
-    locale: "es_ES",
-    title:
-      "Gestión Integral de Alquiler Vacacional en Fuengirola | Lavandería Fuengirola OpenBlue",
-    description:
-      "Gestión 360º de tu vivienda turística en Fuengirola: limpieza, lavandería, check-in/out, mantenimiento y cumplimiento normativo.",
-  },
-  {
-    path: "/vacation-rental-management",
-    alternates: { es: "/gestion-vacacional", en: "/vacation-rental-management" },
-    lang: "en",
-    locale: "en_GB",
-    title: "Full Vacation Rental Management in Fuengirola | Lavandería Fuengirola OpenBlue",
-    description:
-      "End-to-end holiday rental management in Fuengirola: cleaning, laundry, check-in/out, maintenance and legal compliance.",
-  },
+  // Gestión y limpieza de viviendas: trasladadas a Detalia Homes (detaliahomes.com).
+  // El prerender genera para estas rutas una página que redirige y apunta su canonical a Detalia.
+  { path: "/limpieza-viviendas-vacacionales", lang: "es", redirect: "https://detaliahomes.com/limpieza.html" },
+  { path: "/vacation-rental-cleaning", lang: "en", redirect: "https://detaliahomes.com/limpieza.html" },
+  { path: "/gestion-vacacional", lang: "es", redirect: "https://detaliahomes.com/" },
+  { path: "/vacation-rental-management", lang: "en", redirect: "https://detaliahomes.com/" },
   {
     path: "/privacidad",
     lang: "es",

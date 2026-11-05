@@ -73,6 +73,30 @@ async function main() {
   if (!ssr) console.warn("[prerender] dist-ssr missing: only <head> will be prerendered");
 
   for (const route of routes) {
+    if (route.redirect) {
+      const to = escape(route.redirect);
+      const en = route.lang === "en";
+      const page = `<!doctype html>
+<html lang="${route.lang}">
+  <head>
+    <meta charset="UTF-8" />
+    <title>${en ? "Moved to Detalia Homes" : "Ahora en Detalia Homes"}</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="${to}" />
+    <meta http-equiv="refresh" content="0; url=${to}" />
+    <script>location.replace(${JSON.stringify(route.redirect)});</script>
+  </head>
+  <body>
+    <p>${en ? "This service is now part of" : "Este servicio está ahora en"} <a href="${to}">Detalia Homes</a>.</p>
+  </body>
+</html>
+`;
+      const dir = path.join(dist, route.path.replace(/^\//, ""));
+      await mkdir(dir, { recursive: true });
+      await writeFile(path.join(dir, "index.html"), page, "utf8");
+      console.log(`[prerender] ${route.path} -> redirect ${route.redirect}`);
+      continue;
+    }
     const url = route.path === "/" ? `${SITE_URL}/` : `${SITE_URL}${route.path}`;
     let html = stripManagedTags(base);
     html = html.replace(/<html\s+lang="[^"]*"/i, `<html lang="${route.lang}"`);

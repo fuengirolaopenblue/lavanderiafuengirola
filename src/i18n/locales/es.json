@@ -75,21 +75,22 @@
     "titleHighlight": "hablan por sí solos",
     "items": [
       {
-        "name": "Marta G.",
-        "role": "Superhost Airbnb",
-        "text": "Desde que OpenBlue gestiona mi ropa blanca, mis reseñas en limpieza son siempre de 5 estrellas. Puntualidad británica."
+        "name": "Cliente en Google",
+        "role": "Octubre de 2026",
+        "text": "Un trato increíble, las máquinas están perfectas y limpias. No me esperaba una atención tan buena."
       },
       {
-        "name": "Carlos R.",
-        "role": "Particular",
-        "text": "Lavar los edredones de toda la familia en 30 minutos es un cambio de vida. La desinfección con oxígeno se nota en el olor."
+        "name": "Cliente en Google",
+        "role": "Mayo de 2026",
+        "text": "La atención es excelente, el servicio de primera. La limpieza del lugar es para destacar. Sin dudas la mejor lavandería a la que he ido."
       },
       {
-        "name": "Gestión Inmobiliaria Fuengirola",
-        "role": "Empresa",
-        "text": "Nuestro partner de confianza para más de 20 apartamentos. Eficiencia y resultados impecables."
+        "name": "Cliente en Google",
+        "role": "Agosto de 2026 · traducida del inglés",
+        "text": "Usé el servicio de lavado y doblado y recibí la ropa perfectamente doblada, ordenada y limpia. Además, me la devolvieron el mismo día."
       }
-    ]
+    ],
+    "googleSummary": "4,6 ★ en Google · 31 reseñas"
   },
   "services": {
     "sectionLabel": "Nuestros Servicios",
@@ -223,7 +224,7 @@
     "sectionLabel": "Servicios VIP para Property Managers",
     "title": "La Solución Logística Definitiva para",
     "titleHighlight": "Property Managers en Fuengirola",
-    "subtitle": "Olvídate del estrés en los días de cambio de huéspedes (turnovers). Más de 4 años de experiencia nos avalan ofreciendo tranquilidad y máxima limpieza.",
+    "subtitle": "Olvídate del estrés en los días de cambio de huéspedes (turnovers): nos ocupamos de la ropa de cama de cada rotación con rapidez y máxima limpieza.",
     "pickup": {
       "title": "Desinfección con Oxígeno Activo",
       "description": "Eliminamos bacterias y malos olores en procesos de alta temperatura con productos premium. Sábanas y toallas con un blanco impecable y aroma duradero."
@@ -326,14 +327,14 @@
     "scanText": "Escanea y conéctate gratis mientras esperas"
   },
   "footer": {
-    "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio de 7:00 a 23:00 los 365 días del año, gestión de textiles para Airbnb y servicio a domicilio.",
+    "description": "OpenBlue, tu lavandería de confianza en Fuengirola. Autoservicio de 7:00 a 23:00 los 365 días del año, lavandería por kilos para Airbnb y servicio a domicilio.",
     "localSeo": "Servicio en Fuengirola, Los Boliches, Puerto Deportivo, Torreblanca, Carvajal, Mijas, Mijas Costa y Benalmádena Costa. Especialistas en Airbnb y alquiler vacacional.",
     "quickLinks": "Enlaces Rápidos",
     "servicesTitle": "Servicios",
     "selfService": "Lavandería Autoservicio 7-23h",
     "vacationLaundry": "Lavandería para Airbnb",
-    "propertyMgmt": "Gestión de Propiedades",
-    "profCleaning": "Lavandería a Domicilio",
+    "propertyMgmt": "Gestión de viviendas (Detalia)",
+    "profCleaning": "Lavandería por kilos",
     "rights": "Todos los derechos reservados.",
     "leaveReview": "Déjanos tu reseña",
     "hours": "Horario: 7:00 - 23:00 · 365 días al año",
@@ -376,7 +377,7 @@
     },
     "trustTitle": "Tu propiedad en las mejores manos",
     "trustDesc": "Sabemos que tu piso vacacional es una inversión importante. Por eso trabajamos cada día para que genere los máximos ingresos posibles, manteniendo su valor y garantizando experiencias excepcionales a tus huéspedes. Tú solo tienes que disfrutar de los beneficios.",
-    "experienceDesc": "Con <strong>Lavandería Fuengirola OpenBlue</strong>, alquilar tu propiedad es realmente rentable y sin complicaciones. Más de 4 años de experiencia gestionando propiedades vacacionales en Fuengirola nos avalan.",
+    "experienceDesc": "Con <strong>Lavandería Fuengirola OpenBlue</strong>, alquilar tu propiedad es realmente rentable y sin complicaciones.",
     "ctaText": "¿Quieres saber cuánto puedes ganar con tu propiedad? Contáctanos para un estudio personalizado y sin compromiso.",
     "ctaWhatsApp": "Contactar por WhatsApp",
     "backHome": "Volver al inicio"
@@ -436,7 +437,7 @@
     },
     "trustTitle": "Tu tranquilidad, nuestra prioridad",
     "trustDesc": "Elimina la tarea más crítica y repetitiva de la gestión vacacional. Con nuestra logística a medida, ganarás la puntualidad necesaria para maximizar tus reseñas positivas y rentabilidad.",
-    "experienceDesc": "Confía en <strong>Lavandería Fuengirola OpenBlue</strong>. Más de 4 años siendo el partner de confianza para propietarios de Airbnb en Fuengirola.",
+    "experienceDesc": "Confía en <strong>Lavandería Fuengirola OpenBlue</strong>.",
     "ctaText": "¿Quieres tarifas para empresas? Contáctanos para un plan a medida.",
     "ctaWhatsApp": "Solicitar Tarifas para Empresas"
   },
@@ -472,7 +473,7 @@
     "pickupDesc": "Pasamos por tu casa en el horario que mejor te convenga. Servicio disponible en Fuengirola y alrededores.",
     "flexTitle": "Flexibilidad y atención personalizada",
     "flexDesc": "Ya sea un servicio puntual o recurrente, nos adaptamos a ti. Cuéntanos qué necesitas.",
-    "experience": "Más de 4 años cuidando la ropa de nuestros clientes con profesionalidad y pasión por el detalle.",
+    "experience": "Cuidamos la ropa de nuestros clientes con profesionalidad y pasión por el detalle.",
     "ctaText": "¿Quieres simplificar tu vida? Contáctanos y descubre lo fácil que es.",
     "ctaWhatsApp": "Contactar por WhatsApp"
   },

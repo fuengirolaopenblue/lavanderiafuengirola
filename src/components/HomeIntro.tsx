@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const content = {
   es: {
     intro:
-      "Lavandería Fuengirola OpenBlue es una lavandería autoservicio e industrial en Av. de Mijas 5, Fuengirola, abierta los 365 días del año de 7:00 a 23:00. Lavamos y secamos tu ropa con máquinas de gran capacidad y desinfección por oxígeno activo, y además ofrecemos un servicio especializado de lavandería, limpieza y gestión para viviendas de alquiler vacacional en Fuengirola, Mijas Costa, Benalmádena y Torremolinos.",
+      "Lavandería Fuengirola OpenBlue es una lavandería autoservicio e industrial en Av. de Mijas 5, Fuengirola, abierta los 365 días del año de 7:00 a 23:00. Lavamos y secamos tu ropa con máquinas de gran capacidad y desinfección por oxígeno activo, y ofrecemos lavandería por kilos para viviendas de alquiler vacacional en Fuengirola, Mijas Costa, Benalmádena y Torremolinos. Formamos parte de Detalia, nuestra empresa familiar de gestión y limpieza de viviendas.",
     title: "Qué puedes hacer en Lavandería Fuengirola OpenBlue",
     items: [
       "Lavar y secar tu propia ropa, sin cita previa, con máquinas de gran capacidad",
@@ -16,7 +16,7 @@ const content = {
   },
   en: {
     intro:
-      "Lavandería Fuengirola OpenBlue is a self-service and industrial laundromat at Av. de Mijas 5, Fuengirola, open every day of the year from 7:00 to 23:00. We wash and dry your clothes with large-capacity machines and active oxygen disinfection, and we also run a dedicated laundry, cleaning and management service for vacation rental properties across Fuengirola, Mijas Costa, Benalmádena and Torremolinos.",
+      "Lavandería Fuengirola OpenBlue is a self-service and industrial laundromat at Av. de Mijas 5, Fuengirola, open every day of the year from 7:00 to 23:00. We wash and dry your clothes with large-capacity machines and active oxygen disinfection, and we offer laundry by the kilo for holiday rentals across Fuengirola, Mijas Costa, Benalmádena and Torremolinos. We are part of Detalia, our family company for holiday home management and cleaning.",
     title: "What you can do at Lavandería Fuengirola OpenBlue",
     items: [
       "Wash and dry your own laundry, no appointment needed, with large-capacity machines",

@@ -90,7 +90,7 @@
     "sectionLabel": "Tietoa meistä",
     "title": "Intohimoa yksityiskohtiin, sitoutumista",
     "titleHighlight": "mielenrauhaasi",
-    "p1": "Lavandería Fuengirola OpenBluessa aloitimme 4 vuotta sitten selkeällä missiolla: tarjota ammattimainen pesulapalvelu, joka tekee eron. Olemme erikoistuneet valkoisten liinavaatteiden hoitoon loma-asunnoille ja yksityishenkilöille, koska tiedämme, että tuoreus ja moitteeton esitys ovat olennaisia.",
+    "p1": "Lavandería Fuengirola OpenBluessa missiomme on selkeä: tarjota ammattimainen pesulapalvelu, joka tekee eron. Olemme erikoistuneet valkoisten liinavaatteiden hoitoon loma-asunnoille ja yksityishenkilöille, koska tiedämme, että tuoreus ja moitteeton esitys ovat olennaisia.",
     "p2": "Meitä ajaa intohimo hyvin tehtyyn työhön, niihin pieniin yksityiskohtiin, jotka muuttavat yksinkertaiset vuodevaatteet kodikkaaksi kokemukseksi vieraillesi. Jokainen vaate, jonka käsittelemme, jokainen tahra, jonka poistamme, ja jokainen täsmällinen toimitus kannustaa meitä olemaan parempia.",
     "p3": "Työskentelemme ensiluokkaisilla, ympäristöystävällisillä tuotteilla, koska vaatteidesi ja planeettamme hoitaminen kulkevat käsi kädessä. Hallinnoit sitten useita loma-asuntoja tai tarvitset yksinkertaisesti luotettavaa pesulapalvelua kotiisi, olemme täällä helpottamassa elämääsi.",
     "p4": "Kasvamme jatkuvasti, laajennamme kapasiteettiamme ja parannamme prosessejamme, koska uskomme, että voimme aina tarjota sinulle enemmän. Luottamuksesi on suurin motivaatiomme.",
@@ -208,7 +208,7 @@
     },
     "trustTitle": "Kiinteistösi parhaissa käsissä",
     "trustDesc": "Tiedämme, että loma-asuntosi on tärkeä sijoitus. Siksi työskentelemme joka päivä tuottaaksemme mahdollisimman suuret tulot, ylläpitäen sen arvoa ja taaten poikkeuksellisia kokemuksia vieraillesi. Sinun tarvitsee vain nauttia eduista.",
-    "experienceDesc": "Kun valitset <strong>Lavandería Fuengirola OpenBluen</strong>, kiinteistösi vuokraaminen on todella kannattavaa ja vaivatonta. Yli 4 vuoden kokemus loma-asuntojen hallinnasta Fuengirolassa tukee meitä.",
+    "experienceDesc": "Kun valitset <strong>Lavandería Fuengirola OpenBluen</strong>, kiinteistösi vuokraaminen on todella kannattavaa ja vaivatonta.",
     "ctaText": "Haluatko tietää, kuinka paljon voit ansaita kiinteistölläsi? Ota meihin yhteyttä henkilökohtaista ja sitoumuksetonta arviota varten.",
     "ctaWhatsApp": "Ota yhteyttä WhatsAppilla",
     "backHome": "Takaisin etusivulle"
@@ -268,7 +268,7 @@
     },
     "trustTitle": "Mielenrauhasi, meidän prioriteettimme",
     "trustDesc": "Poista loma-asunnon hallinnan kriittisin ja toistuvin tehtävä. Räätälöidyllä logistiikallamme saat tarvittavan täsmällisyyden positiivisten arvostelujen ja kannattavuuden maksimointiin.",
-    "experienceDesc": "Luota <strong>Lavandería Fuengirola OpenBluean</strong>. Yli 4 vuotta luotettuna kumppanina Airbnb-omistajille Fuengirolassa.",
+    "experienceDesc": "Luota <strong>Lavandería Fuengirola OpenBluean</strong>.",
     "ctaText": "Haluatko yrityshinnat? Ota meihin yhteyttä räätälöityä suunnitelmaa varten.",
     "ctaWhatsApp": "Pyydä yrityshintoja"
   },
@@ -304,7 +304,7 @@
     "pickupDesc": "Tulemme kotiisi sinulle parhaiten sopivana aikana. Sinun tarvitsee vain varata pyykki valmiiksi, me hoidamme loput. Palvelu saatavilla Fuengirolassa ja lähialueilla.",
     "flexTitle": "Joustavuus ja henkilökohtainen palvelu",
     "flexDesc": "Jokaisella asiakkaalla on erilaiset tarpeet. Olipa kyseessä kertaluontoinen tai toistuva palvelu, mukaudumme sinuun.",
-    "experience": "Yli 4 vuotta asiakkaidemme pyykin hoitoa ammattimaisesti, täsmällisesti ja intohimolla yksityiskohtiin.",
+    "experience": "Hoidamme asiakkaidemme pyykin ammattimaisesti, täsmällisesti ja intohimolla yksityiskohtiin.",
     "ctaText": "Haluatko yksinkertaistaa elämääsi? Ota yhteyttä ja huomaa, miten helppoa on pitää pyykkisi aina täydellisessä kunnossa.",
     "ctaWhatsApp": "Ota yhteyttä WhatsAppilla"
   },
@@ -314,5 +314,28 @@
     "subtitle": "Valokuvatarkistuslista, liinavaatteet mukana ja saman päivän vaihdot — Airbnb, Booking ja Vrbo Fuengirolassa, Mijasissa ja Benalmádenassa.",
     "detailCta": "Katso kaikki tiedot",
     "detailPath": "/limpieza-viviendas-vacacionales"
+  },
+  "testimonials": {
+    "sectionLabel": "Mitä asiakkaamme sanovat",
+    "title": "Tulokset, jotka",
+    "titleHighlight": "puhuvat puolestaan",
+    "items": [
+      {
+        "name": "Google-arvostelu",
+        "role": "Lokakuu 2026 · käännetty espanjasta",
+        "text": "Uskomattoman hyvä palvelu, koneet ovat moitteettomat ja puhtaat. En odottanut näin hyvää palvelua."
+      },
+      {
+        "name": "Google-arvostelu",
+        "role": "Toukokuu 2026 · käännetty espanjasta",
+        "text": "Erinomainen palvelu, ensiluokkainen. Paikan siisteys on huomionarvoinen. Ehdottomasti paras pesula, jossa olen käynyt."
+      },
+      {
+        "name": "Google-arvostelu",
+        "role": "Elokuu 2026 · käännetty englannista",
+        "text": "Käytin pesu- ja taittopalvelua: vaatteet tulivat täydellisesti taiteltuina, järjestettyinä ja puhtaina samana päivänä."
+      }
+    ],
+    "googleSummary": "4,6 ★ Googlessa · 31 arvostelua"
   }
 }

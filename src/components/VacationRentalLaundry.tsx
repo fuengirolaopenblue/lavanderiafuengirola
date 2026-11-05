@@ -1,4 +1,4 @@
-import { Sparkles, Calendar, Truck, Building, ShieldCheck, Star } from "lucide-react";
+import { Sparkles, Calendar, Truck, Building, ShieldCheck } from "lucide-react";
 
 const VacationRentalLaundry = () => {
   return (
@@ -83,12 +83,14 @@ const VacationRentalLaundry = () => {
           </div>
 
           <div className="bg-background/10 p-8 rounded-3xl border border-background/20 backdrop-blur-sm text-center">
-            <Star className="w-12 h-12 text-yellow-300 mx-auto mb-4 fill-yellow-300" />
-            <p className="text-xl italic opacity-95">
-              "El mejor aliado para nuestra agencia de alquiler vacacional en Los Boliches. Puntuales, profesionales
-              y la ropa huele increíble."
+            <span className="opacity-80 font-bold uppercase tracking-wider text-xs">Lavandería por kilos</span>
+            <div className="text-5xl font-bold text-gold mt-4">12 €</div>
+            <p className="opacity-90 mt-1">+ IVA, mínimo de 9 kg</p>
+            <div className="text-3xl font-bold mt-6">1,30 €</div>
+            <p className="opacity-90 mt-1">+ IVA por cada kilo adicional</p>
+            <p className="opacity-80 text-sm mt-6 leading-relaxed">
+              Cortinas, edredones, alfombras y piezas grandes se presupuestan aparte, según su tamaño.
             </p>
-            <span className="block mt-4 font-bold">— Clean & Stay Fuengirola Property Management</span>
           </div>
         </div>
       </section>

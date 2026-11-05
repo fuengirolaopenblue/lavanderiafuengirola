@@ -7,8 +7,6 @@ import Testimonials from "@/components/Testimonials";
 import Services from "@/components/Services";
 import VipServices from "@/components/VipServices";
 import ComparisonTable from "@/components/ComparisonTable";
-import PropertyServices from "@/components/PropertyServices";
-import PropertyManagement from "@/components/PropertyManagement";
 import VacationRentalLaundry from "@/components/VacationRentalLaundry";
 import PropertyFaq from "@/components/PropertyFaq";
 import RentalServicePlanner from "@/components/RentalServicePlanner";
@@ -16,7 +14,7 @@ import GeneralFaq from "@/components/GeneralFaq";
 import CoverageArea from "@/components/CoverageArea";
 import B2BQuote from "@/components/B2BQuote";
 import HybridLaundry from "@/components/HybridLaundry";
-import HolidayCleaning from "@/components/HolidayCleaning";
+import DetaliaGroup from "@/components/DetaliaGroup";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -40,10 +38,8 @@ const Index = () => {
         <ExpansionBanner />
         <CoverageArea />
         <HybridLaundry />
-        <HolidayCleaning />
+        <DetaliaGroup />
         <VipServices />
-        <PropertyServices />
-        <PropertyManagement />
         <VacationRentalLaundry />
         <RentalServicePlanner />
         <PropertyFaq />

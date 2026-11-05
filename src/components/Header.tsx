@@ -6,6 +6,17 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import logoOpenblue from "@/assets/logo-ob.png";
 import LanguageSelector from "./LanguageSelector";
+import { DETALIA } from "@/lib/detalia";
+
+// Gestión y limpieza de viviendas: ahora en Detalia Homes (detaliahomes.com)
+const DETALIA_LABELS: Record<string, { cleaning: string; management: string }> = {
+  es: { cleaning: "Limpieza · Detalia", management: "Gestión de viviendas · Detalia" },
+  en: { cleaning: "Cleaning · Detalia", management: "Property management · Detalia" },
+  fr: { cleaning: "Ménage · Detalia", management: "Gestion locative · Detalia" },
+  pt: { cleaning: "Limpeza · Detalia", management: "Gestão de imóveis · Detalia" },
+  fi: { cleaning: "Siivous · Detalia", management: "Kiinteistöhallinta · Detalia" },
+  ar: { cleaning: "التنظيف · Detalia", management: "إدارة العقارات · Detalia" },
+};
 
 
 const Header = () => {
@@ -14,15 +25,14 @@ const Header = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
   const lang = (typeof window !== "undefined" && localStorage.getItem("language")) || "es";
-  const isEn = lang === "en";
 
   const getHref = (hash: string) => isHome ? hash : `/${hash}`;
 
   const navItems = [
     { name: t("nav.home"), href: getHref("#inicio") },
     { name: t("nav.services"), href: getHref("#servicios") },
-    { name: t("nav.cleaningPage", isEn ? "Cleaning" : "Limpieza de Viviendas"), href: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales" },
-    { name: t("nav.managementPage", isEn ? "Property Management" : "Gestión Vacacional"), href: isEn ? "/vacation-rental-management" : "/gestion-vacacional" },
+    { name: DETALIA_LABELS[lang]?.cleaning ?? DETALIA_LABELS.es.cleaning, href: DETALIA.cleaning },
+    { name: DETALIA_LABELS[lang]?.management ?? DETALIA_LABELS.es.management, href: DETALIA.home },
     { name: t("nav.about"), href: getHref("#sobre-nosotros") },
     { name: t("nav.contact"), href: getHref("#contacto") },
   ];

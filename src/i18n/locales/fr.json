@@ -90,7 +90,7 @@
     "sectionLabel": "À Propos",
     "title": "Passion du détail, engagement pour votre",
     "titleHighlight": "tranquillité",
-    "p1": "Chez Lavandería Fuengirola OpenBlue, nous avons commencé il y a 4 ans avec une mission claire : offrir un service de blanchisserie professionnel qui fait la différence. Nous sommes spécialisés dans l'entretien du linge blanc pour locations de vacances et particuliers, car nous savons que la fraîcheur et une présentation impeccable sont essentielles.",
+    "p1": "Chez Lavandería Fuengirola OpenBlue, notre mission est claire : offrir un service de blanchisserie professionnel qui fait la différence. Nous sommes spécialisés dans l'entretien du linge blanc pour locations de vacances et particuliers, car nous savons que la fraîcheur et une présentation impeccable sont essentielles.",
     "p2": "Nous sommes animés par la passion du travail bien fait, par ces petits détails qui transforment un simple linge de lit en une expérience accueillante pour vos hôtes. Chaque vêtement que nous traitons, chaque tache que nous éliminons et chaque livraison ponctuelle nous pousse à être meilleurs.",
     "p3": "Nous travaillons avec des produits haut de gamme et respectueux de l'environnement, car prendre soin de votre linge et de notre planète vont de pair. Que vous gériez plusieurs locations ou que vous ayez simplement besoin d'un service de blanchisserie fiable pour votre foyer, nous sommes là pour vous faciliter la vie.",
     "p4": "Nous sommes en croissance constante, augmentant notre capacité et améliorant nos processus car nous croyons pouvoir toujours vous offrir plus. Votre confiance est notre plus grande motivation.",
@@ -208,7 +208,7 @@
     },
     "trustTitle": "Votre propriété entre les meilleures mains",
     "trustDesc": "Nous savons que votre location de vacances est un investissement important. C'est pourquoi nous travaillons chaque jour pour générer les revenus maximaux, en maintenant sa valeur et en garantissant des expériences exceptionnelles à vos hôtes.",
-    "experienceDesc": "Avec <strong>Lavandería Fuengirola OpenBlue</strong>, louer votre propriété est vraiment rentable et sans tracas. Plus de 4 ans d'expérience dans la gestion de propriétés de vacances à Fuengirola nous soutiennent.",
+    "experienceDesc": "Avec <strong>Lavandería Fuengirola OpenBlue</strong>, louer votre propriété est vraiment rentable et sans tracas.",
     "ctaText": "Vous voulez savoir combien vous pouvez gagner avec votre propriété ? Contactez-nous pour une étude personnalisée et sans engagement.",
     "ctaWhatsApp": "Contacter par WhatsApp",
     "backHome": "Retour à l'accueil"
@@ -268,7 +268,7 @@
     },
     "trustTitle": "Votre tranquillité, notre priorité",
     "trustDesc": "Éliminez la tâche la plus critique et répétitive de la gestion locative. Avec notre logistique sur mesure, vous gagnerez la ponctualité nécessaire pour maximiser vos avis positifs et votre rentabilité.",
-    "experienceDesc": "Faites confiance à <strong>Lavandería Fuengirola OpenBlue</strong>. Plus de 4 ans en tant que partenaire de confiance pour les propriétaires Airbnb à Fuengirola.",
+    "experienceDesc": "Faites confiance à <strong>Lavandería Fuengirola OpenBlue</strong>.",
     "ctaText": "Vous voulez des tarifs entreprise ? Contactez-nous pour un plan sur mesure.",
     "ctaWhatsApp": "Demander des Tarifs Entreprise"
   },
@@ -304,7 +304,7 @@
     "pickupDesc": "Nous passons chez vous à l'horaire qui vous convient le mieux. Vous n'avez qu'à préparer votre linge, nous faisons le reste. Service disponible à Fuengirola et environs.",
     "flexTitle": "Flexibilité et attention personnalisée",
     "flexDesc": "Chaque client a des besoins différents. Qu'il s'agisse d'un service ponctuel ou récurrent, nous nous adaptons à vous.",
-    "experience": "Plus de 4 ans à prendre soin du linge de nos clients avec professionnalisme, ponctualité et passion du détail.",
+    "experience": "Nous prenons soin du linge de nos clients avec professionnalisme, ponctualité et passion du détail.",
     "ctaText": "Vous voulez simplifier votre vie ? Contactez-nous et découvrez comme c'est facile d'avoir un linge toujours parfait.",
     "ctaWhatsApp": "Contacter par WhatsApp"
   },
@@ -314,5 +314,28 @@
     "subtitle": "Checklist photo, linge de lit inclus et rotations le jour même — pour Airbnb, Booking et Vrbo à Fuengirola, Mijas et Benalmádena.",
     "detailCta": "Voir tous les détails",
     "detailPath": "/limpieza-viviendas-vacacionales"
+  },
+  "testimonials": {
+    "sectionLabel": "Ce que disent nos clients",
+    "title": "Des résultats qui",
+    "titleHighlight": "parlent d’eux-mêmes",
+    "items": [
+      {
+        "name": "Avis Google",
+        "role": "Octobre 2026 · traduit de l’espagnol",
+        "text": "Un accueil incroyable, les machines sont parfaites et propres. Je ne m’attendais pas à un service aussi attentionné."
+      },
+      {
+        "name": "Avis Google",
+        "role": "Mai 2026 · traduit de l’espagnol",
+        "text": "Un accueil excellent, un service de premier ordre. La propreté du lieu est remarquable. Sans aucun doute la meilleure laverie où je suis allé."
+      },
+      {
+        "name": "Avis Google",
+        "role": "Août 2026 · traduit de l’anglais",
+        "text": "J’ai utilisé le service lavage et pliage : linge parfaitement plié, rangé et propre, et rendu le jour même."
+      }
+    ],
+    "googleSummary": "4,6 ★ sur Google · 31 avis"
   }
 }

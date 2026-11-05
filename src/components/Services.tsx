@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { WashingMachine, Home, Truck, Building2, Sparkles, ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { DETALIA } from "@/lib/detalia";
 import { useTranslation } from "react-i18next";
 import AutoservicioModal from "./AutoservicioModal";
 import PisosVacacionalModal from "./PisosVacacionalModal";
@@ -44,23 +44,23 @@ const Services = () => {
     },
     {
       icon: Sparkles,
-      title: isEn ? "Vacation Rental Cleaning" : "Limpieza de Viviendas Vacacionales",
+      title: isEn ? "Holiday Home Cleaning · Detalia" : "Limpieza de viviendas · Detalia",
       description: isEn
-        ? "Professional turnover cleaning with photo checklist, for Airbnb, Booking and Vrbo."
-        : "Limpieza profesional entre huéspedes con checklist fotográfico, para Airbnb, Booking y Vrbo.",
+        ? "Turnover cleaning with bed linen and towels from our laundry, from €70 + VAT. Provided by Detalia Homes, our family company."
+        : "Limpieza entre huéspedes con ropa de cama y toallas de nuestra lavandería, desde 70 € + IVA. La hace Detalia Homes, nuestra empresa familiar.",
       isLink: true,
-      to: isEn ? "/vacation-rental-cleaning" : "/limpieza-viviendas-vacacionales",
+      to: DETALIA.cleaning,
       cta: t("services.cta.cleaning"),
       gradient: false,
     },
     {
       icon: Building2,
-      title: isEn ? "360° Property Management" : "Gestión 360°",
+      title: isEn ? "Property Management · Detalia" : "Gestión de viviendas · Detalia",
       description: isEn
-        ? "Full management of your vacation rental: listing, guests, cleaning and maintenance. Your property on autopilot."
-        : "Gestión integral de tu alquiler vacacional: publicación, huéspedes, limpieza y mantenimiento. Tu propiedad en piloto automático.",
+        ? "Full management of your holiday rental with Detalia Homes: listings, guests, cleaning and maintenance, for a fixed 20% of net income."
+        : "Gestión integral de tu alquiler vacacional con Detalia Homes: anuncios, huéspedes, limpieza y mantenimiento, por un 20 % fijo del ingreso neto.",
       isLink: true,
-      to: isEn ? "/vacation-rental-management" : "/gestion-vacacional",
+      to: DETALIA.home,
       cta: t("services.cta.management"),
       gradient: true,
     },
@@ -126,9 +126,9 @@ const Services = () => {
 
             if (card.isLink && card.to) {
               return (
-                <Link to={card.to} key={i} className="block">
+                <a href={card.to} key={i} className="block">
                   {inner}
-                </Link>
+                </a>
               );
             }
             return (
