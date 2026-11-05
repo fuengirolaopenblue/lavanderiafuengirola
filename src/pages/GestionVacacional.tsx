@@ -30,7 +30,7 @@ const content = {
     h1: "Gestión Integral de Alquiler Vacacional en Fuengirola y Costa del Sol",
     sub: "Despreocúpate por completo. Nosotros nos encargamos de todo.",
     intro:
-      "En OpenBlue Fuengirola convertimos tu propiedad en una fuente de ingresos constante, sin que tengas que ocuparte de nada. Ofrecemos gestión integral de alquiler vacacional para propietarios en Fuengirola, Mijas Costa, Benalmádena, Torremolinos y Málaga capital — con especial experiencia en propietarios extranjeros (escandinavos, británicos, alemanes y holandeses) que gestionan su vivienda a distancia. Un único proveedor se encarga de la publicación, los huéspedes, la limpieza, la lavandería y el mantenimiento.",
+      "En Lavandería Fuengirola OpenBlue convertimos tu propiedad en una fuente de ingresos constante, sin que tengas que ocuparte de nada. Ofrecemos gestión integral de alquiler vacacional para propietarios en Fuengirola, Mijas Costa, Benalmádena, Torremolinos y Málaga capital — con especial experiencia en propietarios extranjeros (escandinavos, británicos, alemanes y holandeses) que gestionan su vivienda a distancia. Un único proveedor se encarga de la publicación, los huéspedes, la limpieza, la lavandería y el mantenimiento.",
     includesTitle: "Qué incluye nuestra gestión integral de alquiler vacacional",
     includes: [
       {
@@ -132,7 +132,7 @@ const content = {
     h1: "Vacation Rental Property Management in Fuengirola & Costa del Sol",
     sub: "Stop worrying completely. We take care of everything.",
     intro:
-      "At OpenBlue Fuengirola we turn your property into a steady income source, without you having to lift a finger. We offer full-service vacation rental management for owners in Fuengirola, Mijas Costa, Benalmádena, Torremolinos and Málaga city — with particular experience helping international owners (Scandinavian, British, German and Dutch) who manage their property remotely. One single provider handles listing, guests, cleaning, laundry and maintenance.",
+      "At Lavandería Fuengirola OpenBlue we turn your property into a steady income source, without you having to lift a finger. We offer full-service vacation rental management for owners in Fuengirola, Mijas Costa, Benalmádena, Torremolinos and Málaga city — with particular experience helping international owners (Scandinavian, British, German and Dutch) who manage their property remotely. One single provider handles listing, guests, cleaning, laundry and maintenance.",
     includesTitle: "What's included in our full-service management",
     includes: [
       {

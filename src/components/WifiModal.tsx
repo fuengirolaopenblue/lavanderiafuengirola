@@ -10,7 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 
-const WIFI_SSID = "Lavandería Openblue Fuengirola";
+const WIFI_SSID = "Lavandería Fuengirola OpenBlue";
 const WIFI_PASSWORD = "OpenblueFuengirola";
 const WIFI_QR_STRING = `WIFI:T:WPA;S:${WIFI_SSID};P:${WIFI_PASSWORD};;`;
 

@@ -42,15 +42,15 @@ const Header = () => {
           >
             <img 
               src={logoOpenblue} 
-              alt="OpenBlue Logo" 
+              alt="Lavandería Fuengirola OpenBlue" 
               className="w-12 h-12 rounded-full object-cover"
             />
-            <div className="flex flex-col">
+            <div className="flex flex-col leading-tight">
+              <span className="text-xs font-semibold text-muted-foreground">
+                {t("nav.subtitle")}
+              </span>
               <span className="font-display text-xl font-bold text-primary">
                 OPEN<span className="text-foreground">BLUE</span>
-              </span>
-              <span className="text-xs text-muted-foreground hidden sm:block">
-                {t("nav.subtitle")}
               </span>
             </div>
           </motion.a>
