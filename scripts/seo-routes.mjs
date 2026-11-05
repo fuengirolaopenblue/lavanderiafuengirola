@@ -10,7 +10,7 @@ export const routes = [
     lang: "es",
     locale: "es_ES",
     title:
-      "Lavandería Autoservicio e Industrial en Fuengirola | OpenBlue 7-23h, 365 días",
+      "Lavandería Fuengirola OpenBlue | Autoservicio e industrial · 7–23h, 365 días",
     description:
       "Lavandería autoservicio en Fuengirola abierta de 7:00 a 23:00 todos los días. Desinfección con oxígeno activo, zona de espera y servicio especial de lavandería para Airbnb y alquiler vacacional.",
   },
@@ -20,7 +20,7 @@ export const routes = [
     lang: "es",
     locale: "es_ES",
     title:
-      "Limpieza de Viviendas Vacacionales en Fuengirola, Mijas y Benalmádena",
+      "Limpieza de Viviendas Vacacionales en Fuengirola | Lavandería Fuengirola OpenBlue",
     description:
       "Limpieza profesional de pisos turísticos con checklist fotográfico, ropa de cama incluida y rotaciones el mismo día para Airbnb, Booking y Vrbo.",
   },
@@ -30,7 +30,7 @@ export const routes = [
     lang: "en",
     locale: "en_GB",
     title:
-      "Vacation Rental Cleaning in Fuengirola, Mijas & Benalmádena | OpenBlue",
+      "Vacation Rental Cleaning in Fuengirola | Lavandería Fuengirola OpenBlue",
     description:
       "Professional holiday home cleaning with photo checklists, linen included and same-day turnarounds for Airbnb, Booking and Vrbo hosts.",
   },
@@ -49,7 +49,7 @@ export const routes = [
     alternates: { es: "/gestion-vacacional", en: "/vacation-rental-management" },
     lang: "en",
     locale: "en_GB",
-    title: "Full Vacation Rental Management in Fuengirola | OpenBlue",
+    title: "Full Vacation Rental Management in Fuengirola | Lavandería Fuengirola OpenBlue",
     description:
       "End-to-end holiday rental management in Fuengirola: cleaning, laundry, check-in/out, maintenance and legal compliance.",
   },

@@ -24,7 +24,7 @@ const WA = "https://wa.me/34641819577?text=";
 
 const content = {
   es: {
-    metaTitle: "Gestión Integral de Alquiler Vacacional en Fuengirola | OpenBlue",
+    metaTitle: "Gestión Integral de Alquiler Vacacional en Fuengirola | Lavandería Fuengirola OpenBlue",
     metaDesc:
       "Administración completa de tu vivienda vacacional en Fuengirola y Costa del Sol: publicación en Airbnb/Booking, atención a huéspedes, limpieza, lavandería y mantenimiento. Estudio gratuito.",
     h1: "Gestión Integral de Alquiler Vacacional en Fuengirola y Costa del Sol",
@@ -126,7 +126,7 @@ const content = {
     back: "Volver al inicio",
   },
   en: {
-    metaTitle: "Vacation Rental Property Management in Fuengirola | OpenBlue",
+    metaTitle: "Vacation Rental Property Management in Fuengirola | Lavandería Fuengirola OpenBlue",
     metaDesc:
       "Full-service property management for vacation rentals in Fuengirola & Costa del Sol: Airbnb/Booking listing, guest care, cleaning, laundry and maintenance. Free property study.",
     h1: "Vacation Rental Property Management in Fuengirola & Costa del Sol",
