@@ -40,7 +40,7 @@ export const routes = [
     lang: "es",
     locale: "es_ES",
     title:
-      "Gestión Integral de Alquiler Vacacional en Fuengirola | OpenBlue",
+      "Gestión Integral de Alquiler Vacacional en Fuengirola | Lavandería Fuengirola OpenBlue",
     description:
       "Gestión 360º de tu vivienda turística en Fuengirola: limpieza, lavandería, check-in/out, mantenimiento y cumplimiento normativo.",
   },
