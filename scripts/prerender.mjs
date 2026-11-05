@@ -78,7 +78,15 @@ async function main() {
     html = html.replace(/<html\s+lang="[^"]*"/i, `<html lang="${route.lang}"`);
     if (ssr) {
       const body = await ssr.render(route.path, route.lang);
-      html = html.replace('<div id="root"></div>', `<div id="root">${body}</div>`);
+      // Make all content visible without JS: drop animation initial states (opacity:0 / transforms)
+      const visible = body.replace(/\sstyle="([^"]*)"/g, (m, css) => {
+        const kept = css
+          .split(";")
+          .filter((d) => d.trim() && !/^\s*(opacity|transform|filter|visibility)\s*:/i.test(d))
+          .join(";");
+        return kept ? ` style="${kept}"` : "";
+      });
+      html = html.replace('<div id="root"></div>', `<div id="root">${visible}</div>`);
     }
     html = html.replace(/<\/head>/i, `${headBlock({ ...route, url })}\n  </head>`);
 

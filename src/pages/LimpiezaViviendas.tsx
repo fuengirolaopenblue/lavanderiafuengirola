@@ -15,7 +15,7 @@ const WA = "https://wa.me/34641819577?text=";
 
 const content = {
   es: {
-    metaTitle: "Limpieza de Apartamentos Turísticos en Fuengirola | OpenBlue",
+    metaTitle: "Limpieza de Apartamentos Turísticos en Fuengirola | Lavandería Fuengirola OpenBlue",
     metaDesc:
       "Limpieza profesional de viviendas vacacionales en Fuengirola, Mijas y Benalmádena. Checklist fotográfico, ropa de cama incluida y rotaciones el mismo día. Presupuesto en 24h.",
     h1: "Limpieza de Apartamentos Turísticos y Viviendas Vacacionales en Fuengirola",
@@ -83,7 +83,7 @@ const content = {
     back: "Volver al inicio",
   },
   en: {
-    metaTitle: "Airbnb & Vacation Rental Cleaning in Fuengirola | OpenBlue",
+    metaTitle: "Airbnb & Vacation Rental Cleaning in Fuengirola | Lavandería Fuengirola OpenBlue",
     metaDesc:
       "Professional turnover cleaning for vacation rentals in Fuengirola, Mijas and Benalmádena. Photo checklist, fresh linen included, same-day turnarounds. Get a quote within 24h.",
     h1: "Vacation Rental & Airbnb Cleaning Services in Fuengirola",

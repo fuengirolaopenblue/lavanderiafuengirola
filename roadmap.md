@@ -10,3 +10,4 @@
 - [ ] Publicar en GitHub el planificador cuando cambie el código (workflow de GitHub Pages)
 - [ ] (espera al despliegue de GitHub, 1-3 min) Comprobar que www.lavanderiafuengirola.com recibe el prerender completo y robots con bots de IA
 - [ ] Desplegar el prerender en www.lavanderiafuengirola.com y verificar el código fuente (Lavandería Fuengirola OpenBlue, Bajo 3)
+- [ ] GitHub: rama por defecto → main y borrar gh-pages (lo hace el usuario; no tengo acceso a GitHub)
