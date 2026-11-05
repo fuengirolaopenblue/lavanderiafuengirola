@@ -9,3 +9,4 @@
 - [ ] Decidir si conectar el dominio dentro de Lovable (requiere plan de pago; hoy no hace falta)
 - [ ] Publicar en GitHub el planificador cuando cambie el código (workflow de GitHub Pages)
 - [ ] (espera al despliegue de GitHub, 1-3 min) Comprobar que www.lavanderiafuengirola.com recibe el prerender completo y robots con bots de IA
+- [ ] Desplegar el prerender en www.lavanderiafuengirola.com y verificar el código fuente (Lavandería Fuengirola OpenBlue, Bajo 3)
